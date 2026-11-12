@@ -1,0 +1,657 @@
+{
+  "run_id": "english-upstream-15s-500-1",
+  "id": "english-upstream-15s",
+  "wav": ".runtime/qwen-asr/samples/night_of_the_living_dead_1968/15s_donnie_asked_me_if_i_were_afraid.wav",
+  "language": "en",
+  "chunk_ms": 500,
+  "audio_seconds": 15.0000625,
+  "status": "done",
+  "error_code": null,
+  "first_text_ms": 6780.44,
+  "final_latency_ms": 1071.12,
+  "session_elapsed_ms": 16079.7,
+  "incremental": true,
+  "peak_sampled_rss_sum_bytes": 2668560384,
+  "peak_sampled_cpu_percent_sum": 0.9,
+  "reference": "Johnny asked me if I were afraid, and I said, \"I'm not afraid, Johnny.\" And then, this man started walking up the road. He came slowly.",
+  "prediction": "Tommy asked me if I were afraid. And I said, \"I'm not afraid, Johnny.\" And then, this man started walking up the road. He came slowly.",
+  "wer": 0.037037037037037035,
+  "cer": null,
+  "resource_samples": [
+    {
+      "t": 0.006022333007422276,
+      "rss_bytes_sum": 23986176,
+      "cpu_percent_sum": 0.0,
+      "process_count": 2
+    },
+    {
+      "t": 0.20982029200240504,
+      "rss_bytes_sum": 302645248,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 0.4135788749990752,
+      "rss_bytes_sum": 623558656,
+      "cpu_percent_sum": 0.0,
+      "process_count": 2
+    },
+    {
+      "t": 0.6163833330065245,
+      "rss_bytes_sum": 1044004864,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 0.8206897920026677,
+      "rss_bytes_sum": 998490112,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 1.0244709170074202,
+      "rss_bytes_sum": 686129152,
+      "cpu_percent_sum": 0.3,
+      "process_count": 2
+    },
+    {
+      "t": 1.22844358299335,
+      "rss_bytes_sum": 710017024,
+      "cpu_percent_sum": 0.0,
+      "process_count": 2
+    },
+    {
+      "t": 1.4323534580034902,
+      "rss_bytes_sum": 773521408,
+      "cpu_percent_sum": 0.0,
+      "process_count": 2
+    },
+    {
+      "t": 1.6363068750069942,
+      "rss_bytes_sum": 790495232,
+      "cpu_percent_sum": 0.2,
+      "process_count": 2
+    },
+    {
+      "t": 1.8400522919982905,
+      "rss_bytes_sum": 835534848,
+      "cpu_percent_sum": 0.0,
+      "process_count": 2
+    },
+    {
+      "t": 2.0450290000007953,
+      "rss_bytes_sum": 858980352,
+      "cpu_percent_sum": 0.3,
+      "process_count": 2
+    },
+    {
+      "t": 2.2534554169978946,
+      "rss_bytes_sum": 801964032,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 2.4606642500002636,
+      "rss_bytes_sum": 781500416,
+      "cpu_percent_sum": 0.2,
+      "process_count": 2
+    },
+    {
+      "t": 2.66465624999546,
+      "rss_bytes_sum": 1094877184,
+      "cpu_percent_sum": 0.5,
+      "process_count": 2
+    },
+    {
+      "t": 2.868350417003967,
+      "rss_bytes_sum": 1754562560,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 3.0720774170040386,
+      "rss_bytes_sum": 2218835968,
+      "cpu_percent_sum": 0.3,
+      "process_count": 2
+    },
+    {
+      "t": 3.276303916994948,
+      "rss_bytes_sum": 2668560384,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 3.4799138749949634,
+      "rss_bytes_sum": 2661662720,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 3.68724995800585,
+      "rss_bytes_sum": 2653552640,
+      "cpu_percent_sum": 0.2,
+      "process_count": 2
+    },
+    {
+      "t": 3.8945215419953456,
+      "rss_bytes_sum": 2645049344,
+      "cpu_percent_sum": 0.2,
+      "process_count": 2
+    },
+    {
+      "t": 4.102782457994181,
+      "rss_bytes_sum": 2639921152,
+      "cpu_percent_sum": 0.4,
+      "process_count": 2
+    },
+    {
+      "t": 4.310151041994686,
+      "rss_bytes_sum": 2628501504,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 4.517665833001956,
+      "rss_bytes_sum": 2602237952,
+      "cpu_percent_sum": 0.5,
+      "process_count": 2
+    },
+    {
+      "t": 4.721989708006731,
+      "rss_bytes_sum": 2613100544,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 4.926625916996272,
+      "rss_bytes_sum": 2601271296,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 5.130724125003326,
+      "rss_bytes_sum": 2596044800,
+      "cpu_percent_sum": 0.4,
+      "process_count": 2
+    },
+    {
+      "t": 5.33636058299453,
+      "rss_bytes_sum": 2588164096,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 5.542890666998574,
+      "rss_bytes_sum": 2584051712,
+      "cpu_percent_sum": 0.5,
+      "process_count": 2
+    },
+    {
+      "t": 5.7499370419973275,
+      "rss_bytes_sum": 2584051712,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 5.957906291994732,
+      "rss_bytes_sum": 2583855104,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 6.164600957999937,
+      "rss_bytes_sum": 2583871488,
+      "cpu_percent_sum": 0.5,
+      "process_count": 2
+    },
+    {
+      "t": 6.37118787500367,
+      "rss_bytes_sum": 2583871488,
+      "cpu_percent_sum": 0.2,
+      "process_count": 2
+    },
+    {
+      "t": 6.5758033330057515,
+      "rss_bytes_sum": 2584461312,
+      "cpu_percent_sum": 0.4,
+      "process_count": 2
+    },
+    {
+      "t": 6.779637875006301,
+      "rss_bytes_sum": 2567536640,
+      "cpu_percent_sum": 0.0,
+      "process_count": 2
+    },
+    {
+      "t": 6.983594916993752,
+      "rss_bytes_sum": 2563653632,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 7.188107666996075,
+      "rss_bytes_sum": 2565718016,
+      "cpu_percent_sum": 0.4,
+      "process_count": 2
+    },
+    {
+      "t": 7.391904999996768,
+      "rss_bytes_sum": 2565734400,
+      "cpu_percent_sum": 0.3,
+      "process_count": 2
+    },
+    {
+      "t": 7.598477457999252,
+      "rss_bytes_sum": 2565734400,
+      "cpu_percent_sum": 0.3,
+      "process_count": 2
+    },
+    {
+      "t": 7.806007167004282,
+      "rss_bytes_sum": 2565734400,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 8.012442624996766,
+      "rss_bytes_sum": 2564407296,
+      "cpu_percent_sum": 0.4,
+      "process_count": 2
+    },
+    {
+      "t": 8.219040458003292,
+      "rss_bytes_sum": 2564407296,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 8.426604791995487,
+      "rss_bytes_sum": 2563719168,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 8.63023150000663,
+      "rss_bytes_sum": 2538569728,
+      "cpu_percent_sum": 0.3,
+      "process_count": 2
+    },
+    {
+      "t": 8.834009875004995,
+      "rss_bytes_sum": 2591244288,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 9.03774312499445,
+      "rss_bytes_sum": 2589261824,
+      "cpu_percent_sum": 0.2,
+      "process_count": 2
+    },
+    {
+      "t": 9.242517791994032,
+      "rss_bytes_sum": 2592407552,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 9.447412875000737,
+      "rss_bytes_sum": 2592800768,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 9.653845374996308,
+      "rss_bytes_sum": 2585051136,
+      "cpu_percent_sum": 0.5,
+      "process_count": 2
+    },
+    {
+      "t": 9.860651249997318,
+      "rss_bytes_sum": 2585051136,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 10.06794845800323,
+      "rss_bytes_sum": 2578579456,
+      "cpu_percent_sum": 0.6,
+      "process_count": 2
+    },
+    {
+      "t": 10.27389566700731,
+      "rss_bytes_sum": 2578579456,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 10.480525624996517,
+      "rss_bytes_sum": 2578579456,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 10.684628207993228,
+      "rss_bytes_sum": 2578415616,
+      "cpu_percent_sum": 0.4,
+      "process_count": 2
+    },
+    {
+      "t": 10.888407708000159,
+      "rss_bytes_sum": 2573418496,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 11.091522625007201,
+      "rss_bytes_sum": 2567733248,
+      "cpu_percent_sum": 0.5,
+      "process_count": 2
+    },
+    {
+      "t": 11.29812629200751,
+      "rss_bytes_sum": 2567733248,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 11.505469708004966,
+      "rss_bytes_sum": 2567733248,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 11.712837458006106,
+      "rss_bytes_sum": 2567766016,
+      "cpu_percent_sum": 0.4,
+      "process_count": 2
+    },
+    {
+      "t": 11.91983812500257,
+      "rss_bytes_sum": 2567471104,
+      "cpu_percent_sum": 0.2,
+      "process_count": 2
+    },
+    {
+      "t": 12.12654116700287,
+      "rss_bytes_sum": 2559590400,
+      "cpu_percent_sum": 0.3,
+      "process_count": 2
+    },
+    {
+      "t": 12.331112582993228,
+      "rss_bytes_sum": 2523774976,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 12.535537000003387,
+      "rss_bytes_sum": 2514878464,
+      "cpu_percent_sum": 0.2,
+      "process_count": 2
+    },
+    {
+      "t": 12.739566000003833,
+      "rss_bytes_sum": 2496479232,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 12.944365957999253,
+      "rss_bytes_sum": 2483355648,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 13.148603374997037,
+      "rss_bytes_sum": 2484453376,
+      "cpu_percent_sum": 0.3,
+      "process_count": 2
+    },
+    {
+      "t": 13.353893791994778,
+      "rss_bytes_sum": 2480521216,
+      "cpu_percent_sum": 0.2,
+      "process_count": 2
+    },
+    {
+      "t": 13.5598908749962,
+      "rss_bytes_sum": 2447671296,
+      "cpu_percent_sum": 0.3,
+      "process_count": 2
+    },
+    {
+      "t": 13.76506387500558,
+      "rss_bytes_sum": 2428305408,
+      "cpu_percent_sum": 0.2,
+      "process_count": 2
+    },
+    {
+      "t": 13.97400312499667,
+      "rss_bytes_sum": 2428305408,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 14.181406167001114,
+      "rss_bytes_sum": 2428305408,
+      "cpu_percent_sum": 0.9,
+      "process_count": 2
+    },
+    {
+      "t": 14.388014625001233,
+      "rss_bytes_sum": 2422603776,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 14.591562999994494,
+      "rss_bytes_sum": 2423734272,
+      "cpu_percent_sum": 0.4,
+      "process_count": 2
+    },
+    {
+      "t": 14.795173874998,
+      "rss_bytes_sum": 2405089280,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 15.00056245799351,
+      "rss_bytes_sum": 2401271808,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 15.205254917003913,
+      "rss_bytes_sum": 2404417536,
+      "cpu_percent_sum": 0.5,
+      "process_count": 2
+    },
+    {
+      "t": 15.408960667002248,
+      "rss_bytes_sum": 2393489408,
+      "cpu_percent_sum": 0.2,
+      "process_count": 2
+    },
+    {
+      "t": 15.613140750007005,
+      "rss_bytes_sum": 2384707584,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 15.816664541998762,
+      "rss_bytes_sum": 2385788928,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    },
+    {
+      "t": 16.020967542004655,
+      "rss_bytes_sum": 2379857920,
+      "cpu_percent_sum": 0.1,
+      "process_count": 2
+    }
+  ],
+  "events": [
+    {
+      "session_id": "2010f5a2-e6b6-4384-8849-7616c0b1ea24",
+      "type": "transcript",
+      "text": "Tommy",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 7288.76,
+        "first_text_ms": 6780.44,
+        "final_latency_ms": null,
+        "audio_received_seconds": 7.0,
+        "audio_forwarded_seconds": 7.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.2891364579991205,
+      "before_end": true
+    },
+    {
+      "session_id": "2010f5a2-e6b6-4384-8849-7616c0b1ea24",
+      "type": "transcript",
+      "text": "Tommy asked me if I were afraid. And I said, \"I'm",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 7289.06,
+        "first_text_ms": 6780.44,
+        "final_latency_ms": null,
+        "audio_received_seconds": 7.0,
+        "audio_forwarded_seconds": 7.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.289171458003693,
+      "before_end": true
+    },
+    {
+      "session_id": "2010f5a2-e6b6-4384-8849-7616c0b1ea24",
+      "type": "transcript",
+      "text": "Tommy asked me if I were afraid. And I said, \"I'm not afraid,",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 11083.71,
+        "first_text_ms": 6780.44,
+        "final_latency_ms": null,
+        "audio_received_seconds": 11.0,
+        "audio_forwarded_seconds": 11.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 11.083655666996492,
+      "before_end": true
+    },
+    {
+      "session_id": "2010f5a2-e6b6-4384-8849-7616c0b1ea24",
+      "type": "transcript",
+      "text": "Tommy asked me if I were afraid. And I said, \"I'm not afraid, Johnny.\" And then",
+      "sequence": 4,
+      "metrics": {
+        "elapsed_ms": 11083.86,
+        "first_text_ms": 6780.44,
+        "final_latency_ms": null,
+        "audio_received_seconds": 11.0,
+        "audio_forwarded_seconds": 11.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 11.0837044170039,
+      "before_end": true
+    },
+    {
+      "session_id": "2010f5a2-e6b6-4384-8849-7616c0b1ea24",
+      "type": "transcript",
+      "text": "Tommy asked me if I were afraid. And I said, \"I'm not afraid, Johnny.\" And then, this man started",
+      "sequence": 5,
+      "metrics": {
+        "elapsed_ms": 13187.12,
+        "first_text_ms": 6780.44,
+        "final_latency_ms": null,
+        "audio_received_seconds": 13.0,
+        "audio_forwarded_seconds": 13.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 13.187116166998749,
+      "before_end": true
+    },
+    {
+      "session_id": "2010f5a2-e6b6-4384-8849-7616c0b1ea24",
+      "type": "transcript",
+      "text": "Tommy asked me if I were afraid. And I said, \"I'm not afraid, Johnny.\" And then, this man started walking up the",
+      "sequence": 6,
+      "metrics": {
+        "elapsed_ms": 15290.32,
+        "first_text_ms": 6780.44,
+        "final_latency_ms": 281.75,
+        "audio_received_seconds": 15.0000625,
+        "audio_forwarded_seconds": 15.0000625,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 15.290359749997151,
+      "before_end": false
+    },
+    {
+      "session_id": "2010f5a2-e6b6-4384-8849-7616c0b1ea24",
+      "type": "transcript",
+      "text": "Tommy asked me if I were afraid. And I said, \"I'm not afraid, Johnny.\" And then, this man started walking up the road. He",
+      "sequence": 7,
+      "metrics": {
+        "elapsed_ms": 16025.9,
+        "first_text_ms": 6780.44,
+        "final_latency_ms": 1017.33,
+        "audio_received_seconds": 15.0000625,
+        "audio_forwarded_seconds": 15.0000625,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 16.025899375003064,
+      "before_end": false
+    },
+    {
+      "session_id": "2010f5a2-e6b6-4384-8849-7616c0b1ea24",
+      "type": "transcript",
+      "text": "Tommy asked me if I were afraid. And I said, \"I'm not afraid, Johnny.\" And then, this man started walking up the road. He came slowly.",
+      "sequence": 8,
+      "metrics": {
+        "elapsed_ms": 16026.05,
+        "first_text_ms": 6780.44,
+        "final_latency_ms": 1017.48,
+        "audio_received_seconds": 15.0000625,
+        "audio_forwarded_seconds": 15.0000625,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 16.025919457999407,
+      "before_end": false
+    },
+    {
+      "session_id": "2010f5a2-e6b6-4384-8849-7616c0b1ea24",
+      "type": "transcript",
+      "text": "Tommy asked me if I were afraid. And I said, \"I'm not afraid, Johnny.\" And then, this man started walking up the road. He came slowly.",
+      "sequence": 9,
+      "metrics": {
+        "elapsed_ms": 16076.34,
+        "first_text_ms": 6780.44,
+        "final_latency_ms": 1067.76,
+        "audio_received_seconds": 15.0000625,
+        "audio_forwarded_seconds": 15.0000625,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 16.076253292005276,
+      "before_end": false
+    },
+    {
+      "session_id": "2010f5a2-e6b6-4384-8849-7616c0b1ea24",
+      "type": "done",
+      "text": "Tommy asked me if I were afraid. And I said, \"I'm not afraid, Johnny.\" And then, this man started walking up the road. He came slowly.",
+      "metrics": {
+        "elapsed_ms": 16079.7,
+        "first_text_ms": 6780.44,
+        "final_latency_ms": 1071.12,
+        "audio_received_seconds": 15.0000625,
+        "audio_forwarded_seconds": 15.0000625,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 16.079615291993832,
+      "before_end": false
+    }
+  ]
+}

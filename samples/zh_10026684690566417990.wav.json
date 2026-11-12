@@ -1,0 +1,11 @@
+{
+  "id": "1906",
+  "wav": "samples/zh_10026684690566417990.wav",
+  "language": "zh",
+  "reference": "“这并不是告别。这是一个篇章的结束，也是新篇章的开始。”",
+  "source_dataset": "google/fleurs",
+  "source_split": "test",
+  "source_file": "data/cmn_hans_cn/audio/test.tar.gz",
+  "source_audio_name": "10026684690566417990.wav",
+  "license": "CC BY 4.0"
+}

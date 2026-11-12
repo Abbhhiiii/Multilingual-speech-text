@@ -1,0 +1,14 @@
+
+> tetherfi-asr@0.1.0 test
+> vitest run
+
+
+ RUN  v3.2.7 /Users/abhinavshetty/Documents/Codex/2026-11-11/referenced-chatgpt-conversation-this-is-an/outputs/tetherfi/frontend
+
+ ✓ src/audio.test.ts (7 tests) 9ms
+
+ Test Files  1 passed (1)
+      Tests  7 passed (7)
+   Start at  09:06:30
+   Duration  370ms (transform 28ms, setup 0ms, collect 28ms, tests 9ms, environment 0ms, prepare 42ms)
+

@@ -1,0 +1,137 @@
+{
+  "wav": "samples/zh_10026684690566417990.wav",
+  "language": "zh",
+  "chunk_ms": 500,
+  "audio_seconds": 10.38,
+  "client_end_seconds": 10.38484320799762,
+  "incremental_verified": true,
+  "events": [
+    {
+      "session_id": "6dd584c7-bb70-48f6-8cd7-dd186dcf13bd",
+      "type": "transcript",
+      "text": "这并不是",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 7235.27,
+        "first_text_ms": 6731.76,
+        "final_latency_ms": null,
+        "audio_received_seconds": 7.0,
+        "audio_forwarded_seconds": 7.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.236327165999683,
+      "before_client_end": true
+    },
+    {
+      "session_id": "6dd584c7-bb70-48f6-8cd7-dd186dcf13bd",
+      "type": "transcript",
+      "text": "这并不是告别，",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 7235.69,
+        "first_text_ms": 6731.76,
+        "final_latency_ms": null,
+        "audio_received_seconds": 7.0,
+        "audio_forwarded_seconds": 7.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.236361082999792,
+      "before_client_end": true
+    },
+    {
+      "session_id": "6dd584c7-bb70-48f6-8cd7-dd186dcf13bd",
+      "type": "transcript",
+      "text": "这并不是告别，这是一个篇章",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 9330.3,
+        "first_text_ms": 6731.76,
+        "final_latency_ms": null,
+        "audio_received_seconds": 9.0,
+        "audio_forwarded_seconds": 9.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.330515582994849,
+      "before_client_end": true
+    },
+    {
+      "session_id": "6dd584c7-bb70-48f6-8cd7-dd186dcf13bd",
+      "type": "transcript",
+      "text": "这并不是告别，这是一个篇章的结束，",
+      "sequence": 4,
+      "metrics": {
+        "elapsed_ms": 9330.47,
+        "first_text_ms": 6731.76,
+        "final_latency_ms": null,
+        "audio_received_seconds": 9.0,
+        "audio_forwarded_seconds": 9.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.330531457999314,
+      "before_client_end": true
+    },
+    {
+      "session_id": "6dd584c7-bb70-48f6-8cd7-dd186dcf13bd",
+      "type": "transcript",
+      "text": "这并不是告别，这是一个篇章的结束，也是新篇章的",
+      "sequence": 5,
+      "metrics": {
+        "elapsed_ms": 11172.42,
+        "first_text_ms": 6731.76,
+        "final_latency_ms": 785.89,
+        "audio_received_seconds": 10.38,
+        "audio_forwarded_seconds": 10.38,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 11.172570540999004,
+      "before_client_end": false
+    },
+    {
+      "session_id": "6dd584c7-bb70-48f6-8cd7-dd186dcf13bd",
+      "type": "transcript",
+      "text": "这并不是告别，这是一个篇章的结束，也是新篇章的开始。",
+      "sequence": 6,
+      "metrics": {
+        "elapsed_ms": 11172.57,
+        "first_text_ms": 6731.76,
+        "final_latency_ms": 786.04,
+        "audio_received_seconds": 10.38,
+        "audio_forwarded_seconds": 10.38,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 11.172591915994417,
+      "before_client_end": false
+    },
+    {
+      "session_id": "6dd584c7-bb70-48f6-8cd7-dd186dcf13bd",
+      "type": "transcript",
+      "text": "这并不是告别，这是一个篇章的结束，也是新篇章的开始。",
+      "sequence": 7,
+      "metrics": {
+        "elapsed_ms": 11216.47,
+        "first_text_ms": 6731.76,
+        "final_latency_ms": 829.94,
+        "audio_received_seconds": 10.38,
+        "audio_forwarded_seconds": 10.38,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 11.216599332998157,
+      "before_client_end": false
+    },
+    {
+      "session_id": "6dd584c7-bb70-48f6-8cd7-dd186dcf13bd",
+      "type": "done",
+      "text": "这并不是告别，这是一个篇章的结束，也是新篇章的开始。",
+      "metrics": {
+        "elapsed_ms": 11219.45,
+        "first_text_ms": 6731.76,
+        "final_latency_ms": 832.92,
+        "audio_received_seconds": 10.38,
+        "audio_forwarded_seconds": 10.38,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 11.219482124994101,
+      "before_client_end": false
+    }
+  ]
+}

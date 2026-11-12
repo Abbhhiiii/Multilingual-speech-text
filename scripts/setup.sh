@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements-dev.txt
+mkdir -p .runtime
+if [ ! -d .runtime/qwen-asr/.git ]; then
+  git clone https://github.com/antirez/qwen-asr.git .runtime/qwen-asr
+fi
+git -C .runtime/qwen-asr checkout 924694251d9e0f18e5d86bbd06aa3ab5f870002d
+make -C .runtime/qwen-asr blas
+.venv/bin/python scripts/download_model.py
+(cd frontend && npm ci)

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "english-upstream-15s",
+    "wav": ".runtime/qwen-asr/samples/night_of_the_living_dead_1968/15s_donnie_asked_me_if_i_were_afraid.wav",
+    "language": "en",
+    "reference": "Johnny asked me if I were afraid, and I said, \"I'm not afraid, Johnny.\" And then, this man started walking up the road. He came slowly."
+  },
+  {
+    "id": "1909",
+    "wav": "samples/id_10000183170391984234.wav",
+    "language": "id",
+    "reference": "Tim-tim virtual memiliki standar keunggulan yang sama dengan tim konvensional, tetapi ada sedikit perbedaan."
+  },
+  {
+    "id": "1906",
+    "wav": "samples/zh_10026684690566417990.wav",
+    "language": "zh",
+    "reference": "“这并不是告别。这是一个篇章的结束，也是新篇章的开始。”"
+  }
+]

@@ -1,0 +1,121 @@
+{
+  "wav": "samples/id_10000183170391984234.wav",
+  "language": "id",
+  "chunk_ms": 500,
+  "audio_seconds": 8.58,
+  "client_end_seconds": 8.584088083000097,
+  "incremental_verified": true,
+  "events": [
+    {
+      "session_id": "79d3bdba-9417-448a-bbe5-9e63611ac2c6",
+      "type": "transcript",
+      "text": "Tim tim",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 7245.77,
+        "first_text_ms": 6739.66,
+        "final_latency_ms": null,
+        "audio_received_seconds": 7.0,
+        "audio_forwarded_seconds": 7.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.248311500006821,
+      "before_client_end": true
+    },
+    {
+      "session_id": "79d3bdba-9417-448a-bbe5-9e63611ac2c6",
+      "type": "transcript",
+      "text": "Tim tim virtual memiliki standar keunggulan yang sama dengan tim konvension",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 7247.88,
+        "first_text_ms": 6739.66,
+        "final_latency_ms": null,
+        "audio_received_seconds": 7.0,
+        "audio_forwarded_seconds": 7.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.248356291005621,
+      "before_client_end": true
+    },
+    {
+      "session_id": "79d3bdba-9417-448a-bbe5-9e63611ac2c6",
+      "type": "transcript",
+      "text": "Tim tim virtual memiliki standar keunggulan yang sama dengan tim konvensional, tetapi",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 9367.66,
+        "first_text_ms": 6739.66,
+        "final_latency_ms": 783.21,
+        "audio_received_seconds": 8.58,
+        "audio_forwarded_seconds": 8.58,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.36783012500382,
+      "before_client_end": false
+    },
+    {
+      "session_id": "79d3bdba-9417-448a-bbe5-9e63611ac2c6",
+      "type": "transcript",
+      "text": "Tim tim virtual memiliki standar keunggulan yang sama dengan tim konvensional, tetapi ada sed",
+      "sequence": 4,
+      "metrics": {
+        "elapsed_ms": 9367.87,
+        "first_text_ms": 6739.66,
+        "final_latency_ms": 783.42,
+        "audio_received_seconds": 8.58,
+        "audio_forwarded_seconds": 8.58,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.36784929100395,
+      "before_client_end": false
+    },
+    {
+      "session_id": "79d3bdba-9417-448a-bbe5-9e63611ac2c6",
+      "type": "transcript",
+      "text": "Tim tim virtual memiliki standar keunggulan yang sama dengan tim konvensional, tetapi ada sedikit perbedaan.",
+      "sequence": 5,
+      "metrics": {
+        "elapsed_ms": 9744.13,
+        "first_text_ms": 6739.66,
+        "final_latency_ms": 1159.68,
+        "audio_received_seconds": 8.58,
+        "audio_forwarded_seconds": 8.58,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.744245458001387,
+      "before_client_end": false
+    },
+    {
+      "session_id": "79d3bdba-9417-448a-bbe5-9e63611ac2c6",
+      "type": "transcript",
+      "text": "Tim tim virtual memiliki standar keunggulan yang sama dengan tim konvensional, tetapi ada sedikit perbedaan.",
+      "sequence": 6,
+      "metrics": {
+        "elapsed_ms": 9791.08,
+        "first_text_ms": 6739.66,
+        "final_latency_ms": 1206.64,
+        "audio_received_seconds": 8.58,
+        "audio_forwarded_seconds": 8.58,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.791177582999808,
+      "before_client_end": false
+    },
+    {
+      "session_id": "79d3bdba-9417-448a-bbe5-9e63611ac2c6",
+      "type": "done",
+      "text": "Tim tim virtual memiliki standar keunggulan yang sama dengan tim konvensional, tetapi ada sedikit perbedaan.",
+      "metrics": {
+        "elapsed_ms": 9793.89,
+        "first_text_ms": 6739.66,
+        "final_latency_ms": 1209.44,
+        "audio_received_seconds": 8.58,
+        "audio_forwarded_seconds": 8.58,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.79385591600294,
+      "before_client_end": false
+    }
+  ]
+}

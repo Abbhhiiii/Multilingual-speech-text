@@ -1,0 +1,11 @@
+{
+  "id": "1909",
+  "wav": "samples/id_10000183170391984234.wav",
+  "language": "id",
+  "reference": "Tim-tim virtual memiliki standar keunggulan yang sama dengan tim konvensional, tetapi ada sedikit perbedaan.",
+  "source_dataset": "google/fleurs",
+  "source_split": "test",
+  "source_file": "data/id_id/audio/test.tar.gz",
+  "source_audio_name": "10000183170391984234.wav",
+  "license": "CC BY 4.0"
+}
