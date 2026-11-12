@@ -1,0 +1,30 @@
+{
+  "exit": 0,
+  "events": [
+    {
+      "t": 4.579,
+      "text": "这。"
+    },
+    {
+      "t": 5.143,
+      "text": "这并不是告别。"
+    },
+    {
+      "t": 7.23,
+      "text": "这并不是告别，这是一个篇章的结束。"
+    },
+    {
+      "t": 9.322,
+      "text": "这并不是告别，这是一个篇章的结束，也是新篇章的开始。"
+    },
+    {
+      "t": 11.421,
+      "text": "这并不是告别，这是一个篇章的结束，也是新篇章的开始。"
+    },
+    {
+      "t": 12.243,
+      "text": "这并不是告别，这是一个篇章的结束，也是新篇章的开始。"
+    }
+  ],
+  "stderr": "Loading model from .runtime/models/qwen3-asr-0.6b\nDetected: Qwen3-ASR-0.6B\nLoading encoder weights...\nLoading decoder weights...\nModel loaded.\nInference: 6022 ms, 14 text tokens (2.32 tok/s, encoding: 1758ms, decoding: 4262ms)\nAudio: 10.4 s processed in 6.0 s (1.72x realtime)\n"
+}

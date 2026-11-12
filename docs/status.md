@@ -18,3 +18,7 @@ The original five-page Tetherfi assignment and prior Architecture V2/four-day pl
 ## Still needed for the four-day assignment
 
 A personally recorded three-language demonstration, FLEURS accuracy tests, chunk-size selection, sustained CPU/RAM/concurrency measurements, alternative runtime comparison, sizing estimates, final report and the candidate's personally spoken video. The English test proves incremental behavior and integration; it does not establish accuracy or sustained real-time throughput.
+
+## 12 November 2026 — revisable transcript update
+
+The native runtime patch in `runtime_patches/early-commit.patch` now emits full hypothesis snapshots. The backend replaces one transcript instead of appending token pieces; React already replaces the same display text. A revised Mandarin prefix was observed across native windows. The 15 s English, 8.58 s Indonesian and 10.38 s Mandarin samples completed through the WebSocket path with the previous final text. Backend tests: 21 passed, including snapshot replacement. See `docs/latency-experiment-2026-11-12.md` and `evidence/revisable-*-websocket.json`. A longer 45 s English run also completed without duplicated final text. All timing figures remain individual trials rather than benchmark estimates.

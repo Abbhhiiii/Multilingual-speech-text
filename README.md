@@ -1,6 +1,6 @@
 # Tetherfi — CPU multilingual streaming ASR
 
-A local engineering prototype for the four-day Tetherfi assignment. React/TypeScript streams WAV audio over WebSocket to FastAPI. Each call receives a separate native `antirez/qwen-asr` process running Qwen3-ASR-0.6B with the macOS Accelerate CPU build. The UI displays one growing transcript, directly assembled from the runtime's committed stdout pieces.
+A local engineering prototype for the four-day Tetherfi assignment. React/TypeScript streams WAV audio over WebSocket to FastAPI. Each call receives a separate native `antirez/qwen-asr` process running Qwen3-ASR-0.6B with the macOS Accelerate CPU build. The UI displays one transcript that can revise recent words as new audio provides context. A small version-controlled patch makes the native runtime emit complete UTF-8 hypothesis snapshots over stdout; the final snapshot is the completed transcript.
 
 ## Setup
 
@@ -51,7 +51,7 @@ Ready-to-select FLEURS test recordings are bundled in `samples/` for Mandarin an
   --output evidence/websocket-local.json --require-incremental
 ```
 
-The direct runtime check feeds raw PCM in 500 ms intervals, reads stdout concurrently, closes stdin at the audio end, and records whether nonblank output arrived **before EOF**. It exits unsuccessfully if incremental recognition was not demonstrated, even if a final transcript was returned. Short clips may finish before the native stabilization logic emits text; use a longer sample when investigating. WebSocket verification requires the backend running.
+The direct runtime check uses the legacy committed-token output unless test flags are supplied. It feeds raw PCM in 500 ms intervals, reads stdout concurrently, closes stdin at the audio end, and records whether nonblank output arrived **before EOF**. It exits unsuccessfully if incremental recognition was not demonstrated, even if a final transcript was returned. Short clips may finish before the native stabilization logic emits text; use a longer sample when investigating. WebSocket verification requires the backend running.
 
 `tests/fake_runtime.py` is a subprocess fixture for protocol/error tests, not a speech model. Those tests cannot establish speech accuracy or real-model performance. See `evidence/` and `docs/status.md` for executed checks and limitations. A single 15 s English CPU trial passed direct incremental stdin/stdout and end-to-end WebSocket checks; see the status file for measured timings. No benchmark numbers should be inferred from passing fixture tests.
 
@@ -63,14 +63,14 @@ flowchart LR
   B -->|binary PCM / start / end / cancel| C[FastAPI WebSocket session]
   C -->|async stdin| D[One native CPU worker per call]
   E[Qwen3-ASR-0.6B weights] --> D
-  D -->|committed UTF-8 stdout| C
+  D -->|UTF-8 JSON hypothesis snapshots| C
   C -->|transcript snapshots and timing| F[One transcript in React]
   G[Separate measurement client] <-->|same WebSocket API| C
 ```
 
-The native engine owns context caching, rollback and stable emission. The backend does not add overlapping windows, change text, deduplicate words heuristically, or run offline transcription after upload. `--stdin --stream` is required; `--silent` is deliberately absent because it disables token emission. Stdout is read as bytes with incremental UTF-8 decoding, never with `readline()`. Stderr is independently drained into a bounded diagnostic tail.
+The native engine owns context caching, rollback and stable emission. The tracked `runtime_patches/early-commit.patch` adds `--hypotheses`: one JSON line per native inference step containing its complete current text (committed prefix plus revisable tail). The backend replaces its transcript with each snapshot; React displays that same single transcript. Some recently shown words may change. The backend does not invent overlapping windows or run offline transcription after upload. `--stdin --stream --hypotheses` is required. Stderr is independently drained into a bounded diagnostic tail. The legacy committed-token path remains available with `ASR_HYPOTHESES=0`.
 
-Network chunks default to 500 ms (16,000 bytes). The UI and test client also support 250/1000 ms for later comparisons. Native inference settings remain unchanged: nominal 2 s steps, 8 s encoder windows, native rollback. Actual text latency must be measured.
+Network chunks default to 500 ms (16,000 bytes). The UI and test client also support 250/1000 ms for later comparisons. The default native inference step remains 2 s with an 8 s encoder window, 5-token rollback and two holdback windows for committed text. Hypothesis snapshots can appear before commitment and be revised. The 1 s/zero-holdback experimental mode caused major Indonesian and Mandarin errors; 0.5 s also duplicated English words. See `docs/latency-experiment-2026-11-12.md`.
 
 Session state, processes and transcripts are isolated. A bounded audio queue, pipe drain timeout, idle-input timeout, finalization timeout, duration limit and real-time pacing check bound common failure cases. Cancellation/disconnect terminates and reaps the child. One inference slot is allowed by default on this 8 GB machine; this is a conservative admission setting, **not a measured capacity limit**.
 
@@ -84,6 +84,9 @@ Set environment variables before starting the backend:
 | `ASR_MODEL` | `.runtime/models/qwen3-asr-0.6b` under project | Local model directory |
 | `ASR_THREADS` | 4 | Native worker thread setting |
 | `ASR_MAX_SESSIONS` | 1 | Admission limit; increase only for controlled tests |
+| `ASR_HYPOTHESES` | 1 | Emit revisable single-transcript snapshots; 0 uses legacy committed tokens |
+| `ASR_STREAM_STEP_SEC` | 2.0 | Native inference step; keep default unless experimenting |
+| `ASR_UNFIXED_CHUNKS` | 2 | Native committed-text holdback; keep default unless experimenting |
 
 Use a single Uvicorn process. Multiple server workers would each have their own admission limit. This is a local prototype, not a public authenticated service. Browser origins are restricted to localhost/127.0.0.1 on ports 5173/8000. Vite proxies the WebSocket endpoint to the backend. A production frontend build is provided, but production hosting is not configured.
 
@@ -102,7 +105,7 @@ Full-paced wall time/audio duration is not inference RTF. Cold and warm conditio
 ## Troubleshooting
 
 - Worker failure: inspect backend logs; check the model download completed and the CPU binary exists. Partial weight downloads are never installed as final files.
-- No early text: distinguish the native commit delay, model loading and inference speed; inspect recorded event times. Do not switch to final-only output and call it streaming.
+- No early text: inspect the native step, CPU processing and recorded event times. Hypotheses are revisable, so an early guess is not guaranteed correct.
 - Capacity error: wait for the active stream to finish. Test concurrency deliberately, with memory monitoring.
 - Invalid WAV: convert with the command above. Compressed/float/stereo WAV and malformed RIFF sizes are rejected.
 - Tab scheduling/network error: keep the tab active and restart. The sender refuses a large catch-up burst after a long pause.
@@ -110,7 +113,9 @@ Full-paced wall time/audio duration is not inference RTF. Cold and warm conditio
 
 ## Provenance and next steps
 
-Runtime: https://github.com/antirez/qwen-asr at `924694251d9e0f18e5d86bbd06aa3ab5f870002d` (MIT). Model: https://huggingface.co/Qwen/Qwen3-ASR-0.6B at `5eb144179a02acc5e5ba31e748d22b0cf3e303b0` (Apache-2.0). Weights SHA-256: `79d6cbd4c98c7bbffe9db2edac07f56cd6637d0d5944b27f6c2b8353840323ea`. The native runtime is a community C implementation; it is not C++ or the official Python runtime.
+Runtime: https://github.com/antirez/qwen-asr at `924694251d9e0f18e5d86bbd06aa3ab5f870002d` (MIT). Model: https://huggingface.co/Qwen/Qwen3-ASR-0.6B at `5eb144179a02acc5e5ba31e748d22b0cf3e303b0` (Apache-2.0). Weights SHA-256: `79d6cbd4c98c7bbffe9db2edac07f56cd6637d0d5944b27f6c2b8353840323ea`. The native runtime is a community C implementation; it is not C++ or the official Python runtime. `scripts/setup.sh` applies our tracked hypothesis-output patch to that pinned runtime before building.
+
+To verify CPU execution while streaming on macOS, open **Activity Monitor → CPU** (Command-Space, then type Activity Monitor) and search for `qwen_asr`. Its `% CPU` should rise during transcription; the per-call process exits at completion. `otool -L .runtime/qwen-asr/qwen_asr` shows the Accelerate framework in the linked CPU binary. This build does not enable Metal, CUDA or ROCm inference.
 
 One local English, Mandarin and Indonesian recording each has now completed through the native CPU WebSocket path with incremental text. This demonstrates the three language paths but is not a corpus accuracy benchmark. See `docs/status.md`.
 

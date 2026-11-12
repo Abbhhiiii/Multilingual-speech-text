@@ -1,0 +1,393 @@
+{
+  "wav": ".runtime/qwen-asr/samples/night_of_the_living_dead_1968/45s_dont_be_afraid_of_me.wav",
+  "language": "en",
+  "chunk_ms": 500,
+  "audio_seconds": 45.0000625,
+  "client_end_seconds": 45.003313749999506,
+  "incremental_verified": true,
+  "events": [
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 5362.69,
+        "first_text_ms": null,
+        "final_latency_ms": null,
+        "audio_received_seconds": 5.0,
+        "audio_forwarded_seconds": 5.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 5.364783208002336,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 5989.11,
+        "first_text_ms": null,
+        "final_latency_ms": null,
+        "audio_received_seconds": 5.5,
+        "audio_forwarded_seconds": 5.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 5.989253833002294,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 7050.47,
+        "first_text_ms": null,
+        "final_latency_ms": null,
+        "audio_received_seconds": 7.0,
+        "audio_forwarded_seconds": 7.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.051726500008954,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "",
+      "sequence": 4,
+      "metrics": {
+        "elapsed_ms": 9395.98,
+        "first_text_ms": null,
+        "final_latency_ms": null,
+        "audio_received_seconds": 9.0,
+        "audio_forwarded_seconds": 9.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.397106083008111,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "",
+      "sequence": 5,
+      "metrics": {
+        "elapsed_ms": 10899.49,
+        "first_text_ms": null,
+        "final_latency_ms": null,
+        "audio_received_seconds": 10.5,
+        "audio_forwarded_seconds": 10.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 10.899834791998728,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "",
+      "sequence": 6,
+      "metrics": {
+        "elapsed_ms": 12975.65,
+        "first_text_ms": null,
+        "final_latency_ms": null,
+        "audio_received_seconds": 12.5,
+        "audio_forwarded_seconds": 12.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 12.97575358299946,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "",
+      "sequence": 7,
+      "metrics": {
+        "elapsed_ms": 15033.42,
+        "first_text_ms": null,
+        "final_latency_ms": null,
+        "audio_received_seconds": 15.0,
+        "audio_forwarded_seconds": 15.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 15.033549458006746,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "",
+      "sequence": 8,
+      "metrics": {
+        "elapsed_ms": 17115.99,
+        "first_text_ms": null,
+        "final_latency_ms": null,
+        "audio_received_seconds": 17.0,
+        "audio_forwarded_seconds": 17.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 17.116158332995838,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "",
+      "sequence": 9,
+      "metrics": {
+        "elapsed_ms": 18827.4,
+        "first_text_ms": null,
+        "final_latency_ms": null,
+        "audio_received_seconds": 18.5,
+        "audio_forwarded_seconds": 18.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 18.8274986250035,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "Don't be afraid of me.",
+      "sequence": 10,
+      "metrics": {
+        "elapsed_ms": 21078.66,
+        "first_text_ms": 20574.97,
+        "final_latency_ms": null,
+        "audio_received_seconds": 21.0,
+        "audio_forwarded_seconds": 21.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 21.078715499999817,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "Don't be afraid of me. I'm Helen.",
+      "sequence": 11,
+      "metrics": {
+        "elapsed_ms": 23282.58,
+        "first_text_ms": 20574.97,
+        "final_latency_ms": null,
+        "audio_received_seconds": 23.0,
+        "audio_forwarded_seconds": 23.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 23.282647833009833,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "Don't be afraid of me. I'm Helen Cooper, Harry's wife.",
+      "sequence": 12,
+      "metrics": {
+        "elapsed_ms": 25874.5,
+        "first_text_ms": 20574.97,
+        "final_latency_ms": null,
+        "audio_received_seconds": 25.5,
+        "audio_forwarded_seconds": 25.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 25.875275250000414,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "Don't be afraid of me. I'm Helen Cooper, Harry's wife.",
+      "sequence": 13,
+      "metrics": {
+        "elapsed_ms": 27123.46,
+        "first_text_ms": 20574.97,
+        "final_latency_ms": null,
+        "audio_received_seconds": 27.0,
+        "audio_forwarded_seconds": 27.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 27.123610458002076,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "Don't be afraid of me. I'm Helen Cooper, Harry's wife.",
+      "sequence": 14,
+      "metrics": {
+        "elapsed_ms": 29086.93,
+        "first_text_ms": 20574.97,
+        "final_latency_ms": null,
+        "audio_received_seconds": 29.0,
+        "audio_forwarded_seconds": 29.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 29.08703420800157,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "Don't be afraid of me. I'm Helen Cooper, Harry's wife.",
+      "sequence": 15,
+      "metrics": {
+        "elapsed_ms": 31242.08,
+        "first_text_ms": 20574.97,
+        "final_latency_ms": null,
+        "audio_received_seconds": 31.0,
+        "audio_forwarded_seconds": 31.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 31.24216237499786,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "Don't be afraid of me. I'm Helen Cooper, Harry's wife.",
+      "sequence": 16,
+      "metrics": {
+        "elapsed_ms": 33350.04,
+        "first_text_ms": 20574.97,
+        "final_latency_ms": null,
+        "audio_received_seconds": 33.0,
+        "audio_forwarded_seconds": 33.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 33.35012362500129,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "Don't be afraid of me. I'm Helen Cooper, Harry's wife. This place is ridiculous.",
+      "sequence": 17,
+      "metrics": {
+        "elapsed_ms": 35133.35,
+        "first_text_ms": 20574.97,
+        "final_latency_ms": null,
+        "audio_received_seconds": 35.0,
+        "audio_forwarded_seconds": 35.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 35.13343425000494,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "Don't be afraid of me. I'm Helen Cooper, Harry's wife. This place is ridiculous. Look at this. There's.",
+      "sequence": 18,
+      "metrics": {
+        "elapsed_ms": 37309.15,
+        "first_text_ms": 20574.97,
+        "final_latency_ms": null,
+        "audio_received_seconds": 37.0,
+        "audio_forwarded_seconds": 37.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 37.30930512500345,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "Don't be afraid of me. I'm Helen Cooper, Harry's wife. This place is ridiculous. Look at this. There's a million weak spots up here.",
+      "sequence": 19,
+      "metrics": {
+        "elapsed_ms": 39517.03,
+        "first_text_ms": 20574.97,
+        "final_latency_ms": null,
+        "audio_received_seconds": 39.5,
+        "audio_forwarded_seconds": 39.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 39.517191332997754,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "Don't be afraid of me. I'm Helen Cooper, Harry's wife. This place is ridiculous. Look at this. There's a million weak spots up here.",
+      "sequence": 20,
+      "metrics": {
+        "elapsed_ms": 41872.08,
+        "first_text_ms": 20574.97,
+        "final_latency_ms": null,
+        "audio_received_seconds": 41.5,
+        "audio_forwarded_seconds": 41.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 41.87217229200178,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "Don't be afraid of me. I'm Helen Cooper, Harry's wife. This place is ridiculous. Look at this. There's a million weak spots up here. Give me one of those.",
+      "sequence": 21,
+      "metrics": {
+        "elapsed_ms": 43192.94,
+        "first_text_ms": 20574.97,
+        "final_latency_ms": null,
+        "audio_received_seconds": 43.0,
+        "audio_forwarded_seconds": 43.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 43.19302916699962,
+      "before_client_end": true
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "Don't be afraid of me. I'm Helen Cooper, Harry's wife. This place is ridiculous. Look at this. There's a million weak spots up here. Give me one of those.",
+      "sequence": 22,
+      "metrics": {
+        "elapsed_ms": 45169.39,
+        "first_text_ms": 20574.97,
+        "final_latency_ms": 165.8,
+        "audio_received_seconds": 45.0000625,
+        "audio_forwarded_seconds": 45.0000625,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 45.16947175000678,
+      "before_client_end": false
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "transcript",
+      "text": "Don't be afraid of me. I'm Helen Cooper, Harry's wife. This place is ridiculous. Look at this. There's a million weak spots up here. Give me one of those.",
+      "sequence": 23,
+      "metrics": {
+        "elapsed_ms": 45892.64,
+        "first_text_ms": 20574.97,
+        "final_latency_ms": 889.06,
+        "audio_received_seconds": 45.0000625,
+        "audio_forwarded_seconds": 45.0000625,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 45.89274816699617,
+      "before_client_end": false
+    },
+    {
+      "session_id": "71fe2a26-8ff4-47bf-b6e3-969bf5f00f31",
+      "type": "done",
+      "text": "Don't be afraid of me. I'm Helen Cooper, Harry's wife. This place is ridiculous. Look at this. There's a million weak spots up here. Give me one of those.",
+      "metrics": {
+        "elapsed_ms": 45942.69,
+        "first_text_ms": 20574.97,
+        "final_latency_ms": 939.11,
+        "audio_received_seconds": 45.0000625,
+        "audio_forwarded_seconds": 45.0000625,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 45.94274804199813,
+      "before_client_end": false
+    }
+  ]
+}

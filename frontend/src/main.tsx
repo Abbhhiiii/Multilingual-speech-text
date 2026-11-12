@@ -82,7 +82,7 @@ function App() {
     </section>
     <section className="transcript"><div className="sectionhead"><h2>Live transcription</h2><span className="status">{status}</span></div><progress value={progress} max={1} aria-label="Audio sent"/><div className="text" aria-live="polite">{text||<span className="placeholder">Recognized speech will appear here as one continuous transcript.</span>}</div></section>
     <section className="metrics"><div><span>First text</span><strong>{ms(metrics?.first_text_ms)}</strong><small>From first audio received</small></div><div><span>Final latency</span><strong>{status==='Complete'?ms(metrics?.final_latency_ms):'—'}</strong><small>After end of audio received</small></div><div><span>Audio sent</span><strong>{Math.round(progress*100)}%</strong><small>Real-time paced transmission</small></div></section>
-    <footer>The selected recording plays aloud while it streams. Keep this tab active during streaming. The engine commits text at its own cadence; a 500 ms audio chunk does not imply a 500 ms text update.</footer>
+    <footer>The selected recording plays aloud while it streams. Keep this tab active during streaming. The transcript may revise recent words as more speech arrives; a 500 ms audio chunk does not imply a 500 ms text update.</footer>
   </main>;
 }
 createRoot(document.getElementById('root')!).render(<React.StrictMode><App/></React.StrictMode>);

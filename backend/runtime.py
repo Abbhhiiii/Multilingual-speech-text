@@ -1,6 +1,7 @@
 """One CPU-only process per call. No shell and no shared audio/context."""
 import asyncio
 import codecs
+import json
 import os
 from dataclasses import dataclass
 from pathlib import Path
@@ -13,6 +14,9 @@ class Settings:
     model: str = os.environ.get('ASR_MODEL', str(ROOT / '.runtime/models/qwen3-asr-0.6b'))
     threads: int = int(os.environ.get('ASR_THREADS', '4'))
     max_sessions: int = int(os.environ.get('ASR_MAX_SESSIONS', '1'))
+    hypotheses: bool = os.environ.get('ASR_HYPOTHESES', '1') == '1'
+    stream_step_sec: float = float(os.environ.get('ASR_STREAM_STEP_SEC', '2.0'))
+    unfixed_chunks: int = int(os.environ.get('ASR_UNFIXED_CHUNKS', '2'))
     idle_timeout: float = 30
     finish_timeout: float = 120
     session_timeout: float = 600
@@ -21,6 +25,9 @@ class Settings:
 
     def command(self, language):
         args = [self.binary, '-d', self.model, '--stdin', '--stream', '-t', str(self.threads)]
+        if self.hypotheses:
+            args += ['--hypotheses', '--stream-chunk-sec', str(self.stream_step_sec),
+                     '--stream-unfixed-chunks', str(self.unfixed_chunks)]
         if language != 'auto':
             args += ['--language', {'en': 'English', 'zh': 'Chinese', 'id': 'Indonesian'}[language]]
         return args
@@ -28,6 +35,7 @@ class Settings:
 class Runtime:
     def __init__(self, command):
         self.command = command
+        self.hypotheses = '--hypotheses' in command
         self.process = None
         self.stderr_tail = b''
         self.stderr_task = None
@@ -51,7 +59,14 @@ class Runtime:
         await self.process.stdin.wait_closed()
 
     async def pieces(self):
-        # read(), not readline(): the CLI flushes tokens without newlines.
+        if self.hypotheses:
+            while line := await self.process.stdout.readline():
+                event = json.loads(line.decode('utf-8'))
+                if not isinstance(event, dict) or not isinstance(event.get('text'), str):
+                    raise ValueError('Invalid hypothesis event')
+                yield event['text']
+            return
+        # Legacy committed text flushes tokens without newlines.
         decoder = codecs.getincrementaldecoder('utf-8')('strict')
         while data := await self.process.stdout.read(4096):
             piece = decoder.decode(data)

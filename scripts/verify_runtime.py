@@ -13,6 +13,8 @@ async def verify(args):
         assert (w.getframerate(), w.getnchannels(), w.getsampwidth(), w.getcomptype()) == (16000, 1, 2, 'NONE')
         pcm = w.readframes(w.getnframes())
     command = [args.binary, '-d', args.model, '--stdin', '--stream', '-t', '4']
+    if args.unfixed_chunks is not None: command += ['--stream-unfixed-chunks', str(args.unfixed_chunks)]
+    if args.stream_step_sec is not None: command += ['--stream-chunk-sec', str(args.stream_step_sec)]
     started = time.monotonic()
     proc = await asyncio.create_subprocess_exec(*command, stdin=-1, stdout=-1, stderr=-1)
     events, diagnostics, samples = [], bytearray(), []
@@ -62,4 +64,6 @@ async def verify(args):
 if __name__ == '__main__':
     p=argparse.ArgumentParser()
     for name in ('binary','model','wav','output'): p.add_argument('--'+name, required=True)
+    p.add_argument('--unfixed-chunks', type=int, choices=[0, 1, 2])
+    p.add_argument('--stream-step-sec', type=float, choices=[0.5, 1.0, 2.0])
     raise SystemExit(0 if asyncio.run(verify(p.parse_args())) else 1)

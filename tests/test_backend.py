@@ -89,3 +89,17 @@ def test_audio_after_short_tail_rejected():
  with client('hang') as c,c.websocket_connect('/ws/transcribe') as ws:
   begin(ws);ws.send_bytes(b'\0'*100);ws.send_bytes(b'\0'*100)
   assert terminal(ws)['code']=='protocol'
+
+
+def test_hypothesis_replaces_previous_text():
+ with TestClient(create_app(Settings(),lambda lang:[sys.executable,FAKE,'hypothesis','--hypotheses'])) as c,c.websocket_connect('/ws/transcribe') as ws:
+  begin(ws)
+  ws.send_bytes(b'\0'*16000)
+  first=ws.receive_json()
+  assert first['type']=='transcript' and first['text']=='This is.'
+  ws.send_bytes(b'\0'*16000)
+  revised=ws.receive_json()
+  assert revised['type']=='transcript' and revised['text']=='This is better.'
+  assert revised['sequence']>first['sequence']
+  ws.send_json({'type':'end'})
+  assert terminal(ws)['text']=='This is better.'

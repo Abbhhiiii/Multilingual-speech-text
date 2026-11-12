@@ -13,7 +13,7 @@ After the final binary message, send `{"type":"end"}`. This closes native stdin 
 Server events:
 
 - `ready`: session ID, accepted chunk size. Means process spawned, not that model loading has finished.
-- `transcript`: session ID, monotonically increasing sequence, full `text` snapshot, `metrics`. Replace displayed text with the snapshot; do not append snapshots. There is only one transcript.
+- `transcript`: session ID, monotonically increasing sequence, full `text` snapshot, `metrics`. Replace displayed text with the snapshot; do not append snapshots. There is only one transcript. In hypothesis mode, the next snapshot may revise recent words, including words near the beginning of a short recording. Only `done` is final.
 - `done`: final full text, final metrics; the server closes the connection.
 - `error`: machine-readable `code`, human-readable `message`, session ID when admitted. The server closes the connection. Capacity rejections have no session allocation.
 

@@ -137,7 +137,7 @@ def create_app(settings=None, command_factory=None):
                 async def output():
                     nonlocal transcript, first_text, sequence
                     async for piece in runtime.pieces():
-                        transcript += piece
+                        transcript = piece if runtime.hypotheses else transcript + piece
                         if piece.strip() and first_text is None:
                             if first_audio is None: raise StreamError('runtime', 'Worker emitted text before receiving audio.')
                             first_text = time.monotonic()

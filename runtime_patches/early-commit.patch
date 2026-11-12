@@ -1,0 +1,209 @@
+diff --git a/main.c b/main.c
+index 5b697ec..18a87af 100644
+--- a/main.c
++++ b/main.c
+@@ -19,6 +19,22 @@ static void stream_token(const char *piece, void *userdata) {
+     fflush(stdout);
+ }
+ 
++/* Emit one JSON snapshot per native inference step. */
++static void stream_hypothesis(const char *text, void *userdata) {
++    (void)userdata;
++    fputs("{\"text\":\"", stdout);
++    for (const unsigned char *p = (const unsigned char *)text; *p; p++) {
++        if (*p == '"' || *p == '\\') { fputc('\\', stdout); fputc(*p, stdout); }
++        else if (*p == '\n') fputs("\\n", stdout);
++        else if (*p == '\r') fputs("\\r", stdout);
++        else if (*p == '\t') fputs("\\t", stdout);
++        else if (*p < 0x20) fprintf(stdout, "\\u%04x", *p);
++        else fputc(*p, stdout);
++    }
++    fputs("\"}\n", stdout);
++    fflush(stdout);
++}
++
+ /* Parse --past-text value.
+  * out_mode:  1=yes, 0=no, -1=auto */
+ static int parse_past_text_mode(const char *s, int *out_mode) {
+@@ -71,7 +87,10 @@ static void usage(const char *prog) {
+ #endif
+     fprintf(stderr, "  -W <secs>     Segment-cutting silence search window ± seconds (default: 3.0)\n");
+     fprintf(stderr, "  --stream      Streaming mode: process in chunks with prefix rollback\n");
++    fprintf(stderr, "  --hypotheses  Emit revisable JSON transcript snapshots per native step\n");
+     fprintf(stderr, "  --stream-max-new-tokens <n>  Max generated tokens per stream step (default: 32)\n");
++    fprintf(stderr, "  --stream-unfixed-chunks <n>  Hold back the first n native windows (0..2, default: 2)\n");
++    fprintf(stderr, "  --stream-chunk-sec <s>      Native inference step (0.5..2.0, default: 2.0)\n");
+     fprintf(stderr, "  --enc-window-sec <secs>    Encoder attention window in seconds (1..8, default 8)\n");
+     fprintf(stderr, "  --past-text <yes|no|auto>  Reuse previously decoded text as context for the next\n");
+     fprintf(stderr, "                             segment/chunk (continuity bias; auto=yes for --stream)\n");
+@@ -95,7 +114,10 @@ int main(int argc, char **argv) {
+     float segment_sec = -1; /* -1 = use backend default */
+     float search_sec = -1;  /* -1 = use default (3) */
+     int stream_mode = 0;
++    int emit_hypotheses = 0;
+     int stream_max_new_tokens = -1; /* -1 = use default (32) */
++    int stream_unfixed_chunks = -1; /* -1 = use default (2) */
++    float stream_chunk_sec = -1.0f; /* -1 = use default (2s) */
+     float enc_window_sec = -1;   /* -1 = use default (8s) */
+     const char *prompt_text = NULL;
+     const char *force_language = NULL;
+@@ -140,8 +162,14 @@ int main(int argc, char **argv) {
+             search_sec = (float)atof(argv[++i]);
+         } else if (strcmp(argv[i], "--stream") == 0) {
+             stream_mode = 1;
++        } else if (strcmp(argv[i], "--hypotheses") == 0) {
++            emit_hypotheses = 1;
+         } else if (strcmp(argv[i], "--stream-max-new-tokens") == 0 && i + 1 < argc) {
+             stream_max_new_tokens = atoi(argv[++i]);
++        } else if (strcmp(argv[i], "--stream-unfixed-chunks") == 0 && i + 1 < argc) {
++            stream_unfixed_chunks = atoi(argv[++i]);
++        } else if (strcmp(argv[i], "--stream-chunk-sec") == 0 && i + 1 < argc) {
++            stream_chunk_sec = (float)atof(argv[++i]);
+         } else if (strcmp(argv[i], "--enc-window-sec") == 0 && i + 1 < argc) {
+             enc_window_sec = (float)atof(argv[++i]);
+         } else if (strcmp(argv[i], "--past-text") == 0 && i + 1 < argc) {
+@@ -189,6 +217,18 @@ int main(int argc, char **argv) {
+         fprintf(stderr, "Error: --stream-max-new-tokens must be > 0\n");
+         return 1;
+     }
++    if (stream_unfixed_chunks < -1 || stream_unfixed_chunks > 2) {
++        fprintf(stderr, "Error: --stream-unfixed-chunks must be in [0, 2]\n");
++        return 1;
++    }
++    if (stream_chunk_sec >= 0 && (stream_chunk_sec < 0.5f || stream_chunk_sec > 2.0f)) {
++        fprintf(stderr, "Error: --stream-chunk-sec must be in [0.5, 2.0]\n");
++        return 1;
++    }
++    if (emit_hypotheses && !stream_mode) {
++        fprintf(stderr, "Error: --hypotheses requires --stream\n");
++        return 1;
++    }
+     if (input_wav && use_stdin) {
+         fprintf(stderr, "Error: -i and --stdin are mutually exclusive\n");
+         return 1;
+@@ -218,6 +258,8 @@ int main(int argc, char **argv) {
+         ctx->config.enc_n_window_infer = window_frames;
+     }
+     if (stream_max_new_tokens > 0) ctx->stream_max_new_tokens = stream_max_new_tokens;
++    if (stream_unfixed_chunks >= 0) ctx->stream_unfixed_chunks = stream_unfixed_chunks;
++    if (stream_chunk_sec >= 0) ctx->stream_chunk_sec = stream_chunk_sec;
+     if (past_text_conditioning_mode >= 0)
+         ctx->past_text_conditioning = past_text_conditioning_mode;
+     else if (stream_mode)
+@@ -240,7 +282,10 @@ int main(int argc, char **argv) {
+ 
+     /* Stream tokens to stdout only in non-silent mode.
+      * In silent mode we print the final string returned by the API. */
+-    if (emit_tokens) qwen_set_token_callback(ctx, stream_token, NULL);
++    if (emit_hypotheses) {
++        qwen_set_token_callback(ctx, NULL, NULL);
++        qwen_set_hypothesis_callback(ctx, stream_hypothesis, NULL);
++    } else if (emit_tokens) qwen_set_token_callback(ctx, stream_token, NULL);
+     else qwen_set_token_callback(ctx, NULL, NULL);
+ 
+     /* Transcribe */
+@@ -267,7 +312,8 @@ int main(int argc, char **argv) {
+     }
+ 
+     if (text) {
+-        if (emit_tokens) printf("\n");
++        if (emit_hypotheses) { /* Final snapshot is emitted by the streaming callback. */ }
++        else if (emit_tokens) printf("\n");
+         else printf("%s\n", text);
+         free(text);
+     } else {
+diff --git a/qwen_asr.c b/qwen_asr.c
+index 3f1acff..b32129a 100644
+--- a/qwen_asr.c
++++ b/qwen_asr.c
+@@ -33,6 +33,11 @@ void qwen_set_token_callback(qwen_ctx_t *ctx, qwen_token_cb cb, void *userdata)
+     ctx->token_cb_userdata = userdata;
+ }
+ 
++void qwen_set_hypothesis_callback(qwen_ctx_t *ctx, qwen_hypothesis_cb cb, void *userdata) {
++    ctx->hypothesis_cb = cb;
++    ctx->hypothesis_cb_userdata = userdata;
++}
++
+ static const char *QWEN_SUPPORTED_LANGUAGES[] = {
+     "Chinese", "English", "Cantonese", "Arabic", "German", "French",
+     "Spanish", "Portuguese", "Indonesian", "Italian", "Korean", "Russian",
+@@ -2080,6 +2085,34 @@ static char *stream_impl(qwen_ctx_t *ctx, const float *samples, int n_samples,
+ 
+                 n_stable_text_tokens = candidate_len;
+ 
++                /* Visible snapshot: committed prefix plus this chunk's revisable tail.
++                 * The next chunk may replace the tail without changing the prefix. */
++                if (ctx->hypothesis_cb) {
++                    size_t hyp_len = result_len;
++                    size_t hyp_cap = hyp_len + 128;
++                    char *hyp = (char *)malloc(hyp_cap);
++                    if (hyp) {
++                        memcpy(hyp, result, result_len);
++                        for (int i = candidate_len; i < n_text_tokens; i++) {
++                            const char *piece = qwen_tokenizer_decode(tokenizer, candidate_tokens[i]);
++                            size_t len = strlen(piece);
++                            if (hyp_len + len + 1 > hyp_cap) {
++                                while (hyp_len + len + 1 > hyp_cap) hyp_cap *= 2;
++                                char *larger = (char *)realloc(hyp, hyp_cap);
++                                if (!larger) { free(hyp); hyp = NULL; break; }
++                                hyp = larger;
++                            }
++                            memcpy(hyp + hyp_len, piece, len);
++                            hyp_len += len;
++                        }
++                        if (hyp) {
++                            hyp[hyp_len] = '\0';
++                            ctx->hypothesis_cb(hyp, ctx->hypothesis_cb_userdata);
++                            free(hyp);
++                        }
++                    }
++                }
++
+                 int periodic_reset =
+                     (!is_final &&
+                      ctx->past_text_conditioning &&
+diff --git a/qwen_asr.h b/qwen_asr.h
+index 9d5d7b3..03cf036 100644
+--- a/qwen_asr.h
++++ b/qwen_asr.h
+@@ -170,6 +170,7 @@ typedef struct {
+ /* Called for each decoded text token during autoregressive generation.
+  * 'piece' is the decoded token string (UTF-8). */
+ typedef void (*qwen_token_cb)(const char *piece, void *userdata);
++typedef void (*qwen_hypothesis_cb)(const char *text, void *userdata);
+ 
+ /* ========================================================================
+  * Main Context
+@@ -213,6 +214,8 @@ typedef struct {
+     /* Token streaming callback (optional) */
+     qwen_token_cb token_cb;
+     void *token_cb_userdata;
++    qwen_hypothesis_cb hypothesis_cb;
++    void *hypothesis_cb_userdata;
+ 
+     /* Segmentation settings */
+     float segment_sec;             /* 0 = no splitting, default CPU: 0, GPU: 20 seconds */
+@@ -273,6 +276,7 @@ void qwen_free(qwen_ctx_t *ctx);
+ /* Set a callback to receive each decoded token as it's generated.
+  * Set cb=NULL to disable. The callback is invoked during transcription. */
+ void qwen_set_token_callback(qwen_ctx_t *ctx, qwen_token_cb cb, void *userdata);
++void qwen_set_hypothesis_callback(qwen_ctx_t *ctx, qwen_hypothesis_cb cb, void *userdata);
+ 
+ /* Set optional system prompt text (UTF-8). Pass NULL or "" to clear.
+  * Returns 0 on success, -1 on allocation/encoding errors. */
+diff --git a/qwen_asr_audio.c b/qwen_asr_audio.c
+index 403610a..b9022b0 100644
+--- a/qwen_asr_audio.c
++++ b/qwen_asr_audio.c
+@@ -452,8 +452,8 @@ static void *live_reader_thread(void *arg) {
+     int data_remaining = rctx->data_remaining;
+     free(rctx);
+ 
+-    /* Read stdin in ~2s chunks: 32000 samples * 2 bytes = 64000 bytes */
+-    const size_t READ_SIZE = 64000;
++    /* Feed the live buffer every 0.5s so shorter inference steps can run. */
++    const size_t READ_SIZE = 16000;
+     uint8_t *buf = (uint8_t *)malloc(READ_SIZE);
+     if (!buf) {
+         pthread_mutex_lock(&la->mutex);

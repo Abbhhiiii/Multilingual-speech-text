@@ -1,0 +1,667 @@
+{
+  "command": [
+    ".runtime/qwen-asr/qwen_asr",
+    "-d",
+    ".runtime/models/qwen3-asr-0.6b",
+    "--stdin",
+    "--stream",
+    "-t",
+    "4",
+    "--stream-unfixed-chunks",
+    "0",
+    "--stream-chunk-sec",
+    "0.5"
+  ],
+  "audio_seconds": 15.0000625,
+  "stdin_closed_seconds": 15.001219333003974,
+  "elapsed_seconds": 22.12387716700323,
+  "exit_code": 0,
+  "incremental_verified": true,
+  "transcript": "Tommy asksmy asked me if I were afraid. And I said, \"I'm not afraid, Johnny.\" And then, this man started walking up the road. He came slowly.",
+  "events": [
+    {
+      "seconds": 5.2966774579981575,
+      "text": "Tommy asks",
+      "before_eof": true
+    },
+    {
+      "seconds": 6.235493957996368,
+      "text": "my asked",
+      "before_eof": true
+    },
+    {
+      "seconds": 6.620597582994378,
+      "text": " me",
+      "before_eof": true
+    },
+    {
+      "seconds": 7.906254292000085,
+      "text": " if I were",
+      "before_eof": true
+    },
+    {
+      "seconds": 8.382966374992975,
+      "text": " afraid",
+      "before_eof": true
+    },
+    {
+      "seconds": 8.93811329199525,
+      "text": ". And I",
+      "before_eof": true
+    },
+    {
+      "seconds": 9.543658082999173,
+      "text": " said, \"",
+      "before_eof": true
+    },
+    {
+      "seconds": 10.71447612499469,
+      "text": "I'm",
+      "before_eof": true
+    },
+    {
+      "seconds": 13.710631791997002,
+      "text": " not afraid,",
+      "before_eof": true
+    },
+    {
+      "seconds": 14.693223333000788,
+      "text": " Johnny.\"",
+      "before_eof": true
+    },
+    {
+      "seconds": 15.259627499995986,
+      "text": " And then",
+      "before_eof": false
+    },
+    {
+      "seconds": 15.700840999998036,
+      "text": ",",
+      "before_eof": false
+    },
+    {
+      "seconds": 16.232404833004694,
+      "text": " this man started",
+      "before_eof": false
+    },
+    {
+      "seconds": 19.166239875004976,
+      "text": " walking up",
+      "before_eof": false
+    },
+    {
+      "seconds": 19.821395042003132,
+      "text": " the",
+      "before_eof": false
+    },
+    {
+      "seconds": 20.505188416995225,
+      "text": " road",
+      "before_eof": false
+    },
+    {
+      "seconds": 21.956595583003946,
+      "text": ". He came slowly.",
+      "before_eof": false
+    },
+    {
+      "seconds": 22.004967083004885,
+      "text": "\n",
+      "before_eof": false
+    }
+  ],
+  "peak_sampled_rss_bytes": 2270920704,
+  "resource_samples": [
+    {
+      "seconds": 0.0016878330061445013,
+      "rss_bytes": 32768,
+      "cpu_percent": 0.0
+    },
+    {
+      "seconds": 0.20289591699838638,
+      "rss_bytes": 238698496,
+      "cpu_percent": 25.0
+    },
+    {
+      "seconds": 0.4041061250027269,
+      "rss_bytes": 468172800,
+      "cpu_percent": 20.1
+    },
+    {
+      "seconds": 0.6052857500035316,
+      "rss_bytes": 688275456,
+      "cpu_percent": 20.0
+    },
+    {
+      "seconds": 0.8064141670038225,
+      "rss_bytes": 919224320,
+      "cpu_percent": 19.2
+    },
+    {
+      "seconds": 1.0072463329997845,
+      "rss_bytes": 495960064,
+      "cpu_percent": 17.4
+    },
+    {
+      "seconds": 1.2084214170026826,
+      "rss_bytes": 531333120,
+      "cpu_percent": 12.6
+    },
+    {
+      "seconds": 1.409337916993536,
+      "rss_bytes": 596017152,
+      "cpu_percent": 12.5
+    },
+    {
+      "seconds": 1.6101999579987023,
+      "rss_bytes": 652410880,
+      "cpu_percent": 11.0
+    },
+    {
+      "seconds": 1.8113339169940446,
+      "rss_bytes": 724369408,
+      "cpu_percent": 11.1
+    },
+    {
+      "seconds": 2.0124232079979265,
+      "rss_bytes": 762773504,
+      "cpu_percent": 11.3
+    },
+    {
+      "seconds": 2.21354587499809,
+      "rss_bytes": 738361344,
+      "cpu_percent": 10.1
+    },
+    {
+      "seconds": 2.414742875000229,
+      "rss_bytes": 697860096,
+      "cpu_percent": 10.5
+    },
+    {
+      "seconds": 2.615951750005479,
+      "rss_bytes": 704741376,
+      "cpu_percent": 12.6
+    },
+    {
+      "seconds": 2.8171206249971874,
+      "rss_bytes": 947453952,
+      "cpu_percent": 64.6
+    },
+    {
+      "seconds": 3.0178585829999065,
+      "rss_bytes": 1424441344,
+      "cpu_percent": 73.4
+    },
+    {
+      "seconds": 3.219469957999536,
+      "rss_bytes": 1530232832,
+      "cpu_percent": 25.1
+    },
+    {
+      "seconds": 3.4212061669968534,
+      "rss_bytes": 1556185088,
+      "cpu_percent": 16.5
+    },
+    {
+      "seconds": 3.622440374994767,
+      "rss_bytes": 1674543104,
+      "cpu_percent": 24.9
+    },
+    {
+      "seconds": 3.8236175420024665,
+      "rss_bytes": 1667956736,
+      "cpu_percent": 26.9
+    },
+    {
+      "seconds": 4.0247135419922415,
+      "rss_bytes": 1669447680,
+      "cpu_percent": 29.6
+    },
+    {
+      "seconds": 4.225336292001884,
+      "rss_bytes": 1547780096,
+      "cpu_percent": 25.8
+    },
+    {
+      "seconds": 4.427567666993127,
+      "rss_bytes": 1468350464,
+      "cpu_percent": 55.1
+    },
+    {
+      "seconds": 4.6279413330048556,
+      "rss_bytes": 1397145600,
+      "cpu_percent": 37.1
+    },
+    {
+      "seconds": 4.829105374999926,
+      "rss_bytes": 1447804928,
+      "cpu_percent": 29.1
+    },
+    {
+      "seconds": 5.029382042004727,
+      "rss_bytes": 1496825856,
+      "cpu_percent": 40.4
+    },
+    {
+      "seconds": 5.2305945419939235,
+      "rss_bytes": 1489780736,
+      "cpu_percent": 163.1
+    },
+    {
+      "seconds": 5.43179008300649,
+      "rss_bytes": 1887666176,
+      "cpu_percent": 180.6
+    },
+    {
+      "seconds": 5.632950291997986,
+      "rss_bytes": 2269708288,
+      "cpu_percent": 101.3
+    },
+    {
+      "seconds": 5.834153417003108,
+      "rss_bytes": 2270920704,
+      "cpu_percent": 308.2
+    },
+    {
+      "seconds": 6.035318833004567,
+      "rss_bytes": 2269200384,
+      "cpu_percent": 119.2
+    },
+    {
+      "seconds": 6.235504333002609,
+      "rss_bytes": 2236088320,
+      "cpu_percent": 324.2
+    },
+    {
+      "seconds": 6.436735082999803,
+      "rss_bytes": 2220179456,
+      "cpu_percent": 105.3
+    },
+    {
+      "seconds": 6.637924208000186,
+      "rss_bytes": 2221916160,
+      "cpu_percent": 291.3
+    },
+    {
+      "seconds": 6.8390982919954695,
+      "rss_bytes": 2200092672,
+      "cpu_percent": 106.9
+    },
+    {
+      "seconds": 7.040260499998112,
+      "rss_bytes": 2178154496,
+      "cpu_percent": 265.2
+    },
+    {
+      "seconds": 7.241400458005955,
+      "rss_bytes": 2178596864,
+      "cpu_percent": 108.8
+    },
+    {
+      "seconds": 7.442531791995862,
+      "rss_bytes": 2158084096,
+      "cpu_percent": 264.9
+    },
+    {
+      "seconds": 7.643653624996659,
+      "rss_bytes": 2152759296,
+      "cpu_percent": 109.1
+    },
+    {
+      "seconds": 7.844813707997673,
+      "rss_bytes": 2153988096,
+      "cpu_percent": 274.5
+    },
+    {
+      "seconds": 8.045016375006526,
+      "rss_bytes": 2155741184,
+      "cpu_percent": 171.1
+    },
+    {
+      "seconds": 8.246218166998005,
+      "rss_bytes": 2151170048,
+      "cpu_percent": 143.4
+    },
+    {
+      "seconds": 8.44740258299862,
+      "rss_bytes": 2146189312,
+      "cpu_percent": 268.6
+    },
+    {
+      "seconds": 8.64853612499428,
+      "rss_bytes": 2140913664,
+      "cpu_percent": 112.4
+    },
+    {
+      "seconds": 8.849089374998584,
+      "rss_bytes": 2124972032,
+      "cpu_percent": 253.5
+    },
+    {
+      "seconds": 9.050281542004086,
+      "rss_bytes": 2122416128,
+      "cpu_percent": 205.2
+    },
+    {
+      "seconds": 9.251407832998666,
+      "rss_bytes": 2123579392,
+      "cpu_percent": 114.4
+    },
+    {
+      "seconds": 9.452574416995049,
+      "rss_bytes": 2114306048,
+      "cpu_percent": 250.8
+    },
+    {
+      "seconds": 9.653722707997076,
+      "rss_bytes": 2110144512,
+      "cpu_percent": 205.8
+    },
+    {
+      "seconds": 9.854854125005659,
+      "rss_bytes": 2110275584,
+      "cpu_percent": 117.4
+    },
+    {
+      "seconds": 10.056057666995912,
+      "rss_bytes": 2104524800,
+      "cpu_percent": 242.6
+    },
+    {
+      "seconds": 10.25723333300266,
+      "rss_bytes": 2104950784,
+      "cpu_percent": 132.5
+    },
+    {
+      "seconds": 10.45841316699807,
+      "rss_bytes": 2096332800,
+      "cpu_percent": 124.3
+    },
+    {
+      "seconds": 10.659381374993245,
+      "rss_bytes": 2097676288,
+      "cpu_percent": 264.8
+    },
+    {
+      "seconds": 10.860516707994975,
+      "rss_bytes": 2100412416,
+      "cpu_percent": 161.4
+    },
+    {
+      "seconds": 11.06070550000004,
+      "rss_bytes": 2100510720,
+      "cpu_percent": 121.5
+    },
+    {
+      "seconds": 11.261917708005058,
+      "rss_bytes": 2098544640,
+      "cpu_percent": 220.0
+    },
+    {
+      "seconds": 11.46309208299499,
+      "rss_bytes": 2091958272,
+      "cpu_percent": 165.7
+    },
+    {
+      "seconds": 11.664224374995683,
+      "rss_bytes": 2091958272,
+      "cpu_percent": 117.0
+    },
+    {
+      "seconds": 11.864752833003877,
+      "rss_bytes": 2092646400,
+      "cpu_percent": 202.8
+    },
+    {
+      "seconds": 12.065945082998951,
+      "rss_bytes": 2093367296,
+      "cpu_percent": 192.1
+    },
+    {
+      "seconds": 12.267067583001335,
+      "rss_bytes": 2093400064,
+      "cpu_percent": 108.4
+    },
+    {
+      "seconds": 12.46828962500149,
+      "rss_bytes": 2093793280,
+      "cpu_percent": 161.0
+    },
+    {
+      "seconds": 12.669473000001744,
+      "rss_bytes": 2094432256,
+      "cpu_percent": 255.2
+    },
+    {
+      "seconds": 12.870606833006605,
+      "rss_bytes": 2099183616,
+      "cpu_percent": 99.9
+    },
+    {
+      "seconds": 13.071744083004887,
+      "rss_bytes": 2094972928,
+      "cpu_percent": 137.3
+    },
+    {
+      "seconds": 13.272951292005018,
+      "rss_bytes": 2096234496,
+      "cpu_percent": 272.5
+    },
+    {
+      "seconds": 13.474165916995844,
+      "rss_bytes": 2096922624,
+      "cpu_percent": 140.7
+    },
+    {
+      "seconds": 13.675367332994938,
+      "rss_bytes": 2089959424,
+      "cpu_percent": 328.0
+    },
+    {
+      "seconds": 13.876214582996909,
+      "rss_bytes": 2088304640,
+      "cpu_percent": 152.5
+    },
+    {
+      "seconds": 14.077654207998421,
+      "rss_bytes": 2086043648,
+      "cpu_percent": 196.6
+    },
+    {
+      "seconds": 14.278878708006232,
+      "rss_bytes": 2095038464,
+      "cpu_percent": 203.5
+    },
+    {
+      "seconds": 14.479879374994198,
+      "rss_bytes": 2071822336,
+      "cpu_percent": 134.4
+    },
+    {
+      "seconds": 14.681245667001349,
+      "rss_bytes": 2037465088,
+      "cpu_percent": 318.8
+    },
+    {
+      "seconds": 14.8824847079959,
+      "rss_bytes": 2079817728,
+      "cpu_percent": 116.6
+    },
+    {
+      "seconds": 15.083736957996734,
+      "rss_bytes": 2068627456,
+      "cpu_percent": 159.1
+    },
+    {
+      "seconds": 15.284863916996983,
+      "rss_bytes": 2085552128,
+      "cpu_percent": 320.9
+    },
+    {
+      "seconds": 15.486063374992227,
+      "rss_bytes": 2085847040,
+      "cpu_percent": 136.9
+    },
+    {
+      "seconds": 15.687221582993516,
+      "rss_bytes": 2087092224,
+      "cpu_percent": 304.5
+    },
+    {
+      "seconds": 15.888397250004346,
+      "rss_bytes": 2086633472,
+      "cpu_percent": 135.1
+    },
+    {
+      "seconds": 16.089624582993565,
+      "rss_bytes": 2084569088,
+      "cpu_percent": 223.0
+    },
+    {
+      "seconds": 16.29079083299439,
+      "rss_bytes": 2091352064,
+      "cpu_percent": 286.4
+    },
+    {
+      "seconds": 16.491254167005536,
+      "rss_bytes": 2087878656,
+      "cpu_percent": 133.0
+    },
+    {
+      "seconds": 16.692460167003446,
+      "rss_bytes": 2082717696,
+      "cpu_percent": 224.2
+    },
+    {
+      "seconds": 16.893638458001078,
+      "rss_bytes": 2084995072,
+      "cpu_percent": 187.8
+    },
+    {
+      "seconds": 17.093825000003562,
+      "rss_bytes": 2085617664,
+      "cpu_percent": 155.0
+    },
+    {
+      "seconds": 17.295071957996697,
+      "rss_bytes": 2076655616,
+      "cpu_percent": 267.3
+    },
+    {
+      "seconds": 17.49636124999961,
+      "rss_bytes": 2078539776,
+      "cpu_percent": 125.9
+    },
+    {
+      "seconds": 17.697550291995867,
+      "rss_bytes": 2076753920,
+      "cpu_percent": 166.6
+    },
+    {
+      "seconds": 17.898746124992613,
+      "rss_bytes": 2078900224,
+      "cpu_percent": 278.3
+    },
+    {
+      "seconds": 18.09987641699263,
+      "rss_bytes": 2079096832,
+      "cpu_percent": 111.7
+    },
+    {
+      "seconds": 18.301042624996626,
+      "rss_bytes": 2080702464,
+      "cpu_percent": 168.2
+    },
+    {
+      "seconds": 18.502311457996257,
+      "rss_bytes": 2082095104,
+      "cpu_percent": 290.7
+    },
+    {
+      "seconds": 18.703518374997657,
+      "rss_bytes": 2088026112,
+      "cpu_percent": 113.8
+    },
+    {
+      "seconds": 18.904682624997804,
+      "rss_bytes": 2087600128,
+      "cpu_percent": 168.0
+    },
+    {
+      "seconds": 19.105941999994684,
+      "rss_bytes": 2088960000,
+      "cpu_percent": 293.7
+    },
+    {
+      "seconds": 19.307153582994943,
+      "rss_bytes": 2096939008,
+      "cpu_percent": 178.1
+    },
+    {
+      "seconds": 19.50934616700397,
+      "rss_bytes": 2098053120,
+      "cpu_percent": 145.5
+    },
+    {
+      "seconds": 19.7105781249993,
+      "rss_bytes": 2098577408,
+      "cpu_percent": 226.7
+    },
+    {
+      "seconds": 19.91174554200552,
+      "rss_bytes": 2099691520,
+      "cpu_percent": 246.6
+    },
+    {
+      "seconds": 20.112165250000544,
+      "rss_bytes": 2100363264,
+      "cpu_percent": 120.4
+    },
+    {
+      "seconds": 20.313295166997705,
+      "rss_bytes": 2100527104,
+      "cpu_percent": 185.1
+    },
+    {
+      "seconds": 20.514393332996406,
+      "rss_bytes": 2102231040,
+      "cpu_percent": 323.7
+    },
+    {
+      "seconds": 20.715519499994116,
+      "rss_bytes": 2102919168,
+      "cpu_percent": 99.8
+    },
+    {
+      "seconds": 20.916725250004674,
+      "rss_bytes": 2105786368,
+      "cpu_percent": 160.0
+    },
+    {
+      "seconds": 21.11791629200161,
+      "rss_bytes": 2106114048,
+      "cpu_percent": 206.4
+    },
+    {
+      "seconds": 21.319118125000386,
+      "rss_bytes": 2109865984,
+      "cpu_percent": 247.2
+    },
+    {
+      "seconds": 21.520240832993295,
+      "rss_bytes": 2116255744,
+      "cpu_percent": 103.5
+    },
+    {
+      "seconds": 21.721387917001266,
+      "rss_bytes": 2116255744,
+      "cpu_percent": 183.8
+    },
+    {
+      "seconds": 21.92263833299512,
+      "rss_bytes": 2116255744,
+      "cpu_percent": 277.5
+    }
+  ],
+  "stderr": "Loading model from .runtime/models/qwen3-asr-0.6b\nDetected: Qwen3-ASR-0.6B\nLoading encoder weights...\nLoading decoder weights...\nModel loaded.\nInference: 19224 ms, 38 text tokens (1.98 tok/s, encoding: 5783ms, decoding: 13439ms)\nAudio: 15.0 s processed in 19.2 s (0.78x realtime)\n"
+}
