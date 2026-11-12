@@ -1,0 +1,536 @@
+{
+  "run_id": "zh-10040380210557600780-500-1",
+  "id": "zh-10040380210557600780",
+  "wav": "benchmark_audio/zh/10040380210557600780.wav",
+  "language": "zh",
+  "chunk_ms": 500,
+  "audio_seconds": 8.28,
+  "status": "done",
+  "error_code": null,
+  "first_text_ms": 3375.21,
+  "final_latency_ms": 1124.04,
+  "session_elapsed_ms": 9432.07,
+  "incremental": true,
+  "first_visible_client_ms": 3901.795084006153,
+  "revisions": 3,
+  "worker_peak_rss_bytes": 2255224832,
+  "worker_peak_uss_bytes": 1192706048,
+  "worker_mean_cpu_percent": 62.21707317073171,
+  "worker_peak_cpu_percent": 308.5,
+  "backend_mean_cpu_percent": 0.22,
+  "system_mean_cpu_percent": 16.617073170731707,
+  "system_min_available_bytes": 1343750144,
+  "reference": "钙、钾等元素属于金属，银和金等元素当然也是金属。",
+  "prediction": "钙、钾等元素属于金属，银和金等元素当然也是金属。",
+  "wer": null,
+  "cer": 0.0,
+  "resource_samples": [
+    {
+      "t": 0.0018450839997967705,
+      "backend_rss_bytes": 22740992,
+      "worker_rss_bytes": 180224,
+      "worker_uss_bytes": 2473984,
+      "backend_cpu_percent": null,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2678276096
+    },
+    {
+      "t": 0.22452712499944028,
+      "backend_rss_bytes": 22740992,
+      "worker_rss_bytes": 327647232,
+      "worker_uss_bytes": 238387200,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 23.2,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2496036864
+    },
+    {
+      "t": 0.44683312499546446,
+      "backend_rss_bytes": 22740992,
+      "worker_rss_bytes": 674840576,
+      "worker_uss_bytes": 471007232,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 16.0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2496036864
+    },
+    {
+      "t": 0.670642917000805,
+      "backend_rss_bytes": 22740992,
+      "worker_rss_bytes": 1032716288,
+      "worker_uss_bytes": 708116480,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 16.7,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2496036864
+    },
+    {
+      "t": 0.8930349169968395,
+      "backend_rss_bytes": 22740992,
+      "worker_rss_bytes": 1246969856,
+      "worker_uss_bytes": 813596672,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 14.3,
+      "system_cpu_percent": 9.8,
+      "system_available_bytes": 2496036864
+    },
+    {
+      "t": 1.115034000002197,
+      "backend_rss_bytes": 22724608,
+      "worker_rss_bytes": 1349386240,
+      "worker_uss_bytes": 873512960,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 11.9,
+      "system_cpu_percent": 12.0,
+      "system_available_bytes": 2044149760
+    },
+    {
+      "t": 1.3728328340075677,
+      "backend_rss_bytes": 22642688,
+      "worker_rss_bytes": 544391168,
+      "worker_uss_bytes": 31473664,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 7.4,
+      "system_cpu_percent": 29.6,
+      "system_available_bytes": 1602502656
+    },
+    {
+      "t": 1.5992070420033997,
+      "backend_rss_bytes": 20545536,
+      "worker_rss_bytes": 646578176,
+      "worker_uss_bytes": 76201984,
+      "backend_cpu_percent": 0.7,
+      "worker_cpu_percent": 11.3,
+      "system_cpu_percent": 18.8,
+      "system_available_bytes": 1561395200
+    },
+    {
+      "t": 1.8237235840060748,
+      "backend_rss_bytes": 20398080,
+      "worker_rss_bytes": 697810944,
+      "worker_uss_bytes": 78774272,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 10.1,
+      "system_cpu_percent": 15.7,
+      "system_available_bytes": 1561395200
+    },
+    {
+      "t": 2.0475690419989405,
+      "backend_rss_bytes": 11829248,
+      "worker_rss_bytes": 674267136,
+      "worker_uss_bytes": 17924096,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 9.6,
+      "system_cpu_percent": 33.1,
+      "system_available_bytes": 1561395200
+    },
+    {
+      "t": 2.286739959003171,
+      "backend_rss_bytes": 11780096,
+      "worker_rss_bytes": 553238528,
+      "worker_uss_bytes": 41795584,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 8.1,
+      "system_cpu_percent": 23.9,
+      "system_available_bytes": 1369718784
+    },
+    {
+      "t": 2.512156833996414,
+      "backend_rss_bytes": 9486336,
+      "worker_rss_bytes": 556204032,
+      "worker_uss_bytes": 34177024,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 27.8,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1343750144
+    },
+    {
+      "t": 2.7561985420034034,
+      "backend_rss_bytes": 11894784,
+      "worker_rss_bytes": 1149992960,
+      "worker_uss_bytes": 774373376,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 81.5,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1615052800
+    },
+    {
+      "t": 3.0203325000038603,
+      "backend_rss_bytes": 11714560,
+      "worker_rss_bytes": 1445576704,
+      "worker_uss_bytes": 870858752,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 46.2,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1713356800
+    },
+    {
+      "t": 3.2420693339954596,
+      "backend_rss_bytes": 11780096,
+      "worker_rss_bytes": 1659600896,
+      "worker_uss_bytes": 997179392,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 45.3,
+      "system_cpu_percent": 27.9,
+      "system_available_bytes": 1713356800
+    },
+    {
+      "t": 3.464387166997767,
+      "backend_rss_bytes": 11796480,
+      "worker_rss_bytes": 1933246464,
+      "worker_uss_bytes": 1125842944,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 47.1,
+      "system_cpu_percent": 20.7,
+      "system_available_bytes": 1829453824
+    },
+    {
+      "t": 3.689857250006753,
+      "backend_rss_bytes": 11730944,
+      "worker_rss_bytes": 2186461184,
+      "worker_uss_bytes": 1165672448,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 71.2,
+      "system_cpu_percent": 23.2,
+      "system_available_bytes": 1852702720
+    },
+    {
+      "t": 3.915355624994845,
+      "backend_rss_bytes": 12320768,
+      "worker_rss_bytes": 2255224832,
+      "worker_uss_bytes": 1143783424,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 214.6,
+      "system_cpu_percent": 35.8,
+      "system_available_bytes": 1854226432
+    },
+    {
+      "t": 4.143096375002642,
+      "backend_rss_bytes": 13205504,
+      "worker_rss_bytes": 2004910080,
+      "worker_uss_bytes": 805847040,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 19.8,
+      "system_available_bytes": 1763360768
+    },
+    {
+      "t": 4.385674459001166,
+      "backend_rss_bytes": 13238272,
+      "worker_rss_bytes": 1700888576,
+      "worker_uss_bytes": 634224640,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 20.7,
+      "system_available_bytes": 1603846144
+    },
+    {
+      "t": 4.622524209000403,
+      "backend_rss_bytes": 12599296,
+      "worker_rss_bytes": 1506197504,
+      "worker_uss_bytes": 434126848,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 39.9,
+      "system_cpu_percent": 25.7,
+      "system_available_bytes": 1507934208
+    },
+    {
+      "t": 4.845775709007285,
+      "backend_rss_bytes": 12599296,
+      "worker_rss_bytes": 2197995520,
+      "worker_uss_bytes": 1151926272,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 100.5,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1871659008
+    },
+    {
+      "t": 5.069157999998424,
+      "backend_rss_bytes": 13352960,
+      "worker_rss_bytes": 2217984000,
+      "worker_uss_bytes": 1163591680,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 161.7,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1899134976
+    },
+    {
+      "t": 5.295904792001238,
+      "backend_rss_bytes": 13434880,
+      "worker_rss_bytes": 2217066496,
+      "worker_uss_bytes": 1164574720,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 308.5,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1896660992
+    },
+    {
+      "t": 5.519671625006595,
+      "backend_rss_bytes": 13434880,
+      "worker_rss_bytes": 2208972800,
+      "worker_uss_bytes": 1164574720,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 29.6,
+      "system_available_bytes": 1896660992
+    },
+    {
+      "t": 5.75304337500711,
+      "backend_rss_bytes": 13615104,
+      "worker_rss_bytes": 2208972800,
+      "worker_uss_bytes": 1164574720,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 14.6,
+      "system_available_bytes": 1900380160
+    },
+    {
+      "t": 5.993270417005988,
+      "backend_rss_bytes": 13631488,
+      "worker_rss_bytes": 2207711232,
+      "worker_uss_bytes": 1164574720,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 18.2,
+      "system_available_bytes": 1902297088
+    },
+    {
+      "t": 6.228346500007319,
+      "backend_rss_bytes": 13631488,
+      "worker_rss_bytes": 2196504576,
+      "worker_uss_bytes": 1162674176,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 11.8,
+      "system_available_bytes": 1902297088
+    },
+    {
+      "t": 6.460701333999168,
+      "backend_rss_bytes": 13647872,
+      "worker_rss_bytes": 2196504576,
+      "worker_uss_bytes": 1162739712,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 8.6,
+      "system_available_bytes": 1902297088
+    },
+    {
+      "t": 6.6935267920052866,
+      "backend_rss_bytes": 13778944,
+      "worker_rss_bytes": 2197700608,
+      "worker_uss_bytes": 1167245312,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 71.9,
+      "system_cpu_percent": 19.4,
+      "system_available_bytes": 1902297088
+    },
+    {
+      "t": 6.915392124996288,
+      "backend_rss_bytes": 13828096,
+      "worker_rss_bytes": 2191196160,
+      "worker_uss_bytes": 1171030016,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 124.5,
+      "system_cpu_percent": 24.2,
+      "system_available_bytes": 1904771072
+    },
+    {
+      "t": 7.13891695899656,
+      "backend_rss_bytes": 13828096,
+      "worker_rss_bytes": 2187378688,
+      "worker_uss_bytes": 1173766144,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 307.0,
+      "system_cpu_percent": 46.1,
+      "system_available_bytes": 1901969408
+    },
+    {
+      "t": 7.364954000004218,
+      "backend_rss_bytes": 13959168,
+      "worker_rss_bytes": 2169077760,
+      "worker_uss_bytes": 1174552576,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 127.6,
+      "system_cpu_percent": 26.0,
+      "system_available_bytes": 1904066560
+    },
+    {
+      "t": 7.603126500005601,
+      "backend_rss_bytes": 13959168,
+      "worker_rss_bytes": 2157346816,
+      "worker_uss_bytes": 1179025408,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 18.0,
+      "system_available_bytes": 1910308864
+    },
+    {
+      "t": 7.83702429200639,
+      "backend_rss_bytes": 13959168,
+      "worker_rss_bytes": 2129707008,
+      "worker_uss_bytes": 1179795456,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 14.0,
+      "system_available_bytes": 1922023424
+    },
+    {
+      "t": 8.07141612500709,
+      "backend_rss_bytes": 13959168,
+      "worker_rss_bytes": 2129707008,
+      "worker_uss_bytes": 1179795456,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 14.0,
+      "system_available_bytes": 1947451392
+    },
+    {
+      "t": 8.307407333995798,
+      "backend_rss_bytes": 14696448,
+      "worker_rss_bytes": 2130018304,
+      "worker_uss_bytes": 1184677888,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 2.3,
+      "system_cpu_percent": 10.1,
+      "system_available_bytes": 1949990912
+    },
+    {
+      "t": 8.54486129200086,
+      "backend_rss_bytes": 14696448,
+      "worker_rss_bytes": 2148155392,
+      "worker_uss_bytes": 1183285248,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 100.2,
+      "system_cpu_percent": 19.6,
+      "system_available_bytes": 1949646848
+    },
+    {
+      "t": 8.769614749995526,
+      "backend_rss_bytes": 14696448,
+      "worker_rss_bytes": 2152595456,
+      "worker_uss_bytes": 1188052992,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 129.2,
+      "system_cpu_percent": 20.7,
+      "system_available_bytes": 1947992064
+    },
+    {
+      "t": 8.992113250002149,
+      "backend_rss_bytes": 14696448,
+      "worker_rss_bytes": 2156789760,
+      "worker_uss_bytes": 1192509440,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 262.6,
+      "system_cpu_percent": 38.2,
+      "system_available_bytes": 1950892032
+    },
+    {
+      "t": 9.219556209005532,
+      "backend_rss_bytes": 14729216,
+      "worker_rss_bytes": 2159935488,
+      "worker_uss_bytes": 1192706048,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 152.7,
+      "system_cpu_percent": 31.5,
+      "system_available_bytes": 1949368320
+    }
+  ],
+  "events": [
+    {
+      "session_id": "e680c1ba-3fb0-4a5d-8341-20ebdefb298b",
+      "type": "transcript",
+      "text": "钙、钾等元素。",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 3901.06,
+        "first_text_ms": 3375.21,
+        "final_latency_ms": null,
+        "audio_received_seconds": 3.5,
+        "audio_forwarded_seconds": 3.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 3.901795084006153,
+      "before_end": true
+    },
+    {
+      "session_id": "e680c1ba-3fb0-4a5d-8341-20ebdefb298b",
+      "type": "transcript",
+      "text": "钙、钾等元素属于金属。银。",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 5276.87,
+        "first_text_ms": 3375.21,
+        "final_latency_ms": null,
+        "audio_received_seconds": 5.0,
+        "audio_forwarded_seconds": 5.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 5.276851375005208,
+      "before_end": true
+    },
+    {
+      "session_id": "e680c1ba-3fb0-4a5d-8341-20ebdefb298b",
+      "type": "transcript",
+      "text": "钙、钾等元素属于金属，银和金等元素当然也。",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 7229.09,
+        "first_text_ms": 3375.21,
+        "final_latency_ms": null,
+        "audio_received_seconds": 7.0,
+        "audio_forwarded_seconds": 7.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.2293901670054765,
+      "before_end": true
+    },
+    {
+      "session_id": "e680c1ba-3fb0-4a5d-8341-20ebdefb298b",
+      "type": "transcript",
+      "text": "钙、钾等元素属于金属，银和金等元素当然也是金属。",
+      "sequence": 4,
+      "metrics": {
+        "elapsed_ms": 9029.14,
+        "first_text_ms": 3375.21,
+        "final_latency_ms": 721.11,
+        "audio_received_seconds": 8.28,
+        "audio_forwarded_seconds": 8.28,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.029692791998968,
+      "before_end": false
+    },
+    {
+      "session_id": "e680c1ba-3fb0-4a5d-8341-20ebdefb298b",
+      "type": "transcript",
+      "text": "钙、钾等元素属于金属，银和金等元素当然也是金属。",
+      "sequence": 5,
+      "metrics": {
+        "elapsed_ms": 9378.38,
+        "first_text_ms": 3375.21,
+        "final_latency_ms": 1070.36,
+        "audio_received_seconds": 8.28,
+        "audio_forwarded_seconds": 8.28,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.378328667007736,
+      "before_end": false
+    },
+    {
+      "session_id": "e680c1ba-3fb0-4a5d-8341-20ebdefb298b",
+      "type": "done",
+      "text": "钙、钾等元素属于金属，银和金等元素当然也是金属。",
+      "metrics": {
+        "elapsed_ms": 9432.07,
+        "first_text_ms": 3375.21,
+        "final_latency_ms": 1124.04,
+        "audio_received_seconds": 8.28,
+        "audio_forwarded_seconds": 8.28,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.432073042000411,
+      "before_end": false
+    }
+  ]
+}

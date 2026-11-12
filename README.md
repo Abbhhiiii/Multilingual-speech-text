@@ -34,7 +34,7 @@ To prepare an audio file (requires separately installed FFmpeg):
 ffmpeg -i original.wav -ac 1 -ar 16000 -c:a pcm_s16le prepared.wav
 ```
 
-Ready-to-select FLEURS test recordings are bundled in `samples/` for Mandarin and Indonesian. Their reference text, original filename, test split and CC BY 4.0 provenance are in adjacent JSON files. The English upstream sample is available after setup at `.runtime/qwen-asr/samples/jfk.wav`. Upstream also includes longer English samples and reference text. These smoke recordings are not the planned FLEURS multilingual evaluation set.
+Ready-to-select FLEURS test recordings are bundled in `samples/` for Mandarin and Indonesian. Their reference text, original filename, test split and CC BY 4.0 provenance are in adjacent JSON files. The English upstream sample is available after setup at `.runtime/qwen-asr/samples/jfk.wav`. The separate 60-clip multilingual evaluation audio was prepared locally in `benchmark_audio/`; audio files are ignored by Git, while its manifest, preparation script and results are tracked in [`evidence/fleurs-60-500ms/REPORT.md`](evidence/fleurs-60-500ms/REPORT.md).
 
 ## Verification
 
@@ -53,7 +53,7 @@ Ready-to-select FLEURS test recordings are bundled in `samples/` for Mandarin an
 
 The direct runtime check uses the legacy committed-token output unless test flags are supplied. It feeds raw PCM in 500 ms intervals, reads stdout concurrently, closes stdin at the audio end, and records whether nonblank output arrived **before EOF**. It exits unsuccessfully if incremental recognition was not demonstrated, even if a final transcript was returned. Short clips may finish before the native stabilization logic emits text; use a longer sample when investigating. WebSocket verification requires the backend running.
 
-`tests/fake_runtime.py` is a subprocess fixture for protocol/error tests, not a speech model. Those tests cannot establish speech accuracy or real-model performance. See `evidence/` and `docs/status.md` for executed checks and limitations. A single 15 s English CPU trial passed direct incremental stdin/stdout and end-to-end WebSocket checks; see the status file for measured timings. No benchmark numbers should be inferred from passing fixture tests.
+`tests/fake_runtime.py` is a subprocess fixture for protocol/error tests, not a speech model. Those tests cannot establish speech accuracy or real-model performance. See `evidence/` and `docs/status.md` for executed checks and limitations. A 60-clip FLEURS run through the real CPU WebSocket path is reported in [`evidence/fleurs-60-500ms/REPORT.md`](evidence/fleurs-60-500ms/REPORT.md); its numbers come from the recorded trials, not the fixture tests.
 
 ## Architecture
 
@@ -117,6 +117,6 @@ Runtime: https://github.com/antirez/qwen-asr at `924694251d9e0f18e5d86bbd06aa3ab
 
 To verify CPU execution while streaming on macOS, open **Activity Monitor → CPU** (Command-Space, then type Activity Monitor) and search for `qwen_asr`. Its `% CPU` should rise during transcription; the per-call process exits at completion. `otool -L .runtime/qwen-asr/qwen_asr` shows the Accelerate framework in the linked CPU binary. This build does not enable Metal, CUDA or ROCm inference.
 
-One local English, Mandarin and Indonesian recording each has now completed through the native CPU WebSocket path with incremental text. This demonstrates the three language paths but is not a corpus accuracy benchmark. See `docs/status.md`.
+Twenty FLEURS clips per language have completed through the native CPU WebSocket path, sequentially at 500 ms network chunks. See [`evidence/fleurs-60-500ms/REPORT.md`](evidence/fleurs-60-500ms/REPORT.md) for timing, CPU, memory, accuracy, raw results, and limits of this clean-speech baseline.
 
 The prior Architecture V2 and the original five-page assignment were inspected before implementation. See `docs/protocol.md` for API messages and `docs/benchmark-plan.md` for Days 2–4, multilingual data, chunk comparison, concurrency, sizing, alternative ASR and remaining submission requirements.

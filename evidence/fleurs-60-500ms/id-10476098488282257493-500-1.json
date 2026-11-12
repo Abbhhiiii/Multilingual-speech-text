@@ -1,0 +1,778 @@
+{
+  "run_id": "id-10476098488282257493-500-1",
+  "id": "id-10476098488282257493",
+  "wav": "benchmark_audio/id/10476098488282257493.wav",
+  "language": "id",
+  "chunk_ms": 500,
+  "audio_seconds": 13.38,
+  "status": "done",
+  "error_code": null,
+  "first_text_ms": 3552.05,
+  "final_latency_ms": 804.74,
+  "session_elapsed_ms": 14213.63,
+  "incremental": true,
+  "first_visible_client_ms": 4081.3880839996273,
+  "revisions": 4,
+  "worker_peak_rss_bytes": 2429009920,
+  "worker_peak_uss_bytes": 1186562048,
+  "worker_mean_cpu_percent": 83.03064516129032,
+  "worker_peak_cpu_percent": 360.2,
+  "backend_mean_cpu_percent": 0.2278688524590164,
+  "system_mean_cpu_percent": 21.606451612903225,
+  "system_min_available_bytes": 1344749568,
+  "reference": "Ini adalah tempat yang direbut oleh penjajah Inggris sebagai milik mereka dan apabila Anda sedang mencari bukti wilayah kolonial di masa lalu, di sini adalah tempat yang tepat untuk memulai.",
+  "prediction": "Ini adalah tempat yang direbut oleh penjajah hingga sebagai milik mereka dan apabila Anda sedang mencari bukti wilayah kolonial di masa lalu, di sini adalah tempat yang tepat untuk memulai.",
+  "wer": 0.03333333333333333,
+  "cer": null,
+  "resource_samples": [
+    {
+      "t": 0.0025095419987337664,
+      "backend_rss_bytes": 23068672,
+      "worker_rss_bytes": 180224,
+      "worker_uss_bytes": 1146880,
+      "backend_cpu_percent": null,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2581970944
+    },
+    {
+      "t": 0.22771254200779367,
+      "backend_rss_bytes": 23068672,
+      "worker_rss_bytes": 313606144,
+      "worker_uss_bytes": 228818944,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 24.6,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2427289600
+    },
+    {
+      "t": 0.450229791997117,
+      "backend_rss_bytes": 23068672,
+      "worker_rss_bytes": 652804096,
+      "worker_uss_bytes": 455983104,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 17.8,
+      "system_cpu_percent": 12.7,
+      "system_available_bytes": 2249867264
+    },
+    {
+      "t": 0.6741096670011757,
+      "backend_rss_bytes": 23085056,
+      "worker_rss_bytes": 1010597888,
+      "worker_uss_bytes": 690651136,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 17.0,
+      "system_cpu_percent": 11.2,
+      "system_available_bytes": 2066546688
+    },
+    {
+      "t": 0.8932729590014787,
+      "backend_rss_bytes": 23052288,
+      "worker_rss_bytes": 1203716096,
+      "worker_uss_bytes": 793559040,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 13.1,
+      "system_cpu_percent": 13.2,
+      "system_available_bytes": 2014658560
+    },
+    {
+      "t": 1.116028375006863,
+      "backend_rss_bytes": 23052288,
+      "worker_rss_bytes": 861110272,
+      "worker_uss_bytes": 269647872,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 9.4,
+      "system_cpu_percent": 21.3,
+      "system_available_bytes": 1782726656
+    },
+    {
+      "t": 1.3426565840054536,
+      "backend_rss_bytes": 22773760,
+      "worker_rss_bytes": 548044800,
+      "worker_uss_bytes": 62799872,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 9.0,
+      "system_cpu_percent": 23.9,
+      "system_available_bytes": 1539080192
+    },
+    {
+      "t": 1.6101583749987185,
+      "backend_rss_bytes": 20037632,
+      "worker_rss_bytes": 591839232,
+      "worker_uss_bytes": 49807360,
+      "backend_cpu_percent": 0.8,
+      "worker_cpu_percent": 9.9,
+      "system_cpu_percent": 19.9,
+      "system_available_bytes": 1415462912
+    },
+    {
+      "t": 1.8330263340030797,
+      "backend_rss_bytes": 11747328,
+      "worker_rss_bytes": 629948416,
+      "worker_uss_bytes": 46497792,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 10.9,
+      "system_cpu_percent": 19.2,
+      "system_available_bytes": 1347518464
+    },
+    {
+      "t": 2.0611214590026066,
+      "backend_rss_bytes": 11042816,
+      "worker_rss_bytes": 671399936,
+      "worker_uss_bytes": 59047936,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 11.0,
+      "system_cpu_percent": 18.5,
+      "system_available_bytes": 1344749568
+    },
+    {
+      "t": 2.2889245840051444,
+      "backend_rss_bytes": 11010048,
+      "worker_rss_bytes": 594362368,
+      "worker_uss_bytes": 37683200,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 11.0,
+      "system_cpu_percent": 16.7,
+      "system_available_bytes": 1345437696
+    },
+    {
+      "t": 2.5148400839971146,
+      "backend_rss_bytes": 11010048,
+      "worker_rss_bytes": 524828672,
+      "worker_uss_bytes": 17514496,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 7.5,
+      "system_cpu_percent": 27.4,
+      "system_available_bytes": 1345437696
+    },
+    {
+      "t": 2.7901502089953283,
+      "backend_rss_bytes": 9207808,
+      "worker_rss_bytes": 773455872,
+      "worker_uss_bytes": 336576512,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 50.9,
+      "system_cpu_percent": 30.5,
+      "system_available_bytes": 1418264576
+    },
+    {
+      "t": 3.0237644169974374,
+      "backend_rss_bytes": 9289728,
+      "worker_rss_bytes": 1442512896,
+      "worker_uss_bytes": 863305728,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 79.1,
+      "system_cpu_percent": 34.6,
+      "system_available_bytes": 1753563136
+    },
+    {
+      "t": 3.248545374997775,
+      "backend_rss_bytes": 11943936,
+      "worker_rss_bytes": 1697251328,
+      "worker_uss_bytes": 967901184,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 43.3,
+      "system_cpu_percent": 29.3,
+      "system_available_bytes": 1799569408
+    },
+    {
+      "t": 3.4742528750066413,
+      "backend_rss_bytes": 11943936,
+      "worker_rss_bytes": 2107260928,
+      "worker_uss_bytes": 1150550016,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 59.0,
+      "system_cpu_percent": 27.0,
+      "system_available_bytes": 1799569408
+    },
+    {
+      "t": 3.7005950839957222,
+      "backend_rss_bytes": 12075008,
+      "worker_rss_bytes": 2397093888,
+      "worker_uss_bytes": 1171587072,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 74.4,
+      "system_cpu_percent": 31.3,
+      "system_available_bytes": 1799569408
+    },
+    {
+      "t": 3.9274857499985956,
+      "backend_rss_bytes": 12075008,
+      "worker_rss_bytes": 2429009920,
+      "worker_uss_bytes": 1171783680,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 38.2,
+      "system_cpu_percent": 18.4,
+      "system_available_bytes": 1883947008
+    },
+    {
+      "t": 4.1559446250030305,
+      "backend_rss_bytes": 13484032,
+      "worker_rss_bytes": 2397929472,
+      "worker_uss_bytes": 1173061632,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 189.4,
+      "system_cpu_percent": 48.3,
+      "system_available_bytes": 1902215168
+    },
+    {
+      "t": 4.383677916994202,
+      "backend_rss_bytes": 13418496,
+      "worker_rss_bytes": 2376728576,
+      "worker_uss_bytes": 1173061632,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 24.2,
+      "system_available_bytes": 1903722496
+    },
+    {
+      "t": 4.621939083997859,
+      "backend_rss_bytes": 13484032,
+      "worker_rss_bytes": 2374516736,
+      "worker_uss_bytes": 1179598848,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 39.9,
+      "system_cpu_percent": 24.3,
+      "system_available_bytes": 1907638272
+    },
+    {
+      "t": 4.84884933399735,
+      "backend_rss_bytes": 13467648,
+      "worker_rss_bytes": 2352758784,
+      "worker_uss_bytes": 1174568960,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 110.5,
+      "system_cpu_percent": 29.1,
+      "system_available_bytes": 1915928576
+    },
+    {
+      "t": 5.072947666994878,
+      "backend_rss_bytes": 13533184,
+      "worker_rss_bytes": 2334146560,
+      "worker_uss_bytes": 1174585344,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 299.9,
+      "system_cpu_percent": 59.3,
+      "system_available_bytes": 1918713856
+    },
+    {
+      "t": 5.2996466670010705,
+      "backend_rss_bytes": 13549568,
+      "worker_rss_bytes": 2335916032,
+      "worker_uss_bytes": 1176895488,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 336.7,
+      "system_cpu_percent": 55.3,
+      "system_available_bytes": 1920204800
+    },
+    {
+      "t": 5.523813125008019,
+      "backend_rss_bytes": 13631488,
+      "worker_rss_bytes": 2327904256,
+      "worker_uss_bytes": 1172127744,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 8.5,
+      "system_available_bytes": 1916633088
+    },
+    {
+      "t": 5.760475208997377,
+      "backend_rss_bytes": 13664256,
+      "worker_rss_bytes": 2304098304,
+      "worker_uss_bytes": 1172127744,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 19.0,
+      "system_available_bytes": 1924972544
+    },
+    {
+      "t": 5.995180375000928,
+      "backend_rss_bytes": 13664256,
+      "worker_rss_bytes": 2298134528,
+      "worker_uss_bytes": 1172127744,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1929396224
+    },
+    {
+      "t": 6.230118916995707,
+      "backend_rss_bytes": 13647872,
+      "worker_rss_bytes": 1836040192,
+      "worker_uss_bytes": 616873984,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 29.0,
+      "system_available_bytes": 1743896576
+    },
+    {
+      "t": 6.473784000001615,
+      "backend_rss_bytes": 13451264,
+      "worker_rss_bytes": 1472135168,
+      "worker_uss_bytes": 472203264,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 29.1,
+      "system_available_bytes": 1572061184
+    },
+    {
+      "t": 6.700087667006301,
+      "backend_rss_bytes": 11190272,
+      "worker_rss_bytes": 1465647104,
+      "worker_uss_bytes": 478117888,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 77.1,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1529937920
+    },
+    {
+      "t": 6.92794970900286,
+      "backend_rss_bytes": 11927552,
+      "worker_rss_bytes": 1846837248,
+      "worker_uss_bytes": 897613824,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 104.4,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1733754880
+    },
+    {
+      "t": 7.155808791998425,
+      "backend_rss_bytes": 12091392,
+      "worker_rss_bytes": 2057142272,
+      "worker_uss_bytes": 1137328128,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 119.2,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1733754880
+    },
+    {
+      "t": 7.381857250002213,
+      "backend_rss_bytes": 12091392,
+      "worker_rss_bytes": 2092826624,
+      "worker_uss_bytes": 1176043520,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 276.6,
+      "system_cpu_percent": 39.1,
+      "system_available_bytes": 1913372672
+    },
+    {
+      "t": 7.607784959007404,
+      "backend_rss_bytes": 13598720,
+      "worker_rss_bytes": 2061041664,
+      "worker_uss_bytes": 1178697728,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 133.8,
+      "system_cpu_percent": 35.2,
+      "system_available_bytes": 1935605760
+    },
+    {
+      "t": 7.833311084003071,
+      "backend_rss_bytes": 13615104,
+      "worker_rss_bytes": 2060255232,
+      "worker_uss_bytes": 1178697728,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 13.8,
+      "system_available_bytes": 1940422656
+    },
+    {
+      "t": 8.080118500001845,
+      "backend_rss_bytes": 13729792,
+      "worker_rss_bytes": 2059370496,
+      "worker_uss_bytes": 1178697728,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 9.7,
+      "system_available_bytes": 1940963328
+    },
+    {
+      "t": 8.312304791994393,
+      "backend_rss_bytes": 13729792,
+      "worker_rss_bytes": 2055913472,
+      "worker_uss_bytes": 1179533312,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 10.9,
+      "system_available_bytes": 1945403392
+    },
+    {
+      "t": 8.553930666996166,
+      "backend_rss_bytes": 13860864,
+      "worker_rss_bytes": 2048147456,
+      "worker_uss_bytes": 1181827072,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 10.4,
+      "system_cpu_percent": 17.5,
+      "system_available_bytes": 1948286976
+    },
+    {
+      "t": 8.779014750005445,
+      "backend_rss_bytes": 13860864,
+      "worker_rss_bytes": 2064285696,
+      "worker_uss_bytes": 1180549120,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 100.0,
+      "system_cpu_percent": 21.4,
+      "system_available_bytes": 1937719296
+    },
+    {
+      "t": 9.00154866700177,
+      "backend_rss_bytes": 13811712,
+      "worker_rss_bytes": 2070757376,
+      "worker_uss_bytes": 1161527296,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 127.4,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1945288704
+    },
+    {
+      "t": 9.226437874996918,
+      "backend_rss_bytes": 13811712,
+      "worker_rss_bytes": 2072379392,
+      "worker_uss_bytes": 1163886592,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 251.7,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1944092672
+    },
+    {
+      "t": 9.453186458995333,
+      "backend_rss_bytes": 13828096,
+      "worker_rss_bytes": 2072215552,
+      "worker_uss_bytes": 1166540800,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 360.2,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1943240704
+    },
+    {
+      "t": 9.682368167006643,
+      "backend_rss_bytes": 13942784,
+      "worker_rss_bytes": 2071085056,
+      "worker_uss_bytes": 1167032320,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 53.9,
+      "system_cpu_percent": 33.4,
+      "system_available_bytes": 1946550272
+    },
+    {
+      "t": 9.916000209006597,
+      "backend_rss_bytes": 13942784,
+      "worker_rss_bytes": 2068611072,
+      "worker_uss_bytes": 1167032320,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 13.8,
+      "system_available_bytes": 1946320896
+    },
+    {
+      "t": 10.152076334008598,
+      "backend_rss_bytes": 14041088,
+      "worker_rss_bytes": 2068463616,
+      "worker_uss_bytes": 1167507456,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 13.8,
+      "system_available_bytes": 1946320896
+    },
+    {
+      "t": 10.393780416998197,
+      "backend_rss_bytes": 14008320,
+      "worker_rss_bytes": 2068152320,
+      "worker_uss_bytes": 1167507456,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 13.0,
+      "system_available_bytes": 1946320896
+    },
+    {
+      "t": 10.628366624994669,
+      "backend_rss_bytes": 13991936,
+      "worker_rss_bytes": 2072723456,
+      "worker_uss_bytes": 1165508608,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 43.5,
+      "system_cpu_percent": 15.1,
+      "system_available_bytes": 1946320896
+    },
+    {
+      "t": 10.850572459006798,
+      "backend_rss_bytes": 13991936,
+      "worker_rss_bytes": 2078867456,
+      "worker_uss_bytes": 1169620992,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 164.6,
+      "system_cpu_percent": 46.7,
+      "system_available_bytes": 1934557184
+    },
+    {
+      "t": 11.074275749997469,
+      "backend_rss_bytes": 14123008,
+      "worker_rss_bytes": 2080735232,
+      "worker_uss_bytes": 1171783680,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 343.2,
+      "system_cpu_percent": 58.8,
+      "system_available_bytes": 1941635072
+    },
+    {
+      "t": 11.298713459007558,
+      "backend_rss_bytes": 14172160,
+      "worker_rss_bytes": 2082078720,
+      "worker_uss_bytes": 1172963328,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 202.6,
+      "system_cpu_percent": 38.1,
+      "system_available_bytes": 1947205632
+    },
+    {
+      "t": 11.530404624994844,
+      "backend_rss_bytes": 14188544,
+      "worker_rss_bytes": 2082127872,
+      "worker_uss_bytes": 1173012480,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 13.6,
+      "system_available_bytes": 1947205632
+    },
+    {
+      "t": 11.765673792004236,
+      "backend_rss_bytes": 14188544,
+      "worker_rss_bytes": 2082127872,
+      "worker_uss_bytes": 1173012480,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 12.2,
+      "system_available_bytes": 1947205632
+    },
+    {
+      "t": 12.001928875004523,
+      "backend_rss_bytes": 14188544,
+      "worker_rss_bytes": 2082127872,
+      "worker_uss_bytes": 1173012480,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 10.7,
+      "system_available_bytes": 1946566656
+    },
+    {
+      "t": 12.23751654199441,
+      "backend_rss_bytes": 14188544,
+      "worker_rss_bytes": 2082127872,
+      "worker_uss_bytes": 1173012480,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 14.7,
+      "system_available_bytes": 1950613504
+    },
+    {
+      "t": 12.47259550000308,
+      "backend_rss_bytes": 14188544,
+      "worker_rss_bytes": 2082127872,
+      "worker_uss_bytes": 1173012480,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 10.2,
+      "system_available_bytes": 1950613504
+    },
+    {
+      "t": 12.70761495899933,
+      "backend_rss_bytes": 14204928,
+      "worker_rss_bytes": 2083438592,
+      "worker_uss_bytes": 1174519808,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 76.0,
+      "system_cpu_percent": 16.5,
+      "system_available_bytes": 1950613504
+    },
+    {
+      "t": 12.92996295899502,
+      "backend_rss_bytes": 14204928,
+      "worker_rss_bytes": 2087567360,
+      "worker_uss_bytes": 1178779648,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 172.1,
+      "system_cpu_percent": 27.1,
+      "system_available_bytes": 1950613504
+    },
+    {
+      "t": 13.153447624994442,
+      "backend_rss_bytes": 14221312,
+      "worker_rss_bytes": 2090090496,
+      "worker_uss_bytes": 1181237248,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 338.6,
+      "system_cpu_percent": 53.4,
+      "system_available_bytes": 1954168832
+    },
+    {
+      "t": 13.381928667004104,
+      "backend_rss_bytes": 14286848,
+      "worker_rss_bytes": 2091368448,
+      "worker_uss_bytes": 1182253056,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 186.0,
+      "system_cpu_percent": 29.7,
+      "system_available_bytes": 1954807808
+    },
+    {
+      "t": 13.607710791999125,
+      "backend_rss_bytes": 14925824,
+      "worker_rss_bytes": 2101788672,
+      "worker_uss_bytes": 1182334976,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 89.1,
+      "system_cpu_percent": 21.5,
+      "system_available_bytes": 1966260224
+    },
+    {
+      "t": 13.831641291995766,
+      "backend_rss_bytes": 14925824,
+      "worker_rss_bytes": 2103558144,
+      "worker_uss_bytes": 1184301056,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 174.9,
+      "system_cpu_percent": 27.7,
+      "system_available_bytes": 1966325760
+    },
+    {
+      "t": 14.056665833995794,
+      "backend_rss_bytes": 14925824,
+      "worker_rss_bytes": 2105753600,
+      "worker_uss_bytes": 1186562048,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 280.1,
+      "system_cpu_percent": 40.8,
+      "system_available_bytes": 1963507712
+    }
+  ],
+  "events": [
+    {
+      "session_id": "155a6a4c-213f-4c82-be59-3c9dbe7e0533",
+      "type": "transcript",
+      "text": "Ini adalah tempat yang di",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 4080.91,
+        "first_text_ms": 3552.05,
+        "final_latency_ms": null,
+        "audio_received_seconds": 4.0,
+        "audio_forwarded_seconds": 4.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 4.081388083999627,
+      "before_end": true
+    },
+    {
+      "session_id": "155a6a4c-213f-4c82-be59-3c9dbe7e0533",
+      "type": "transcript",
+      "text": "Ini adalah tempat yang direbut oleh penjajah Hindia Selatan.",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 5304.93,
+        "first_text_ms": 3552.05,
+        "final_latency_ms": null,
+        "audio_received_seconds": 5.0,
+        "audio_forwarded_seconds": 5.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 5.322841208995669,
+      "before_end": true
+    },
+    {
+      "session_id": "155a6a4c-213f-4c82-be59-3c9dbe7e0533",
+      "type": "transcript",
+      "text": "Ini adalah tempat yang direbut oleh penjajah hingga sebagai milik mereka dan apabila",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 7479.1,
+        "first_text_ms": 3552.05,
+        "final_latency_ms": null,
+        "audio_received_seconds": 7.0,
+        "audio_forwarded_seconds": 7.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.480100750006386,
+      "before_end": true
+    },
+    {
+      "session_id": "155a6a4c-213f-4c82-be59-3c9dbe7e0533",
+      "type": "transcript",
+      "text": "Ini adalah tempat yang direbut oleh penjajah hingga sebagai milik mereka dan apabila Anda sedang mencari bukti wilayah.",
+      "sequence": 4,
+      "metrics": {
+        "elapsed_ms": 9492.62,
+        "first_text_ms": 3552.05,
+        "final_latency_ms": null,
+        "audio_received_seconds": 9.0,
+        "audio_forwarded_seconds": 9.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.49253320900607,
+      "before_end": true
+    },
+    {
+      "session_id": "155a6a4c-213f-4c82-be59-3c9dbe7e0533",
+      "type": "transcript",
+      "text": "Ini adalah tempat yang direbut oleh penjajah hingga sebagai milik mereka dan apabila Anda sedang mencari bukti wilayah kolonial di masa lalu di sini.",
+      "sequence": 5,
+      "metrics": {
+        "elapsed_ms": 11204.97,
+        "first_text_ms": 3552.05,
+        "final_latency_ms": null,
+        "audio_received_seconds": 11.0,
+        "audio_forwarded_seconds": 11.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 11.205411417002324,
+      "before_end": true
+    },
+    {
+      "session_id": "155a6a4c-213f-4c82-be59-3c9dbe7e0533",
+      "type": "transcript",
+      "text": "Ini adalah tempat yang direbut oleh penjajah hingga sebagai milik mereka dan apabila Anda sedang mencari bukti wilayah kolonial di masa lalu, di sini adalah tempat yang tepat untuk.",
+      "sequence": 6,
+      "metrics": {
+        "elapsed_ms": 13274.41,
+        "first_text_ms": 3552.05,
+        "final_latency_ms": null,
+        "audio_received_seconds": 13.0,
+        "audio_forwarded_seconds": 13.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 13.274343209006474,
+      "before_end": true
+    },
+    {
+      "session_id": "155a6a4c-213f-4c82-be59-3c9dbe7e0533",
+      "type": "transcript",
+      "text": "Ini adalah tempat yang direbut oleh penjajah hingga sebagai milik mereka dan apabila Anda sedang mencari bukti wilayah kolonial di masa lalu, di sini adalah tempat yang tepat untuk memulai.",
+      "sequence": 7,
+      "metrics": {
+        "elapsed_ms": 14149.31,
+        "first_text_ms": 3552.05,
+        "final_latency_ms": 740.42,
+        "audio_received_seconds": 13.38,
+        "audio_forwarded_seconds": 13.38,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 14.149690417005331,
+      "before_end": false
+    },
+    {
+      "session_id": "155a6a4c-213f-4c82-be59-3c9dbe7e0533",
+      "type": "done",
+      "text": "Ini adalah tempat yang direbut oleh penjajah hingga sebagai milik mereka dan apabila Anda sedang mencari bukti wilayah kolonial di masa lalu, di sini adalah tempat yang tepat untuk memulai.",
+      "metrics": {
+        "elapsed_ms": 14213.63,
+        "first_text_ms": 3552.05,
+        "final_latency_ms": 804.74,
+        "audio_received_seconds": 13.38,
+        "audio_forwarded_seconds": 13.38,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 14.213830624998081,
+      "before_end": false
+    }
+  ]
+}

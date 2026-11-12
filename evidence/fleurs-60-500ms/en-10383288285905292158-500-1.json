@@ -1,0 +1,702 @@
+{
+  "run_id": "en-10383288285905292158-500-1",
+  "id": "en-10383288285905292158",
+  "wav": "benchmark_audio/en/10383288285905292158.wav",
+  "language": "en",
+  "chunk_ms": 500,
+  "audio_seconds": 11.28,
+  "status": "done",
+  "error_code": null,
+  "first_text_ms": 4271.43,
+  "final_latency_ms": 1418.04,
+  "session_elapsed_ms": 12729.48,
+  "incremental": true,
+  "first_visible_client_ms": 4802.4953749991255,
+  "revisions": 3,
+  "worker_peak_rss_bytes": 2231582720,
+  "worker_peak_uss_bytes": 1185497088,
+  "worker_mean_cpu_percent": 83.56964285714285,
+  "worker_peak_cpu_percent": 345.6,
+  "backend_mean_cpu_percent": 0.20727272727272728,
+  "system_mean_cpu_percent": 30.07857142857143,
+  "system_min_available_bytes": 1334263808,
+  "reference": "For example, each year students from Bennet School in North Carolina design a website about their trip to the State Capital, each year the website gets remodeled, but old versions are kept online to serve as a scrapbook.",
+  "prediction": "For example, each year students from Bennett School in North Carolina design a website about their trip to the state capital. Each year, the website gets remodeled, but old versions are kept online to serve as a scrapbook.",
+  "wer": 0.02631578947368421,
+  "cer": null,
+  "resource_samples": [
+    {
+      "t": 0.001958124994416721,
+      "backend_rss_bytes": 22380544,
+      "worker_rss_bytes": 180224,
+      "worker_uss_bytes": 1277952,
+      "backend_cpu_percent": null,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2796175360
+    },
+    {
+      "t": 0.2290637499972945,
+      "backend_rss_bytes": 22380544,
+      "worker_rss_bytes": 292962304,
+      "worker_uss_bytes": 211566592,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 27.8,
+      "system_cpu_percent": 30.6,
+      "system_available_bytes": 2474082304
+    },
+    {
+      "t": 0.4521353750023991,
+      "backend_rss_bytes": 22380544,
+      "worker_rss_bytes": 615890944,
+      "worker_uss_bytes": 431489024,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 19.6,
+      "system_cpu_percent": 14.0,
+      "system_available_bytes": 2198208512
+    },
+    {
+      "t": 0.6773505000019213,
+      "backend_rss_bytes": 22413312,
+      "worker_rss_bytes": 960790528,
+      "worker_uss_bytes": 656703488,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 17.2,
+      "system_cpu_percent": 14.0,
+      "system_available_bytes": 1994866688
+    },
+    {
+      "t": 0.8978057920030551,
+      "backend_rss_bytes": 22331392,
+      "worker_rss_bytes": 1095860224,
+      "worker_uss_bytes": 511950848,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 16.7,
+      "system_cpu_percent": 32.0,
+      "system_available_bytes": 1909653504
+    },
+    {
+      "t": 1.132426458003465,
+      "backend_rss_bytes": 22347776,
+      "worker_rss_bytes": 481755136,
+      "worker_uss_bytes": 51232768,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 9.4,
+      "system_cpu_percent": 39.9,
+      "system_available_bytes": 1533034496
+    },
+    {
+      "t": 1.357726874994114,
+      "backend_rss_bytes": 12746752,
+      "worker_rss_bytes": 498860032,
+      "worker_uss_bytes": 22118400,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 12.6,
+      "system_cpu_percent": 37.8,
+      "system_available_bytes": 1429340160
+    },
+    {
+      "t": 1.590786874992773,
+      "backend_rss_bytes": 10878976,
+      "worker_rss_bytes": 512262144,
+      "worker_uss_bytes": 24657920,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 9.3,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1429340160
+    },
+    {
+      "t": 1.8179868750012247,
+      "backend_rss_bytes": 10878976,
+      "worker_rss_bytes": 465158144,
+      "worker_uss_bytes": 40632320,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 12.4,
+      "system_cpu_percent": 21.2,
+      "system_available_bytes": 1368637440
+    },
+    {
+      "t": 2.0413708749983925,
+      "backend_rss_bytes": 11599872,
+      "worker_rss_bytes": 433143808,
+      "worker_uss_bytes": 1153400832,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 9.4,
+      "system_cpu_percent": 15.6,
+      "system_available_bytes": 1338408960
+    },
+    {
+      "t": 2.2655966250022175,
+      "backend_rss_bytes": 11616256,
+      "worker_rss_bytes": 497352704,
+      "worker_uss_bytes": 56033280,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 10.0,
+      "system_cpu_percent": 15.9,
+      "system_available_bytes": 1334263808
+    },
+    {
+      "t": 2.4912011249980424,
+      "backend_rss_bytes": 11616256,
+      "worker_rss_bytes": 530792448,
+      "worker_uss_bytes": 57278464,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 8.4,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1334263808
+    },
+    {
+      "t": 2.7118908330012346,
+      "backend_rss_bytes": 11730944,
+      "worker_rss_bytes": 478576640,
+      "worker_uss_bytes": 30097408,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 6.7,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1334263808
+    },
+    {
+      "t": 2.9372734170028707,
+      "backend_rss_bytes": 11993088,
+      "worker_rss_bytes": 784711680,
+      "worker_uss_bytes": 421380096,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 73.8,
+      "system_cpu_percent": 19.7,
+      "system_available_bytes": 1478541312
+    },
+    {
+      "t": 3.1615875830029836,
+      "backend_rss_bytes": 12091392,
+      "worker_rss_bytes": 1273200640,
+      "worker_uss_bytes": 850345984,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 81.5,
+      "system_cpu_percent": 42.7,
+      "system_available_bytes": 1735196672
+    },
+    {
+      "t": 3.383768667001277,
+      "backend_rss_bytes": 12091392,
+      "worker_rss_bytes": 1572667392,
+      "worker_uss_bytes": 983826432,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 46.6,
+      "system_cpu_percent": 18.0,
+      "system_available_bytes": 1785544704
+    },
+    {
+      "t": 3.60553083299601,
+      "backend_rss_bytes": 11501568,
+      "worker_rss_bytes": 1890795520,
+      "worker_uss_bytes": 1120026624,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 56.5,
+      "system_cpu_percent": 25.6,
+      "system_available_bytes": 1849540608
+    },
+    {
+      "t": 3.8317333750019316,
+      "backend_rss_bytes": 11108352,
+      "worker_rss_bytes": 2007318528,
+      "worker_uss_bytes": 1101152256,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 60.4,
+      "system_cpu_percent": 28.5,
+      "system_available_bytes": 1842872320
+    },
+    {
+      "t": 4.056529082998168,
+      "backend_rss_bytes": 11862016,
+      "worker_rss_bytes": 1706426368,
+      "worker_uss_bytes": 768901120,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 24.1,
+      "system_cpu_percent": 26.8,
+      "system_available_bytes": 1672806400
+    },
+    {
+      "t": 4.283506791995023,
+      "backend_rss_bytes": 11747328,
+      "worker_rss_bytes": 1518206976,
+      "worker_uss_bytes": 475480064,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 27.3,
+      "system_cpu_percent": 25.6,
+      "system_available_bytes": 1553956864
+    },
+    {
+      "t": 4.5277510000014445,
+      "backend_rss_bytes": 8732672,
+      "worker_rss_bytes": 1413103616,
+      "worker_uss_bytes": 336347136,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 42.2,
+      "system_cpu_percent": 32.0,
+      "system_available_bytes": 1458126848
+    },
+    {
+      "t": 4.755816332995892,
+      "backend_rss_bytes": 11730944,
+      "worker_rss_bytes": 1444151296,
+      "worker_uss_bytes": 374521856,
+      "backend_cpu_percent": 0.8,
+      "worker_cpu_percent": 216.3,
+      "system_cpu_percent": 47.0,
+      "system_available_bytes": 1458126848
+    },
+    {
+      "t": 4.988672874998883,
+      "backend_rss_bytes": 13058048,
+      "worker_rss_bytes": 1758855168,
+      "worker_uss_bytes": 746389504,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 139.1,
+      "system_cpu_percent": 36.1,
+      "system_available_bytes": 1458126848
+    },
+    {
+      "t": 5.213953416998265,
+      "backend_rss_bytes": 13156352,
+      "worker_rss_bytes": 2227683328,
+      "worker_uss_bytes": 1159053312,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 103.4,
+      "system_cpu_percent": 32.2,
+      "system_available_bytes": 1875230720
+    },
+    {
+      "t": 5.437355707996176,
+      "backend_rss_bytes": 13172736,
+      "worker_rss_bytes": 2231582720,
+      "worker_uss_bytes": 1162723328,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 229.1,
+      "system_cpu_percent": 40.4,
+      "system_available_bytes": 1876459520
+    },
+    {
+      "t": 5.662571624998236,
+      "backend_rss_bytes": 13287424,
+      "worker_rss_bytes": 2211856384,
+      "worker_uss_bytes": 1164820480,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 312.0,
+      "system_cpu_percent": 59.0,
+      "system_available_bytes": 1891123200
+    },
+    {
+      "t": 5.8886047919950215,
+      "backend_rss_bytes": 13352960,
+      "worker_rss_bytes": 2212708352,
+      "worker_uss_bytes": 1165475840,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 109.2,
+      "system_cpu_percent": 23.6,
+      "system_available_bytes": 1893089280
+    },
+    {
+      "t": 6.12304929200036,
+      "backend_rss_bytes": 13418496,
+      "worker_rss_bytes": 2212757504,
+      "worker_uss_bytes": 1165524992,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 13.3,
+      "system_available_bytes": 1906327552
+    },
+    {
+      "t": 6.363568457993097,
+      "backend_rss_bytes": 13451264,
+      "worker_rss_bytes": 2203926528,
+      "worker_uss_bytes": 1165524992,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 26.8,
+      "system_available_bytes": 1931755520
+    },
+    {
+      "t": 6.5915633749973495,
+      "backend_rss_bytes": 13631488,
+      "worker_rss_bytes": 2197209088,
+      "worker_uss_bytes": 1168572416,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 27.2,
+      "system_cpu_percent": 15.1,
+      "system_available_bytes": 1936932864
+    },
+    {
+      "t": 6.813797208000324,
+      "backend_rss_bytes": 13631488,
+      "worker_rss_bytes": 2195095552,
+      "worker_uss_bytes": 1166213120,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 101.8,
+      "system_cpu_percent": 28.3,
+      "system_available_bytes": 1932443648
+    },
+    {
+      "t": 7.0377712920017075,
+      "backend_rss_bytes": 13631488,
+      "worker_rss_bytes": 2185101312,
+      "worker_uss_bytes": 1170374656,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 133.5,
+      "system_cpu_percent": 30.0,
+      "system_available_bytes": 1936998400
+    },
+    {
+      "t": 7.2619721249939175,
+      "backend_rss_bytes": 13615104,
+      "worker_rss_bytes": 2138783744,
+      "worker_uss_bytes": 1172553728,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 300.0,
+      "system_cpu_percent": 60.2,
+      "system_available_bytes": 1991344128
+    },
+    {
+      "t": 7.486771750001935,
+      "backend_rss_bytes": 13647872,
+      "worker_rss_bytes": 2136883200,
+      "worker_uss_bytes": 1173471232,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 150.1,
+      "system_cpu_percent": 38.3,
+      "system_available_bytes": 2002337792
+    },
+    {
+      "t": 7.715601999996579,
+      "backend_rss_bytes": 13647872,
+      "worker_rss_bytes": 2132262912,
+      "worker_uss_bytes": 1173487616,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 13.7,
+      "system_available_bytes": 2007449600
+    },
+    {
+      "t": 7.939009749999968,
+      "backend_rss_bytes": 13647872,
+      "worker_rss_bytes": 2131247104,
+      "worker_uss_bytes": 1173487616,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 16.5,
+      "system_available_bytes": 2007449600
+    },
+    {
+      "t": 8.162266875006026,
+      "backend_rss_bytes": 13647872,
+      "worker_rss_bytes": 2118664192,
+      "worker_uss_bytes": 1173471232,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 15.6,
+      "system_available_bytes": 2007449600
+    },
+    {
+      "t": 8.391421291991719,
+      "backend_rss_bytes": 13664256,
+      "worker_rss_bytes": 2103672832,
+      "worker_uss_bytes": 1175175168,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 19.3,
+      "system_available_bytes": 2007449600
+    },
+    {
+      "t": 8.623968917003367,
+      "backend_rss_bytes": 13664256,
+      "worker_rss_bytes": 2118320128,
+      "worker_uss_bytes": 1185497088,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 41.0,
+      "system_cpu_percent": 22.7,
+      "system_available_bytes": 2006122496
+    },
+    {
+      "t": 8.84697645799315,
+      "backend_rss_bytes": 13664256,
+      "worker_rss_bytes": 2115387392,
+      "worker_uss_bytes": 1185103872,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 99.6,
+      "system_cpu_percent": 28.3,
+      "system_available_bytes": 2001108992
+    },
+    {
+      "t": 9.069435458004591,
+      "backend_rss_bytes": 13746176,
+      "worker_rss_bytes": 2113470464,
+      "worker_uss_bytes": 1162575872,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 135.2,
+      "system_cpu_percent": 29.9,
+      "system_available_bytes": 1993703424
+    },
+    {
+      "t": 9.29149691699422,
+      "backend_rss_bytes": 12419072,
+      "worker_rss_bytes": 2122481664,
+      "worker_uss_bytes": 1173897216,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 247.1,
+      "system_cpu_percent": 46.6,
+      "system_available_bytes": 2001846272
+    },
+    {
+      "t": 9.516359542001737,
+      "backend_rss_bytes": 13680640,
+      "worker_rss_bytes": 2124857344,
+      "worker_uss_bytes": 1176043520,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 345.6,
+      "system_cpu_percent": 54.5,
+      "system_available_bytes": 2001567744
+    },
+    {
+      "t": 9.739630625001155,
+      "backend_rss_bytes": 13697024,
+      "worker_rss_bytes": 2108440576,
+      "worker_uss_bytes": 1176027136,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 7.8,
+      "system_available_bytes": 2008809472
+    },
+    {
+      "t": 9.97458579200611,
+      "backend_rss_bytes": 13713408,
+      "worker_rss_bytes": 1925201920,
+      "worker_uss_bytes": 1036058624,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 27.3,
+      "system_available_bytes": 1948729344
+    },
+    {
+      "t": 10.20001337499707,
+      "backend_rss_bytes": 13828096,
+      "worker_rss_bytes": 1906507776,
+      "worker_uss_bytes": 1022656512,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 12.9,
+      "system_available_bytes": 1942781952
+    },
+    {
+      "t": 10.427697791994433,
+      "backend_rss_bytes": 13549568,
+      "worker_rss_bytes": 1481867264,
+      "worker_uss_bytes": 612581376,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 34.6,
+      "system_available_bytes": 1729609728
+    },
+    {
+      "t": 10.651568000001134,
+      "backend_rss_bytes": 12206080,
+      "worker_rss_bytes": 1356398592,
+      "worker_uss_bytes": 521093120,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 3.4,
+      "system_cpu_percent": 83.4,
+      "system_available_bytes": 1682161664
+    },
+    {
+      "t": 10.89416875000461,
+      "backend_rss_bytes": 12075008,
+      "worker_rss_bytes": 1858437120,
+      "worker_uss_bytes": 1010860032,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 87.7,
+      "system_cpu_percent": 49.5,
+      "system_available_bytes": 1904705536
+    },
+    {
+      "t": 11.126314833003562,
+      "backend_rss_bytes": 11386880,
+      "worker_rss_bytes": 1710915584,
+      "worker_uss_bytes": 805470208,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 94.5,
+      "system_cpu_percent": 60.7,
+      "system_available_bytes": 1836040192
+    },
+    {
+      "t": 11.35671054199338,
+      "backend_rss_bytes": 12550144,
+      "worker_rss_bytes": 1872510976,
+      "worker_uss_bytes": 1061371904,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 137.6,
+      "system_cpu_percent": 42.6,
+      "system_available_bytes": 1836040192
+    },
+    {
+      "t": 11.5855058330053,
+      "backend_rss_bytes": 12550144,
+      "worker_rss_bytes": 1936637952,
+      "worker_uss_bytes": 1067286528,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 263.2,
+      "system_cpu_percent": 53.3,
+      "system_available_bytes": 1836040192
+    },
+    {
+      "t": 11.815289124991978,
+      "backend_rss_bytes": 12517376,
+      "worker_rss_bytes": 1938505728,
+      "worker_uss_bytes": 1080590336,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 303.4,
+      "system_cpu_percent": 66.5,
+      "system_available_bytes": 1836040192
+    },
+    {
+      "t": 12.048118624996278,
+      "backend_rss_bytes": 13402112,
+      "worker_rss_bytes": 2073559040,
+      "worker_uss_bytes": 1174814720,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 104.1,
+      "system_cpu_percent": 33.9,
+      "system_available_bytes": 2017411072
+    },
+    {
+      "t": 12.272826874992461,
+      "backend_rss_bytes": 13418496,
+      "worker_rss_bytes": 2077491200,
+      "worker_uss_bytes": 1176993792,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 164.4,
+      "system_cpu_percent": 31.3,
+      "system_available_bytes": 2018902016
+    },
+    {
+      "t": 12.497990582996863,
+      "backend_rss_bytes": 13418496,
+      "worker_rss_bytes": 2079653888,
+      "worker_uss_bytes": 1179156480,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 259.5,
+      "system_cpu_percent": 43.3,
+      "system_available_bytes": 2014216192
+    }
+  ],
+  "events": [
+    {
+      "session_id": "01aaa903-4a6d-40ae-a183-3e92fa3ac32a",
+      "type": "transcript",
+      "text": "For example, each year students from",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 4801.85,
+        "first_text_ms": 4271.43,
+        "final_latency_ms": null,
+        "audio_received_seconds": 4.5,
+        "audio_forwarded_seconds": 4.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 4.8024953749991255,
+      "before_end": true
+    },
+    {
+      "session_id": "01aaa903-4a6d-40ae-a183-3e92fa3ac32a",
+      "type": "transcript",
+      "text": "For example, each year students from Bennett School in North Carolina design a website.",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 5741.17,
+        "first_text_ms": 4271.43,
+        "final_latency_ms": null,
+        "audio_received_seconds": 5.5,
+        "audio_forwarded_seconds": 5.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 5.741364417001023,
+      "before_end": true
+    },
+    {
+      "session_id": "01aaa903-4a6d-40ae-a183-3e92fa3ac32a",
+      "type": "transcript",
+      "text": "For example, each year students from Bennett School in North Carolina design a website about their trip to the state capital.",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 7372.84,
+        "first_text_ms": 4271.43,
+        "final_latency_ms": null,
+        "audio_received_seconds": 7.0,
+        "audio_forwarded_seconds": 7.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.373440708004637,
+      "before_end": true
+    },
+    {
+      "session_id": "01aaa903-4a6d-40ae-a183-3e92fa3ac32a",
+      "type": "transcript",
+      "text": "For example, each year students from Bennett School in North Carolina design a website about their trip to the state capital. Each year, the website gets remodeled.",
+      "sequence": 4,
+      "metrics": {
+        "elapsed_ms": 9512.69,
+        "first_text_ms": 4271.43,
+        "final_latency_ms": null,
+        "audio_received_seconds": 9.0,
+        "audio_forwarded_seconds": 9.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.51317391700286,
+      "before_end": true
+    },
+    {
+      "session_id": "01aaa903-4a6d-40ae-a183-3e92fa3ac32a",
+      "type": "transcript",
+      "text": "For example, each year students from Bennett School in North Carolina design a website about their trip to the state capital. Each year, the website gets remodeled, but old versions are kept online to serve.",
+      "sequence": 5,
+      "metrics": {
+        "elapsed_ms": 11826.33,
+        "first_text_ms": 4271.43,
+        "final_latency_ms": 514.89,
+        "audio_received_seconds": 11.28,
+        "audio_forwarded_seconds": 11.28,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 11.847501041993382,
+      "before_end": false
+    },
+    {
+      "session_id": "01aaa903-4a6d-40ae-a183-3e92fa3ac32a",
+      "type": "transcript",
+      "text": "For example, each year students from Bennett School in North Carolina design a website about their trip to the state capital. Each year, the website gets remodeled, but old versions are kept online to serve as a scrapbook.",
+      "sequence": 6,
+      "metrics": {
+        "elapsed_ms": 12648.66,
+        "first_text_ms": 4271.43,
+        "final_latency_ms": 1337.22,
+        "audio_received_seconds": 11.28,
+        "audio_forwarded_seconds": 11.28,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 12.648804249998648,
+      "before_end": false
+    },
+    {
+      "session_id": "01aaa903-4a6d-40ae-a183-3e92fa3ac32a",
+      "type": "done",
+      "text": "For example, each year students from Bennett School in North Carolina design a website about their trip to the state capital. Each year, the website gets remodeled, but old versions are kept online to serve as a scrapbook.",
+      "metrics": {
+        "elapsed_ms": 12729.48,
+        "first_text_ms": 4271.43,
+        "final_latency_ms": 1418.04,
+        "audio_received_seconds": 11.28,
+        "audio_forwarded_seconds": 11.28,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 12.73026729200501,
+      "before_end": false
+    }
+  ]
+}

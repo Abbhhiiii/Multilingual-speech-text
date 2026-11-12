@@ -1,0 +1,758 @@
+{
+  "run_id": "zh-10056338555786085046-500-1",
+  "id": "zh-10056338555786085046",
+  "wav": "benchmark_audio/zh/10056338555786085046.wav",
+  "language": "zh",
+  "chunk_ms": 500,
+  "audio_seconds": 12.9,
+  "status": "done",
+  "error_code": null,
+  "first_text_ms": 3208.19,
+  "final_latency_ms": 728.34,
+  "session_elapsed_ms": 13654.59,
+  "incremental": true,
+  "first_visible_client_ms": 3735.4846670059487,
+  "revisions": 4,
+  "worker_peak_rss_bytes": 2308521984,
+  "worker_peak_uss_bytes": 1201651712,
+  "worker_mean_cpu_percent": 59.99,
+  "worker_peak_cpu_percent": 355.4,
+  "backend_mean_cpu_percent": 0.22033898305084745,
+  "system_mean_cpu_percent": 18.82,
+  "system_min_available_bytes": 1341636608,
+  "reference": "科学家们可以得出结论，暗物质对其他暗物质的影响方式与普通物质相同。",
+  "prediction": "科学家们可以得出结论：暗物质对其他暗物质的影响方式与普通物质相同。",
+  "wer": null,
+  "cer": 0.0,
+  "resource_samples": [
+    {
+      "t": 0.0012428750051185489,
+      "backend_rss_bytes": 23068672,
+      "worker_rss_bytes": 180224,
+      "worker_uss_bytes": 1589248,
+      "backend_cpu_percent": null,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 3167911936
+    },
+    {
+      "t": 0.22462104199803434,
+      "backend_rss_bytes": 23068672,
+      "worker_rss_bytes": 330661888,
+      "worker_uss_bytes": 240533504,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 22.3,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2820521984
+    },
+    {
+      "t": 0.447319459010032,
+      "backend_rss_bytes": 23068672,
+      "worker_rss_bytes": 658980864,
+      "worker_uss_bytes": 457883648,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 15.0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2531655680
+    },
+    {
+      "t": 0.6685565420048079,
+      "backend_rss_bytes": 23101440,
+      "worker_rss_bytes": 993361920,
+      "worker_uss_bytes": 680525824,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 16.2,
+      "system_cpu_percent": 9.8,
+      "system_available_bytes": 2254602240
+    },
+    {
+      "t": 0.8904312920058146,
+      "backend_rss_bytes": 23101440,
+      "worker_rss_bytes": 1197457408,
+      "worker_uss_bytes": 794869760,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 12.4,
+      "system_cpu_percent": 10.7,
+      "system_available_bytes": 2019966976
+    },
+    {
+      "t": 1.131285666997428,
+      "backend_rss_bytes": 22970368,
+      "worker_rss_bytes": 1295106048,
+      "worker_uss_bytes": 837697536,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 11.9,
+      "system_cpu_percent": 12.1,
+      "system_available_bytes": 1998667776
+    },
+    {
+      "t": 1.354796334009734,
+      "backend_rss_bytes": 22970368,
+      "worker_rss_bytes": 882835456,
+      "worker_uss_bytes": 392937472,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 8.8,
+      "system_cpu_percent": 20.8,
+      "system_available_bytes": 1769078784
+    },
+    {
+      "t": 1.579109124999377,
+      "backend_rss_bytes": 22986752,
+      "worker_rss_bytes": 971390976,
+      "worker_uss_bytes": 290455552,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 11.1,
+      "system_cpu_percent": 6.8,
+      "system_available_bytes": 1770323968
+    },
+    {
+      "t": 1.8159112090070266,
+      "backend_rss_bytes": 22937600,
+      "worker_rss_bytes": 684589056,
+      "worker_uss_bytes": 110755840,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 9.1,
+      "system_cpu_percent": 20.0,
+      "system_available_bytes": 1538375680
+    },
+    {
+      "t": 2.041399542009458,
+      "backend_rss_bytes": 21577728,
+      "worker_rss_bytes": 740605952,
+      "worker_uss_bytes": 109379584,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 11.0,
+      "system_cpu_percent": 16.1,
+      "system_available_bytes": 1487159296
+    },
+    {
+      "t": 2.2638290419999976,
+      "backend_rss_bytes": 21577728,
+      "worker_rss_bytes": 772767744,
+      "worker_uss_bytes": 90734592,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 10.1,
+      "system_cpu_percent": 12.6,
+      "system_available_bytes": 1440661504
+    },
+    {
+      "t": 2.4914889589999802,
+      "backend_rss_bytes": 13254656,
+      "worker_rss_bytes": 784842752,
+      "worker_uss_bytes": 60047360,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 9.1,
+      "system_cpu_percent": 19.8,
+      "system_available_bytes": 1341636608
+    },
+    {
+      "t": 2.721964000011212,
+      "backend_rss_bytes": 13221888,
+      "worker_rss_bytes": 1090338816,
+      "worker_uss_bytes": 422199296,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 64.5,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1452818432
+    },
+    {
+      "t": 2.945146541998838,
+      "backend_rss_bytes": 11812864,
+      "worker_rss_bytes": 1694679040,
+      "worker_uss_bytes": 871661568,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 84.3,
+      "system_cpu_percent": 27.7,
+      "system_available_bytes": 1713242112
+    },
+    {
+      "t": 3.182401584010222,
+      "backend_rss_bytes": 11124736,
+      "worker_rss_bytes": 1962164224,
+      "worker_uss_bytes": 982106112,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 42.5,
+      "system_cpu_percent": 20.6,
+      "system_available_bytes": 1759641600
+    },
+    {
+      "t": 3.4070225000032224,
+      "backend_rss_bytes": 10977280,
+      "worker_rss_bytes": 2231615488,
+      "worker_uss_bytes": 1123926016,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 46.2,
+      "system_cpu_percent": 15.2,
+      "system_available_bytes": 1826045952
+    },
+    {
+      "t": 3.6310785000096075,
+      "backend_rss_bytes": 11190272,
+      "worker_rss_bytes": 2306654208,
+      "worker_uss_bytes": 976338944,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 68.4,
+      "system_cpu_percent": 22.0,
+      "system_available_bytes": 1787887616
+    },
+    {
+      "t": 3.856827459007036,
+      "backend_rss_bytes": 13287424,
+      "worker_rss_bytes": 2300821504,
+      "worker_uss_bytes": 871972864,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 76.3,
+      "system_cpu_percent": 19.3,
+      "system_available_bytes": 1747599360
+    },
+    {
+      "t": 4.093462208998972,
+      "backend_rss_bytes": 13500416,
+      "worker_rss_bytes": 2164342784,
+      "worker_uss_bytes": 791871488,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 12.3,
+      "system_available_bytes": 1699102720
+    },
+    {
+      "t": 4.3286836670013145,
+      "backend_rss_bytes": 13500416,
+      "worker_rss_bytes": 1813610496,
+      "worker_uss_bytes": 580763648,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 33.9,
+      "system_available_bytes": 1624260608
+    },
+    {
+      "t": 4.557859959008056,
+      "backend_rss_bytes": 13615104,
+      "worker_rss_bytes": 1649049600,
+      "worker_uss_bytes": 435339264,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 14.5,
+      "system_cpu_percent": 22.6,
+      "system_available_bytes": 1572782080
+    },
+    {
+      "t": 4.78796358400723,
+      "backend_rss_bytes": 13582336,
+      "worker_rss_bytes": 2052554752,
+      "worker_uss_bytes": 958005248,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 97.3,
+      "system_cpu_percent": 33.1,
+      "system_available_bytes": 1790754816
+    },
+    {
+      "t": 5.0135913340054685,
+      "backend_rss_bytes": 13582336,
+      "worker_rss_bytes": 2304835584,
+      "worker_uss_bytes": 1162264576,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 109.7,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1931902976
+    },
+    {
+      "t": 5.238482792003197,
+      "backend_rss_bytes": 13631488,
+      "worker_rss_bytes": 2308521984,
+      "worker_uss_bytes": 1166983168,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 221.6,
+      "system_cpu_percent": 35.7,
+      "system_available_bytes": 1931198464
+    },
+    {
+      "t": 5.462115750007797,
+      "backend_rss_bytes": 13631488,
+      "worker_rss_bytes": 2301427712,
+      "worker_uss_bytes": 1168261120,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 6.7,
+      "system_available_bytes": 1933803520
+    },
+    {
+      "t": 5.700971375001245,
+      "backend_rss_bytes": 13664256,
+      "worker_rss_bytes": 2296332288,
+      "worker_uss_bytes": 1168293888,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 0.1,
+      "system_cpu_percent": 8.9,
+      "system_available_bytes": 1933148160
+    },
+    {
+      "t": 5.9341362090053735,
+      "backend_rss_bytes": 13680640,
+      "worker_rss_bytes": 2296332288,
+      "worker_uss_bytes": 1168293888,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 9.7,
+      "system_available_bytes": 1945862144
+    },
+    {
+      "t": 6.166385792006622,
+      "backend_rss_bytes": 13811712,
+      "worker_rss_bytes": 2296332288,
+      "worker_uss_bytes": 1168293888,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 8.1,
+      "system_available_bytes": 1945862144
+    },
+    {
+      "t": 6.4031159590085736,
+      "backend_rss_bytes": 13811712,
+      "worker_rss_bytes": 2282635264,
+      "worker_uss_bytes": 1167507456,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 19.4,
+      "system_available_bytes": 1945862144
+    },
+    {
+      "t": 6.646164417004911,
+      "backend_rss_bytes": 13746176,
+      "worker_rss_bytes": 2137423872,
+      "worker_uss_bytes": 1060552704,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 51.1,
+      "system_cpu_percent": 33.3,
+      "system_available_bytes": 1875050496
+    },
+    {
+      "t": 6.870552250009496,
+      "backend_rss_bytes": 12058624,
+      "worker_rss_bytes": 2113208320,
+      "worker_uss_bytes": 1031225344,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 109.8,
+      "system_cpu_percent": 32.4,
+      "system_available_bytes": 1874755584
+    },
+    {
+      "t": 7.097208584003965,
+      "backend_rss_bytes": 12124160,
+      "worker_rss_bytes": 2249326592,
+      "worker_uss_bytes": 1166376960,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 194.0,
+      "system_cpu_percent": 38.2,
+      "system_available_bytes": 1951055872
+    },
+    {
+      "t": 7.325532834001933,
+      "backend_rss_bytes": 13565952,
+      "worker_rss_bytes": 2224881664,
+      "worker_uss_bytes": 1167523840,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 261.1,
+      "system_cpu_percent": 52.5,
+      "system_available_bytes": 1939161088
+    },
+    {
+      "t": 7.547340584002086,
+      "backend_rss_bytes": 13565952,
+      "worker_rss_bytes": 2203549696,
+      "worker_uss_bytes": 1167556608,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 9.8,
+      "system_available_bytes": 1942798336
+    },
+    {
+      "t": 7.775992916998803,
+      "backend_rss_bytes": 13565952,
+      "worker_rss_bytes": 2185773056,
+      "worker_uss_bytes": 1169522688,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 15.2,
+      "system_available_bytes": 1946714112
+    },
+    {
+      "t": 8.009683209005743,
+      "backend_rss_bytes": 13565952,
+      "worker_rss_bytes": 2182103040,
+      "worker_uss_bytes": 1169522688,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 11.7,
+      "system_available_bytes": 1954840576
+    },
+    {
+      "t": 8.244445125004859,
+      "backend_rss_bytes": 13713408,
+      "worker_rss_bytes": 2160295936,
+      "worker_uss_bytes": 1169522688,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 16.2,
+      "system_available_bytes": 1977057280
+    },
+    {
+      "t": 8.467712750003557,
+      "backend_rss_bytes": 13713408,
+      "worker_rss_bytes": 2160295936,
+      "worker_uss_bytes": 1169522688,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1983954944
+    },
+    {
+      "t": 8.708648708998226,
+      "backend_rss_bytes": 13713408,
+      "worker_rss_bytes": 2184626176,
+      "worker_uss_bytes": 1180844032,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 78.2,
+      "system_cpu_percent": 13.7,
+      "system_available_bytes": 1979629568
+    },
+    {
+      "t": 8.930176667010528,
+      "backend_rss_bytes": 13713408,
+      "worker_rss_bytes": 2161573888,
+      "worker_uss_bytes": 1181401088,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 107.0,
+      "system_cpu_percent": 28.6,
+      "system_available_bytes": 1986248704
+    },
+    {
+      "t": 9.157291167008225,
+      "backend_rss_bytes": 13828096,
+      "worker_rss_bytes": 2159558656,
+      "worker_uss_bytes": 1185464320,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 186.9,
+      "system_cpu_percent": 28.3,
+      "system_available_bytes": 1986543616
+    },
+    {
+      "t": 9.3823972500104,
+      "backend_rss_bytes": 13942784,
+      "worker_rss_bytes": 2154020864,
+      "worker_uss_bytes": 1187659776,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 355.4,
+      "system_cpu_percent": 53.6,
+      "system_available_bytes": 1991901184
+    },
+    {
+      "t": 9.602795291997609,
+      "backend_rss_bytes": 13959168,
+      "worker_rss_bytes": 2147074048,
+      "worker_uss_bytes": 1187397632,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 7.4,
+      "system_available_bytes": 1991753728
+    },
+    {
+      "t": 9.837882709005498,
+      "backend_rss_bytes": 13975552,
+      "worker_rss_bytes": 2147074048,
+      "worker_uss_bytes": 1187135488,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 8.0,
+      "system_available_bytes": 1990524928
+    },
+    {
+      "t": 10.077708500000881,
+      "backend_rss_bytes": 13975552,
+      "worker_rss_bytes": 2144337920,
+      "worker_uss_bytes": 1187135488,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 11.9,
+      "system_available_bytes": 1991344128
+    },
+    {
+      "t": 10.310004792001564,
+      "backend_rss_bytes": 13975552,
+      "worker_rss_bytes": 2144337920,
+      "worker_uss_bytes": 1187135488,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 10.4,
+      "system_available_bytes": 1995603968
+    },
+    {
+      "t": 10.548489584005438,
+      "backend_rss_bytes": 14106624,
+      "worker_rss_bytes": 2145517568,
+      "worker_uss_bytes": 1192574976,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 8.5,
+      "system_cpu_percent": 16.3,
+      "system_available_bytes": 1991114752
+    },
+    {
+      "t": 10.774437416999717,
+      "backend_rss_bytes": 14106624,
+      "worker_rss_bytes": 2148073472,
+      "worker_uss_bytes": 1189216256,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 115.2,
+      "system_cpu_percent": 40.0,
+      "system_available_bytes": 2006269952
+    },
+    {
+      "t": 11.001108541997382,
+      "backend_rss_bytes": 14106624,
+      "worker_rss_bytes": 2134622208,
+      "worker_uss_bytes": 1192411136,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 218.1,
+      "system_cpu_percent": 52.0,
+      "system_available_bytes": 2003517440
+    },
+    {
+      "t": 11.225947625003755,
+      "backend_rss_bytes": 14237696,
+      "worker_rss_bytes": 2126954496,
+      "worker_uss_bytes": 1193345024,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 173.0,
+      "system_cpu_percent": 43.3,
+      "system_available_bytes": 2009776128
+    },
+    {
+      "t": 11.450841750003747,
+      "backend_rss_bytes": 14221312,
+      "worker_rss_bytes": 2120826880,
+      "worker_uss_bytes": 1193410560,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 15.3,
+      "system_available_bytes": 2013167616
+    },
+    {
+      "t": 11.684163833997445,
+      "backend_rss_bytes": 14221312,
+      "worker_rss_bytes": 2120826880,
+      "worker_uss_bytes": 1193410560,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 8.6,
+      "system_available_bytes": 2009497600
+    },
+    {
+      "t": 11.920385709003313,
+      "backend_rss_bytes": 14221312,
+      "worker_rss_bytes": 2118205440,
+      "worker_uss_bytes": 1193410560,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 11.1,
+      "system_available_bytes": 2009497600
+    },
+    {
+      "t": 12.152554583997699,
+      "backend_rss_bytes": 14254080,
+      "worker_rss_bytes": 2118205440,
+      "worker_uss_bytes": 1193410560,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 7.7,
+      "system_available_bytes": 2009497600
+    },
+    {
+      "t": 12.389696209007525,
+      "backend_rss_bytes": 14254080,
+      "worker_rss_bytes": 2118205440,
+      "worker_uss_bytes": 1193410560,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 17.8,
+      "system_available_bytes": 2017492992
+    },
+    {
+      "t": 12.614822917006677,
+      "backend_rss_bytes": 14254080,
+      "worker_rss_bytes": 2121859072,
+      "worker_uss_bytes": 1193328640,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 38.9,
+      "system_cpu_percent": 23.3,
+      "system_available_bytes": 2018541568
+    },
+    {
+      "t": 12.837263875000644,
+      "backend_rss_bytes": 14254080,
+      "worker_rss_bytes": 2124939264,
+      "worker_uss_bytes": 1196851200,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 136.8,
+      "system_cpu_percent": 25.8,
+      "system_available_bytes": 2014085120
+    },
+    {
+      "t": 13.06215195900586,
+      "backend_rss_bytes": 15056896,
+      "worker_rss_bytes": 2126020608,
+      "worker_uss_bytes": 1199636480,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 279.7,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2014085120
+    },
+    {
+      "t": 13.282764667004813,
+      "backend_rss_bytes": 15056896,
+      "worker_rss_bytes": 2112913408,
+      "worker_uss_bytes": 1199980544,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 113.1,
+      "system_cpu_percent": 36.0,
+      "system_available_bytes": 2014085120
+    },
+    {
+      "t": 13.506725958999596,
+      "backend_rss_bytes": 15056896,
+      "worker_rss_bytes": 2107555840,
+      "worker_uss_bytes": 1201651712,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 210.2,
+      "system_cpu_percent": 36.9,
+      "system_available_bytes": 2027339776
+    }
+  ],
+  "events": [
+    {
+      "session_id": "5daac4df-4f66-4a7f-b683-b92d52dd3c57",
+      "type": "transcript",
+      "text": "嗯。",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 3733.47,
+        "first_text_ms": 3208.19,
+        "final_latency_ms": null,
+        "audio_received_seconds": 3.5,
+        "audio_forwarded_seconds": 3.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 3.7354846670059487,
+      "before_end": true
+    },
+    {
+      "session_id": "5daac4df-4f66-4a7f-b683-b92d52dd3c57",
+      "type": "transcript",
+      "text": "科学家们可以得。",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 5177.85,
+        "first_text_ms": 3208.19,
+        "final_latency_ms": null,
+        "audio_received_seconds": 5.0,
+        "audio_forwarded_seconds": 5.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 5.177929875004338,
+      "before_end": true
+    },
+    {
+      "session_id": "5daac4df-4f66-4a7f-b683-b92d52dd3c57",
+      "type": "transcript",
+      "text": "科学家们可以得出结论：暗物质对。",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 7280.85,
+        "first_text_ms": 3208.19,
+        "final_latency_ms": null,
+        "audio_received_seconds": 7.0,
+        "audio_forwarded_seconds": 7.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.281605500000296,
+      "before_end": true
+    },
+    {
+      "session_id": "5daac4df-4f66-4a7f-b683-b92d52dd3c57",
+      "type": "transcript",
+      "text": "科学家们可以得出结论：暗物质对其他暗物质的影响方式与。",
+      "sequence": 4,
+      "metrics": {
+        "elapsed_ms": 9379.89,
+        "first_text_ms": 3208.19,
+        "final_latency_ms": null,
+        "audio_received_seconds": 9.0,
+        "audio_forwarded_seconds": 9.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.379960584003129,
+      "before_end": true
+    },
+    {
+      "session_id": "5daac4df-4f66-4a7f-b683-b92d52dd3c57",
+      "type": "transcript",
+      "text": "科学家们可以得出结论：暗物质对其他暗物质的影响方式与普通物质相同。",
+      "sequence": 5,
+      "metrics": {
+        "elapsed_ms": 11136.88,
+        "first_text_ms": 3208.19,
+        "final_latency_ms": null,
+        "audio_received_seconds": 11.0,
+        "audio_forwarded_seconds": 11.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 11.137019250003505,
+      "before_end": true
+    },
+    {
+      "session_id": "5daac4df-4f66-4a7f-b683-b92d52dd3c57",
+      "type": "transcript",
+      "text": "科学家们可以得出结论：暗物质对其他暗物质的影响方式与普通物质相同。",
+      "sequence": 6,
+      "metrics": {
+        "elapsed_ms": 13055.52,
+        "first_text_ms": 3208.19,
+        "final_latency_ms": 129.27,
+        "audio_received_seconds": 12.9,
+        "audio_forwarded_seconds": 12.9,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 13.055607041998883,
+      "before_end": false
+    },
+    {
+      "session_id": "5daac4df-4f66-4a7f-b683-b92d52dd3c57",
+      "type": "transcript",
+      "text": "科学家们可以得出结论：暗物质对其他暗物质的影响方式与普通物质相同。",
+      "sequence": 7,
+      "metrics": {
+        "elapsed_ms": 13605.28,
+        "first_text_ms": 3208.19,
+        "final_latency_ms": 679.04,
+        "audio_received_seconds": 12.9,
+        "audio_forwarded_seconds": 12.9,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 13.605775542004267,
+      "before_end": false
+    },
+    {
+      "session_id": "5daac4df-4f66-4a7f-b683-b92d52dd3c57",
+      "type": "done",
+      "text": "科学家们可以得出结论：暗物质对其他暗物质的影响方式与普通物质相同。",
+      "metrics": {
+        "elapsed_ms": 13654.59,
+        "first_text_ms": 3208.19,
+        "final_latency_ms": 728.34,
+        "audio_received_seconds": 12.9,
+        "audio_forwarded_seconds": 12.9,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 13.654850167004042,
+      "before_end": false
+    }
+  ]
+}

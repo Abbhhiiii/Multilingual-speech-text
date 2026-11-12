@@ -1,0 +1,918 @@
+{
+  "run_id": "id-10193238586462809074-500-1",
+  "id": "id-10193238586462809074",
+  "wav": "benchmark_audio/id/10193238586462809074.wav",
+  "language": "id",
+  "chunk_ms": 500,
+  "audio_seconds": 12.78,
+  "status": "done",
+  "error_code": null,
+  "first_text_ms": 5302.02,
+  "final_latency_ms": 5068.88,
+  "session_elapsed_ms": 17880.77,
+  "incremental": true,
+  "first_visible_client_ms": 5833.936457987875,
+  "revisions": 4,
+  "worker_peak_rss_bytes": 2084192256,
+  "worker_peak_uss_bytes": 1210286080,
+  "worker_mean_cpu_percent": 101.22133333333333,
+  "worker_peak_cpu_percent": 314.5,
+  "backend_mean_cpu_percent": 0.2786666666666667,
+  "system_mean_cpu_percent": 43.37894736842105,
+  "system_min_available_bytes": 1339031552,
+  "reference": "Sultan Maroko membangun kembali kota tersebut menjadi Daru I-Badya. Kota tersebut kemudian dinamai Casablanca oleh para pedagang Spanyol yang mendirikan basis perdagangan di sana.",
+  "prediction": "Sultan Maroko membangun kembali kota tersebut menjadi Daru Ibadia. Kota tersebut kemudian dinamai Kasablanca oleh para pedagang Spanyol yang mendirikan basis perdagangan di sana.",
+  "wer": 0.12,
+  "cer": null,
+  "resource_samples": [
+    {
+      "t": 0.005164666989003308,
+      "backend_rss_bytes": 22626304,
+      "worker_rss_bytes": 606208,
+      "worker_uss_bytes": 1196032,
+      "backend_cpu_percent": null,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2522136576
+    },
+    {
+      "t": 0.22958224998728838,
+      "backend_rss_bytes": 22626304,
+      "worker_rss_bytes": 293552128,
+      "worker_uss_bytes": 213614592,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 28.5,
+      "system_cpu_percent": 19.4,
+      "system_available_bytes": 2349203456
+    },
+    {
+      "t": 0.45289420799235813,
+      "backend_rss_bytes": 22642688,
+      "worker_rss_bytes": 623312896,
+      "worker_uss_bytes": 441548800,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 18.4,
+      "system_cpu_percent": 18.3,
+      "system_available_bytes": 2162311168
+    },
+    {
+      "t": 0.6830552499886835,
+      "backend_rss_bytes": 22691840,
+      "worker_rss_bytes": 972947456,
+      "worker_uss_bytes": 664797184,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 19.9,
+      "system_cpu_percent": 15.1,
+      "system_available_bytes": 1984528384
+    },
+    {
+      "t": 0.9054044169897679,
+      "backend_rss_bytes": 22642688,
+      "worker_rss_bytes": 570605568,
+      "worker_uss_bytes": 28409856,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 15.8,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1984528384
+    },
+    {
+      "t": 1.145968582990463,
+      "backend_rss_bytes": 20103168,
+      "worker_rss_bytes": 515653632,
+      "worker_uss_bytes": 76070912,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 12.6,
+      "system_cpu_percent": 28.8,
+      "system_available_bytes": 1568129024
+    },
+    {
+      "t": 1.3762659999920288,
+      "backend_rss_bytes": 19562496,
+      "worker_rss_bytes": 549388288,
+      "worker_uss_bytes": 46841856,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 13.4,
+      "system_cpu_percent": 29.2,
+      "system_available_bytes": 1440776192
+    },
+    {
+      "t": 1.606410832988331,
+      "backend_rss_bytes": 11567104,
+      "worker_rss_bytes": 539033600,
+      "worker_uss_bytes": 13500416,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 10.1,
+      "system_cpu_percent": 45.0,
+      "system_available_bytes": 1349730304
+    },
+    {
+      "t": 1.8538453749933979,
+      "backend_rss_bytes": 9781248,
+      "worker_rss_bytes": 384909312,
+      "worker_uss_bytes": 11141120,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 6.9,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1343012864
+    },
+    {
+      "t": 2.0785237079981016,
+      "backend_rss_bytes": 11845632,
+      "worker_rss_bytes": 244154368,
+      "worker_uss_bytes": 20955136,
+      "backend_cpu_percent": 0.9,
+      "worker_cpu_percent": 8.3,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1352826880
+    },
+    {
+      "t": 2.3084237500006566,
+      "backend_rss_bytes": 10436608,
+      "worker_rss_bytes": 288784384,
+      "worker_uss_bytes": 42434560,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 11.9,
+      "system_cpu_percent": 46.9,
+      "system_available_bytes": 1347485696
+    },
+    {
+      "t": 2.533035624990589,
+      "backend_rss_bytes": 11206656,
+      "worker_rss_bytes": 295272448,
+      "worker_uss_bytes": 30490624,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 8.5,
+      "system_cpu_percent": 27.9,
+      "system_available_bytes": 1339031552
+    },
+    {
+      "t": 2.7610987079970073,
+      "backend_rss_bytes": 11943936,
+      "worker_rss_bytes": 350601216,
+      "worker_uss_bytes": 32423936,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 11.1,
+      "system_cpu_percent": 23.9,
+      "system_available_bytes": 1340162048
+    },
+    {
+      "t": 2.9939482919871807,
+      "backend_rss_bytes": 11927552,
+      "worker_rss_bytes": 378159104,
+      "worker_uss_bytes": 34537472,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 7.4,
+      "system_cpu_percent": 33.3,
+      "system_available_bytes": 1342849024
+    },
+    {
+      "t": 3.2274175829952583,
+      "backend_rss_bytes": 12107776,
+      "worker_rss_bytes": 597852160,
+      "worker_uss_bytes": 279822336,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 72.2,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1404977152
+    },
+    {
+      "t": 3.4580759999953443,
+      "backend_rss_bytes": 12091392,
+      "worker_rss_bytes": 1203634176,
+      "worker_uss_bytes": 836075520,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 89.7,
+      "system_cpu_percent": 46.0,
+      "system_available_bytes": 1731493888
+    },
+    {
+      "t": 3.683380499991472,
+      "backend_rss_bytes": 12091392,
+      "worker_rss_bytes": 1313226752,
+      "worker_uss_bytes": 885309440,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 35.3,
+      "system_cpu_percent": 25.6,
+      "system_available_bytes": 1755660288
+    },
+    {
+      "t": 3.906274207998649,
+      "backend_rss_bytes": 12173312,
+      "worker_rss_bytes": 1429585920,
+      "worker_uss_bytes": 956104704,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 35.5,
+      "system_cpu_percent": 25.7,
+      "system_available_bytes": 1777598464
+    },
+    {
+      "t": 4.13145162499859,
+      "backend_rss_bytes": 12173312,
+      "worker_rss_bytes": 1576239104,
+      "worker_uss_bytes": 1020329984,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 31.0,
+      "system_cpu_percent": 30.2,
+      "system_available_bytes": 1804550144
+    },
+    {
+      "t": 4.35933799999475,
+      "backend_rss_bytes": 12140544,
+      "worker_rss_bytes": 1692893184,
+      "worker_uss_bytes": 1082769408,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 30.0,
+      "system_cpu_percent": 32.8,
+      "system_available_bytes": 1818148864
+    },
+    {
+      "t": 4.595779291994404,
+      "backend_rss_bytes": 11796480,
+      "worker_rss_bytes": 1827061760,
+      "worker_uss_bytes": 1144635392,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 30.5,
+      "system_cpu_percent": 27.5,
+      "system_available_bytes": 1839628288
+    },
+    {
+      "t": 4.82667916698847,
+      "backend_rss_bytes": 11419648,
+      "worker_rss_bytes": 1877213184,
+      "worker_uss_bytes": 1107410944,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 51.0,
+      "system_cpu_percent": 33.7,
+      "system_available_bytes": 1836695552
+    },
+    {
+      "t": 5.058564374994603,
+      "backend_rss_bytes": 11419648,
+      "worker_rss_bytes": 1497104384,
+      "worker_uss_bytes": 580206592,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 42.8,
+      "system_cpu_percent": 34.4,
+      "system_available_bytes": 1614266368
+    },
+    {
+      "t": 5.293904541991651,
+      "backend_rss_bytes": 11419648,
+      "worker_rss_bytes": 1217593344,
+      "worker_uss_bytes": 323043328,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 33.8,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1404813312
+    },
+    {
+      "t": 5.522968958001002,
+      "backend_rss_bytes": 11337728,
+      "worker_rss_bytes": 1276575744,
+      "worker_uss_bytes": 345473024,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 65.8,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1372258304
+    },
+    {
+      "t": 5.751898874994367,
+      "backend_rss_bytes": 11534336,
+      "worker_rss_bytes": 1359396864,
+      "worker_uss_bytes": 381599744,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 181.8,
+      "system_cpu_percent": 33.5,
+      "system_available_bytes": 1398734848
+    },
+    {
+      "t": 5.9804160419880645,
+      "backend_rss_bytes": 13074432,
+      "worker_rss_bytes": 1401552896,
+      "worker_uss_bytes": 526532608,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 170.9,
+      "system_cpu_percent": 69.4,
+      "system_available_bytes": 1449164800
+    },
+    {
+      "t": 6.2110242919879965,
+      "backend_rss_bytes": 13139968,
+      "worker_rss_bytes": 1874706432,
+      "worker_uss_bytes": 990740480,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 93.1,
+      "system_cpu_percent": 56.8,
+      "system_available_bytes": 1709129728
+    },
+    {
+      "t": 6.5266237079922576,
+      "backend_rss_bytes": 7208960,
+      "worker_rss_bytes": 1265942528,
+      "worker_uss_bytes": 373047296,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 19.2,
+      "system_cpu_percent": 91.3,
+      "system_available_bytes": 1368752128
+    },
+    {
+      "t": 6.8861302500008605,
+      "backend_rss_bytes": 11321344,
+      "worker_rss_bytes": 1103413248,
+      "worker_uss_bytes": 354254848,
+      "backend_cpu_percent": 1.2,
+      "worker_cpu_percent": 87.2,
+      "system_cpu_percent": 75.0,
+      "system_available_bytes": 1349435392
+    },
+    {
+      "t": 7.166613749999669,
+      "backend_rss_bytes": 11468800,
+      "worker_rss_bytes": 1099431936,
+      "worker_uss_bytes": 408911872,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 72.0,
+      "system_cpu_percent": 65.8,
+      "system_available_bytes": 1397407744
+    },
+    {
+      "t": 7.409896332988865,
+      "backend_rss_bytes": 11485184,
+      "worker_rss_bytes": 1072267264,
+      "worker_uss_bytes": 465403904,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 71.5,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1414512640
+    },
+    {
+      "t": 7.666284874998382,
+      "backend_rss_bytes": 10321920,
+      "worker_rss_bytes": 1025179648,
+      "worker_uss_bytes": 399785984,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 63.1,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1402519552
+    },
+    {
+      "t": 7.908002582989866,
+      "backend_rss_bytes": 10076160,
+      "worker_rss_bytes": 1008992256,
+      "worker_uss_bytes": 300597248,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 52.1,
+      "system_cpu_percent": 82.5,
+      "system_available_bytes": 1341521920
+    },
+    {
+      "t": 8.138381707991357,
+      "backend_rss_bytes": 10141696,
+      "worker_rss_bytes": 976044032,
+      "worker_uss_bytes": 219496448,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 20.9,
+      "system_cpu_percent": 35.7,
+      "system_available_bytes": 1341915136
+    },
+    {
+      "t": 8.374213999995845,
+      "backend_rss_bytes": 10190848,
+      "worker_rss_bytes": 921616384,
+      "worker_uss_bytes": 133103616,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 14.2,
+      "system_cpu_percent": 27.7,
+      "system_available_bytes": 1341915136
+    },
+    {
+      "t": 8.599548541998956,
+      "backend_rss_bytes": 10076160,
+      "worker_rss_bytes": 958021632,
+      "worker_uss_bytes": 249053184,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 31.0,
+      "system_cpu_percent": 29.4,
+      "system_available_bytes": 1341915136
+    },
+    {
+      "t": 8.86663179199968,
+      "backend_rss_bytes": 10059776,
+      "worker_rss_bytes": 1216675840,
+      "worker_uss_bytes": 375455744,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 269.7,
+      "system_cpu_percent": 77.5,
+      "system_available_bytes": 1341915136
+    },
+    {
+      "t": 9.103013916988857,
+      "backend_rss_bytes": 10141696,
+      "worker_rss_bytes": 1217593344,
+      "worker_uss_bytes": 376700928,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 271.4,
+      "system_cpu_percent": 94.1,
+      "system_available_bytes": 1461829632
+    },
+    {
+      "t": 9.335687874990981,
+      "backend_rss_bytes": 11091968,
+      "worker_rss_bytes": 1319075840,
+      "worker_uss_bytes": 437420032,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 140.0,
+      "system_cpu_percent": 75.9,
+      "system_available_bytes": 1461911552
+    },
+    {
+      "t": 9.590589166997233,
+      "backend_rss_bytes": 11010048,
+      "worker_rss_bytes": 1472675840,
+      "worker_uss_bytes": 667516928,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 89.3,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1461911552
+    },
+    {
+      "t": 9.82622629198886,
+      "backend_rss_bytes": 11583488,
+      "worker_rss_bytes": 1378254848,
+      "worker_uss_bytes": 570982400,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 91.9,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1461911552
+    },
+    {
+      "t": 10.060723082991899,
+      "backend_rss_bytes": 11616256,
+      "worker_rss_bytes": 1703575552,
+      "worker_uss_bytes": 858259456,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 100.6,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1461911552
+    },
+    {
+      "t": 10.290241208000225,
+      "backend_rss_bytes": 9830400,
+      "worker_rss_bytes": 1805877248,
+      "worker_uss_bytes": 959660032,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 117.3,
+      "system_cpu_percent": 71.8,
+      "system_available_bytes": 1706639360
+    },
+    {
+      "t": 10.522725167000317,
+      "backend_rss_bytes": 9830400,
+      "worker_rss_bytes": 1919909888,
+      "worker_uss_bytes": 1075462144,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 119.0,
+      "system_cpu_percent": 70.8,
+      "system_available_bytes": 1760690176
+    },
+    {
+      "t": 10.755203957989579,
+      "backend_rss_bytes": 10158080,
+      "worker_rss_bytes": 1897431040,
+      "worker_uss_bytes": 997916672,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 274.2,
+      "system_cpu_percent": 80.0,
+      "system_available_bytes": 1745076224
+    },
+    {
+      "t": 10.993934375001118,
+      "backend_rss_bytes": 11599872,
+      "worker_rss_bytes": 1619345408,
+      "worker_uss_bytes": 750911488,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 201.6,
+      "system_cpu_percent": 80.9,
+      "system_available_bytes": 1566425088
+    },
+    {
+      "t": 11.222390957991593,
+      "backend_rss_bytes": 11616256,
+      "worker_rss_bytes": 1292107776,
+      "worker_uss_bytes": 436535296,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 96.1,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1388986368
+    },
+    {
+      "t": 11.45065600000089,
+      "backend_rss_bytes": 8699904,
+      "worker_rss_bytes": 1331478528,
+      "worker_uss_bytes": 501448704,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 94.8,
+      "system_cpu_percent": 68.0,
+      "system_available_bytes": 1420984320
+    },
+    {
+      "t": 11.679238332988461,
+      "backend_rss_bytes": 11714560,
+      "worker_rss_bytes": 1647017984,
+      "worker_uss_bytes": 828522496,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 98.0,
+      "system_cpu_percent": 65.0,
+      "system_available_bytes": 1601323008
+    },
+    {
+      "t": 11.913325999994413,
+      "backend_rss_bytes": 11681792,
+      "worker_rss_bytes": 1786036224,
+      "worker_uss_bytes": 942850048,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 120.2,
+      "system_cpu_percent": 57.7,
+      "system_available_bytes": 1661779968
+    },
+    {
+      "t": 12.140470416998141,
+      "backend_rss_bytes": 10076160,
+      "worker_rss_bytes": 1869742080,
+      "worker_uss_bytes": 1029980160,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 129.5,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1697300480
+    },
+    {
+      "t": 12.368120457991608,
+      "backend_rss_bytes": 10076160,
+      "worker_rss_bytes": 1987395584,
+      "worker_uss_bytes": 1134788608,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 155.2,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1763049472
+    },
+    {
+      "t": 12.601304999989225,
+      "backend_rss_bytes": 10190848,
+      "worker_rss_bytes": 1838940160,
+      "worker_uss_bytes": 977158144,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 314.5,
+      "system_cpu_percent": 73.8,
+      "system_available_bytes": 1676181504
+    },
+    {
+      "t": 12.843406374988263,
+      "backend_rss_bytes": 11436032,
+      "worker_rss_bytes": 1343176704,
+      "worker_uss_bytes": 396656640,
+      "backend_cpu_percent": 1.0,
+      "worker_cpu_percent": 286.7,
+      "system_cpu_percent": 91.7,
+      "system_available_bytes": 1409777664
+    },
+    {
+      "t": 13.088591749998159,
+      "backend_rss_bytes": 11812864,
+      "worker_rss_bytes": 1534296064,
+      "worker_uss_bytes": 717225984,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 130.3,
+      "system_cpu_percent": 65.5,
+      "system_available_bytes": 1466105856
+    },
+    {
+      "t": 13.32063516699418,
+      "backend_rss_bytes": 11534336,
+      "worker_rss_bytes": 1678245888,
+      "worker_uss_bytes": 867958784,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 90.1,
+      "system_cpu_percent": 71.3,
+      "system_available_bytes": 1547386880
+    },
+    {
+      "t": 13.558693041995866,
+      "backend_rss_bytes": 6307840,
+      "worker_rss_bytes": 1870086144,
+      "worker_uss_bytes": 945176576,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 117.1,
+      "system_cpu_percent": 71.4,
+      "system_available_bytes": 1635123200
+    },
+    {
+      "t": 13.791196624995791,
+      "backend_rss_bytes": 7110656,
+      "worker_rss_bytes": 1785757696,
+      "worker_uss_bytes": 1015939072,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 143.9,
+      "system_cpu_percent": 71.9,
+      "system_available_bytes": 1616723968
+    },
+    {
+      "t": 14.145373291990836,
+      "backend_rss_bytes": 7061504,
+      "worker_rss_bytes": 1550893056,
+      "worker_uss_bytes": 662683648,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 214.5,
+      "system_cpu_percent": 77.2,
+      "system_available_bytes": 1496514560
+    },
+    {
+      "t": 14.37553883298824,
+      "backend_rss_bytes": 7077888,
+      "worker_rss_bytes": 1400274944,
+      "worker_uss_bytes": 471711744,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 186.8,
+      "system_cpu_percent": 56.0,
+      "system_available_bytes": 1418018816
+    },
+    {
+      "t": 14.612549291996402,
+      "backend_rss_bytes": 10223616,
+      "worker_rss_bytes": 1286701056,
+      "worker_uss_bytes": 434880512,
+      "backend_cpu_percent": 0.7,
+      "worker_cpu_percent": 273.3,
+      "system_cpu_percent": 67.9,
+      "system_available_bytes": 1418018816
+    },
+    {
+      "t": 14.843682582999463,
+      "backend_rss_bytes": 10223616,
+      "worker_rss_bytes": 1325891584,
+      "worker_uss_bytes": 511492096,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 94.0,
+      "system_cpu_percent": 68.7,
+      "system_available_bytes": 1373700096
+    },
+    {
+      "t": 15.07840283299447,
+      "backend_rss_bytes": 10207232,
+      "worker_rss_bytes": 1625325568,
+      "worker_uss_bytes": 816742400,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 95.0,
+      "system_cpu_percent": 73.0,
+      "system_available_bytes": 1534754816
+    },
+    {
+      "t": 15.308721624998725,
+      "backend_rss_bytes": 10141696,
+      "worker_rss_bytes": 1815265280,
+      "worker_uss_bytes": 990412800,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 99.2,
+      "system_cpu_percent": 73.5,
+      "system_available_bytes": 1638383616
+    },
+    {
+      "t": 15.53940574999433,
+      "backend_rss_bytes": 6963200,
+      "worker_rss_bytes": 1905541120,
+      "worker_uss_bytes": 1076412416,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 150.2,
+      "system_cpu_percent": 64.7,
+      "system_available_bytes": 1697382400
+    },
+    {
+      "t": 15.773610042000655,
+      "backend_rss_bytes": 7061504,
+      "worker_rss_bytes": 1999683584,
+      "worker_uss_bytes": 1187905536,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 158.6,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1766703104
+    },
+    {
+      "t": 16.007355458001257,
+      "backend_rss_bytes": 7127040,
+      "worker_rss_bytes": 1987969024,
+      "worker_uss_bytes": 1147944960,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 141.3,
+      "system_cpu_percent": 54.5,
+      "system_available_bytes": 1748320256
+    },
+    {
+      "t": 16.2379202079901,
+      "backend_rss_bytes": 7143424,
+      "worker_rss_bytes": 1803714560,
+      "worker_uss_bytes": 909131776,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 208.2,
+      "system_cpu_percent": 53.8,
+      "system_available_bytes": 1745125376
+    },
+    {
+      "t": 16.471124332994805,
+      "backend_rss_bytes": 10436608,
+      "worker_rss_bytes": 1397358592,
+      "worker_uss_bytes": 466944000,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 262.5,
+      "system_cpu_percent": 74.3,
+      "system_available_bytes": 1745125376
+    },
+    {
+      "t": 16.71703112499381,
+      "backend_rss_bytes": 10403840,
+      "worker_rss_bytes": 1282523136,
+      "worker_uss_bytes": 430456832,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 93.1,
+      "system_cpu_percent": 62.2,
+      "system_available_bytes": 1745125376
+    },
+    {
+      "t": 16.95192124998721,
+      "backend_rss_bytes": 10305536,
+      "worker_rss_bytes": 1679245312,
+      "worker_uss_bytes": 845103104,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 98.0,
+      "system_cpu_percent": 51.6,
+      "system_available_bytes": 1745125376
+    },
+    {
+      "t": 17.180229749996215,
+      "backend_rss_bytes": 10321920,
+      "worker_rss_bytes": 1894105088,
+      "worker_uss_bytes": 1034240000,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 145.4,
+      "system_cpu_percent": 52.7,
+      "system_available_bytes": 1681342464
+    },
+    {
+      "t": 17.409506291995058,
+      "backend_rss_bytes": 10354688,
+      "worker_rss_bytes": 2024734720,
+      "worker_uss_bytes": 1164115968,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 165.7,
+      "system_cpu_percent": 53.3,
+      "system_available_bytes": 1756807168
+    },
+    {
+      "t": 17.638702124997508,
+      "backend_rss_bytes": 10403840,
+      "worker_rss_bytes": 2084192256,
+      "worker_uss_bytes": 1210286080,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 187.0,
+      "system_cpu_percent": 51.9,
+      "system_available_bytes": 1792081920
+    },
+    {
+      "t": 17.871707999991486,
+      "backend_rss_bytes": 10600448,
+      "worker_rss_bytes": null,
+      "worker_uss_bytes": null,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": null,
+      "system_cpu_percent": 63.4,
+      "system_available_bytes": 2409332736
+    }
+  ],
+  "events": [
+    {
+      "session_id": "57ef8d26-46d8-4fe1-80b4-eabc34ce5833",
+      "type": "transcript",
+      "text": "Sultan Maroko membangun",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 5833.25,
+        "first_text_ms": 5302.02,
+        "final_latency_ms": null,
+        "audio_received_seconds": 5.5,
+        "audio_forwarded_seconds": 5.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 5.833936457987875,
+      "before_end": true
+    },
+    {
+      "session_id": "57ef8d26-46d8-4fe1-80b4-eabc34ce5833",
+      "type": "transcript",
+      "text": "Sultan Maroko membangun kembali kota tersebut menjadi daru.",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 9174.88,
+        "first_text_ms": 5302.02,
+        "final_latency_ms": null,
+        "audio_received_seconds": 9.0,
+        "audio_forwarded_seconds": 9.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.1763393329893,
+      "before_end": true
+    },
+    {
+      "session_id": "57ef8d26-46d8-4fe1-80b4-eabc34ce5833",
+      "type": "transcript",
+      "text": "Sultan Maroko membangun kembali kota tersebut menjadi Daru Ibadia. Kota tersebut.",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 10924.09,
+        "first_text_ms": 5302.02,
+        "final_latency_ms": null,
+        "audio_received_seconds": 10.5,
+        "audio_forwarded_seconds": 10.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 10.925227332991199,
+      "before_end": true
+    },
+    {
+      "session_id": "57ef8d26-46d8-4fe1-80b4-eabc34ce5833",
+      "type": "transcript",
+      "text": "Sultan Maroko membangun kembali kota tersebut menjadi Daru Ibadia. Kota tersebut kemudian dinamai Kasabeleangka oleh para",
+      "sequence": 4,
+      "metrics": {
+        "elapsed_ms": 12896.22,
+        "first_text_ms": 5302.02,
+        "final_latency_ms": 84.33,
+        "audio_received_seconds": 12.78,
+        "audio_forwarded_seconds": 12.78,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 12.896871707998798,
+      "before_end": false
+    },
+    {
+      "session_id": "57ef8d26-46d8-4fe1-80b4-eabc34ce5833",
+      "type": "transcript",
+      "text": "Sultan Maroko membangun kembali kota tersebut menjadi Daru Ibadia. Kota tersebut kemudian dinamai Kasablanca oleh para pedagang Spanyol yang mendirikan basis.",
+      "sequence": 5,
+      "metrics": {
+        "elapsed_ms": 14574.44,
+        "first_text_ms": 5302.02,
+        "final_latency_ms": 1762.55,
+        "audio_received_seconds": 12.78,
+        "audio_forwarded_seconds": 12.78,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 14.57617533300072,
+      "before_end": false
+    },
+    {
+      "session_id": "57ef8d26-46d8-4fe1-80b4-eabc34ce5833",
+      "type": "transcript",
+      "text": "Sultan Maroko membangun kembali kota tersebut menjadi Daru Ibadia. Kota tersebut kemudian dinamai Kasablanca oleh para pedagang Spanyol yang mendirikan basis perdagangan di sana.",
+      "sequence": 6,
+      "metrics": {
+        "elapsed_ms": 16425.56,
+        "first_text_ms": 5302.02,
+        "final_latency_ms": 3613.67,
+        "audio_received_seconds": 12.78,
+        "audio_forwarded_seconds": 12.78,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 16.427460041988525,
+      "before_end": false
+    },
+    {
+      "session_id": "57ef8d26-46d8-4fe1-80b4-eabc34ce5833",
+      "type": "transcript",
+      "text": "Sultan Maroko membangun kembali kota tersebut menjadi Daru Ibadia. Kota tersebut kemudian dinamai Kasablanca oleh para pedagang Spanyol yang mendirikan basis perdagangan di sana.",
+      "sequence": 7,
+      "metrics": {
+        "elapsed_ms": 17800.7,
+        "first_text_ms": 5302.02,
+        "final_latency_ms": 4988.81,
+        "audio_received_seconds": 12.78,
+        "audio_forwarded_seconds": 12.78,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 17.80147137498716,
+      "before_end": false
+    },
+    {
+      "session_id": "57ef8d26-46d8-4fe1-80b4-eabc34ce5833",
+      "type": "done",
+      "text": "Sultan Maroko membangun kembali kota tersebut menjadi Daru Ibadia. Kota tersebut kemudian dinamai Kasablanca oleh para pedagang Spanyol yang mendirikan basis perdagangan di sana.",
+      "metrics": {
+        "elapsed_ms": 17880.77,
+        "first_text_ms": 5302.02,
+        "final_latency_ms": 5068.88,
+        "audio_received_seconds": 12.78,
+        "audio_forwarded_seconds": 12.78,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 17.881221957999514,
+      "before_end": false
+    }
+  ]
+}

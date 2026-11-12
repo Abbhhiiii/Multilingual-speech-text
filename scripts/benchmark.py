@@ -1,5 +1,5 @@
-"""Run paced WebSocket trials from a pinned manifest; no benchmark data is bundled."""
-import argparse, asyncio, csv, json, re, time, unicodedata, wave
+"""Run real-time-paced WebSocket trials from a clip manifest."""
+import argparse, asyncio, csv, json, statistics, time, unicodedata, wave
 from pathlib import Path
 import psutil, websockets
 from jiwer import wer, cer
@@ -16,16 +16,38 @@ async def trial(item, chunk_ms, url, backend_pid, run_id):
         pcm=w.readframes(w.getnframes())
     events=[]; resources=[]; done=asyncio.Event(); first_send=None; end_sent=None
     async def monitor():
-        parent=psutil.Process(backend_pid) if backend_pid else None
+        if not backend_pid:return
+        parent=psutil.Process(backend_pid)
+        known={}
+        psutil.cpu_percent(interval=None)  # Prime system-wide CPU percentage.
         while not done.is_set():
-            if parent:
+            stamp=time.monotonic()-start
+            sample={'t':stamp,'backend_rss_bytes':None,'worker_rss_bytes':None,
+                'worker_uss_bytes':None,'backend_cpu_percent':None,
+                'worker_cpu_percent':None,'system_cpu_percent':psutil.cpu_percent(interval=None),
+                'system_available_bytes':psutil.virtual_memory().available}
+            try:procs=[parent,*parent.children(recursive=True)]
+            except psutil.Error:procs=[]
+            for p in procs:
                 try:
-                    procs=[parent,*parent.children(recursive=True)]
-                    resources.append({'t':time.monotonic()-start,
-                        'rss_bytes_sum':sum(p.memory_info().rss for p in procs if p.is_running()),
-                        'cpu_percent_sum':sum(p.cpu_percent(interval=None) for p in procs if p.is_running()),
-                        'process_count':len(procs)})
-                except psutil.Error: pass
+                    if p.pid not in known:
+                        known[p.pid]=p
+                        p.cpu_percent(interval=None)  # First sample only primes the counter.
+                        cpu=None
+                    else:cpu=known[p.pid].cpu_percent(interval=None)
+                    rss=p.memory_info().rss
+                    if p.pid==backend_pid:
+                        sample['backend_rss_bytes']=rss
+                        sample['backend_cpu_percent']=cpu
+                    else:
+                        sample['worker_rss_bytes']=(sample['worker_rss_bytes'] or 0)+rss
+                        sample['worker_cpu_percent']=(sample['worker_cpu_percent'] or 0)+(cpu or 0)
+                        try:
+                            uss=p.memory_full_info().uss
+                            sample['worker_uss_bytes']=(sample['worker_uss_bytes'] or 0)+uss
+                        except (AttributeError,psutil.Error):pass
+                except psutil.Error:pass
+            resources.append(sample)
             await asyncio.sleep(.2)
     async with websockets.connect(url,max_size=2**20) as ws:
         start=time.monotonic()
@@ -53,17 +75,35 @@ async def trial(item, chunk_ms, url, backend_pid, run_id):
             await asyncio.gather(sending,monitor_task,return_exceptions=True)
     final=events[-1]; reference=item.get('reference'); prediction=final.get('text','')
     ref=normalize(reference) if reference is not None else None; pred=normalize(prediction)
+    first_visible=next((e for e in events if e['type']=='transcript' and e.get('text','').strip()),None)
+    revisions=0;previous=''
+    for event in events:
+        if event['type']=='transcript':
+            current=event.get('text','')
+            if previous and not current.startswith(previous):revisions+=1
+            previous=current
+    def peak(key):return max((x[key] for x in resources if x.get(key) is not None),default=None)
+    def mean(key):
+        values=[x[key] for x in resources if x.get(key) is not None]
+        return statistics.mean(values) if values else None
     result={'run_id':run_id,'id':item['id'],'wav':str(path),'language':item['language'],'chunk_ms':chunk_ms,
         'audio_seconds':len(pcm)/32000,'status':final['type'],'error_code':final.get('code'),
         'first_text_ms':final.get('metrics',{}).get('first_text_ms'),
         'final_latency_ms':final.get('metrics',{}).get('final_latency_ms'),
         'session_elapsed_ms':final.get('metrics',{}).get('elapsed_ms'),
-        'incremental':any(e['type']=='transcript' and e.get('text','').strip() and e['before_end'] for e in events),
-        'peak_sampled_rss_sum_bytes':max((r['rss_bytes_sum'] for r in resources),default=None),
-        'peak_sampled_cpu_percent_sum':max((r['cpu_percent_sum'] for r in resources),default=None),
+        'incremental':bool(first_visible and first_visible['before_end']),
+        'first_visible_client_ms':first_visible['client_elapsed_seconds']*1000 if first_visible else None,
+        'revisions':revisions,
+        'worker_peak_rss_bytes':peak('worker_rss_bytes'),
+        'worker_peak_uss_bytes':peak('worker_uss_bytes'),
+        'worker_mean_cpu_percent':mean('worker_cpu_percent'),
+        'worker_peak_cpu_percent':peak('worker_cpu_percent'),
+        'backend_mean_cpu_percent':mean('backend_cpu_percent'),
+        'system_mean_cpu_percent':mean('system_cpu_percent'),
+        'system_min_available_bytes':min((x['system_available_bytes'] for x in resources),default=None),
         'reference':reference,'prediction':prediction,
-        'wer':wer(ref,pred) if ref is not None and item['language']!='zh' else None,
-        'cer':cer(ref.replace(' ',''),pred.replace(' ','')) if ref is not None and item['language']=='zh' else None,
+        'wer':wer(ref,pred) if final['type']=='done' and ref is not None and item['language']!='zh' else None,
+        'cer':cer(ref.replace(' ',''),pred.replace(' ','')) if final['type']=='done' and ref is not None and item['language']=='zh' else None,
         'resource_samples':resources,'events':events}
     return result
 
@@ -84,8 +124,8 @@ async def main(args):
                 (out/f'{run_id}.json').write_text(json.dumps(result,ensure_ascii=False,indent=2))
                 rows.append({k:v for k,v in result.items() if k not in ('resource_samples','events')})
                 print(run_id,result['status'],result['first_text_ms'],result['wer'],result['cer'],flush=True)
-    with (out/'summary.csv').open('w',newline='') as f:
-        writer=csv.DictWriter(f,fieldnames=rows[0].keys());writer.writeheader();writer.writerows(rows)
+                with (out/'summary.csv').open('w',newline='') as f:
+                    writer=csv.DictWriter(f,fieldnames=rows[0].keys(),lineterminator='\n');writer.writeheader();writer.writerows(rows)
 
 if __name__=='__main__':
     p=argparse.ArgumentParser()

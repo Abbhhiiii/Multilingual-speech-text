@@ -1,0 +1,922 @@
+{
+  "run_id": "en-10411016628242228511-500-1",
+  "id": "en-10411016628242228511",
+  "wav": "benchmark_audio/en/10411016628242228511.wav",
+  "language": "en",
+  "chunk_ms": 500,
+  "audio_seconds": 11.28,
+  "status": "done",
+  "error_code": null,
+  "first_text_ms": 5739.26,
+  "final_latency_ms": 6676.74,
+  "session_elapsed_ms": 17990.01,
+  "incremental": true,
+  "first_visible_client_ms": 6270.945541997207,
+  "revisions": 4,
+  "worker_peak_rss_bytes": 2074525696,
+  "worker_peak_uss_bytes": 1196818432,
+  "worker_mean_cpu_percent": 74.50256410256411,
+  "worker_peak_cpu_percent": 319.2,
+  "backend_mean_cpu_percent": 0.2792207792207792,
+  "system_mean_cpu_percent": 44.45,
+  "system_min_available_bytes": 1322074112,
+  "reference": "The city is also the base to climb the Nyiragongo volcano along with some of the cheapest Mountain Gorilla tracking in Africa.",
+  "prediction": "The city is also the base to climb the Nyiragongo volcano, along with some of the cheapest mountain gorilla trafficking in Africa.",
+  "wer": 0.045454545454545456,
+  "cer": null,
+  "resource_samples": [
+    {
+      "t": 0.0063484169950243086,
+      "backend_rss_bytes": 22495232,
+      "worker_rss_bytes": 32768,
+      "worker_uss_bytes": 1376256,
+      "backend_cpu_percent": null,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2416476160
+    },
+    {
+      "t": 0.22876383399125189,
+      "backend_rss_bytes": 22511616,
+      "worker_rss_bytes": 293453824,
+      "worker_uss_bytes": 213483520,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 27.3,
+      "system_cpu_percent": 27.0,
+      "system_available_bytes": 2416476160
+    },
+    {
+      "t": 0.45178833400132135,
+      "backend_rss_bytes": 22511616,
+      "worker_rss_bytes": 618708992,
+      "worker_uss_bytes": 432619520,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 18.4,
+      "system_cpu_percent": 18.6,
+      "system_available_bytes": 2416476160
+    },
+    {
+      "t": 0.6763370419939747,
+      "backend_rss_bytes": 22511616,
+      "worker_rss_bytes": 923074560,
+      "worker_uss_bytes": 633339904,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 17.9,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2416476160
+    },
+    {
+      "t": 0.9050087089999579,
+      "backend_rss_bytes": 22478848,
+      "worker_rss_bytes": 678297600,
+      "worker_uss_bytes": 52756480,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 21.7,
+      "system_cpu_percent": 36.7,
+      "system_available_bytes": 1689387008
+    },
+    {
+      "t": 1.1613617919938406,
+      "backend_rss_bytes": 22446080,
+      "worker_rss_bytes": 433471488,
+      "worker_uss_bytes": 34160640,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 9.3,
+      "system_cpu_percent": 55.3,
+      "system_available_bytes": 1526693888
+    },
+    {
+      "t": 1.3919354999961797,
+      "backend_rss_bytes": 16154624,
+      "worker_rss_bytes": 495108096,
+      "worker_uss_bytes": 57311232,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 12.6,
+      "system_cpu_percent": 33.3,
+      "system_available_bytes": 1488977920
+    },
+    {
+      "t": 1.6164550419925945,
+      "backend_rss_bytes": 11042816,
+      "worker_rss_bytes": 520044544,
+      "worker_uss_bytes": 88195072,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 13.2,
+      "system_cpu_percent": 20.0,
+      "system_available_bytes": 1448280064
+    },
+    {
+      "t": 1.8413335840014042,
+      "backend_rss_bytes": 11075584,
+      "worker_rss_bytes": 540295168,
+      "worker_uss_bytes": 120340480,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 12.2,
+      "system_cpu_percent": 15.8,
+      "system_available_bytes": 1431552000
+    },
+    {
+      "t": 2.0656994999881135,
+      "backend_rss_bytes": 11862016,
+      "worker_rss_bytes": 481542144,
+      "worker_uss_bytes": 101842944,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 10.9,
+      "system_cpu_percent": 40.1,
+      "system_available_bytes": 1440235520
+    },
+    {
+      "t": 2.292608042000211,
+      "backend_rss_bytes": 11845632,
+      "worker_rss_bytes": 470204416,
+      "worker_uss_bytes": 40730624,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 12.9,
+      "system_cpu_percent": 21.2,
+      "system_available_bytes": 1387397120
+    },
+    {
+      "t": 2.5177990839874838,
+      "backend_rss_bytes": 11862016,
+      "worker_rss_bytes": 458539008,
+      "worker_uss_bytes": 24035328,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 8.4,
+      "system_cpu_percent": 51.4,
+      "system_available_bytes": 1336442880
+    },
+    {
+      "t": 2.7484510419890285,
+      "backend_rss_bytes": 12058624,
+      "worker_rss_bytes": 533725184,
+      "worker_uss_bytes": 53460992,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 12.6,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1336442880
+    },
+    {
+      "t": 2.9726830419967882,
+      "backend_rss_bytes": 10469376,
+      "worker_rss_bytes": 550354944,
+      "worker_uss_bytes": 39485440,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 8.9,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1336442880
+    },
+    {
+      "t": 3.2001575419999426,
+      "backend_rss_bytes": 12304384,
+      "worker_rss_bytes": 949846016,
+      "worker_uss_bytes": 474562560,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 92.4,
+      "system_cpu_percent": 33.5,
+      "system_available_bytes": 1500102656
+    },
+    {
+      "t": 3.425073458987754,
+      "backend_rss_bytes": 11534336,
+      "worker_rss_bytes": 1398177792,
+      "worker_uss_bytes": 843939840,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 66.4,
+      "system_cpu_percent": 35.6,
+      "system_available_bytes": 1705705472
+    },
+    {
+      "t": 3.650167916988721,
+      "backend_rss_bytes": 11419648,
+      "worker_rss_bytes": 1475510272,
+      "worker_uss_bytes": 895467520,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 29.2,
+      "system_cpu_percent": 26.7,
+      "system_available_bytes": 1762869248
+    },
+    {
+      "t": 3.8743088749906747,
+      "backend_rss_bytes": 11419648,
+      "worker_rss_bytes": 1525252096,
+      "worker_uss_bytes": 937099264,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 27.4,
+      "system_cpu_percent": 32.2,
+      "system_available_bytes": 1773584384
+    },
+    {
+      "t": 4.099489125001128,
+      "backend_rss_bytes": 12206080,
+      "worker_rss_bytes": 1626341376,
+      "worker_uss_bytes": 1002045440,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 32.8,
+      "system_cpu_percent": 40.1,
+      "system_available_bytes": 1773584384
+    },
+    {
+      "t": 4.3230479170015315,
+      "backend_rss_bytes": 12091392,
+      "worker_rss_bytes": 1850507264,
+      "worker_uss_bytes": 1089273856,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 50.2,
+      "system_cpu_percent": 41.0,
+      "system_available_bytes": 1844248576
+    },
+    {
+      "t": 4.5558474999998,
+      "backend_rss_bytes": 11616256,
+      "worker_rss_bytes": 1851310080,
+      "worker_uss_bytes": 962543616,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 43.2,
+      "system_cpu_percent": 39.7,
+      "system_available_bytes": 1807466496
+    },
+    {
+      "t": 4.7899569169967435,
+      "backend_rss_bytes": 11632640,
+      "worker_rss_bytes": 1539309568,
+      "worker_uss_bytes": 724992000,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 43.0,
+      "system_cpu_percent": 35.7,
+      "system_available_bytes": 1676886016
+    },
+    {
+      "t": 5.016277041999274,
+      "backend_rss_bytes": 11632640,
+      "worker_rss_bytes": 1188413440,
+      "worker_uss_bytes": 443564032,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 26.8,
+      "system_cpu_percent": 39.1,
+      "system_available_bytes": 1564721152
+    },
+    {
+      "t": 5.245205083992914,
+      "backend_rss_bytes": 11599872,
+      "worker_rss_bytes": 1083572224,
+      "worker_uss_bytes": 348684288,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 35.3,
+      "system_cpu_percent": 57.9,
+      "system_available_bytes": 1541144576
+    },
+    {
+      "t": 5.474448291992303,
+      "backend_rss_bytes": 10960896,
+      "worker_rss_bytes": 1028784128,
+      "worker_uss_bytes": 281690112,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 41.3,
+      "system_cpu_percent": 69.8,
+      "system_available_bytes": 1499627520
+    },
+    {
+      "t": 5.704397333989618,
+      "backend_rss_bytes": 11042816,
+      "worker_rss_bytes": 993722368,
+      "worker_uss_bytes": 215171072,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 41.1,
+      "system_cpu_percent": 75.1,
+      "system_available_bytes": 1446297600
+    },
+    {
+      "t": 5.940784499995061,
+      "backend_rss_bytes": 11632640,
+      "worker_rss_bytes": 1159708672,
+      "worker_uss_bytes": 377290752,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 137.8,
+      "system_cpu_percent": 77.2,
+      "system_available_bytes": 1544355840
+    },
+    {
+      "t": 6.169296624997514,
+      "backend_rss_bytes": 11747328,
+      "worker_rss_bytes": 1201045504,
+      "worker_uss_bytes": 363872256,
+      "backend_cpu_percent": 0.7,
+      "worker_cpu_percent": 66.6,
+      "system_cpu_percent": 66.3,
+      "system_available_bytes": 1544355840
+    },
+    {
+      "t": 6.39691362499434,
+      "backend_rss_bytes": 13139968,
+      "worker_rss_bytes": 1301970944,
+      "worker_uss_bytes": 441991168,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 135.2,
+      "system_cpu_percent": 52.8,
+      "system_available_bytes": 1544355840
+    },
+    {
+      "t": 6.625983999998425,
+      "backend_rss_bytes": 13271040,
+      "worker_rss_bytes": 1777827840,
+      "worker_uss_bytes": 938065920,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 89.0,
+      "system_cpu_percent": 45.3,
+      "system_available_bytes": 1780236288
+    },
+    {
+      "t": 6.851726249995409,
+      "backend_rss_bytes": 13303808,
+      "worker_rss_bytes": 1894694912,
+      "worker_uss_bytes": 1055457280,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 102.0,
+      "system_cpu_percent": 52.3,
+      "system_available_bytes": 1866973184
+    },
+    {
+      "t": 7.077629999999772,
+      "backend_rss_bytes": 13369344,
+      "worker_rss_bytes": 1986134016,
+      "worker_uss_bytes": 1149304832,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 94.6,
+      "system_cpu_percent": 58.3,
+      "system_available_bytes": 1919795200
+    },
+    {
+      "t": 7.3085307919973275,
+      "backend_rss_bytes": 11665408,
+      "worker_rss_bytes": 1859600384,
+      "worker_uss_bytes": 1016709120,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 141.8,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1843281920
+    },
+    {
+      "t": 7.54647129199293,
+      "backend_rss_bytes": 11599872,
+      "worker_rss_bytes": 1575829504,
+      "worker_uss_bytes": 646545408,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 204.3,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1843281920
+    },
+    {
+      "t": 7.7888982919976115,
+      "backend_rss_bytes": 10977280,
+      "worker_rss_bytes": 1222787072,
+      "worker_uss_bytes": 386105344,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 96.3,
+      "system_cpu_percent": 91.9,
+      "system_available_bytes": 1452933120
+    },
+    {
+      "t": 8.019769791993895,
+      "backend_rss_bytes": 12107776,
+      "worker_rss_bytes": 1307279360,
+      "worker_uss_bytes": 442613760,
+      "backend_cpu_percent": 1.6,
+      "worker_cpu_percent": 160.1,
+      "system_cpu_percent": 72.1,
+      "system_available_bytes": 1512161280
+    },
+    {
+      "t": 8.251321458999882,
+      "backend_rss_bytes": 12828672,
+      "worker_rss_bytes": 1125187584,
+      "worker_uss_bytes": 313573376,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 89.7,
+      "system_cpu_percent": 64.7,
+      "system_available_bytes": 1383251968
+    },
+    {
+      "t": 8.48093741699995,
+      "backend_rss_bytes": 8847360,
+      "worker_rss_bytes": 1069514752,
+      "worker_uss_bytes": 286326784,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 48.3,
+      "system_cpu_percent": 81.3,
+      "system_available_bytes": 1384120320
+    },
+    {
+      "t": 8.773441124998499,
+      "backend_rss_bytes": 10895360,
+      "worker_rss_bytes": 1282686976,
+      "worker_uss_bytes": 522076160,
+      "backend_cpu_percent": 0.7,
+      "worker_cpu_percent": 69.7,
+      "system_cpu_percent": 83.0,
+      "system_available_bytes": 1562279936
+    },
+    {
+      "t": 9.021354416996473,
+      "backend_rss_bytes": 11354112,
+      "worker_rss_bytes": 1258487808,
+      "worker_uss_bytes": 612630528,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 42.0,
+      "system_cpu_percent": 84.2,
+      "system_available_bytes": 1645756416
+    },
+    {
+      "t": 9.2818652499991,
+      "backend_rss_bytes": 11485184,
+      "worker_rss_bytes": 1126711296,
+      "worker_uss_bytes": 564707328,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 46.7,
+      "system_cpu_percent": 89.4,
+      "system_available_bytes": 1602338816
+    },
+    {
+      "t": 9.521070624992717,
+      "backend_rss_bytes": 11468800,
+      "worker_rss_bytes": 1190920192,
+      "worker_uss_bytes": 594493440,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 47.6,
+      "system_cpu_percent": 54.8,
+      "system_available_bytes": 1635532800
+    },
+    {
+      "t": 9.749029208993306,
+      "backend_rss_bytes": 11567104,
+      "worker_rss_bytes": 1226784768,
+      "worker_uss_bytes": 604520448,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 44.0,
+      "system_cpu_percent": 49.2,
+      "system_available_bytes": 1651998720
+    },
+    {
+      "t": 9.977099958996405,
+      "backend_rss_bytes": 11567104,
+      "worker_rss_bytes": 1164410880,
+      "worker_uss_bytes": 559792128,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 44.1,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1638285312
+    },
+    {
+      "t": 10.202784499997506,
+      "backend_rss_bytes": 11763712,
+      "worker_rss_bytes": 1190887424,
+      "worker_uss_bytes": 587563008,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 48.6,
+      "system_cpu_percent": 37.6,
+      "system_available_bytes": 1648410624
+    },
+    {
+      "t": 10.430141666991403,
+      "backend_rss_bytes": 11763712,
+      "worker_rss_bytes": 1197637632,
+      "worker_uss_bytes": 564379648,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 44.8,
+      "system_cpu_percent": 25.4,
+      "system_available_bytes": 1670381568
+    },
+    {
+      "t": 10.654685999994399,
+      "backend_rss_bytes": 11894784,
+      "worker_rss_bytes": 1100906496,
+      "worker_uss_bytes": 509411328,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 39.1,
+      "system_cpu_percent": 27.4,
+      "system_available_bytes": 1635139584
+    },
+    {
+      "t": 10.88268170900119,
+      "backend_rss_bytes": 11894784,
+      "worker_rss_bytes": 1052147712,
+      "worker_uss_bytes": 541179904,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 29.0,
+      "system_cpu_percent": 52.2,
+      "system_available_bytes": 1583529984
+    },
+    {
+      "t": 11.110693583992543,
+      "backend_rss_bytes": 12124160,
+      "worker_rss_bytes": 1068482560,
+      "worker_uss_bytes": 544243712,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 42.7,
+      "system_cpu_percent": 36.9,
+      "system_available_bytes": 1606959104
+    },
+    {
+      "t": 11.334331249992829,
+      "backend_rss_bytes": 13336576,
+      "worker_rss_bytes": 1071546368,
+      "worker_uss_bytes": 502185984,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 42.1,
+      "system_cpu_percent": 24.7,
+      "system_available_bytes": 1565556736
+    },
+    {
+      "t": 11.562837666991982,
+      "backend_rss_bytes": 11747328,
+      "worker_rss_bytes": 1058586624,
+      "worker_uss_bytes": 410255360,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 39.6,
+      "system_cpu_percent": 49.2,
+      "system_available_bytes": 1484423168
+    },
+    {
+      "t": 11.796403458996792,
+      "backend_rss_bytes": 10452992,
+      "worker_rss_bytes": 877871104,
+      "worker_uss_bytes": 153436160,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 37.5,
+      "system_cpu_percent": 53.0,
+      "system_available_bytes": 1322074112
+    },
+    {
+      "t": 12.027116624987684,
+      "backend_rss_bytes": 9617408,
+      "worker_rss_bytes": 916799488,
+      "worker_uss_bytes": 183255040,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 17.1,
+      "system_cpu_percent": 19.3,
+      "system_available_bytes": 1362690048
+    },
+    {
+      "t": 12.276362583987066,
+      "backend_rss_bytes": 9437184,
+      "worker_rss_bytes": 1165557760,
+      "worker_uss_bytes": 358006784,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 127.5,
+      "system_cpu_percent": 68.4,
+      "system_available_bytes": 1495498752
+    },
+    {
+      "t": 12.512947374998475,
+      "backend_rss_bytes": 6963200,
+      "worker_rss_bytes": 1204862976,
+      "worker_uss_bytes": 377372672,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 91.6,
+      "system_cpu_percent": 68.4,
+      "system_available_bytes": 1476329472
+    },
+    {
+      "t": 12.762522833989351,
+      "backend_rss_bytes": 6111232,
+      "worker_rss_bytes": 1219575808,
+      "worker_uss_bytes": 378732544,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 161.7,
+      "system_cpu_percent": 70.1,
+      "system_available_bytes": 1438384128
+    },
+    {
+      "t": 12.9950762919907,
+      "backend_rss_bytes": 7176192,
+      "worker_rss_bytes": 1223442432,
+      "worker_uss_bytes": 383401984,
+      "backend_cpu_percent": 0.9,
+      "worker_cpu_percent": 165.3,
+      "system_cpu_percent": 82.1,
+      "system_available_bytes": 1427046400
+    },
+    {
+      "t": 13.256368458998622,
+      "backend_rss_bytes": 10289152,
+      "worker_rss_bytes": 1180483584,
+      "worker_uss_bytes": 300908544,
+      "backend_cpu_percent": 1.8,
+      "worker_cpu_percent": 62.6,
+      "system_cpu_percent": 85.4,
+      "system_available_bytes": 1374846976
+    },
+    {
+      "t": 13.495587833996979,
+      "backend_rss_bytes": 10305536,
+      "worker_rss_bytes": 1024983040,
+      "worker_uss_bytes": 144048128,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 70.4,
+      "system_cpu_percent": 72.6,
+      "system_available_bytes": 1327104000
+    },
+    {
+      "t": 13.73111183400033,
+      "backend_rss_bytes": 10338304,
+      "worker_rss_bytes": 1217003520,
+      "worker_uss_bytes": 355581952,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 88.6,
+      "system_cpu_percent": 49.2,
+      "system_available_bytes": 1449295872
+    },
+    {
+      "t": 13.957119124999736,
+      "backend_rss_bytes": 6537216,
+      "worker_rss_bytes": 1392214016,
+      "worker_uss_bytes": 609255424,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 85.7,
+      "system_cpu_percent": 53.4,
+      "system_available_bytes": 1581039616
+    },
+    {
+      "t": 14.189128749989322,
+      "backend_rss_bytes": 7143424,
+      "worker_rss_bytes": 1665056768,
+      "worker_uss_bytes": 874528768,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 98.2,
+      "system_cpu_percent": 45.1,
+      "system_available_bytes": 1746649088
+    },
+    {
+      "t": 14.413988583997707,
+      "backend_rss_bytes": 7159808,
+      "worker_rss_bytes": 1635090432,
+      "worker_uss_bytes": 920715264,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 90.1,
+      "system_cpu_percent": 65.2,
+      "system_available_bytes": 1800470528
+    },
+    {
+      "t": 14.638919459001045,
+      "backend_rss_bytes": 7127040,
+      "worker_rss_bytes": 1716240384,
+      "worker_uss_bytes": 1008336896,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 104.4,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1859780608
+    },
+    {
+      "t": 14.866543625001214,
+      "backend_rss_bytes": 7110656,
+      "worker_rss_bytes": 1819852800,
+      "worker_uss_bytes": 1071480832,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 61.7,
+      "system_cpu_percent": 40.0,
+      "system_available_bytes": 1925726208
+    },
+    {
+      "t": 15.092782583989901,
+      "backend_rss_bytes": 7159808,
+      "worker_rss_bytes": 1681948672,
+      "worker_uss_bytes": 919371776,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 48.0,
+      "system_cpu_percent": 46.9,
+      "system_available_bytes": 1871003648
+    },
+    {
+      "t": 15.318151916988427,
+      "backend_rss_bytes": 7159808,
+      "worker_rss_bytes": 1643364352,
+      "worker_uss_bytes": 845529088,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 42.9,
+      "system_cpu_percent": 25.1,
+      "system_available_bytes": 1840021504
+    },
+    {
+      "t": 15.544518999988213,
+      "backend_rss_bytes": 7159808,
+      "worker_rss_bytes": 1500446720,
+      "worker_uss_bytes": 699547648,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 61.2,
+      "system_cpu_percent": 31.7,
+      "system_available_bytes": 1758593024
+    },
+    {
+      "t": 15.772320167001453,
+      "backend_rss_bytes": 7127040,
+      "worker_rss_bytes": 1450852352,
+      "worker_uss_bytes": 576847872,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 113.2,
+      "system_cpu_percent": 41.0,
+      "system_available_bytes": 1692499968
+    },
+    {
+      "t": 16.00707274999877,
+      "backend_rss_bytes": 6176768,
+      "worker_rss_bytes": 1244364800,
+      "worker_uss_bytes": 401342464,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 284.6,
+      "system_cpu_percent": 76.1,
+      "system_available_bytes": 1542701056
+    },
+    {
+      "t": 16.244135000000824,
+      "backend_rss_bytes": 10289152,
+      "worker_rss_bytes": 1322467328,
+      "worker_uss_bytes": 485441536,
+      "backend_cpu_percent": 1.0,
+      "worker_cpu_percent": 159.9,
+      "system_cpu_percent": 71.9,
+      "system_available_bytes": 1552334848
+    },
+    {
+      "t": 16.471875374991214,
+      "backend_rss_bytes": 10223616,
+      "worker_rss_bytes": 1571258368,
+      "worker_uss_bytes": 789102592,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 75.9,
+      "system_cpu_percent": 65.6,
+      "system_available_bytes": 1630846976
+    },
+    {
+      "t": 16.70227141698706,
+      "backend_rss_bytes": 10240000,
+      "worker_rss_bytes": 1970995200,
+      "worker_uss_bytes": 1108230144,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 113.8,
+      "system_cpu_percent": 34.2,
+      "system_available_bytes": 1847279616
+    },
+    {
+      "t": 16.929404874987085,
+      "backend_rss_bytes": 10256384,
+      "worker_rss_bytes": 2028290048,
+      "worker_uss_bytes": 1189281792,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 139.4,
+      "system_cpu_percent": 48.1,
+      "system_available_bytes": 1874771968
+    },
+    {
+      "t": 17.156548624989227,
+      "backend_rss_bytes": 10256384,
+      "worker_rss_bytes": 2045788160,
+      "worker_uss_bytes": 1192116224,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 319.2,
+      "system_cpu_percent": 59.8,
+      "system_available_bytes": 1898004480
+    },
+    {
+      "t": 17.382317458992475,
+      "backend_rss_bytes": 10387456,
+      "worker_rss_bytes": 2072330240,
+      "worker_uss_bytes": 1191542784,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 175.4,
+      "system_cpu_percent": 40.1,
+      "system_available_bytes": 1893253120
+    },
+    {
+      "t": 17.607910749997245,
+      "backend_rss_bytes": 10387456,
+      "worker_rss_bytes": 2074525696,
+      "worker_uss_bytes": 1195016192,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 144.0,
+      "system_cpu_percent": 32.4,
+      "system_available_bytes": 1909129216
+    },
+    {
+      "t": 17.835921124991728,
+      "backend_rss_bytes": 10387456,
+      "worker_rss_bytes": 2074214400,
+      "worker_uss_bytes": 1196818432,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 210.2,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1918255104
+    }
+  ],
+  "events": [
+    {
+      "session_id": "63328a13-b8ea-4448-ae55-08fc52fc78ec",
+      "type": "transcript",
+      "text": "The city.",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 6269.41,
+        "first_text_ms": 5739.26,
+        "final_latency_ms": null,
+        "audio_received_seconds": 6.0,
+        "audio_forwarded_seconds": 6.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 6.270945541997207,
+      "before_end": true
+    },
+    {
+      "session_id": "63328a13-b8ea-4448-ae55-08fc52fc78ec",
+      "type": "transcript",
+      "text": "The city is also the base to climb the.",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 7935.31,
+        "first_text_ms": 5739.26,
+        "final_latency_ms": null,
+        "audio_received_seconds": 7.5,
+        "audio_forwarded_seconds": 7.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.940697999991244,
+      "before_end": true
+    },
+    {
+      "session_id": "63328a13-b8ea-4448-ae55-08fc52fc78ec",
+      "type": "transcript",
+      "text": "The city is also the base to climb the Nyiragongo volcano.",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 13018.45,
+        "first_text_ms": 5739.26,
+        "final_latency_ms": 1705.17,
+        "audio_received_seconds": 11.28,
+        "audio_forwarded_seconds": 11.28,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 13.054945999989286,
+      "before_end": false
+    },
+    {
+      "session_id": "63328a13-b8ea-4448-ae55-08fc52fc78ec",
+      "type": "transcript",
+      "text": "The city is also the base to climb the Nyiragongo volcano, along with some of the cheapest mountain.",
+      "sequence": 4,
+      "metrics": {
+        "elapsed_ms": 16132.62,
+        "first_text_ms": 5739.26,
+        "final_latency_ms": 4819.35,
+        "audio_received_seconds": 11.28,
+        "audio_forwarded_seconds": 11.28,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 16.135346833994845,
+      "before_end": false
+    },
+    {
+      "session_id": "63328a13-b8ea-4448-ae55-08fc52fc78ec",
+      "type": "transcript",
+      "text": "The city is also the base to climb the Nyiragongo volcano, along with some of the cheapest mountain gorilla trafficking in Africa.",
+      "sequence": 5,
+      "metrics": {
+        "elapsed_ms": 17240.11,
+        "first_text_ms": 5739.26,
+        "final_latency_ms": 5926.83,
+        "audio_received_seconds": 11.28,
+        "audio_forwarded_seconds": 11.28,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 17.241059249994578,
+      "before_end": false
+    },
+    {
+      "session_id": "63328a13-b8ea-4448-ae55-08fc52fc78ec",
+      "type": "transcript",
+      "text": "The city is also the base to climb the Nyiragongo volcano, along with some of the cheapest mountain gorilla trafficking in Africa.",
+      "sequence": 6,
+      "metrics": {
+        "elapsed_ms": 17921.58,
+        "first_text_ms": 5739.26,
+        "final_latency_ms": 6608.31,
+        "audio_received_seconds": 11.28,
+        "audio_forwarded_seconds": 11.28,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 17.921709666989045,
+      "before_end": false
+    },
+    {
+      "session_id": "63328a13-b8ea-4448-ae55-08fc52fc78ec",
+      "type": "done",
+      "text": "The city is also the base to climb the Nyiragongo volcano, along with some of the cheapest mountain gorilla trafficking in Africa.",
+      "metrics": {
+        "elapsed_ms": 17990.01,
+        "first_text_ms": 5739.26,
+        "final_latency_ms": 6676.74,
+        "audio_received_seconds": 11.28,
+        "audio_forwarded_seconds": 11.28,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 17.99025529199571,
+      "before_end": false
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "run_id": "id-10527662494755681688-500-1",
+  "id": "id-10527662494755681688",
+  "wav": "benchmark_audio/id/10527662494755681688.wav",
+  "language": "id",
+  "chunk_ms": 500,
+  "audio_seconds": 8.22,
+  "status": "done",
+  "error_code": null,
+  "first_text_ms": 3452.05,
+  "final_latency_ms": 1325.35,
+  "session_elapsed_ms": 9570.18,
+  "incremental": true,
+  "first_visible_client_ms": 3978.0547080008546,
+  "revisions": 1,
+  "worker_peak_rss_bytes": 2342879232,
+  "worker_peak_uss_bytes": 1190068224,
+  "worker_mean_cpu_percent": 71.71428571428571,
+  "worker_peak_cpu_percent": 341.9,
+  "backend_mean_cpu_percent": 0.23170731707317074,
+  "system_mean_cpu_percent": 19.723809523809525,
+  "system_min_available_bytes": 1338982400,
+  "reference": "Beberapa atom memiliki inti yang tidak stabil yang berarti atom cenderung pecah dengan sedikit atau tanpa sentuhan.",
+  "prediction": "Beberapa atau memiliki inti yang tidak stabil yang berarti atom cenderung pecah dengan sedikit atau tanpa sentuhan.",
+  "wer": 0.058823529411764705,
+  "cer": null,
+  "resource_samples": [
+    {
+      "t": 0.0011495000071590766,
+      "backend_rss_bytes": 23379968,
+      "worker_rss_bytes": 180224,
+      "worker_uss_bytes": 1277952,
+      "backend_cpu_percent": null,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2816688128
+    },
+    {
+      "t": 0.2242171660036547,
+      "backend_rss_bytes": 23379968,
+      "worker_rss_bytes": 320815104,
+      "worker_uss_bytes": 233832448,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 23.8,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2511536128
+    },
+    {
+      "t": 0.4472354580066167,
+      "backend_rss_bytes": 23379968,
+      "worker_rss_bytes": 662978560,
+      "worker_uss_bytes": 463224832,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 16.2,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2281979904
+    },
+    {
+      "t": 0.6712144159973832,
+      "backend_rss_bytes": 23379968,
+      "worker_rss_bytes": 1027276800,
+      "worker_uss_bytes": 705560576,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 16.0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2099888128
+    },
+    {
+      "t": 0.8944854580040555,
+      "backend_rss_bytes": 23330816,
+      "worker_rss_bytes": 1220313088,
+      "worker_uss_bytes": 799735808,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 12.3,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2024194048
+    },
+    {
+      "t": 1.1175239160074852,
+      "backend_rss_bytes": 23330816,
+      "worker_rss_bytes": 543686656,
+      "worker_uss_bytes": 35471360,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 11.0,
+      "system_cpu_percent": 18.5,
+      "system_available_bytes": 1655242752
+    },
+    {
+      "t": 1.3448885830002837,
+      "backend_rss_bytes": 21708800,
+      "worker_rss_bytes": 593772544,
+      "worker_uss_bytes": 82034688,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 10.6,
+      "system_cpu_percent": 18.8,
+      "system_available_bytes": 1574551552
+    },
+    {
+      "t": 1.581363916004193,
+      "backend_rss_bytes": 12189696,
+      "worker_rss_bytes": 582909952,
+      "worker_uss_bytes": 33669120,
+      "backend_cpu_percent": 0.8,
+      "worker_cpu_percent": 9.0,
+      "system_cpu_percent": 33.7,
+      "system_available_bytes": 1469104128
+    },
+    {
+      "t": 1.857196291006403,
+      "backend_rss_bytes": 11026432,
+      "worker_rss_bytes": 633307136,
+      "worker_uss_bytes": 53592064,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 13.2,
+      "system_cpu_percent": 21.7,
+      "system_available_bytes": 1393590272
+    },
+    {
+      "t": 2.082185125007527,
+      "backend_rss_bytes": 11288576,
+      "worker_rss_bytes": 574488576,
+      "worker_uss_bytes": 69353472,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 9.2,
+      "system_cpu_percent": 13.3,
+      "system_available_bytes": 1393590272
+    },
+    {
+      "t": 2.3059240830043564,
+      "backend_rss_bytes": 11026432,
+      "worker_rss_bytes": 508854272,
+      "worker_uss_bytes": 23183360,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 12.8,
+      "system_cpu_percent": 15.9,
+      "system_available_bytes": 1343717376
+    },
+    {
+      "t": 2.5367918749980163,
+      "backend_rss_bytes": 12107776,
+      "worker_rss_bytes": 561741824,
+      "worker_uss_bytes": 71155712,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 29.6,
+      "system_cpu_percent": 30.1,
+      "system_available_bytes": 1338982400
+    },
+    {
+      "t": 2.767730749998009,
+      "backend_rss_bytes": 12156928,
+      "worker_rss_bytes": 1302626304,
+      "worker_uss_bytes": 819068928,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 97.8,
+      "system_cpu_percent": 34.4,
+      "system_available_bytes": 1723105280
+    },
+    {
+      "t": 2.992061333003221,
+      "backend_rss_bytes": 9191424,
+      "worker_rss_bytes": 1587757056,
+      "worker_uss_bytes": 910327808,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 45.6,
+      "system_cpu_percent": 20.2,
+      "system_available_bytes": 1784758272
+    },
+    {
+      "t": 3.215113416008535,
+      "backend_rss_bytes": 11911168,
+      "worker_rss_bytes": 1787789312,
+      "worker_uss_bytes": 1023950848,
+      "backend_cpu_percent": 1.3,
+      "worker_cpu_percent": 35.4,
+      "system_cpu_percent": 20.1,
+      "system_available_bytes": 1829470208
+    },
+    {
+      "t": 3.441839000006439,
+      "backend_rss_bytes": 11894784,
+      "worker_rss_bytes": 1981710336,
+      "worker_uss_bytes": 1110491136,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 41.2,
+      "system_cpu_percent": 19.3,
+      "system_available_bytes": 1871380480
+    },
+    {
+      "t": 3.66676558299514,
+      "backend_rss_bytes": 11960320,
+      "worker_rss_bytes": 2154577920,
+      "worker_uss_bytes": 1164361728,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 66.6,
+      "system_cpu_percent": 21.2,
+      "system_available_bytes": 1887928320
+    },
+    {
+      "t": 3.891808915999718,
+      "backend_rss_bytes": 11730944,
+      "worker_rss_bytes": 2342879232,
+      "worker_uss_bytes": 1164673024,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 104.1,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1901051904
+    },
+    {
+      "t": 4.119314541007043,
+      "backend_rss_bytes": 13221888,
+      "worker_rss_bytes": 2325348352,
+      "worker_uss_bytes": 1161134080,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 124.6,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1901723648
+    },
+    {
+      "t": 4.348546249995707,
+      "backend_rss_bytes": 12632064,
+      "worker_rss_bytes": 2254536704,
+      "worker_uss_bytes": 1104347136,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1891991552
+    },
+    {
+      "t": 4.582855665998068,
+      "backend_rss_bytes": 13369344,
+      "worker_rss_bytes": 2218442752,
+      "worker_uss_bytes": 1053474816,
+      "backend_cpu_percent": 0.7,
+      "worker_cpu_percent": 24.5,
+      "system_cpu_percent": 25.8,
+      "system_available_bytes": 1829961728
+    },
+    {
+      "t": 4.812250375005533,
+      "backend_rss_bytes": 13369344,
+      "worker_rss_bytes": 2313650176,
+      "worker_uss_bytes": 1160282112,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 98.3,
+      "system_cpu_percent": 33.2,
+      "system_available_bytes": 1876377600
+    },
+    {
+      "t": 5.036382624995895,
+      "backend_rss_bytes": 13615104,
+      "worker_rss_bytes": 2313469952,
+      "worker_uss_bytes": 1164247040,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 156.6,
+      "system_cpu_percent": 32.2,
+      "system_available_bytes": 1889763328
+    },
+    {
+      "t": 5.261446250005974,
+      "backend_rss_bytes": 13647872,
+      "worker_rss_bytes": 2315763712,
+      "worker_uss_bytes": 1165590528,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 341.9,
+      "system_cpu_percent": 57.5,
+      "system_available_bytes": 1889697792
+    },
+    {
+      "t": 5.494184958006372,
+      "backend_rss_bytes": 13647872,
+      "worker_rss_bytes": 2291646464,
+      "worker_uss_bytes": 1163395072,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 42.2,
+      "system_cpu_percent": 27.3,
+      "system_available_bytes": 1894760448
+    },
+    {
+      "t": 5.724766333005391,
+      "backend_rss_bytes": 13778944,
+      "worker_rss_bytes": 2268332032,
+      "worker_uss_bytes": 1163804672,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 16.3,
+      "system_available_bytes": 1910652928
+    },
+    {
+      "t": 5.953982749997522,
+      "backend_rss_bytes": 13811712,
+      "worker_rss_bytes": 2255011840,
+      "worker_uss_bytes": 1163804672,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 9.9,
+      "system_available_bytes": 1910685696
+    },
+    {
+      "t": 6.18692983299843,
+      "backend_rss_bytes": 13844480,
+      "worker_rss_bytes": 2239791104,
+      "worker_uss_bytes": 1161953280,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 20.9,
+      "system_available_bytes": 1921171456
+    },
+    {
+      "t": 6.422524166002404,
+      "backend_rss_bytes": 13844480,
+      "worker_rss_bytes": 2219196416,
+      "worker_uss_bytes": 1162821632,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 18.2,
+      "system_available_bytes": 1928544256
+    },
+    {
+      "t": 6.659701833006693,
+      "backend_rss_bytes": 14008320,
+      "worker_rss_bytes": 2241740800,
+      "worker_uss_bytes": 1166868480,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 57.0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1929117696
+    },
+    {
+      "t": 6.882210875002784,
+      "backend_rss_bytes": 13877248,
+      "worker_rss_bytes": 2183184384,
+      "worker_uss_bytes": 1141129216,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 113.9,
+      "system_cpu_percent": 22.1,
+      "system_available_bytes": 1925496832
+    },
+    {
+      "t": 7.1048796249961015,
+      "backend_rss_bytes": 14041088,
+      "worker_rss_bytes": 2234105856,
+      "worker_uss_bytes": 1172832256,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 219.5,
+      "system_cpu_percent": 34.1,
+      "system_available_bytes": 1949745152
+    },
+    {
+      "t": 7.3310510410083225,
+      "backend_rss_bytes": 14041088,
+      "worker_rss_bytes": 2235039744,
+      "worker_uss_bytes": 1175732224,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 336.1,
+      "system_cpu_percent": 50.6,
+      "system_available_bytes": 1951285248
+    },
+    {
+      "t": 7.559122332997504,
+      "backend_rss_bytes": 14106624,
+      "worker_rss_bytes": 2230845440,
+      "worker_uss_bytes": 1176207360,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 63.6,
+      "system_cpu_percent": 16.8,
+      "system_available_bytes": 1959804928
+    },
+    {
+      "t": 7.796373332996154,
+      "backend_rss_bytes": 14106624,
+      "worker_rss_bytes": 2229616640,
+      "worker_uss_bytes": 1176207360,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 11.8,
+      "system_available_bytes": 1959804928
+    },
+    {
+      "t": 8.037666625008569,
+      "backend_rss_bytes": 14090240,
+      "worker_rss_bytes": 2203418624,
+      "worker_uss_bytes": 1176272896,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 22.3,
+      "system_available_bytes": 2011971584
+    },
+    {
+      "t": 8.264134541008389,
+      "backend_rss_bytes": 14778368,
+      "worker_rss_bytes": 2182512640,
+      "worker_uss_bytes": 1185939456,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 10.1,
+      "system_cpu_percent": 26.9,
+      "system_available_bytes": 2040954880
+    },
+    {
+      "t": 8.488928332997602,
+      "backend_rss_bytes": 14778368,
+      "worker_rss_bytes": 2201747456,
+      "worker_uss_bytes": 1184219136,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 99.8,
+      "system_cpu_percent": 20.9,
+      "system_available_bytes": 2028224512
+    },
+    {
+      "t": 8.71079812500102,
+      "backend_rss_bytes": 14385152,
+      "worker_rss_bytes": 2174976000,
+      "worker_uss_bytes": 1158037504,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 119.4,
+      "system_cpu_percent": 36.0,
+      "system_available_bytes": 2013560832
+    },
+    {
+      "t": 8.936283125003683,
+      "backend_rss_bytes": 14385152,
+      "worker_rss_bytes": 2171944960,
+      "worker_uss_bytes": 1158234112,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 195.9,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2016346112
+    },
+    {
+      "t": 9.162611374995322,
+      "backend_rss_bytes": 14581760,
+      "worker_rss_bytes": 2172321792,
+      "worker_uss_bytes": 1190068224,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 314.7,
+      "system_cpu_percent": 46.0,
+      "system_available_bytes": 2017230848
+    },
+    {
+      "t": 9.387796666007489,
+      "backend_rss_bytes": 14450688,
+      "worker_rss_bytes": 2187771904,
+      "worker_uss_bytes": 1186709504,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 139.5,
+      "system_cpu_percent": 32.4,
+      "system_available_bytes": 2037121024
+    }
+  ],
+  "events": [
+    {
+      "session_id": "f15f2f81-139f-459c-9b26-d5d12bb0c1f3",
+      "type": "transcript",
+      "text": "Beberapa atau memiliki inti",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 3977.57,
+        "first_text_ms": 3452.05,
+        "final_latency_ms": null,
+        "audio_received_seconds": 3.5,
+        "audio_forwarded_seconds": 3.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 3.9780547080008546,
+      "before_end": true
+    },
+    {
+      "session_id": "f15f2f81-139f-459c-9b26-d5d12bb0c1f3",
+      "type": "transcript",
+      "text": "Beberapa atau memiliki inti yang tidak stabil yang berarti",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 5293.14,
+        "first_text_ms": 3452.05,
+        "final_latency_ms": null,
+        "audio_received_seconds": 5.0,
+        "audio_forwarded_seconds": 5.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 5.293553458002862,
+      "before_end": true
+    },
+    {
+      "session_id": "f15f2f81-139f-459c-9b26-d5d12bb0c1f3",
+      "type": "transcript",
+      "text": "Beberapa atau memiliki inti yang tidak stabil yang berarti atom cenderung pecah dengan sedikit.",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 7379.52,
+        "first_text_ms": 3452.05,
+        "final_latency_ms": null,
+        "audio_received_seconds": 7.0,
+        "audio_forwarded_seconds": 7.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.379723791003926,
+      "before_end": true
+    },
+    {
+      "session_id": "f15f2f81-139f-459c-9b26-d5d12bb0c1f3",
+      "type": "transcript",
+      "text": "Beberapa atau memiliki inti yang tidak stabil yang berarti atom cenderung pecah dengan sedikit atau tanpa sentuhan.",
+      "sequence": 4,
+      "metrics": {
+        "elapsed_ms": 9128.04,
+        "first_text_ms": 3452.05,
+        "final_latency_ms": 883.22,
+        "audio_received_seconds": 8.22,
+        "audio_forwarded_seconds": 8.22,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.128368666002643,
+      "before_end": false
+    },
+    {
+      "session_id": "f15f2f81-139f-459c-9b26-d5d12bb0c1f3",
+      "type": "transcript",
+      "text": "Beberapa atau memiliki inti yang tidak stabil yang berarti atom cenderung pecah dengan sedikit atau tanpa sentuhan.",
+      "sequence": 5,
+      "metrics": {
+        "elapsed_ms": 9514.31,
+        "first_text_ms": 3452.05,
+        "final_latency_ms": 1269.49,
+        "audio_received_seconds": 8.22,
+        "audio_forwarded_seconds": 8.22,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.514804250007728,
+      "before_end": false
+    },
+    {
+      "session_id": "f15f2f81-139f-459c-9b26-d5d12bb0c1f3",
+      "type": "done",
+      "text": "Beberapa atau memiliki inti yang tidak stabil yang berarti atom cenderung pecah dengan sedikit atau tanpa sentuhan.",
+      "metrics": {
+        "elapsed_ms": 9570.18,
+        "first_text_ms": 3452.05,
+        "final_latency_ms": 1325.35,
+        "audio_received_seconds": 8.22,
+        "audio_forwarded_seconds": 8.22,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.57053983300284,
+      "before_end": false
+    }
+  ]
+}

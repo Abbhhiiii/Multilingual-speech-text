@@ -17,8 +17,12 @@ The original five-page Tetherfi assignment and prior Architecture V2/four-day pl
 
 ## Still needed for the four-day assignment
 
-A personally recorded three-language demonstration, FLEURS accuracy tests, chunk-size selection, sustained CPU/RAM/concurrency measurements, alternative runtime comparison, sizing estimates, final report and the candidate's personally spoken video. The English test proves incremental behavior and integration; it does not establish accuracy or sustained real-time throughput.
+A personally recorded three-language demonstration, chunk-size selection, sustained CPU/RAM/concurrency measurements, alternative runtime comparison, sizing estimates, assignment submission report and the candidate's personally spoken video. The early English smoke test proves incremental behavior and integration; the later 60-clip FLEURS baseline below supplies the first corpus accuracy and latency measurements.
 
 ## 12 November 2026 — revisable transcript update
 
 The native runtime patch in `runtime_patches/early-commit.patch` now emits full hypothesis snapshots. The backend replaces one transcript instead of appending token pieces; React already replaces the same display text. A revised Mandarin prefix was observed across native windows. The 15 s English, 8.58 s Indonesian and 10.38 s Mandarin samples completed through the WebSocket path with the previous final text. Backend tests: 21 passed, including snapshot replacement. See `docs/latency-experiment-2026-11-12.md` and `evidence/revisable-*-websocket.json`. A longer 45 s English run also completed without duplicated final text. All timing figures remain individual trials rather than benchmark estimates.
+
+## 12 November 2026 — 60-clip sequential baseline
+
+Twenty FLEURS test clips each for English, Mandarin and Indonesian completed one at a time through the real CPU WebSocket path at 500 ms network chunks. All 60 sessions completed. Corpus error rates were 5.15% English WER, 8.88% Mandarin CER and 8.58% Indonesian WER. Median first-text delays from first PCM received were 5.21, 4.24 and 4.01 seconds respectively; substantial post-end outliers remained. CPU, memory, per-clip transcripts, outliers, methodology and limitations are in [`evidence/fleurs-60-500ms/REPORT.md`](../evidence/fleurs-60-500ms/REPORT.md).

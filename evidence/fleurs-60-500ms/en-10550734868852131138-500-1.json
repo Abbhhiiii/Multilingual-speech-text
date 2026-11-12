@@ -1,0 +1,632 @@
+{
+  "run_id": "en-10550734868852131138-500-1",
+  "id": "en-10550734868852131138",
+  "wav": "benchmark_audio/en/10550734868852131138.wav",
+  "language": "en",
+  "chunk_ms": 500,
+  "audio_seconds": 10.12,
+  "status": "done",
+  "error_code": null,
+  "first_text_ms": 4451.46,
+  "final_latency_ms": 1097.83,
+  "session_elapsed_ms": 11258.04,
+  "incremental": true,
+  "first_visible_client_ms": 4982.378084008815,
+  "revisions": 4,
+  "worker_peak_rss_bytes": 2148827136,
+  "worker_peak_uss_bytes": 1192853504,
+  "worker_mean_cpu_percent": 72.83877551020409,
+  "worker_peak_cpu_percent": 325.8,
+  "backend_mean_cpu_percent": 0.21666666666666667,
+  "system_mean_cpu_percent": 33.1,
+  "system_min_available_bytes": 1323220992,
+  "reference": "On 15 August 1940, the Allies invaded southern France, the invasion was called \"Operation Dragoon\".",
+  "prediction": "On August 15, 1940, the Allies invaded southern France, and the invasion was called Operation Dragoon.",
+  "wer": 0.2,
+  "cer": null,
+  "resource_samples": [
+    {
+      "t": 0.006020500004524365,
+      "backend_rss_bytes": 22380544,
+      "worker_rss_bytes": 32768,
+      "worker_uss_bytes": 1310720,
+      "backend_cpu_percent": null,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2504179712
+    },
+    {
+      "t": 0.2294922090077307,
+      "backend_rss_bytes": 22380544,
+      "worker_rss_bytes": 292143104,
+      "worker_uss_bytes": 214417408,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 25.9,
+      "system_cpu_percent": 25.4,
+      "system_available_bytes": 2255405056
+    },
+    {
+      "t": 0.4543743340036599,
+      "backend_rss_bytes": 22380544,
+      "worker_rss_bytes": 614825984,
+      "worker_uss_bytes": 428048384,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 16.9,
+      "system_cpu_percent": 20.7,
+      "system_available_bytes": 2084929536
+    },
+    {
+      "t": 0.6782417920039734,
+      "backend_rss_bytes": 22446080,
+      "worker_rss_bytes": 940670976,
+      "worker_uss_bytes": 647036928,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 18.3,
+      "system_cpu_percent": 23.6,
+      "system_available_bytes": 1915715584
+    },
+    {
+      "t": 0.9017083340004319,
+      "backend_rss_bytes": 22446080,
+      "worker_rss_bytes": 1158332416,
+      "worker_uss_bytes": 684670976,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 14.9,
+      "system_cpu_percent": 19.1,
+      "system_available_bytes": 1879752704
+    },
+    {
+      "t": 1.1361610840103822,
+      "backend_rss_bytes": 22495232,
+      "worker_rss_bytes": 442957824,
+      "worker_uss_bytes": 22364160,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 8.2,
+      "system_cpu_percent": 39.2,
+      "system_available_bytes": 1496055808
+    },
+    {
+      "t": 1.359913125008461,
+      "backend_rss_bytes": 21692416,
+      "worker_rss_bytes": 520224768,
+      "worker_uss_bytes": 51314688,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 11.2,
+      "system_cpu_percent": 24.1,
+      "system_available_bytes": 1448443904
+    },
+    {
+      "t": 1.5873121670010732,
+      "backend_rss_bytes": 11665408,
+      "worker_rss_bytes": 579878912,
+      "worker_uss_bytes": 68222976,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 11.0,
+      "system_cpu_percent": 18.7,
+      "system_available_bytes": 1398571008
+    },
+    {
+      "t": 1.8112117090058746,
+      "backend_rss_bytes": 11665408,
+      "worker_rss_bytes": 648986624,
+      "worker_uss_bytes": 70418432,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 12.5,
+      "system_cpu_percent": 16.6,
+      "system_available_bytes": 1334689792
+    },
+    {
+      "t": 2.037654959000065,
+      "backend_rss_bytes": 11845632,
+      "worker_rss_bytes": 653721600,
+      "worker_uss_bytes": 86966272,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 9.9,
+      "system_cpu_percent": 16.9,
+      "system_available_bytes": 1330102272
+    },
+    {
+      "t": 2.2601328340097098,
+      "backend_rss_bytes": 11845632,
+      "worker_rss_bytes": 666320896,
+      "worker_uss_bytes": 93945856,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 8.2,
+      "system_cpu_percent": 14.0,
+      "system_available_bytes": 1328807936
+    },
+    {
+      "t": 2.4836315420106985,
+      "backend_rss_bytes": 11812864,
+      "worker_rss_bytes": 611155968,
+      "worker_uss_bytes": 69615616,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 9.1,
+      "system_cpu_percent": 18.7,
+      "system_available_bytes": 1323220992
+    },
+    {
+      "t": 2.7043500840081833,
+      "backend_rss_bytes": 11960320,
+      "worker_rss_bytes": 561430528,
+      "worker_uss_bytes": 59031552,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 5.6,
+      "system_cpu_percent": 15.5,
+      "system_available_bytes": 1332854784
+    },
+    {
+      "t": 2.926699458999792,
+      "backend_rss_bytes": 12156928,
+      "worker_rss_bytes": 792936448,
+      "worker_uss_bytes": 305184768,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 63.6,
+      "system_cpu_percent": 27.3,
+      "system_available_bytes": 1414168576
+    },
+    {
+      "t": 3.149251542010461,
+      "backend_rss_bytes": 12140544,
+      "worker_rss_bytes": 1528266752,
+      "worker_uss_bytes": 894894080,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 92.8,
+      "system_cpu_percent": 41.6,
+      "system_available_bytes": 1714946048
+    },
+    {
+      "t": 3.378990084005636,
+      "backend_rss_bytes": 8503296,
+      "worker_rss_bytes": 1734459392,
+      "worker_uss_bytes": 976371712,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 36.7,
+      "system_cpu_percent": 31.7,
+      "system_available_bytes": 1773223936
+    },
+    {
+      "t": 3.602368625011877,
+      "backend_rss_bytes": 11993088,
+      "worker_rss_bytes": 1841004544,
+      "worker_uss_bytes": 1025409024,
+      "backend_cpu_percent": 1.3,
+      "worker_cpu_percent": 28.1,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1844363264
+    },
+    {
+      "t": 3.830138375007664,
+      "backend_rss_bytes": 11780096,
+      "worker_rss_bytes": 1880424448,
+      "worker_uss_bytes": 970063872,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 36.4,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1838923776
+    },
+    {
+      "t": 4.056293834000826,
+      "backend_rss_bytes": 12025856,
+      "worker_rss_bytes": 1774190592,
+      "worker_uss_bytes": 860061696,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 31.8,
+      "system_cpu_percent": 32.2,
+      "system_available_bytes": 1796259840
+    },
+    {
+      "t": 4.2838803340127924,
+      "backend_rss_bytes": 12025856,
+      "worker_rss_bytes": 1608613888,
+      "worker_uss_bytes": 531234816,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 50.5,
+      "system_cpu_percent": 35.6,
+      "system_available_bytes": 1638776832
+    },
+    {
+      "t": 4.51302762501291,
+      "backend_rss_bytes": 11993088,
+      "worker_rss_bytes": 1342799872,
+      "worker_uss_bytes": 212516864,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 24.6,
+      "system_cpu_percent": 32.4,
+      "system_available_bytes": 1439498240
+    },
+    {
+      "t": 4.754375750009785,
+      "backend_rss_bytes": 12042240,
+      "worker_rss_bytes": 1344110592,
+      "worker_uss_bytes": 321683456,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 52.9,
+      "system_cpu_percent": 37.3,
+      "system_available_bytes": 1439612928
+    },
+    {
+      "t": 4.998561625005095,
+      "backend_rss_bytes": 13172736,
+      "worker_rss_bytes": 1425817600,
+      "worker_uss_bytes": 433635328,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 140.1,
+      "system_cpu_percent": 53.5,
+      "system_available_bytes": 1439612928
+    },
+    {
+      "t": 5.260191959008807,
+      "backend_rss_bytes": 13287424,
+      "worker_rss_bytes": 1971093504,
+      "worker_uss_bytes": 997670912,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 98.1,
+      "system_cpu_percent": 48.3,
+      "system_available_bytes": 1439612928
+    },
+    {
+      "t": 5.489309459007927,
+      "backend_rss_bytes": 13287424,
+      "worker_rss_bytes": 2148827136,
+      "worker_uss_bytes": 1164902400,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 111.8,
+      "system_cpu_percent": 40.7,
+      "system_available_bytes": 1867710464
+    },
+    {
+      "t": 5.715406834002351,
+      "backend_rss_bytes": 13467648,
+      "worker_rss_bytes": 2140323840,
+      "worker_uss_bytes": 1167327232,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 325.8,
+      "system_cpu_percent": 61.5,
+      "system_available_bytes": 1873117184
+    },
+    {
+      "t": 5.9435122499999125,
+      "backend_rss_bytes": 13582336,
+      "worker_rss_bytes": 2137128960,
+      "worker_uss_bytes": 1167523840,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 58.3,
+      "system_cpu_percent": 27.6,
+      "system_available_bytes": 1873985536
+    },
+    {
+      "t": 6.185419000001275,
+      "backend_rss_bytes": 13746176,
+      "worker_rss_bytes": 2125283328,
+      "worker_uss_bytes": 1167540224,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 24.0,
+      "system_available_bytes": 1875722240
+    },
+    {
+      "t": 6.420284834006452,
+      "backend_rss_bytes": 13697024,
+      "worker_rss_bytes": 2098053120,
+      "worker_uss_bytes": 1167507456,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 28.5,
+      "system_available_bytes": 1909440512
+    },
+    {
+      "t": 6.643864084006054,
+      "backend_rss_bytes": 13762560,
+      "worker_rss_bytes": 2084225024,
+      "worker_uss_bytes": 1168211968,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 51.7,
+      "system_cpu_percent": 32.6,
+      "system_available_bytes": 1917288448
+    },
+    {
+      "t": 6.865483000001404,
+      "backend_rss_bytes": 13762560,
+      "worker_rss_bytes": 2052194304,
+      "worker_uss_bytes": 1166262272,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 111.4,
+      "system_cpu_percent": 36.7,
+      "system_available_bytes": 1925185536
+    },
+    {
+      "t": 7.093783167001675,
+      "backend_rss_bytes": 13746176,
+      "worker_rss_bytes": 2047279104,
+      "worker_uss_bytes": 1170030592,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 226.3,
+      "system_cpu_percent": 56.0,
+      "system_available_bytes": 1930002432
+    },
+    {
+      "t": 7.318748167002923,
+      "backend_rss_bytes": 13828096,
+      "worker_rss_bytes": 2049245184,
+      "worker_uss_bytes": 1171832832,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 296.4,
+      "system_cpu_percent": 67.8,
+      "system_available_bytes": 1906704384
+    },
+    {
+      "t": 7.544502500008093,
+      "backend_rss_bytes": 13860864,
+      "worker_rss_bytes": 2035859456,
+      "worker_uss_bytes": 1171980288,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 30.1,
+      "system_available_bytes": 1910620160
+    },
+    {
+      "t": 7.781584667012794,
+      "backend_rss_bytes": 13729792,
+      "worker_rss_bytes": 2031976448,
+      "worker_uss_bytes": 1171800064,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 27.5,
+      "system_available_bytes": 1909424128
+    },
+    {
+      "t": 8.011347792009474,
+      "backend_rss_bytes": 13352960,
+      "worker_rss_bytes": 1138458624,
+      "worker_uss_bytes": 315424768,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 83.9,
+      "system_available_bytes": 1553301504
+    },
+    {
+      "t": 8.29941950000648,
+      "backend_rss_bytes": 13041664,
+      "worker_rss_bytes": 1071529984,
+      "worker_uss_bytes": 295092224,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 32.9,
+      "system_available_bytes": 1450999808
+    },
+    {
+      "t": 8.535460541999782,
+      "backend_rss_bytes": 13123584,
+      "worker_rss_bytes": 1061994496,
+      "worker_uss_bytes": 303529984,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 4.2,
+      "system_cpu_percent": 27.6,
+      "system_available_bytes": 1429028864
+    },
+    {
+      "t": 8.770216959004756,
+      "backend_rss_bytes": 13074432,
+      "worker_rss_bytes": 1253539840,
+      "worker_uss_bytes": 494714880,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 98.4,
+      "system_cpu_percent": 39.8,
+      "system_available_bytes": 1507917824
+    },
+    {
+      "t": 8.994303167011822,
+      "backend_rss_bytes": 13074432,
+      "worker_rss_bytes": 1815642112,
+      "worker_uss_bytes": 1044692992,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 99.3,
+      "system_cpu_percent": 33.3,
+      "system_available_bytes": 1773584384
+    },
+    {
+      "t": 9.218236375003471,
+      "backend_rss_bytes": 13008896,
+      "worker_rss_bytes": 1919123456,
+      "worker_uss_bytes": 1085980672,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 108.0,
+      "system_cpu_percent": 37.4,
+      "system_available_bytes": 1819820032
+    },
+    {
+      "t": 9.447420334006893,
+      "backend_rss_bytes": 13008896,
+      "worker_rss_bytes": 2037039104,
+      "worker_uss_bytes": 1183596544,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 88.2,
+      "system_cpu_percent": 31.7,
+      "system_available_bytes": 1855848448
+    },
+    {
+      "t": 9.672342834004667,
+      "backend_rss_bytes": 13041664,
+      "worker_rss_bytes": 2054717440,
+      "worker_uss_bytes": 1185955840,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 275.1,
+      "system_cpu_percent": 56.1,
+      "system_available_bytes": 1853816832
+    },
+    {
+      "t": 9.902087667011074,
+      "backend_rss_bytes": 13090816,
+      "worker_rss_bytes": 2046427136,
+      "worker_uss_bytes": 1187004416,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 161.3,
+      "system_cpu_percent": 49.4,
+      "system_available_bytes": 1863565312
+    },
+    {
+      "t": 10.126824625011068,
+      "backend_rss_bytes": 13238272,
+      "worker_rss_bytes": 2046017536,
+      "worker_uss_bytes": 1188397056,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 25.0,
+      "system_available_bytes": 1855815680
+    },
+    {
+      "t": 10.360133500013035,
+      "backend_rss_bytes": 13959168,
+      "worker_rss_bytes": 2069037056,
+      "worker_uss_bytes": 1188315136,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 105.9,
+      "system_cpu_percent": 36.5,
+      "system_available_bytes": 1844199424
+    },
+    {
+      "t": 10.585737500005052,
+      "backend_rss_bytes": 13942784,
+      "worker_rss_bytes": 2072805376,
+      "worker_uss_bytes": 1191690240,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 265.3,
+      "system_cpu_percent": 55.9,
+      "system_available_bytes": 1854832640
+    },
+    {
+      "t": 10.812280750003993,
+      "backend_rss_bytes": 13975552,
+      "worker_rss_bytes": 2078343168,
+      "worker_uss_bytes": 1192853504,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 214.8,
+      "system_cpu_percent": 47.3,
+      "system_available_bytes": 1850212352
+    },
+    {
+      "t": 11.045656667003641,
+      "backend_rss_bytes": 13926400,
+      "worker_rss_bytes": 2079080448,
+      "worker_uss_bytes": 1192853504,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 159.6,
+      "system_cpu_percent": 39.7,
+      "system_available_bytes": 1854357504
+    }
+  ],
+  "events": [
+    {
+      "session_id": "a11eb609-8a73-4e7f-bf96-01564aa79f8c",
+      "type": "transcript",
+      "text": "On August.",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 4982.11,
+        "first_text_ms": 4451.46,
+        "final_latency_ms": null,
+        "audio_received_seconds": 4.5,
+        "audio_forwarded_seconds": 4.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 4.982378084008815,
+      "before_end": true
+    },
+    {
+      "session_id": "a11eb609-8a73-4e7f-bf96-01564aa79f8c",
+      "type": "transcript",
+      "text": "On August 15, 19.",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 5759.73,
+        "first_text_ms": 4451.46,
+        "final_latency_ms": null,
+        "audio_received_seconds": 5.5,
+        "audio_forwarded_seconds": 5.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 5.759626125000068,
+      "before_end": true
+    },
+    {
+      "session_id": "a11eb609-8a73-4e7f-bf96-01564aa79f8c",
+      "type": "transcript",
+      "text": "On August 15, 1940, the Allies invaded southern.",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 7300.36,
+        "first_text_ms": 4451.46,
+        "final_latency_ms": null,
+        "audio_received_seconds": 7.0,
+        "audio_forwarded_seconds": 7.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.300738250007271,
+      "before_end": true
+    },
+    {
+      "session_id": "a11eb609-8a73-4e7f-bf96-01564aa79f8c",
+      "type": "transcript",
+      "text": "On August 15, 1940, the Allies invaded southern France, and the invasion was.",
+      "sequence": 4,
+      "metrics": {
+        "elapsed_ms": 9787.43,
+        "first_text_ms": 4451.46,
+        "final_latency_ms": null,
+        "audio_received_seconds": 9.5,
+        "audio_forwarded_seconds": 9.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.78746995900292,
+      "before_end": true
+    },
+    {
+      "session_id": "a11eb609-8a73-4e7f-bf96-01564aa79f8c",
+      "type": "transcript",
+      "text": "On August 15, 1940, the Allies invaded southern France, and the invasion was called Operation Dragoon.",
+      "sequence": 5,
+      "metrics": {
+        "elapsed_ms": 10691.2,
+        "first_text_ms": 4451.46,
+        "final_latency_ms": 530.99,
+        "audio_received_seconds": 10.12,
+        "audio_forwarded_seconds": 10.12,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 10.691108625003835,
+      "before_end": false
+    },
+    {
+      "session_id": "a11eb609-8a73-4e7f-bf96-01564aa79f8c",
+      "type": "transcript",
+      "text": "On August 15, 1940, the Allies invaded southern France, and the invasion was called Operation Dragoon.",
+      "sequence": 6,
+      "metrics": {
+        "elapsed_ms": 11187.08,
+        "first_text_ms": 4451.46,
+        "final_latency_ms": 1026.87,
+        "audio_received_seconds": 10.12,
+        "audio_forwarded_seconds": 10.12,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 11.187019584001973,
+      "before_end": false
+    },
+    {
+      "session_id": "a11eb609-8a73-4e7f-bf96-01564aa79f8c",
+      "type": "done",
+      "text": "On August 15, 1940, the Allies invaded southern France, and the invasion was called Operation Dragoon.",
+      "metrics": {
+        "elapsed_ms": 11258.04,
+        "first_text_ms": 4451.46,
+        "final_latency_ms": 1097.83,
+        "audio_received_seconds": 10.12,
+        "audio_forwarded_seconds": 10.12,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 11.25822162500117,
+      "before_end": false
+    }
+  ]
+}

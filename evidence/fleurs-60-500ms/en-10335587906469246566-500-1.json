@@ -1,0 +1,640 @@
+{
+  "run_id": "en-10335587906469246566-500-1",
+  "id": "en-10335587906469246566",
+  "wav": "benchmark_audio/en/10335587906469246566.wav",
+  "language": "en",
+  "chunk_ms": 500,
+  "audio_seconds": 6.96,
+  "status": "done",
+  "error_code": null,
+  "first_text_ms": 6656.26,
+  "final_latency_ms": 5140.79,
+  "session_elapsed_ms": 12127.97,
+  "incremental": false,
+  "first_visible_client_ms": 7182.9605829989305,
+  "revisions": 2,
+  "worker_peak_rss_bytes": 2068332544,
+  "worker_peak_uss_bytes": 1186267136,
+  "worker_mean_cpu_percent": 63.445283018867926,
+  "worker_peak_cpu_percent": 310.2,
+  "backend_mean_cpu_percent": 0.23846153846153847,
+  "system_mean_cpu_percent": 30.258490566037736,
+  "system_min_available_bytes": 1326039040,
+  "reference": "Twentieth century research has shown that there are two pools of genetic variation: hidden and expressed.",
+  "prediction": "20th century research has shown that there are two pools of genetic variation hidden and expressed.",
+  "wer": 0.0625,
+  "cer": null,
+  "resource_samples": [
+    {
+      "t": 0.0014593329979106784,
+      "backend_rss_bytes": 22560768,
+      "worker_rss_bytes": 606208,
+      "worker_uss_bytes": 1179648,
+      "backend_cpu_percent": null,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2452488192
+    },
+    {
+      "t": 0.22371649999695364,
+      "backend_rss_bytes": 22560768,
+      "worker_rss_bytes": 283951104,
+      "worker_uss_bytes": 208896000,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 29.3,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2217394176
+    },
+    {
+      "t": 0.4480553330067778,
+      "backend_rss_bytes": 22560768,
+      "worker_rss_bytes": 602718208,
+      "worker_uss_bytes": 421543936,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 18.6,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2041479168
+    },
+    {
+      "t": 0.6713598750066012,
+      "backend_rss_bytes": 22577152,
+      "worker_rss_bytes": 933560320,
+      "worker_uss_bytes": 639696896,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 18.1,
+      "system_cpu_percent": 29.9,
+      "system_available_bytes": 1865007104
+    },
+    {
+      "t": 0.891707624992705,
+      "backend_rss_bytes": 22560768,
+      "worker_rss_bytes": 718749696,
+      "worker_uss_bytes": 183549952,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 17.8,
+      "system_cpu_percent": 38.3,
+      "system_available_bytes": 1670545408
+    },
+    {
+      "t": 1.121412833002978,
+      "backend_rss_bytes": 20643840,
+      "worker_rss_bytes": 475168768,
+      "worker_uss_bytes": 43253760,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 12.0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1670545408
+    },
+    {
+      "t": 1.3481214170024032,
+      "backend_rss_bytes": 12042240,
+      "worker_rss_bytes": 484294656,
+      "worker_uss_bytes": 44646400,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 9.4,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1670545408
+    },
+    {
+      "t": 1.5701070000068285,
+      "backend_rss_bytes": 12255232,
+      "worker_rss_bytes": 509018112,
+      "worker_uss_bytes": 82509824,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 10.2,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1670545408
+    },
+    {
+      "t": 1.7930330829985905,
+      "backend_rss_bytes": 12255232,
+      "worker_rss_bytes": 514228224,
+      "worker_uss_bytes": 80642048,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 10.9,
+      "system_cpu_percent": 21.2,
+      "system_available_bytes": 1349926912
+    },
+    {
+      "t": 2.036259250002331,
+      "backend_rss_bytes": 11649024,
+      "worker_rss_bytes": 439287808,
+      "worker_uss_bytes": 36175872,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 9.9,
+      "system_cpu_percent": 19.5,
+      "system_available_bytes": 1332822016
+    },
+    {
+      "t": 2.2640422919939738,
+      "backend_rss_bytes": 8863744,
+      "worker_rss_bytes": 421249024,
+      "worker_uss_bytes": 22740992,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 6.9,
+      "system_cpu_percent": 25.4,
+      "system_available_bytes": 1354170368
+    },
+    {
+      "t": 2.4908831250068033,
+      "backend_rss_bytes": 8912896,
+      "worker_rss_bytes": 496795648,
+      "worker_uss_bytes": 33439744,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 12.5,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1329709056
+    },
+    {
+      "t": 2.7169104579952545,
+      "backend_rss_bytes": 11976704,
+      "worker_rss_bytes": 532463616,
+      "worker_uss_bytes": 39223296,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 7.0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1332527104
+    },
+    {
+      "t": 2.939634374997695,
+      "backend_rss_bytes": 12189696,
+      "worker_rss_bytes": 572194816,
+      "worker_uss_bytes": 67764224,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 29.4,
+      "system_cpu_percent": 19.9,
+      "system_available_bytes": 1326039040
+    },
+    {
+      "t": 3.163597082995693,
+      "backend_rss_bytes": 12238848,
+      "worker_rss_bytes": 1120108544,
+      "worker_uss_bytes": 749355008,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 95.5,
+      "system_cpu_percent": 45.8,
+      "system_available_bytes": 1687093248
+    },
+    {
+      "t": 3.386651583001367,
+      "backend_rss_bytes": 11534336,
+      "worker_rss_bytes": 1366900736,
+      "worker_uss_bytes": 872873984,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 44.2,
+      "system_cpu_percent": 23.4,
+      "system_available_bytes": 1770979328
+    },
+    {
+      "t": 3.6077939170063473,
+      "backend_rss_bytes": 11534336,
+      "worker_rss_bytes": 1543815168,
+      "worker_uss_bytes": 949911552,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 34.0,
+      "system_cpu_percent": 22.5,
+      "system_available_bytes": 1770979328
+    },
+    {
+      "t": 3.8303370000066934,
+      "backend_rss_bytes": 12189696,
+      "worker_rss_bytes": 1656487936,
+      "worker_uss_bytes": 1000652800,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 26.5,
+      "system_cpu_percent": 24.7,
+      "system_available_bytes": 1770979328
+    },
+    {
+      "t": 4.0635183330014115,
+      "backend_rss_bytes": 11862016,
+      "worker_rss_bytes": 1778860032,
+      "worker_uss_bytes": 1062993920,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 27.8,
+      "system_cpu_percent": 29.6,
+      "system_available_bytes": 1824931840
+    },
+    {
+      "t": 4.29301191700506,
+      "backend_rss_bytes": 11583488,
+      "worker_rss_bytes": 1809661952,
+      "worker_uss_bytes": 1031749632,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 23.6,
+      "system_cpu_percent": 27.3,
+      "system_available_bytes": 1824194560
+    },
+    {
+      "t": 4.5369583330029855,
+      "backend_rss_bytes": 11845632,
+      "worker_rss_bytes": 1586462720,
+      "worker_uss_bytes": 844496896,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 21.1,
+      "system_cpu_percent": 41.2,
+      "system_available_bytes": 1706295296
+    },
+    {
+      "t": 4.760460582998348,
+      "backend_rss_bytes": 10616832,
+      "worker_rss_bytes": 1234206720,
+      "worker_uss_bytes": 512114688,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 18.7,
+      "system_cpu_percent": 45.3,
+      "system_available_bytes": 1582104576
+    },
+    {
+      "t": 4.98643879199517,
+      "backend_rss_bytes": 10600448,
+      "worker_rss_bytes": 1087717376,
+      "worker_uss_bytes": 404094976,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 39.1,
+      "system_cpu_percent": 28.7,
+      "system_available_bytes": 1531183104
+    },
+    {
+      "t": 5.213551916996948,
+      "backend_rss_bytes": 9928704,
+      "worker_rss_bytes": 1054015488,
+      "worker_uss_bytes": 376569856,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 52.4,
+      "system_cpu_percent": 39.9,
+      "system_available_bytes": 1543618560
+    },
+    {
+      "t": 5.486379333000514,
+      "backend_rss_bytes": 6881280,
+      "worker_rss_bytes": 986185728,
+      "worker_uss_bytes": 284393472,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 27.8,
+      "system_cpu_percent": 35.4,
+      "system_available_bytes": 1492647936
+    },
+    {
+      "t": 5.727814750003745,
+      "backend_rss_bytes": 10108928,
+      "worker_rss_bytes": 932888576,
+      "worker_uss_bytes": 189366272,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 32.5,
+      "system_cpu_percent": 52.4,
+      "system_available_bytes": 1433174016
+    },
+    {
+      "t": 5.955217082999297,
+      "backend_rss_bytes": 10043392,
+      "worker_rss_bytes": 728006656,
+      "worker_uss_bytes": 42450944,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 47.7,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1433174016
+    },
+    {
+      "t": 6.209967000002507,
+      "backend_rss_bytes": 9977856,
+      "worker_rss_bytes": 759218176,
+      "worker_uss_bytes": 106610688,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 48.8,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1433174016
+    },
+    {
+      "t": 6.433777458005352,
+      "backend_rss_bytes": 9961472,
+      "worker_rss_bytes": 928120832,
+      "worker_uss_bytes": 235061248,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 74.7,
+      "system_cpu_percent": 46.2,
+      "system_available_bytes": 1412792320
+    },
+    {
+      "t": 6.661282457993366,
+      "backend_rss_bytes": 10256384,
+      "worker_rss_bytes": 1084801024,
+      "worker_uss_bytes": 339017728,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 62.6,
+      "system_cpu_percent": 34.6,
+      "system_available_bytes": 1461633024
+    },
+    {
+      "t": 6.891880583003513,
+      "backend_rss_bytes": 10240000,
+      "worker_rss_bytes": 1162641408,
+      "worker_uss_bytes": 363413504,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 46.8,
+      "system_cpu_percent": 37.1,
+      "system_available_bytes": 1466040320
+    },
+    {
+      "t": 7.120825457997853,
+      "backend_rss_bytes": 11911168,
+      "worker_rss_bytes": 1206075392,
+      "worker_uss_bytes": 365264896,
+      "backend_cpu_percent": 0.7,
+      "worker_cpu_percent": 118.8,
+      "system_cpu_percent": 47.0,
+      "system_available_bytes": 1444872192
+    },
+    {
+      "t": 7.346475458005443,
+      "backend_rss_bytes": 11386880,
+      "worker_rss_bytes": 1193345024,
+      "worker_uss_bytes": 305201152,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 128.5,
+      "system_cpu_percent": 68.9,
+      "system_available_bytes": 1417871360
+    },
+    {
+      "t": 7.580056207996677,
+      "backend_rss_bytes": 9191424,
+      "worker_rss_bytes": 1207582720,
+      "worker_uss_bytes": 426016768,
+      "backend_cpu_percent": 0.7,
+      "worker_cpu_percent": 38.5,
+      "system_cpu_percent": 88.2,
+      "system_available_bytes": 1474576384
+    },
+    {
+      "t": 7.807863207999617,
+      "backend_rss_bytes": 9076736,
+      "worker_rss_bytes": 1705623552,
+      "worker_uss_bytes": 898859008,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 96.3,
+      "system_cpu_percent": 44.6,
+      "system_available_bytes": 1742258176
+    },
+    {
+      "t": 8.033537124996656,
+      "backend_rss_bytes": 7520256,
+      "worker_rss_bytes": 1739292672,
+      "worker_uss_bytes": 974241792,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 97.9,
+      "system_cpu_percent": 46.3,
+      "system_available_bytes": 1803976704
+    },
+    {
+      "t": 8.258934541998315,
+      "backend_rss_bytes": 7438336,
+      "worker_rss_bytes": 1822097408,
+      "worker_uss_bytes": 1041678336,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 45.9,
+      "system_cpu_percent": 36.1,
+      "system_available_bytes": 1833172992
+    },
+    {
+      "t": 8.483742583004641,
+      "backend_rss_bytes": 7405568,
+      "worker_rss_bytes": 1784938496,
+      "worker_uss_bytes": 1036697600,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 46.2,
+      "system_cpu_percent": 35.8,
+      "system_available_bytes": 1831829504
+    },
+    {
+      "t": 8.708240499996464,
+      "backend_rss_bytes": 7094272,
+      "worker_rss_bytes": 1731051520,
+      "worker_uss_bytes": 987316224,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 59.6,
+      "system_cpu_percent": 42.0,
+      "system_available_bytes": 1803059200
+    },
+    {
+      "t": 8.933095832995605,
+      "backend_rss_bytes": 6946816,
+      "worker_rss_bytes": 1754431488,
+      "worker_uss_bytes": 986382336,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 37.2,
+      "system_cpu_percent": 35.0,
+      "system_available_bytes": 1772978176
+    },
+    {
+      "t": 9.160458957994706,
+      "backend_rss_bytes": 6160384,
+      "worker_rss_bytes": 1195622400,
+      "worker_uss_bytes": 437370880,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 47.3,
+      "system_cpu_percent": 40.0,
+      "system_available_bytes": 1507573760
+    },
+    {
+      "t": 9.38234654199914,
+      "backend_rss_bytes": 6029312,
+      "worker_rss_bytes": 1173356544,
+      "worker_uss_bytes": 376094720,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 61.0,
+      "system_cpu_percent": 34.1,
+      "system_available_bytes": 1450033152
+    },
+    {
+      "t": 9.618008958001155,
+      "backend_rss_bytes": 5963776,
+      "worker_rss_bytes": 1190625280,
+      "worker_uss_bytes": 373932032,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 76.0,
+      "system_cpu_percent": 44.1,
+      "system_available_bytes": 1469677568
+    },
+    {
+      "t": 9.844329542000196,
+      "backend_rss_bytes": 6848512,
+      "worker_rss_bytes": 1214955520,
+      "worker_uss_bytes": 374161408,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 182.8,
+      "system_cpu_percent": 52.5,
+      "system_available_bytes": 1460158464
+    },
+    {
+      "t": 10.071064667004975,
+      "backend_rss_bytes": 10567680,
+      "worker_rss_bytes": 1217052672,
+      "worker_uss_bytes": 408403968,
+      "backend_cpu_percent": 2.5,
+      "worker_cpu_percent": 294.6,
+      "system_cpu_percent": 55.1,
+      "system_available_bytes": 1457848320
+    },
+    {
+      "t": 10.298759957993752,
+      "backend_rss_bytes": 10567680,
+      "worker_rss_bytes": 1393082368,
+      "worker_uss_bytes": 533168128,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 98.0,
+      "system_cpu_percent": 36.3,
+      "system_available_bytes": 1498775552
+    },
+    {
+      "t": 10.524748666997766,
+      "backend_rss_bytes": 10584064,
+      "worker_rss_bytes": 1741406208,
+      "worker_uss_bytes": 923435008,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 92.2,
+      "system_cpu_percent": 43.9,
+      "system_available_bytes": 1682604032
+    },
+    {
+      "t": 10.751622750001843,
+      "backend_rss_bytes": 10616832,
+      "worker_rss_bytes": 1987198976,
+      "worker_uss_bytes": 1119404032,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 114.1,
+      "system_cpu_percent": 34.5,
+      "system_available_bytes": 1823358976
+    },
+    {
+      "t": 10.976105791996815,
+      "backend_rss_bytes": 10633216,
+      "worker_rss_bytes": 2034794496,
+      "worker_uss_bytes": 1178697728,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 133.0,
+      "system_cpu_percent": 40.0,
+      "system_available_bytes": 1890222080
+    },
+    {
+      "t": 11.205268292003893,
+      "backend_rss_bytes": 10616832,
+      "worker_rss_bytes": 2037088256,
+      "worker_uss_bytes": 1180663808,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 310.2,
+      "system_cpu_percent": 60.8,
+      "system_available_bytes": 1886158848
+    },
+    {
+      "t": 11.43016279200674,
+      "backend_rss_bytes": 10518528,
+      "worker_rss_bytes": 2065694720,
+      "worker_uss_bytes": 1185628160,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 123.8,
+      "system_cpu_percent": 30.2,
+      "system_available_bytes": 1884291072
+    },
+    {
+      "t": 11.65372733300319,
+      "backend_rss_bytes": 10534912,
+      "worker_rss_bytes": 2067152896,
+      "worker_uss_bytes": 1186267136,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 103.7,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1884422144
+    },
+    {
+      "t": 11.883882750000339,
+      "backend_rss_bytes": 10551296,
+      "worker_rss_bytes": 2068332544,
+      "worker_uss_bytes": 1182105600,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 141.2,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1883521024
+    }
+  ],
+  "events": [
+    {
+      "session_id": "8c4e95d4-3cef-4304-9b7e-3c2c6a332bfe",
+      "type": "transcript",
+      "text": "20th century.",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 7181.11,
+        "first_text_ms": 6656.26,
+        "final_latency_ms": 193.93,
+        "audio_received_seconds": 6.96,
+        "audio_forwarded_seconds": 6.96,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.1829605829989305,
+      "before_end": false
+    },
+    {
+      "session_id": "8c4e95d4-3cef-4304-9b7e-3c2c6a332bfe",
+      "type": "transcript",
+      "text": "20th century research has shown that there are two pools of genes.",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 10063.49,
+        "first_text_ms": 6656.26,
+        "final_latency_ms": 3076.32,
+        "audio_received_seconds": 6.96,
+        "audio_forwarded_seconds": 6.96,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 10.069262457996956,
+      "before_end": false
+    },
+    {
+      "session_id": "8c4e95d4-3cef-4304-9b7e-3c2c6a332bfe",
+      "type": "transcript",
+      "text": "20th century research has shown that there are two pools of genetic variation hidden and expressed.",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 11237.27,
+        "first_text_ms": 6656.26,
+        "final_latency_ms": 4250.09,
+        "audio_received_seconds": 6.96,
+        "audio_forwarded_seconds": 6.96,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 11.23763429200335,
+      "before_end": false
+    },
+    {
+      "session_id": "8c4e95d4-3cef-4304-9b7e-3c2c6a332bfe",
+      "type": "transcript",
+      "text": "20th century research has shown that there are two pools of genetic variation hidden and expressed.",
+      "sequence": 4,
+      "metrics": {
+        "elapsed_ms": 12062.07,
+        "first_text_ms": 6656.26,
+        "final_latency_ms": 5074.89,
+        "audio_received_seconds": 6.96,
+        "audio_forwarded_seconds": 6.96,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 12.062787582995952,
+      "before_end": false
+    },
+    {
+      "session_id": "8c4e95d4-3cef-4304-9b7e-3c2c6a332bfe",
+      "type": "done",
+      "text": "20th century research has shown that there are two pools of genetic variation hidden and expressed.",
+      "metrics": {
+        "elapsed_ms": 12127.97,
+        "first_text_ms": 6656.26,
+        "final_latency_ms": 5140.79,
+        "audio_received_seconds": 6.96,
+        "audio_forwarded_seconds": 6.96,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 12.131093000003602,
+      "before_end": false
+    }
+  ]
+}

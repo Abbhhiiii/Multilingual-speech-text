@@ -1,0 +1,1572 @@
+{
+  "run_id": "en-10167324587744183095-500-1",
+  "id": "en-10167324587744183095",
+  "wav": "benchmark_audio/en/10167324587744183095.wav",
+  "language": "en",
+  "chunk_ms": 500,
+  "audio_seconds": 11.46,
+  "status": "done",
+  "error_code": null,
+  "first_text_ms": 6458.3,
+  "final_latency_ms": 23447.99,
+  "session_elapsed_ms": 34958.27,
+  "incremental": true,
+  "first_visible_client_ms": 6992.278000005172,
+  "revisions": 5,
+  "worker_peak_rss_bytes": 2053160960,
+  "worker_peak_uss_bytes": 1194491904,
+  "worker_mean_cpu_percent": 63.86993006993007,
+  "worker_peak_cpu_percent": 289.4,
+  "backend_mean_cpu_percent": 0.22253521126760564,
+  "system_mean_cpu_percent": 47.57832167832168,
+  "system_min_available_bytes": 1324679168,
+  "reference": "To the north and within easy reach is the romantic and fascinating town of Sintra and which was made famous to foreigners after a glowing account of its splendours recorded by Lord Byron.",
+  "prediction": "To the north, and within easy reach, is a romantic and fascinating town of Sintra, and which was made famous to foreigners after a glowing account of its splendourous recorded by Lord Byron.",
+  "wer": 0.06060606060606061,
+  "cer": null,
+  "resource_samples": [
+    {
+      "t": 0.0020385840034577996,
+      "backend_rss_bytes": 22380544,
+      "worker_rss_bytes": 32768,
+      "worker_uss_bytes": 1146880,
+      "backend_cpu_percent": null,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 3043033088
+    },
+    {
+      "t": 0.22723387500445824,
+      "backend_rss_bytes": 22380544,
+      "worker_rss_bytes": 304283648,
+      "worker_uss_bytes": 281018368,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 24.9,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2732572672
+    },
+    {
+      "t": 0.5094880840042606,
+      "backend_rss_bytes": 22380544,
+      "worker_rss_bytes": 729563136,
+      "worker_uss_bytes": 506167296,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 18.5,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2344927232
+    },
+    {
+      "t": 0.7322802499984391,
+      "backend_rss_bytes": 22380544,
+      "worker_rss_bytes": 1027768320,
+      "worker_uss_bytes": 703397888,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 18.0,
+      "system_cpu_percent": 23.4,
+      "system_available_bytes": 1992966144
+    },
+    {
+      "t": 0.9682528749981429,
+      "backend_rss_bytes": 22380544,
+      "worker_rss_bytes": 651493376,
+      "worker_uss_bytes": 70631424,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 15.7,
+      "system_cpu_percent": 42.2,
+      "system_available_bytes": 1697710080
+    },
+    {
+      "t": 1.2058113340026466,
+      "backend_rss_bytes": 20971520,
+      "worker_rss_bytes": 516112384,
+      "worker_uss_bytes": 67731456,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 13.3,
+      "system_cpu_percent": 31.2,
+      "system_available_bytes": 1514242048
+    },
+    {
+      "t": 1.4276663750060834,
+      "backend_rss_bytes": 9781248,
+      "worker_rss_bytes": 507740160,
+      "worker_uss_bytes": 29474816,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 7.7,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1451458560
+    },
+    {
+      "t": 1.6563146670087008,
+      "backend_rss_bytes": 11616256,
+      "worker_rss_bytes": 533233664,
+      "worker_uss_bytes": 31506432,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 8.0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1343569920
+    },
+    {
+      "t": 1.8999653339997167,
+      "backend_rss_bytes": 9469952,
+      "worker_rss_bytes": 336740352,
+      "worker_uss_bytes": 21282816,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 10.4,
+      "system_cpu_percent": 42.2,
+      "system_available_bytes": 1345257472
+    },
+    {
+      "t": 2.145757250007591,
+      "backend_rss_bytes": 11714560,
+      "worker_rss_bytes": 327237632,
+      "worker_uss_bytes": 23183360,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 11.5,
+      "system_cpu_percent": 36.2,
+      "system_available_bytes": 1348124672
+    },
+    {
+      "t": 2.3752497500099707,
+      "backend_rss_bytes": 11730944,
+      "worker_rss_bytes": 299614208,
+      "worker_uss_bytes": 35766272,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 9.1,
+      "system_cpu_percent": 26.5,
+      "system_available_bytes": 1336229888
+    },
+    {
+      "t": 2.603381292006816,
+      "backend_rss_bytes": 10567680,
+      "worker_rss_bytes": 306036736,
+      "worker_uss_bytes": 28442624,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 7.7,
+      "system_cpu_percent": 23.9,
+      "system_available_bytes": 1331331072
+    },
+    {
+      "t": 2.832132834009826,
+      "backend_rss_bytes": 10567680,
+      "worker_rss_bytes": 335036416,
+      "worker_uss_bytes": 23740416,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 10.5,
+      "system_cpu_percent": 32.2,
+      "system_available_bytes": 1347059712
+    },
+    {
+      "t": 3.065753709001001,
+      "backend_rss_bytes": 10649600,
+      "worker_rss_bytes": 347963392,
+      "worker_uss_bytes": 29261824,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 8.0,
+      "system_cpu_percent": 34.4,
+      "system_available_bytes": 1338015744
+    },
+    {
+      "t": 3.2898333750054007,
+      "backend_rss_bytes": 10649600,
+      "worker_rss_bytes": 345571328,
+      "worker_uss_bytes": 16547840,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 3.7,
+      "system_cpu_percent": 50.6,
+      "system_available_bytes": 1335836672
+    },
+    {
+      "t": 3.5145469999988563,
+      "backend_rss_bytes": 10141696,
+      "worker_rss_bytes": 508379136,
+      "worker_uss_bytes": 223150080,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 61.6,
+      "system_cpu_percent": 37.4,
+      "system_available_bytes": 1382907904
+    },
+    {
+      "t": 3.7398401250102324,
+      "backend_rss_bytes": 9961472,
+      "worker_rss_bytes": 995000320,
+      "worker_uss_bytes": 747569152,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 93.2,
+      "system_cpu_percent": 55.3,
+      "system_available_bytes": 1676836864
+    },
+    {
+      "t": 3.9690501669974765,
+      "backend_rss_bytes": 10616832,
+      "worker_rss_bytes": 1280000000,
+      "worker_uss_bytes": 887406592,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 56.6,
+      "system_cpu_percent": 61.3,
+      "system_available_bytes": 1779843072
+    },
+    {
+      "t": 4.197621875006007,
+      "backend_rss_bytes": 10485760,
+      "worker_rss_bytes": 1363050496,
+      "worker_uss_bytes": 922451968,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 28.3,
+      "system_cpu_percent": 51.1,
+      "system_available_bytes": 1804402688
+    },
+    {
+      "t": 4.424612792005064,
+      "backend_rss_bytes": 10420224,
+      "worker_rss_bytes": 1465483264,
+      "worker_uss_bytes": 969965568,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 29.1,
+      "system_cpu_percent": 42.3,
+      "system_available_bytes": 1832091648
+    },
+    {
+      "t": 4.651066667007399,
+      "backend_rss_bytes": 10289152,
+      "worker_rss_bytes": 1564688384,
+      "worker_uss_bytes": 1021689856,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 32.1,
+      "system_cpu_percent": 28.2,
+      "system_available_bytes": 1878425600
+    },
+    {
+      "t": 4.875996625007247,
+      "backend_rss_bytes": 10240000,
+      "worker_rss_bytes": 1563181056,
+      "worker_uss_bytes": 979451904,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 29.9,
+      "system_cpu_percent": 45.6,
+      "system_available_bytes": 1866645504
+    },
+    {
+      "t": 5.108799292007461,
+      "backend_rss_bytes": 10190848,
+      "worker_rss_bytes": 1494614016,
+      "worker_uss_bytes": 856244224,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 31.1,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1808842752
+    },
+    {
+      "t": 5.335845125009655,
+      "backend_rss_bytes": 10190848,
+      "worker_rss_bytes": 1374502912,
+      "worker_uss_bytes": 699695104,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 29.8,
+      "system_cpu_percent": 24.8,
+      "system_available_bytes": 1742897152
+    },
+    {
+      "t": 5.562925542006269,
+      "backend_rss_bytes": 10059776,
+      "worker_rss_bytes": 1049051136,
+      "worker_uss_bytes": 413089792,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 58.0,
+      "system_cpu_percent": 37.2,
+      "system_available_bytes": 1581613056
+    },
+    {
+      "t": 5.791178667001077,
+      "backend_rss_bytes": 9125888,
+      "worker_rss_bytes": 1113440256,
+      "worker_uss_bytes": 358318080,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 42.6,
+      "system_cpu_percent": 37.1,
+      "system_available_bytes": 1598914560
+    },
+    {
+      "t": 6.122392959005083,
+      "backend_rss_bytes": 9945088,
+      "worker_rss_bytes": 1053917184,
+      "worker_uss_bytes": 254672896,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 36.0,
+      "system_cpu_percent": 43.9,
+      "system_available_bytes": 1493762048
+    },
+    {
+      "t": 6.349848917001509,
+      "backend_rss_bytes": 9781248,
+      "worker_rss_bytes": 1087258624,
+      "worker_uss_bytes": 333578240,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 87.8,
+      "system_cpu_percent": 38.4,
+      "system_available_bytes": 1474691072
+    },
+    {
+      "t": 6.6784178750094725,
+      "backend_rss_bytes": 9994240,
+      "worker_rss_bytes": 1138212864,
+      "worker_uss_bytes": 365772800,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 165.6,
+      "system_cpu_percent": 86.5,
+      "system_available_bytes": 1510309888
+    },
+    {
+      "t": 6.93165208400751,
+      "backend_rss_bytes": 7979008,
+      "worker_rss_bytes": 1203372032,
+      "worker_uss_bytes": 366084096,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 96.2,
+      "system_cpu_percent": 65.3,
+      "system_available_bytes": 1478246400
+    },
+    {
+      "t": 7.165158500007237,
+      "backend_rss_bytes": 11665408,
+      "worker_rss_bytes": 1285373952,
+      "worker_uss_bytes": 537329664,
+      "backend_cpu_percent": 1.3,
+      "worker_cpu_percent": 108.6,
+      "system_cpu_percent": 63.2,
+      "system_available_bytes": 1476001792
+    },
+    {
+      "t": 7.466935874996125,
+      "backend_rss_bytes": 9666560,
+      "worker_rss_bytes": 1563426816,
+      "worker_uss_bytes": 757727232,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 64.7,
+      "system_cpu_percent": 77.0,
+      "system_available_bytes": 1696186368
+    },
+    {
+      "t": 7.713628334007808,
+      "backend_rss_bytes": 11632640,
+      "worker_rss_bytes": 1969848320,
+      "worker_uss_bytes": 1138294784,
+      "backend_cpu_percent": 0.9,
+      "worker_cpu_percent": 93.0,
+      "system_cpu_percent": 46.0,
+      "system_available_bytes": 1908473856
+    },
+    {
+      "t": 7.939712542007328,
+      "backend_rss_bytes": 9977856,
+      "worker_rss_bytes": 2012856320,
+      "worker_uss_bytes": 1165230080,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 121.9,
+      "system_cpu_percent": 42.5,
+      "system_available_bytes": 1944584192
+    },
+    {
+      "t": 8.171866250006133,
+      "backend_rss_bytes": 10158080,
+      "worker_rss_bytes": 1935245312,
+      "worker_uss_bytes": 1025703936,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 289.4,
+      "system_cpu_percent": 74.5,
+      "system_available_bytes": 1878654976
+    },
+    {
+      "t": 8.407214209000813,
+      "backend_rss_bytes": 11747328,
+      "worker_rss_bytes": 1823080448,
+      "worker_uss_bytes": 922435584,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 288.8,
+      "system_cpu_percent": 76.2,
+      "system_available_bytes": 1839054848
+    },
+    {
+      "t": 8.643699375010328,
+      "backend_rss_bytes": 11862016,
+      "worker_rss_bytes": 1673478144,
+      "worker_uss_bytes": 785219584,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 85.4,
+      "system_cpu_percent": 58.5,
+      "system_available_bytes": 1705852928
+    },
+    {
+      "t": 8.880720625005779,
+      "backend_rss_bytes": 11878400,
+      "worker_rss_bytes": 1925267456,
+      "worker_uss_bytes": 1065140224,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 91.7,
+      "system_cpu_percent": 60.2,
+      "system_available_bytes": 1852096512
+    },
+    {
+      "t": 9.108652334005455,
+      "backend_rss_bytes": 11796480,
+      "worker_rss_bytes": 2035351552,
+      "worker_uss_bytes": 1166098432,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 87.2,
+      "system_cpu_percent": 60.2,
+      "system_available_bytes": 1919647744
+    },
+    {
+      "t": 9.336405042005936,
+      "backend_rss_bytes": 11796480,
+      "worker_rss_bytes": 2030616576,
+      "worker_uss_bytes": 1169424384,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 126.3,
+      "system_cpu_percent": 42.3,
+      "system_available_bytes": 1924284416
+    },
+    {
+      "t": 9.56754775000445,
+      "backend_rss_bytes": 10452992,
+      "worker_rss_bytes": 1910947840,
+      "worker_uss_bytes": 1112670208,
+      "backend_cpu_percent": 0.7,
+      "worker_cpu_percent": 77.6,
+      "system_cpu_percent": 72.7,
+      "system_available_bytes": 1878540288
+    },
+    {
+      "t": 9.816441792005207,
+      "backend_rss_bytes": 10321920,
+      "worker_rss_bytes": 1745649664,
+      "worker_uss_bytes": 847986688,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 80.4,
+      "system_cpu_percent": 87.3,
+      "system_available_bytes": 1811120128
+    },
+    {
+      "t": 10.062250709001091,
+      "backend_rss_bytes": 10043392,
+      "worker_rss_bytes": 1282277376,
+      "worker_uss_bytes": 399196160,
+      "backend_cpu_percent": 0.7,
+      "worker_cpu_percent": 58.1,
+      "system_cpu_percent": 61.0,
+      "system_available_bytes": 1811120128
+    },
+    {
+      "t": 10.307041125008254,
+      "backend_rss_bytes": 9076736,
+      "worker_rss_bytes": 1128202240,
+      "worker_uss_bytes": 331808768,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 75.3,
+      "system_cpu_percent": 67.0,
+      "system_available_bytes": 1456668672
+    },
+    {
+      "t": 10.542574959006743,
+      "backend_rss_bytes": 10321920,
+      "worker_rss_bytes": 1233616896,
+      "worker_uss_bytes": 390365184,
+      "backend_cpu_percent": 0.7,
+      "worker_cpu_percent": 217.1,
+      "system_cpu_percent": 83.2,
+      "system_available_bytes": 1525891072
+    },
+    {
+      "t": 10.770943167008227,
+      "backend_rss_bytes": 10338304,
+      "worker_rss_bytes": 1228734464,
+      "worker_uss_bytes": 385286144,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 229.8,
+      "system_cpu_percent": 79.8,
+      "system_available_bytes": 1525760000
+    },
+    {
+      "t": 11.008411792005063,
+      "backend_rss_bytes": 11665408,
+      "worker_rss_bytes": 1274331136,
+      "worker_uss_bytes": 442777600,
+      "backend_cpu_percent": 0.8,
+      "worker_cpu_percent": 169.9,
+      "system_cpu_percent": 81.4,
+      "system_available_bytes": 1506426880
+    },
+    {
+      "t": 11.23696308399667,
+      "backend_rss_bytes": 11829248,
+      "worker_rss_bytes": 1328414720,
+      "worker_uss_bytes": 442662912,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 91.5,
+      "system_cpu_percent": 65.5,
+      "system_available_bytes": 1538883584
+    },
+    {
+      "t": 11.468829334000475,
+      "backend_rss_bytes": 11829248,
+      "worker_rss_bytes": 1327742976,
+      "worker_uss_bytes": 504135680,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 76.8,
+      "system_cpu_percent": 72.0,
+      "system_available_bytes": 1525972992
+    },
+    {
+      "t": 11.70957887500117,
+      "backend_rss_bytes": 12419072,
+      "worker_rss_bytes": 1492451328,
+      "worker_uss_bytes": 680083456,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 76.0,
+      "system_cpu_percent": 68.1,
+      "system_available_bytes": 1570799616
+    },
+    {
+      "t": 11.938622959001805,
+      "backend_rss_bytes": 12435456,
+      "worker_rss_bytes": 1755660288,
+      "worker_uss_bytes": 934117376,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 91.5,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1709031424
+    },
+    {
+      "t": 12.172492167010205,
+      "backend_rss_bytes": 9076736,
+      "worker_rss_bytes": 1510195200,
+      "worker_uss_bytes": 501268480,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 61.6,
+      "system_cpu_percent": 68.3,
+      "system_available_bytes": 1710522368
+    },
+    {
+      "t": 12.789038625007379,
+      "backend_rss_bytes": 7094272,
+      "worker_rss_bytes": 781942784,
+      "worker_uss_bytes": 271630336,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 6.4,
+      "system_cpu_percent": 99.4,
+      "system_available_bytes": 1415577600
+    },
+    {
+      "t": 13.049730291997548,
+      "backend_rss_bytes": 7094272,
+      "worker_rss_bytes": 657276928,
+      "worker_uss_bytes": 208109568,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 50.9,
+      "system_cpu_percent": 75.4,
+      "system_available_bytes": 1388937216
+    },
+    {
+      "t": 13.29333683400182,
+      "backend_rss_bytes": 6963200,
+      "worker_rss_bytes": 557842432,
+      "worker_uss_bytes": 157827072,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 57.2,
+      "system_cpu_percent": 85.5,
+      "system_available_bytes": 1384448000
+    },
+    {
+      "t": 13.532104833997437,
+      "backend_rss_bytes": 6995968,
+      "worker_rss_bytes": 595083264,
+      "worker_uss_bytes": 191168512,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 57.2,
+      "system_cpu_percent": 58.4,
+      "system_available_bytes": 1383858176
+    },
+    {
+      "t": 13.756992834008997,
+      "backend_rss_bytes": 6995968,
+      "worker_rss_bytes": 634748928,
+      "worker_uss_bytes": 236634112,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 64.7,
+      "system_cpu_percent": 63.3,
+      "system_available_bytes": 1401880576
+    },
+    {
+      "t": 13.990151874997537,
+      "backend_rss_bytes": 7045120,
+      "worker_rss_bytes": 636452864,
+      "worker_uss_bytes": 263913472,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 47.8,
+      "system_cpu_percent": 61.6,
+      "system_available_bytes": 1390706688
+    },
+    {
+      "t": 14.224394999997457,
+      "backend_rss_bytes": 7012352,
+      "worker_rss_bytes": 639090688,
+      "worker_uss_bytes": 286474240,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 37.6,
+      "system_cpu_percent": 69.5,
+      "system_available_bytes": 1394081792
+    },
+    {
+      "t": 14.484870416999911,
+      "backend_rss_bytes": 6438912,
+      "worker_rss_bytes": 592445440,
+      "worker_uss_bytes": 253394944,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 25.3,
+      "system_cpu_percent": 79.3,
+      "system_available_bytes": 1329823744
+    },
+    {
+      "t": 14.785641084003146,
+      "backend_rss_bytes": 6242304,
+      "worker_rss_bytes": 549044224,
+      "worker_uss_bytes": 191070208,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 23.5,
+      "system_cpu_percent": 70.7,
+      "system_available_bytes": 1329233920
+    },
+    {
+      "t": 15.012674167010118,
+      "backend_rss_bytes": 6176768,
+      "worker_rss_bytes": 561971200,
+      "worker_uss_bytes": 178749440,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 37.7,
+      "system_cpu_percent": 70.5,
+      "system_available_bytes": 1338376192
+    },
+    {
+      "t": 15.249123875008081,
+      "backend_rss_bytes": 5455872,
+      "worker_rss_bytes": 555712512,
+      "worker_uss_bytes": 158400512,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 48.4,
+      "system_cpu_percent": 55.6,
+      "system_available_bytes": 1329233920
+    },
+    {
+      "t": 15.487512874999084,
+      "backend_rss_bytes": 6389760,
+      "worker_rss_bytes": 574095360,
+      "worker_uss_bytes": 172638208,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 38.2,
+      "system_cpu_percent": 62.3,
+      "system_available_bytes": 1350713344
+    },
+    {
+      "t": 15.720496959009324,
+      "backend_rss_bytes": 6406144,
+      "worker_rss_bytes": 583188480,
+      "worker_uss_bytes": 213385216,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 61.0,
+      "system_cpu_percent": 67.8,
+      "system_available_bytes": 1383055360
+    },
+    {
+      "t": 15.951734000002034,
+      "backend_rss_bytes": 6389760,
+      "worker_rss_bytes": 671481856,
+      "worker_uss_bytes": 295419904,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 67.7,
+      "system_cpu_percent": 66.5,
+      "system_available_bytes": 1427783680
+    },
+    {
+      "t": 16.2044090420095,
+      "backend_rss_bytes": 6307840,
+      "worker_rss_bytes": 579338240,
+      "worker_uss_bytes": 228130816,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 34.6,
+      "system_cpu_percent": 83.3,
+      "system_available_bytes": 1414823936
+    },
+    {
+      "t": 16.48012445900531,
+      "backend_rss_bytes": 6324224,
+      "worker_rss_bytes": 674529280,
+      "worker_uss_bytes": 265748480,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 66.6,
+      "system_cpu_percent": 56.9,
+      "system_available_bytes": 1411629056
+    },
+    {
+      "t": 16.718297084007645,
+      "backend_rss_bytes": 6324224,
+      "worker_rss_bytes": 700743680,
+      "worker_uss_bytes": 238174208,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 69.5,
+      "system_cpu_percent": 65.8,
+      "system_available_bytes": 1394917376
+    },
+    {
+      "t": 16.969228542002384,
+      "backend_rss_bytes": 6307840,
+      "worker_rss_bytes": 669745152,
+      "worker_uss_bytes": 208306176,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 63.5,
+      "system_cpu_percent": 58.2,
+      "system_available_bytes": 1350385664
+    },
+    {
+      "t": 17.19478925000294,
+      "backend_rss_bytes": 6324224,
+      "worker_rss_bytes": 665370624,
+      "worker_uss_bytes": 209076224,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 46.5,
+      "system_cpu_percent": 50.3,
+      "system_available_bytes": 1350647808
+    },
+    {
+      "t": 17.445627292006975,
+      "backend_rss_bytes": 6389760,
+      "worker_rss_bytes": 702873600,
+      "worker_uss_bytes": 156614656,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 45.8,
+      "system_cpu_percent": 56.6,
+      "system_available_bytes": 1377370112
+    },
+    {
+      "t": 17.73439729200618,
+      "backend_rss_bytes": 6356992,
+      "worker_rss_bytes": 643923968,
+      "worker_uss_bytes": 98942976,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 27.3,
+      "system_cpu_percent": 50.0,
+      "system_available_bytes": 1335328768
+    },
+    {
+      "t": 17.964508709002985,
+      "backend_rss_bytes": 6356992,
+      "worker_rss_bytes": 565886976,
+      "worker_uss_bytes": 45285376,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 32.2,
+      "system_cpu_percent": 60.0,
+      "system_available_bytes": 1331118080
+    },
+    {
+      "t": 18.198885749996407,
+      "backend_rss_bytes": 6389760,
+      "worker_rss_bytes": 595148800,
+      "worker_uss_bytes": 74170368,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 59.8,
+      "system_cpu_percent": 56.8,
+      "system_available_bytes": 1354760192
+    },
+    {
+      "t": 18.4284681249992,
+      "backend_rss_bytes": 6406144,
+      "worker_rss_bytes": 677904384,
+      "worker_uss_bytes": 142540800,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 60.5,
+      "system_cpu_percent": 50.8,
+      "system_available_bytes": 1373585408
+    },
+    {
+      "t": 18.682293709003716,
+      "backend_rss_bytes": 6389760,
+      "worker_rss_bytes": 670629888,
+      "worker_uss_bytes": 196001792,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 56.5,
+      "system_cpu_percent": 69.8,
+      "system_available_bytes": 1364557824
+    },
+    {
+      "t": 18.925365000002785,
+      "backend_rss_bytes": 6389760,
+      "worker_rss_bytes": 709443584,
+      "worker_uss_bytes": 249200640,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 60.2,
+      "system_cpu_percent": 71.1,
+      "system_available_bytes": 1359069184
+    },
+    {
+      "t": 19.154440833997796,
+      "backend_rss_bytes": 6389760,
+      "worker_rss_bytes": 773259264,
+      "worker_uss_bytes": 276627456,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 68.1,
+      "system_cpu_percent": 52.2,
+      "system_available_bytes": 1373224960
+    },
+    {
+      "t": 19.384808834001888,
+      "backend_rss_bytes": 6340608,
+      "worker_rss_bytes": 701022208,
+      "worker_uss_bytes": 205144064,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 61.3,
+      "system_cpu_percent": 69.8,
+      "system_available_bytes": 1344159744
+    },
+    {
+      "t": 19.63036154200381,
+      "backend_rss_bytes": 6324224,
+      "worker_rss_bytes": 733315072,
+      "worker_uss_bytes": 194052096,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 38.8,
+      "system_cpu_percent": 53.8,
+      "system_available_bytes": 1335132160
+    },
+    {
+      "t": 19.8693292090029,
+      "backend_rss_bytes": 6373376,
+      "worker_rss_bytes": 650674176,
+      "worker_uss_bytes": 168001536,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 38.2,
+      "system_cpu_percent": 73.2,
+      "system_available_bytes": 1353711616
+    },
+    {
+      "t": 20.107277458999306,
+      "backend_rss_bytes": 8323072,
+      "worker_rss_bytes": 526876672,
+      "worker_uss_bytes": 84656128,
+      "backend_cpu_percent": 0.9,
+      "worker_cpu_percent": 46.5,
+      "system_cpu_percent": 81.4,
+      "system_available_bytes": 1331904512
+    },
+    {
+      "t": 20.334557916998165,
+      "backend_rss_bytes": 8290304,
+      "worker_rss_bytes": 524828672,
+      "worker_uss_bytes": 56950784,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 27.9,
+      "system_cpu_percent": 37.4,
+      "system_available_bytes": 1335197696
+    },
+    {
+      "t": 20.560235750002903,
+      "backend_rss_bytes": 8290304,
+      "worker_rss_bytes": 513605632,
+      "worker_uss_bytes": 42795008,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 20.2,
+      "system_cpu_percent": 51.4,
+      "system_available_bytes": 1331658752
+    },
+    {
+      "t": 20.824562666995917,
+      "backend_rss_bytes": 8290304,
+      "worker_rss_bytes": 477380608,
+      "worker_uss_bytes": 30064640,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 35.4,
+      "system_cpu_percent": 55.8,
+      "system_available_bytes": 1331658752
+    },
+    {
+      "t": 21.076055708996137,
+      "backend_rss_bytes": 8273920,
+      "worker_rss_bytes": 548175872,
+      "worker_uss_bytes": 71335936,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 39.7,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1350926336
+    },
+    {
+      "t": 21.319446209003218,
+      "backend_rss_bytes": 6651904,
+      "worker_rss_bytes": 612401152,
+      "worker_uss_bytes": 127139840,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 63.4,
+      "system_cpu_percent": 62.2,
+      "system_available_bytes": 1372848128
+    },
+    {
+      "t": 21.54868545899808,
+      "backend_rss_bytes": 6602752,
+      "worker_rss_bytes": 734576640,
+      "worker_uss_bytes": 193822720,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 61.8,
+      "system_cpu_percent": 41.4,
+      "system_available_bytes": 1396195328
+    },
+    {
+      "t": 21.777509125007782,
+      "backend_rss_bytes": 6586368,
+      "worker_rss_bytes": 836812800,
+      "worker_uss_bytes": 245563392,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 59.4,
+      "system_cpu_percent": 40.6,
+      "system_available_bytes": 1391607808
+    },
+    {
+      "t": 22.009326667001005,
+      "backend_rss_bytes": 6291456,
+      "worker_rss_bytes": 892911616,
+      "worker_uss_bytes": 303906816,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 59.1,
+      "system_cpu_percent": 47.0,
+      "system_available_bytes": 1439137792
+    },
+    {
+      "t": 22.235488749996875,
+      "backend_rss_bytes": 6307840,
+      "worker_rss_bytes": 934297600,
+      "worker_uss_bytes": 318242816,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 51.5,
+      "system_cpu_percent": 38.2,
+      "system_available_bytes": 1459994624
+    },
+    {
+      "t": 22.46050783401006,
+      "backend_rss_bytes": 6307840,
+      "worker_rss_bytes": 953663488,
+      "worker_uss_bytes": 275267584,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 36.2,
+      "system_cpu_percent": 27.4,
+      "system_available_bytes": 1411104768
+    },
+    {
+      "t": 22.70410383401031,
+      "backend_rss_bytes": 6275072,
+      "worker_rss_bytes": 884686848,
+      "worker_uss_bytes": 195297280,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 40.1,
+      "system_cpu_percent": 49.2,
+      "system_available_bytes": 1410187264
+    },
+    {
+      "t": 22.92977800000517,
+      "backend_rss_bytes": 6406144,
+      "worker_rss_bytes": 821002240,
+      "worker_uss_bytes": 125681664,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 42.4,
+      "system_cpu_percent": 41.3,
+      "system_available_bytes": 1350598656
+    },
+    {
+      "t": 23.16018679199624,
+      "backend_rss_bytes": 5472256,
+      "worker_rss_bytes": 875315200,
+      "worker_uss_bytes": 154320896,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 56.2,
+      "system_cpu_percent": 29.1,
+      "system_available_bytes": 1350598656
+    },
+    {
+      "t": 23.38450187499984,
+      "backend_rss_bytes": 5472256,
+      "worker_rss_bytes": 923074560,
+      "worker_uss_bytes": 181633024,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 57.5,
+      "system_cpu_percent": 25.0,
+      "system_available_bytes": 1369309184
+    },
+    {
+      "t": 23.639558916998794,
+      "backend_rss_bytes": 6422528,
+      "worker_rss_bytes": 1013448704,
+      "worker_uss_bytes": 249856000,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 50.3,
+      "system_cpu_percent": 33.8,
+      "system_available_bytes": 1371914240
+    },
+    {
+      "t": 23.894529666999006,
+      "backend_rss_bytes": 6422528,
+      "worker_rss_bytes": 997588992,
+      "worker_uss_bytes": 304840704,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 42.1,
+      "system_cpu_percent": 54.5,
+      "system_available_bytes": 1355350016
+    },
+    {
+      "t": 24.13189308400615,
+      "backend_rss_bytes": 6373376,
+      "worker_rss_bytes": 965017600,
+      "worker_uss_bytes": 319930368,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 55.4,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1386741760
+    },
+    {
+      "t": 24.379630249997717,
+      "backend_rss_bytes": 6356992,
+      "worker_rss_bytes": 859602944,
+      "worker_uss_bytes": 244269056,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 44.1,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1386741760
+    },
+    {
+      "t": 24.648379292004392,
+      "backend_rss_bytes": 6307840,
+      "worker_rss_bytes": 623788032,
+      "worker_uss_bytes": 115589120,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 38.8,
+      "system_cpu_percent": 56.8,
+      "system_available_bytes": 1325203456
+    },
+    {
+      "t": 24.883915708996938,
+      "backend_rss_bytes": 6324224,
+      "worker_rss_bytes": 562053120,
+      "worker_uss_bytes": 63668224,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 31.7,
+      "system_cpu_percent": 54.3,
+      "system_available_bytes": 1326235648
+    },
+    {
+      "t": 25.13706445900607,
+      "backend_rss_bytes": 6340608,
+      "worker_rss_bytes": 549797888,
+      "worker_uss_bytes": 33030144,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 31.5,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1326235648
+    },
+    {
+      "t": 25.42872779200843,
+      "backend_rss_bytes": 6356992,
+      "worker_rss_bytes": 591167488,
+      "worker_uss_bytes": 99516416,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 47.0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1326235648
+    },
+    {
+      "t": 25.747085042006802,
+      "backend_rss_bytes": 6438912,
+      "worker_rss_bytes": 700465152,
+      "worker_uss_bytes": 155582464,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 54.5,
+      "system_cpu_percent": 37.9,
+      "system_available_bytes": 1353416704
+    },
+    {
+      "t": 25.98278320900863,
+      "backend_rss_bytes": 6471680,
+      "worker_rss_bytes": 838123520,
+      "worker_uss_bytes": 244269056,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 53.9,
+      "system_cpu_percent": 31.7,
+      "system_available_bytes": 1370865664
+    },
+    {
+      "t": 26.26331404200755,
+      "backend_rss_bytes": 6471680,
+      "worker_rss_bytes": 972062720,
+      "worker_uss_bytes": 319684608,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 55.7,
+      "system_cpu_percent": 39.2,
+      "system_available_bytes": 1370865664
+    },
+    {
+      "t": 26.53027629200369,
+      "backend_rss_bytes": 6504448,
+      "worker_rss_bytes": 1119240192,
+      "worker_uss_bytes": 367722496,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 54.9,
+      "system_cpu_percent": 37.3,
+      "system_available_bytes": 1370865664
+    },
+    {
+      "t": 26.758505917008733,
+      "backend_rss_bytes": 6488064,
+      "worker_rss_bytes": 1073348608,
+      "worker_uss_bytes": 1035206656,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 35.0,
+      "system_cpu_percent": 40.1,
+      "system_available_bytes": 1339916288
+    },
+    {
+      "t": 27.01736266700027,
+      "backend_rss_bytes": 6373376,
+      "worker_rss_bytes": 891650048,
+      "worker_uss_bytes": 161464320,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 24.2,
+      "system_cpu_percent": 52.9,
+      "system_available_bytes": 1324679168
+    },
+    {
+      "t": 27.276948541999445,
+      "backend_rss_bytes": 6340608,
+      "worker_rss_bytes": 714948608,
+      "worker_uss_bytes": 83771392,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 13.5,
+      "system_cpu_percent": 50.0,
+      "system_available_bytes": 1329790976
+    },
+    {
+      "t": 27.526678209003876,
+      "backend_rss_bytes": 6324224,
+      "worker_rss_bytes": 561496064,
+      "worker_uss_bytes": 4210688,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 15.0,
+      "system_cpu_percent": 58.6,
+      "system_available_bytes": 1329790976
+    },
+    {
+      "t": 27.77928470900224,
+      "backend_rss_bytes": 6373376,
+      "worker_rss_bytes": 416940032,
+      "worker_uss_bytes": 3801088,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 11.6,
+      "system_cpu_percent": 61.7,
+      "system_available_bytes": 1337442304
+    },
+    {
+      "t": 28.24260866700206,
+      "backend_rss_bytes": 6438912,
+      "worker_rss_bytes": 441925632,
+      "worker_uss_bytes": 57966592,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 44.2,
+      "system_cpu_percent": 81.8,
+      "system_available_bytes": 1349615616
+    },
+    {
+      "t": 28.471034250003868,
+      "backend_rss_bytes": 6438912,
+      "worker_rss_bytes": 548241408,
+      "worker_uss_bytes": 125747200,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 65.2,
+      "system_cpu_percent": 41.6,
+      "system_available_bytes": 1406140416
+    },
+    {
+      "t": 28.69788300000073,
+      "backend_rss_bytes": 6422528,
+      "worker_rss_bytes": 644677632,
+      "worker_uss_bytes": 194281472,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 64.0,
+      "system_cpu_percent": 40.8,
+      "system_available_bytes": 1406140416
+    },
+    {
+      "t": 28.924857083999086,
+      "backend_rss_bytes": 6438912,
+      "worker_rss_bytes": 711589888,
+      "worker_uss_bytes": 249102336,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 48.3,
+      "system_cpu_percent": 59.2,
+      "system_available_bytes": 1415741440
+    },
+    {
+      "t": 29.159481292008422,
+      "backend_rss_bytes": 6455296,
+      "worker_rss_bytes": 805650432,
+      "worker_uss_bytes": 304365568,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 62.5,
+      "system_cpu_percent": 68.5,
+      "system_available_bytes": 1448214528
+    },
+    {
+      "t": 29.39259075000882,
+      "backend_rss_bytes": 6471680,
+      "worker_rss_bytes": 853360640,
+      "worker_uss_bytes": 359825408,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 66.5,
+      "system_cpu_percent": 64.7,
+      "system_available_bytes": 1448214528
+    },
+    {
+      "t": 29.630684625008143,
+      "backend_rss_bytes": 6438912,
+      "worker_rss_bytes": 829472768,
+      "worker_uss_bytes": 234979328,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 57.3,
+      "system_cpu_percent": 37.4,
+      "system_available_bytes": 1448214528
+    },
+    {
+      "t": 29.860231042010128,
+      "backend_rss_bytes": 6422528,
+      "worker_rss_bytes": 826720256,
+      "worker_uss_bytes": 167559168,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 45.0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1448214528
+    },
+    {
+      "t": 30.091970749999746,
+      "backend_rss_bytes": 6406144,
+      "worker_rss_bytes": 932495360,
+      "worker_uss_bytes": 153649152,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 30.4,
+      "system_cpu_percent": 31.9,
+      "system_available_bytes": 1326284800
+    },
+    {
+      "t": 30.33069704200898,
+      "backend_rss_bytes": 6406144,
+      "worker_rss_bytes": 923336704,
+      "worker_uss_bytes": 127827968,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 24.7,
+      "system_cpu_percent": 33.5,
+      "system_available_bytes": 1332281344
+    },
+    {
+      "t": 30.555013292003423,
+      "backend_rss_bytes": 5472256,
+      "worker_rss_bytes": 1045839872,
+      "worker_uss_bytes": 252739584,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 61.3,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1364574208
+    },
+    {
+      "t": 30.778507875002106,
+      "backend_rss_bytes": 10190848,
+      "worker_rss_bytes": 1278132224,
+      "worker_uss_bytes": 453279744,
+      "backend_cpu_percent": 1.5,
+      "worker_cpu_percent": 268.0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1453834240
+    },
+    {
+      "t": 31.008857250009896,
+      "backend_rss_bytes": 10174464,
+      "worker_rss_bytes": 1641168896,
+      "worker_uss_bytes": 822050816,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 74.9,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1594015744
+    },
+    {
+      "t": 31.236699000000954,
+      "backend_rss_bytes": 10223616,
+      "worker_rss_bytes": 2053160960,
+      "worker_uss_bytes": 1191084032,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 94.1,
+      "system_cpu_percent": 46.3,
+      "system_available_bytes": 1815347200
+    },
+    {
+      "t": 31.464312209005584,
+      "backend_rss_bytes": 10158080,
+      "worker_rss_bytes": 2043904000,
+      "worker_uss_bytes": 1194491904,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 132.6,
+      "system_cpu_percent": 62.0,
+      "system_available_bytes": 1788493824
+    },
+    {
+      "t": 31.725295666998136,
+      "backend_rss_bytes": 6914048,
+      "worker_rss_bytes": 1969668096,
+      "worker_uss_bytes": 1128071168,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 238.5,
+      "system_cpu_percent": 61.6,
+      "system_available_bytes": 1749942272
+    },
+    {
+      "t": 31.956609250002657,
+      "backend_rss_bytes": 6881280,
+      "worker_rss_bytes": 1637777408,
+      "worker_uss_bytes": 773652480,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 264.6,
+      "system_cpu_percent": 66.1,
+      "system_available_bytes": 1593769984
+    },
+    {
+      "t": 32.19040833400504,
+      "backend_rss_bytes": 6848512,
+      "worker_rss_bytes": 1245790208,
+      "worker_uss_bytes": 411336704,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 73.4,
+      "system_cpu_percent": 58.7,
+      "system_available_bytes": 1381138432
+    },
+    {
+      "t": 32.45376404200215,
+      "backend_rss_bytes": 9109504,
+      "worker_rss_bytes": 1285914624,
+      "worker_uss_bytes": 432537600,
+      "backend_cpu_percent": 0.7,
+      "worker_cpu_percent": 108.4,
+      "system_cpu_percent": 56.8,
+      "system_available_bytes": 1366884352
+    },
+    {
+      "t": 32.682239417001256,
+      "backend_rss_bytes": 10076160,
+      "worker_rss_bytes": 1501855744,
+      "worker_uss_bytes": 676544512,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 64.3,
+      "system_cpu_percent": 66.7,
+      "system_available_bytes": 1529053184
+    },
+    {
+      "t": 32.96178037500067,
+      "backend_rss_bytes": 6848512,
+      "worker_rss_bytes": 1454931968,
+      "worker_uss_bytes": 636928000,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 68.9,
+      "system_cpu_percent": 83.8,
+      "system_available_bytes": 1516814336
+    },
+    {
+      "t": 33.19254450000881,
+      "backend_rss_bytes": 6864896,
+      "worker_rss_bytes": 1460092928,
+      "worker_uss_bytes": 704397312,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 130.9,
+      "system_cpu_percent": 56.0,
+      "system_available_bytes": 1567244288
+    },
+    {
+      "t": 33.420918542004074,
+      "backend_rss_bytes": 6914048,
+      "worker_rss_bytes": 1483767808,
+      "worker_uss_bytes": 773259264,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 141.5,
+      "system_cpu_percent": 55.5,
+      "system_available_bytes": 1614118912
+    },
+    {
+      "t": 33.64764062500035,
+      "backend_rss_bytes": 6930432,
+      "worker_rss_bytes": 1591476224,
+      "worker_uss_bytes": 861372416,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 147.4,
+      "system_cpu_percent": 38.5,
+      "system_available_bytes": 1654947840
+    },
+    {
+      "t": 33.87640929200279,
+      "backend_rss_bytes": 6930432,
+      "worker_rss_bytes": 1498136576,
+      "worker_uss_bytes": 766525440,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 34.8,
+      "system_cpu_percent": 23.2,
+      "system_available_bytes": 1612234752
+    },
+    {
+      "t": 34.10350295899843,
+      "backend_rss_bytes": 6930432,
+      "worker_rss_bytes": 1502773248,
+      "worker_uss_bytes": 765181952,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 11.5,
+      "system_cpu_percent": 17.3,
+      "system_available_bytes": 1612677120
+    },
+    {
+      "t": 34.330820208997466,
+      "backend_rss_bytes": 6930432,
+      "worker_rss_bytes": 1494138880,
+      "worker_uss_bytes": 760774656,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 10.4,
+      "system_cpu_percent": 17.8,
+      "system_available_bytes": 1616445440
+    },
+    {
+      "t": 34.55857604200719,
+      "backend_rss_bytes": 6995968,
+      "worker_rss_bytes": 1488699392,
+      "worker_uss_bytes": 673185792,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 29.9,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1616445440
+    },
+    {
+      "t": 34.786641250000685,
+      "backend_rss_bytes": 6995968,
+      "worker_rss_bytes": 1389527040,
+      "worker_uss_bytes": 528203776,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 152.9,
+      "system_cpu_percent": 29.3,
+      "system_available_bytes": 1476493312
+    }
+  ],
+  "events": [
+    {
+      "session_id": "59d80570-28d8-4e43-b59b-eabcd9ab7d14",
+      "type": "transcript",
+      "text": "To the north, and within easy reach.",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 6991.49,
+        "first_text_ms": 6458.3,
+        "final_latency_ms": null,
+        "audio_received_seconds": 6.5,
+        "audio_forwarded_seconds": 6.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 6.992278000005172,
+      "before_end": true
+    },
+    {
+      "session_id": "59d80570-28d8-4e43-b59b-eabcd9ab7d14",
+      "type": "transcript",
+      "text": "To the north, and within easy reach, is a romantic and fascinating town.",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 8405.68,
+        "first_text_ms": 6458.3,
+        "final_latency_ms": null,
+        "audio_received_seconds": 8.0,
+        "audio_forwarded_seconds": 8.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 8.407012584008044,
+      "before_end": true
+    },
+    {
+      "session_id": "59d80570-28d8-4e43-b59b-eabcd9ab7d14",
+      "type": "transcript",
+      "text": "To the north, and within easy reach, is a romantic and fascinating town of Sintra, and which was made famous.",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 10939.72,
+        "first_text_ms": 6458.3,
+        "final_latency_ms": null,
+        "audio_received_seconds": 10.5,
+        "audio_forwarded_seconds": 10.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 10.941209249998792,
+      "before_end": true
+    },
+    {
+      "session_id": "59d80570-28d8-4e43-b59b-eabcd9ab7d14",
+      "type": "transcript",
+      "text": "To the north, and within easy reach, is a romantic and fascinating town of Sintra, and which was made famous to foreigners after a glowing.",
+      "sequence": 4,
+      "metrics": {
+        "elapsed_ms": 30742.55,
+        "first_text_ms": 6458.3,
+        "final_latency_ms": 19232.26,
+        "audio_received_seconds": 11.46,
+        "audio_forwarded_seconds": 11.46,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 30.74584808399959,
+      "before_end": false
+    },
+    {
+      "session_id": "59d80570-28d8-4e43-b59b-eabcd9ab7d14",
+      "type": "transcript",
+      "text": "To the north, and within easy reach, is a romantic and fascinating town of Sintra, and which was made famous to foreigners after a glowing account of its splendourous recorded by.",
+      "sequence": 5,
+      "metrics": {
+        "elapsed_ms": 32246.07,
+        "first_text_ms": 6458.3,
+        "final_latency_ms": 20735.78,
+        "audio_received_seconds": 11.46,
+        "audio_forwarded_seconds": 11.46,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 32.25335554200865,
+      "before_end": false
+    },
+    {
+      "session_id": "59d80570-28d8-4e43-b59b-eabcd9ab7d14",
+      "type": "transcript",
+      "text": "To the north, and within easy reach, is a romantic and fascinating town of Sintra, and which was made famous to foreigners after a glowing account of its splendourous recorded by Lord Byron.",
+      "sequence": 6,
+      "metrics": {
+        "elapsed_ms": 34867.42,
+        "first_text_ms": 6458.3,
+        "final_latency_ms": 23357.14,
+        "audio_received_seconds": 11.46,
+        "audio_forwarded_seconds": 11.46,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 34.86949912500859,
+      "before_end": false
+    },
+    {
+      "session_id": "59d80570-28d8-4e43-b59b-eabcd9ab7d14",
+      "type": "done",
+      "text": "To the north, and within easy reach, is a romantic and fascinating town of Sintra, and which was made famous to foreigners after a glowing account of its splendourous recorded by Lord Byron.",
+      "metrics": {
+        "elapsed_ms": 34958.27,
+        "first_text_ms": 6458.3,
+        "final_latency_ms": 23447.99,
+        "audio_received_seconds": 11.46,
+        "audio_forwarded_seconds": 11.46,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 34.95829187500931,
+      "before_end": false
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "dataset": "google/fleurs",
+  "revision": "70bb2e84b976b7e960aa89f1c648e09c59f894dd",
+  "license": "cc-by-4.0",
+  "selection": "First 10 male and 10 female WAV files if both genders exist; otherwise first 20 available. Duration 4-16 seconds, test split, archive order.",
+  "conversion": "afconvert -f WAVE -d LEI16@16000 -c 1"
+}

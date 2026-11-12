@@ -1,0 +1,470 @@
+{
+  "run_id": "id-10426790486327755563-500-1",
+  "id": "id-10426790486327755563",
+  "wav": "benchmark_audio/id/10426790486327755563.wav",
+  "language": "id",
+  "chunk_ms": 500,
+  "audio_seconds": 7.32,
+  "status": "done",
+  "error_code": null,
+  "first_text_ms": 3475.57,
+  "final_latency_ms": 835.66,
+  "session_elapsed_ms": 8185.14,
+  "incremental": true,
+  "first_visible_client_ms": 4007.2290420066565,
+  "revisions": 1,
+  "worker_peak_rss_bytes": 2237267968,
+  "worker_peak_uss_bytes": 1191378944,
+  "worker_mean_cpu_percent": 70.82222222222222,
+  "worker_peak_cpu_percent": 334.1,
+  "backend_mean_cpu_percent": 0.2142857142857143,
+  "system_mean_cpu_percent": 21.322222222222223,
+  "system_min_available_bytes": 1332494336,
+  "reference": "Namun, ada banyak hal tentang burung yang masih terlihat seperti dinosaurus.",
+  "prediction": "Namun ada banyak hal tentang burung yang masih terlihat seperti dino saurus.",
+  "wer": 0.18181818181818182,
+  "cer": null,
+  "resource_samples": [
+    {
+      "t": 0.001334542001131922,
+      "backend_rss_bytes": 23052288,
+      "worker_rss_bytes": 180224,
+      "worker_uss_bytes": 1196032,
+      "backend_cpu_percent": null,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1881538560
+    },
+    {
+      "t": 0.2285005000012461,
+      "backend_rss_bytes": 23068672,
+      "worker_rss_bytes": 306806784,
+      "worker_uss_bytes": 225067008,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 27.5,
+      "system_cpu_percent": 28.2,
+      "system_available_bytes": 2371682304
+    },
+    {
+      "t": 0.4535126249975292,
+      "backend_rss_bytes": 23068672,
+      "worker_rss_bytes": 631914496,
+      "worker_uss_bytes": 440942592,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 20.6,
+      "system_cpu_percent": 16.1,
+      "system_available_bytes": 2193195008
+    },
+    {
+      "t": 0.6778970000013942,
+      "backend_rss_bytes": 23068672,
+      "worker_rss_bytes": 973340672,
+      "worker_uss_bytes": 669990912,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 20.2,
+      "system_cpu_percent": 12.2,
+      "system_available_bytes": 2018607104
+    },
+    {
+      "t": 0.9026004589977674,
+      "backend_rss_bytes": 23068672,
+      "worker_rss_bytes": 1190608896,
+      "worker_uss_bytes": 784007168,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 15.5,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1963130880
+    },
+    {
+      "t": 1.1285202090075472,
+      "backend_rss_bytes": 23134208,
+      "worker_rss_bytes": 1017380864,
+      "worker_uss_bytes": 545423360,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 12.2,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1841086464
+    },
+    {
+      "t": 1.353109959003632,
+      "backend_rss_bytes": 22921216,
+      "worker_rss_bytes": 509345792,
+      "worker_uss_bytes": 28852224,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 8.7,
+      "system_cpu_percent": 21.1,
+      "system_available_bytes": 1532215296
+    },
+    {
+      "t": 1.5788834169943584,
+      "backend_rss_bytes": 21676032,
+      "worker_rss_bytes": 606076928,
+      "worker_uss_bytes": 76611584,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 11.2,
+      "system_cpu_percent": 18.1,
+      "system_available_bytes": 1496662016
+    },
+    {
+      "t": 1.8040005840011872,
+      "backend_rss_bytes": 19415040,
+      "worker_rss_bytes": 675971072,
+      "worker_uss_bytes": 86884352,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 10.6,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1446412288
+    },
+    {
+      "t": 2.029422624997096,
+      "backend_rss_bytes": 11010048,
+      "worker_rss_bytes": 684490752,
+      "worker_uss_bytes": 67125248,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 11.0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1359298560
+    },
+    {
+      "t": 2.3164399999950547,
+      "backend_rss_bytes": 11632640,
+      "worker_rss_bytes": 730202112,
+      "worker_uss_bytes": 50544640,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 9.2,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1332494336
+    },
+    {
+      "t": 2.5376706249953713,
+      "backend_rss_bytes": 11780096,
+      "worker_rss_bytes": 716341248,
+      "worker_uss_bytes": 49922048,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 8.4,
+      "system_cpu_percent": 19.1,
+      "system_available_bytes": 1341472768
+    },
+    {
+      "t": 2.7822583749948535,
+      "backend_rss_bytes": 12156928,
+      "worker_rss_bytes": 1110392832,
+      "worker_uss_bytes": 562069504,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 81.1,
+      "system_cpu_percent": 24.6,
+      "system_available_bytes": 1552236544
+    },
+    {
+      "t": 3.0072042499959935,
+      "backend_rss_bytes": 12156928,
+      "worker_rss_bytes": 1658585088,
+      "worker_uss_bytes": 932790272,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 88.9,
+      "system_cpu_percent": 36.3,
+      "system_available_bytes": 1764655104
+    },
+    {
+      "t": 3.229375374998199,
+      "backend_rss_bytes": 12042240,
+      "worker_rss_bytes": 1924694016,
+      "worker_uss_bytes": 1071071232,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 57.6,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1774174208
+    },
+    {
+      "t": 3.4574150840053335,
+      "backend_rss_bytes": 11501568,
+      "worker_rss_bytes": 2041233408,
+      "worker_uss_bytes": 1072824320,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 42.2,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1804451840
+    },
+    {
+      "t": 3.684084624997922,
+      "backend_rss_bytes": 11681792,
+      "worker_rss_bytes": 1734230016,
+      "worker_uss_bytes": 839942144,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 23.9,
+      "system_cpu_percent": 28.7,
+      "system_available_bytes": 1678983168
+    },
+    {
+      "t": 3.9115549590060255,
+      "backend_rss_bytes": 11681792,
+      "worker_rss_bytes": 1714044928,
+      "worker_uss_bytes": 499040256,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 74.7,
+      "system_cpu_percent": 30.9,
+      "system_available_bytes": 1554366464
+    },
+    {
+      "t": 4.142729875005898,
+      "backend_rss_bytes": 13172736,
+      "worker_rss_bytes": 1366278144,
+      "worker_uss_bytes": 217628672,
+      "backend_cpu_percent": 1.3,
+      "worker_cpu_percent": 111.1,
+      "system_cpu_percent": 65.4,
+      "system_available_bytes": 1351221248
+    },
+    {
+      "t": 4.457739499994204,
+      "backend_rss_bytes": 13074432,
+      "worker_rss_bytes": 1231290368,
+      "worker_uss_bytes": 151912448,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 33.9,
+      "system_available_bytes": 1342406656
+    },
+    {
+      "t": 4.685992291997536,
+      "backend_rss_bytes": 13418496,
+      "worker_rss_bytes": 1517076480,
+      "worker_uss_bytes": 486817792,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 69.2,
+      "system_cpu_percent": 31.7,
+      "system_available_bytes": 1471021056
+    },
+    {
+      "t": 4.914115125007811,
+      "backend_rss_bytes": 13418496,
+      "worker_rss_bytes": 2016378880,
+      "worker_uss_bytes": 938786816,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 102.2,
+      "system_cpu_percent": 34.6,
+      "system_available_bytes": 1759346688
+    },
+    {
+      "t": 5.139615374995628,
+      "backend_rss_bytes": 13467648,
+      "worker_rss_bytes": 2237267968,
+      "worker_uss_bytes": 1162051584,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 141.4,
+      "system_cpu_percent": 28.5,
+      "system_available_bytes": 1873510400
+    },
+    {
+      "t": 5.367244084001868,
+      "backend_rss_bytes": 13500416,
+      "worker_rss_bytes": 2236334080,
+      "worker_uss_bytes": 1164345344,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 334.1,
+      "system_cpu_percent": 53.6,
+      "system_available_bytes": 1886142464
+    },
+    {
+      "t": 5.600618917000247,
+      "backend_rss_bytes": 13598720,
+      "worker_rss_bytes": 2216001536,
+      "worker_uss_bytes": 1165180928,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 128.9,
+      "system_cpu_percent": 36.2,
+      "system_available_bytes": 1865646080
+    },
+    {
+      "t": 5.83052183399559,
+      "backend_rss_bytes": 13615104,
+      "worker_rss_bytes": 2193063936,
+      "worker_uss_bytes": 1165180928,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 23.9,
+      "system_available_bytes": 1867776000
+    },
+    {
+      "t": 6.055439333998947,
+      "backend_rss_bytes": 13795328,
+      "worker_rss_bytes": 2158280704,
+      "worker_uss_bytes": 1162756096,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 0.1,
+      "system_cpu_percent": 26.0,
+      "system_available_bytes": 1876639744
+    },
+    {
+      "t": 6.288669292000122,
+      "backend_rss_bytes": 13598720,
+      "worker_rss_bytes": 2145697792,
+      "worker_uss_bytes": 1162461184,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1893892096
+    },
+    {
+      "t": 6.521309125004336,
+      "backend_rss_bytes": 13615104,
+      "worker_rss_bytes": 2133458944,
+      "worker_uss_bytes": 1162264576,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1902477312
+    },
+    {
+      "t": 6.762247499995283,
+      "backend_rss_bytes": 13647872,
+      "worker_rss_bytes": 2156609536,
+      "worker_uss_bytes": 1166000128,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 83.8,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1902477312
+    },
+    {
+      "t": 6.985137291994761,
+      "backend_rss_bytes": 13647872,
+      "worker_rss_bytes": 2158346240,
+      "worker_uss_bytes": 1169391616,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 124.7,
+      "system_cpu_percent": 23.1,
+      "system_available_bytes": 1894383616
+    },
+    {
+      "t": 7.209338708998985,
+      "backend_rss_bytes": 13615104,
+      "worker_rss_bytes": 2126610432,
+      "worker_uss_bytes": 1174405120,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 272.0,
+      "system_cpu_percent": 52.2,
+      "system_available_bytes": 1905786880
+    },
+    {
+      "t": 7.43521804199554,
+      "backend_rss_bytes": 14401536,
+      "worker_rss_bytes": 2129788928,
+      "worker_uss_bytes": 1182072832,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 164.3,
+      "system_cpu_percent": 32.0,
+      "system_available_bytes": 1909407744
+    },
+    {
+      "t": 7.66091824999603,
+      "backend_rss_bytes": 14401536,
+      "worker_rss_bytes": 2115207168,
+      "worker_uss_bytes": 1182072832,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 100.0,
+      "system_cpu_percent": 25.4,
+      "system_available_bytes": 1916420096
+    },
+    {
+      "t": 7.88400845900469,
+      "backend_rss_bytes": 14417920,
+      "worker_rss_bytes": 2110619648,
+      "worker_uss_bytes": 1182842880,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 133.9,
+      "system_cpu_percent": 26.0,
+      "system_available_bytes": 1914437632
+    },
+    {
+      "t": 8.10879237500194,
+      "backend_rss_bytes": 14417920,
+      "worker_rss_bytes": 2107129856,
+      "worker_uss_bytes": 1191378944,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 260.4,
+      "system_cpu_percent": 39.8,
+      "system_available_bytes": 1914322944
+    }
+  ],
+  "events": [
+    {
+      "session_id": "d54b44bb-ed7e-4a5d-8480-f09d0d192585",
+      "type": "transcript",
+      "text": "Namun ada banyak",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 4005.61,
+        "first_text_ms": 3475.57,
+        "final_latency_ms": null,
+        "audio_received_seconds": 3.5,
+        "audio_forwarded_seconds": 3.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 4.0072290420066565,
+      "before_end": true
+    },
+    {
+      "session_id": "d54b44bb-ed7e-4a5d-8480-f09d0d192585",
+      "type": "transcript",
+      "text": "Namun ada banyak hal tentang burung yang masih terlihat.",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 5467.17,
+        "first_text_ms": 3475.57,
+        "final_latency_ms": null,
+        "audio_received_seconds": 5.0,
+        "audio_forwarded_seconds": 5.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 5.4678038749989355,
+      "before_end": true
+    },
+    {
+      "session_id": "d54b44bb-ed7e-4a5d-8480-f09d0d192585",
+      "type": "transcript",
+      "text": "Namun ada banyak hal tentang burung yang masih terlihat seperti dino saurus.",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 7298.73,
+        "first_text_ms": 3475.57,
+        "final_latency_ms": null,
+        "audio_received_seconds": 7.0,
+        "audio_forwarded_seconds": 7.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.298754292001831,
+      "before_end": true
+    },
+    {
+      "session_id": "d54b44bb-ed7e-4a5d-8480-f09d0d192585",
+      "type": "transcript",
+      "text": "Namun ada banyak hal tentang burung yang masih terlihat seperti dino saurus.",
+      "sequence": 4,
+      "metrics": {
+        "elapsed_ms": 8121.08,
+        "first_text_ms": 3475.57,
+        "final_latency_ms": 771.6,
+        "audio_received_seconds": 7.32,
+        "audio_forwarded_seconds": 7.32,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 8.133642000000691,
+      "before_end": false
+    },
+    {
+      "session_id": "d54b44bb-ed7e-4a5d-8480-f09d0d192585",
+      "type": "done",
+      "text": "Namun ada banyak hal tentang burung yang masih terlihat seperti dino saurus.",
+      "metrics": {
+        "elapsed_ms": 8185.14,
+        "first_text_ms": 3475.57,
+        "final_latency_ms": 835.66,
+        "audio_received_seconds": 7.32,
+        "audio_forwarded_seconds": 7.32,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 8.185353249995387,
+      "before_end": false
+    }
+  ]
+}

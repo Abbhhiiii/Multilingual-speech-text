@@ -1,0 +1,662 @@
+{
+  "run_id": "en-10323357556845456822-500-1",
+  "id": "en-10323357556845456822",
+  "wav": "benchmark_audio/en/10323357556845456822.wav",
+  "language": "en",
+  "chunk_ms": 500,
+  "audio_seconds": 10.8,
+  "status": "done",
+  "error_code": null,
+  "first_text_ms": 5132.6,
+  "final_latency_ms": 1067.47,
+  "session_elapsed_ms": 11937.03,
+  "incremental": true,
+  "first_visible_client_ms": 5705.819208000321,
+  "revisions": 3,
+  "worker_peak_rss_bytes": 2062909440,
+  "worker_peak_uss_bytes": 1185660928,
+  "worker_mean_cpu_percent": 75.35576923076923,
+  "worker_peak_cpu_percent": 242.0,
+  "backend_mean_cpu_percent": 0.2901960784313726,
+  "system_mean_cpu_percent": 26.65,
+  "system_min_available_bytes": 1328316416,
+  "reference": "The Northern Marianas emergency management office said that there were no damages reported in the nation.",
+  "prediction": "The Northern Marianas Emergency Management Office said that there were no damages reported in the nation.",
+  "wer": 0.0,
+  "cer": null,
+  "resource_samples": [
+    {
+      "t": 0.004470333005883731,
+      "backend_rss_bytes": 22315008,
+      "worker_rss_bytes": 32768,
+      "worker_uss_bytes": 28000256,
+      "backend_cpu_percent": null,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2716041216
+    },
+    {
+      "t": 0.2684376249962952,
+      "backend_rss_bytes": 22315008,
+      "worker_rss_bytes": 351666176,
+      "worker_uss_bytes": 284016640,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 24.9,
+      "system_cpu_percent": 25.8,
+      "system_available_bytes": 2206580736
+    },
+    {
+      "t": 0.5224381659936626,
+      "backend_rss_bytes": 22315008,
+      "worker_rss_bytes": 726548480,
+      "worker_uss_bytes": 506576896,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 17.8,
+      "system_cpu_percent": 21.3,
+      "system_available_bytes": 1925136384
+    },
+    {
+      "t": 0.7471646250050981,
+      "backend_rss_bytes": 22413312,
+      "worker_rss_bytes": 1002831872,
+      "worker_uss_bytes": 614694912,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 19.4,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1908424704
+    },
+    {
+      "t": 0.9786576659971615,
+      "backend_rss_bytes": 22380544,
+      "worker_rss_bytes": 441548800,
+      "worker_uss_bytes": 68993024,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 13.2,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1531330560
+    },
+    {
+      "t": 1.2014578749949578,
+      "backend_rss_bytes": 11124736,
+      "worker_rss_bytes": 474660864,
+      "worker_uss_bytes": 49315840,
+      "backend_cpu_percent": 0.7,
+      "worker_cpu_percent": 11.6,
+      "system_cpu_percent": 29.6,
+      "system_available_bytes": 1420279808
+    },
+    {
+      "t": 1.442619374996866,
+      "backend_rss_bytes": 11059200,
+      "worker_rss_bytes": 527319040,
+      "worker_uss_bytes": 68452352,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 12.3,
+      "system_cpu_percent": 20.3,
+      "system_available_bytes": 1363378176
+    },
+    {
+      "t": 1.667504540993832,
+      "backend_rss_bytes": 17678336,
+      "worker_rss_bytes": 518914048,
+      "worker_uss_bytes": 96452608,
+      "backend_cpu_percent": 1.6,
+      "worker_cpu_percent": 10.8,
+      "system_cpu_percent": 12.5,
+      "system_available_bytes": 1353105408
+    },
+    {
+      "t": 1.8911550829943735,
+      "backend_rss_bytes": 17678336,
+      "worker_rss_bytes": 436436992,
+      "worker_uss_bytes": 75137024,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 9.3,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1353105408
+    },
+    {
+      "t": 2.11451820799266,
+      "backend_rss_bytes": 17694720,
+      "worker_rss_bytes": 445136896,
+      "worker_uss_bytes": 35782656,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 7.6,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1353105408
+    },
+    {
+      "t": 2.3371106660051737,
+      "backend_rss_bytes": 17678336,
+      "worker_rss_bytes": 487079936,
+      "worker_uss_bytes": 39567360,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 10.5,
+      "system_cpu_percent": 19.3,
+      "system_available_bytes": 1328316416
+    },
+    {
+      "t": 2.5990318749973085,
+      "backend_rss_bytes": 17612800,
+      "worker_rss_bytes": 526647296,
+      "worker_uss_bytes": 52690944,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 7.5,
+      "system_cpu_percent": 17.8,
+      "system_available_bytes": 1332101120
+    },
+    {
+      "t": 2.834480874997098,
+      "backend_rss_bytes": 17334272,
+      "worker_rss_bytes": 556171264,
+      "worker_uss_bytes": 45580288,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 6.9,
+      "system_cpu_percent": 12.4,
+      "system_available_bytes": 1332101120
+    },
+    {
+      "t": 3.058453624995309,
+      "backend_rss_bytes": 17563648,
+      "worker_rss_bytes": 641531904,
+      "worker_uss_bytes": 166363136,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 53.6,
+      "system_cpu_percent": 32.4,
+      "system_available_bytes": 1332101120
+    },
+    {
+      "t": 3.283766332999221,
+      "backend_rss_bytes": 11190272,
+      "worker_rss_bytes": 1355366400,
+      "worker_uss_bytes": 838877184,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 96.4,
+      "system_cpu_percent": 37.5,
+      "system_available_bytes": 1332101120
+    },
+    {
+      "t": 3.5092387500044424,
+      "backend_rss_bytes": 11993088,
+      "worker_rss_bytes": 1550909440,
+      "worker_uss_bytes": 929759232,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 41.7,
+      "system_cpu_percent": 23.2,
+      "system_available_bytes": 1768325120
+    },
+    {
+      "t": 3.731602165993536,
+      "backend_rss_bytes": 12140544,
+      "worker_rss_bytes": 1719074816,
+      "worker_uss_bytes": 1006632960,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 38.3,
+      "system_cpu_percent": 27.6,
+      "system_available_bytes": 1797767168
+    },
+    {
+      "t": 3.9558497499965597,
+      "backend_rss_bytes": 11730944,
+      "worker_rss_bytes": 1781301248,
+      "worker_uss_bytes": 1057325056,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 29.1,
+      "system_cpu_percent": 33.3,
+      "system_available_bytes": 1826635776
+    },
+    {
+      "t": 4.178459332993953,
+      "backend_rss_bytes": 11829248,
+      "worker_rss_bytes": 1833385984,
+      "worker_uss_bytes": 1064075264,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 25.1,
+      "system_cpu_percent": 22.6,
+      "system_available_bytes": 1808039936
+    },
+    {
+      "t": 4.402794583002105,
+      "backend_rss_bytes": 11829248,
+      "worker_rss_bytes": 1776795648,
+      "worker_uss_bytes": 931938304,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 25.3,
+      "system_cpu_percent": 25.3,
+      "system_available_bytes": 1749106688
+    },
+    {
+      "t": 4.629069457994774,
+      "backend_rss_bytes": 11894784,
+      "worker_rss_bytes": 1691615232,
+      "worker_uss_bytes": 758693888,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 45.3,
+      "system_cpu_percent": 26.4,
+      "system_available_bytes": 1675788288
+    },
+    {
+      "t": 4.856578000006266,
+      "backend_rss_bytes": 11845632,
+      "worker_rss_bytes": 1554464768,
+      "worker_uss_bytes": 587841536,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 27.0,
+      "system_cpu_percent": 24.9,
+      "system_available_bytes": 1562836992
+    },
+    {
+      "t": 5.080383374996018,
+      "backend_rss_bytes": 11845632,
+      "worker_rss_bytes": 1273118720,
+      "worker_uss_bytes": 287850496,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 29.8,
+      "system_cpu_percent": 26.0,
+      "system_available_bytes": 1434976256
+    },
+    {
+      "t": 5.307887707996997,
+      "backend_rss_bytes": 11042816,
+      "worker_rss_bytes": 1118437376,
+      "worker_uss_bytes": 202604544,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 26.4,
+      "system_cpu_percent": 23.6,
+      "system_available_bytes": 1387855872
+    },
+    {
+      "t": 5.532842625005287,
+      "backend_rss_bytes": 11698176,
+      "worker_rss_bytes": 1263321088,
+      "worker_uss_bytes": 334528512,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 75.5,
+      "system_cpu_percent": 33.9,
+      "system_available_bytes": 1476198400
+    },
+    {
+      "t": 5.75741358299274,
+      "backend_rss_bytes": 13303808,
+      "worker_rss_bytes": 1371422720,
+      "worker_uss_bytes": 426737664,
+      "backend_cpu_percent": 1.6,
+      "worker_cpu_percent": 208.9,
+      "system_cpu_percent": 48.3,
+      "system_available_bytes": 1527300096
+    },
+    {
+      "t": 5.981479416004731,
+      "backend_rss_bytes": 13287424,
+      "worker_rss_bytes": 1734148096,
+      "worker_uss_bytes": 871202816,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 97.0,
+      "system_cpu_percent": 42.7,
+      "system_available_bytes": 1715666944
+    },
+    {
+      "t": 6.213074290993973,
+      "backend_rss_bytes": 13303808,
+      "worker_rss_bytes": 2019049472,
+      "worker_uss_bytes": 1149779968,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 103.0,
+      "system_cpu_percent": 44.8,
+      "system_available_bytes": 1884176384
+    },
+    {
+      "t": 6.438053582998691,
+      "backend_rss_bytes": 13287424,
+      "worker_rss_bytes": 2017820672,
+      "worker_uss_bytes": 1158709248,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 195.2,
+      "system_cpu_percent": 52.2,
+      "system_available_bytes": 1866268672
+    },
+    {
+      "t": 6.672804040994379,
+      "backend_rss_bytes": 13500416,
+      "worker_rss_bytes": 2039971840,
+      "worker_uss_bytes": 1162330112,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 211.3,
+      "system_cpu_percent": 58.5,
+      "system_available_bytes": 1866268672
+    },
+    {
+      "t": 6.907591458002571,
+      "backend_rss_bytes": 10518528,
+      "worker_rss_bytes": 1635893248,
+      "worker_uss_bytes": 698417152,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 80.0,
+      "system_cpu_percent": 66.1,
+      "system_available_bytes": 1625407488
+    },
+    {
+      "t": 7.142002291002427,
+      "backend_rss_bytes": 13369344,
+      "worker_rss_bytes": 1564786688,
+      "worker_uss_bytes": 742014976,
+      "backend_cpu_percent": 1.1,
+      "worker_cpu_percent": 93.5,
+      "system_cpu_percent": 44.0,
+      "system_available_bytes": 1584267264
+    },
+    {
+      "t": 7.366650957992533,
+      "backend_rss_bytes": 13090816,
+      "worker_rss_bytes": 1907605504,
+      "worker_uss_bytes": 1046167552,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 105.9,
+      "system_cpu_percent": 37.0,
+      "system_available_bytes": 1584267264
+    },
+    {
+      "t": 7.5911605000001146,
+      "backend_rss_bytes": 13189120,
+      "worker_rss_bytes": 1952219136,
+      "worker_uss_bytes": 1122582528,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 114.0,
+      "system_cpu_percent": 39.3,
+      "system_available_bytes": 1584267264
+    },
+    {
+      "t": 7.815759999997681,
+      "backend_rss_bytes": 11780096,
+      "worker_rss_bytes": 1975320576,
+      "worker_uss_bytes": 1121042432,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 242.0,
+      "system_cpu_percent": 47.5,
+      "system_available_bytes": 1584267264
+    },
+    {
+      "t": 8.04168229100469,
+      "backend_rss_bytes": 13221888,
+      "worker_rss_bytes": 1973633024,
+      "worker_uss_bytes": 1122877440,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 218.1,
+      "system_cpu_percent": 40.2,
+      "system_available_bytes": 1786249216
+    },
+    {
+      "t": 8.269940625003073,
+      "backend_rss_bytes": 13352960,
+      "worker_rss_bytes": 1808220160,
+      "worker_uss_bytes": 938950656,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 30.4,
+      "system_available_bytes": 1690976256
+    },
+    {
+      "t": 8.503950250000344,
+      "backend_rss_bytes": 13320192,
+      "worker_rss_bytes": 1707393024,
+      "worker_uss_bytes": 861569024,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1641234432
+    },
+    {
+      "t": 8.73352320799313,
+      "backend_rss_bytes": 13418496,
+      "worker_rss_bytes": 1261387776,
+      "worker_uss_bytes": 356122624,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 65.5,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1382727680
+    },
+    {
+      "t": 8.95817637500295,
+      "backend_rss_bytes": 13467648,
+      "worker_rss_bytes": 1501855744,
+      "worker_uss_bytes": 671793152,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 99.7,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1517830144
+    },
+    {
+      "t": 9.186124290994485,
+      "backend_rss_bytes": 12664832,
+      "worker_rss_bytes": 1809399808,
+      "worker_uss_bytes": 916602880,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 103.0,
+      "system_cpu_percent": 32.1,
+      "system_available_bytes": 1665515520
+    },
+    {
+      "t": 9.41185254100128,
+      "backend_rss_bytes": 12632064,
+      "worker_rss_bytes": 1813348352,
+      "worker_uss_bytes": 969588736,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 91.8,
+      "system_cpu_percent": 32.2,
+      "system_available_bytes": 1691762688
+    },
+    {
+      "t": 9.637460083002225,
+      "backend_rss_bytes": 11976704,
+      "worker_rss_bytes": 1953841152,
+      "worker_uss_bytes": 1115979776,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 87.8,
+      "system_cpu_percent": 27.8,
+      "system_available_bytes": 1691762688
+    },
+    {
+      "t": 9.86051724999561,
+      "backend_rss_bytes": 11976704,
+      "worker_rss_bytes": 2039611392,
+      "worker_uss_bytes": 1184153600,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 237.1,
+      "system_cpu_percent": 46.6,
+      "system_available_bytes": 1691762688
+    },
+    {
+      "t": 10.083624457998667,
+      "backend_rss_bytes": 13385728,
+      "worker_rss_bytes": 1987248128,
+      "worker_uss_bytes": 1130758144,
+      "backend_cpu_percent": 0.9,
+      "worker_cpu_percent": 179.9,
+      "system_cpu_percent": 46.9,
+      "system_available_bytes": 1691762688
+    },
+    {
+      "t": 10.31169183300517,
+      "backend_rss_bytes": 13385728,
+      "worker_rss_bytes": 1692745728,
+      "worker_uss_bytes": 843988992,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 21.1,
+      "system_available_bytes": 1582694400
+    },
+    {
+      "t": 10.540128416003427,
+      "backend_rss_bytes": 13303808,
+      "worker_rss_bytes": 1267531776,
+      "worker_uss_bytes": 389791744,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 25.1,
+      "system_available_bytes": 1362460672
+    },
+    {
+      "t": 10.782065583000076,
+      "backend_rss_bytes": 13385728,
+      "worker_rss_bytes": 1503133696,
+      "worker_uss_bytes": 608894976,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 81.3,
+      "system_cpu_percent": 33.9,
+      "system_available_bytes": 1458225152
+    },
+    {
+      "t": 11.011922874997254,
+      "backend_rss_bytes": 13942784,
+      "worker_rss_bytes": 1951055872,
+      "worker_uss_bytes": 1110409216,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 114.3,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1702002688
+    },
+    {
+      "t": 11.235987666004803,
+      "backend_rss_bytes": 13942784,
+      "worker_rss_bytes": 2045149184,
+      "worker_uss_bytes": 1182023680,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 197.1,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1752760320
+    },
+    {
+      "t": 11.468214791006176,
+      "backend_rss_bytes": 14024704,
+      "worker_rss_bytes": 2062909440,
+      "worker_uss_bytes": 1184890880,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 175.5,
+      "system_cpu_percent": 41.5,
+      "system_available_bytes": 1753251840
+    },
+    {
+      "t": 11.697936665994348,
+      "backend_rss_bytes": 14024704,
+      "worker_rss_bytes": 2061860864,
+      "worker_uss_bytes": 1185660928,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 151.3,
+      "system_cpu_percent": 31.9,
+      "system_available_bytes": 1743765504
+    }
+  ],
+  "events": [
+    {
+      "session_id": "e01c6b49-18e1-4ccd-a3fb-3137c8521f63",
+      "type": "transcript",
+      "text": "The Northern Mariana.",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 5702.46,
+        "first_text_ms": 5132.6,
+        "final_latency_ms": null,
+        "audio_received_seconds": 5.5,
+        "audio_forwarded_seconds": 5.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 5.705819208000321,
+      "before_end": true
+    },
+    {
+      "session_id": "e01c6b49-18e1-4ccd-a3fb-3137c8521f63",
+      "type": "transcript",
+      "text": "The Northern Marianas Emergency Management Office.",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 6597.17,
+        "first_text_ms": 5132.6,
+        "final_latency_ms": null,
+        "audio_received_seconds": 6.5,
+        "audio_forwarded_seconds": 6.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 6.5976529579929775,
+      "before_end": true
+    },
+    {
+      "session_id": "e01c6b49-18e1-4ccd-a3fb-3137c8521f63",
+      "type": "transcript",
+      "text": "The Northern Marianas Emergency Management Office said that there were no damages.",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 7972.56,
+        "first_text_ms": 5132.6,
+        "final_latency_ms": null,
+        "audio_received_seconds": 7.5,
+        "audio_forwarded_seconds": 7.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.9733739999937825,
+      "before_end": true
+    },
+    {
+      "session_id": "e01c6b49-18e1-4ccd-a3fb-3137c8521f63",
+      "type": "transcript",
+      "text": "The Northern Marianas Emergency Management Office said that there were no damages reported in the nation.",
+      "sequence": 4,
+      "metrics": {
+        "elapsed_ms": 10003.48,
+        "first_text_ms": 5132.6,
+        "final_latency_ms": null,
+        "audio_received_seconds": 9.5,
+        "audio_forwarded_seconds": 9.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 10.005093500003568,
+      "before_end": true
+    },
+    {
+      "session_id": "e01c6b49-18e1-4ccd-a3fb-3137c8521f63",
+      "type": "transcript",
+      "text": "The Northern Marianas Emergency Management Office said that there were no damages reported in the nation.",
+      "sequence": 5,
+      "metrics": {
+        "elapsed_ms": 11308.57,
+        "first_text_ms": 5132.6,
+        "final_latency_ms": 439.02,
+        "audio_received_seconds": 10.8,
+        "audio_forwarded_seconds": 10.8,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 11.308743000001414,
+      "before_end": false
+    },
+    {
+      "session_id": "e01c6b49-18e1-4ccd-a3fb-3137c8521f63",
+      "type": "transcript",
+      "text": "The Northern Marianas Emergency Management Office said that there were no damages reported in the nation.",
+      "sequence": 6,
+      "metrics": {
+        "elapsed_ms": 11863.1,
+        "first_text_ms": 5132.6,
+        "final_latency_ms": 993.54,
+        "audio_received_seconds": 10.8,
+        "audio_forwarded_seconds": 10.8,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 11.863247665998642,
+      "before_end": false
+    },
+    {
+      "session_id": "e01c6b49-18e1-4ccd-a3fb-3137c8521f63",
+      "type": "done",
+      "text": "The Northern Marianas Emergency Management Office said that there were no damages reported in the nation.",
+      "metrics": {
+        "elapsed_ms": 11937.03,
+        "first_text_ms": 5132.6,
+        "final_latency_ms": 1067.47,
+        "audio_received_seconds": 10.8,
+        "audio_forwarded_seconds": 10.8,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 11.950530457994319,
+      "before_end": false
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "run_id": "zh-10147383166642115307-500-1",
+  "id": "zh-10147383166642115307",
+  "wav": "benchmark_audio/zh/10147383166642115307.wav",
+  "language": "zh",
+  "chunk_ms": 500,
+  "audio_seconds": 6.36,
+  "status": "done",
+  "error_code": null,
+  "first_text_ms": 3780.32,
+  "final_latency_ms": 1469.17,
+  "session_elapsed_ms": 7859.1,
+  "incremental": true,
+  "first_visible_client_ms": 4308.633833992644,
+  "revisions": 2,
+  "worker_peak_rss_bytes": 2390212608,
+  "worker_peak_uss_bytes": 1189511168,
+  "worker_mean_cpu_percent": 68.20857142857143,
+  "worker_peak_cpu_percent": 338.6,
+  "backend_mean_cpu_percent": 0.1970588235294118,
+  "system_mean_cpu_percent": 18.614285714285714,
+  "system_min_available_bytes": 1403879424,
+  "reference": "执政党西南非洲人民组织 (SWAPO) 也在议会选举中保持了多数席位。",
+  "prediction": "执政党西南非洲人民组织也在议会选举中保住了多数席位。",
+  "wer": null,
+  "cer": 0.2,
+  "resource_samples": [
+    {
+      "t": 0.001430916992831044,
+      "backend_rss_bytes": 22822912,
+      "worker_rss_bytes": 147456,
+      "worker_uss_bytes": 1245184,
+      "backend_cpu_percent": null,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2794668032
+    },
+    {
+      "t": 0.22660116699989885,
+      "backend_rss_bytes": 22822912,
+      "worker_rss_bytes": 303104000,
+      "worker_uss_bytes": 222494720,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 27.6,
+      "system_cpu_percent": 16.1,
+      "system_available_bytes": 2495397888
+    },
+    {
+      "t": 0.4513292920019012,
+      "backend_rss_bytes": 22822912,
+      "worker_rss_bytes": 631685120,
+      "worker_uss_bytes": 440909824,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 19.9,
+      "system_cpu_percent": 9.7,
+      "system_available_bytes": 2495397888
+    },
+    {
+      "t": 0.6761005000007572,
+      "backend_rss_bytes": 22839296,
+      "worker_rss_bytes": 969457664,
+      "worker_uss_bytes": 681836544,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 20.5,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2495397888
+    },
+    {
+      "t": 0.9146035419980763,
+      "backend_rss_bytes": 22822912,
+      "worker_rss_bytes": 1210269696,
+      "worker_uss_bytes": 797753344,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 18.6,
+      "system_cpu_percent": 13.5,
+      "system_available_bytes": 1996570624
+    },
+    {
+      "t": 1.1399894169881009,
+      "backend_rss_bytes": 22790144,
+      "worker_rss_bytes": 1333477376,
+      "worker_uss_bytes": 856604672,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 14.3,
+      "system_cpu_percent": 11.2,
+      "system_available_bytes": 1985953792
+    },
+    {
+      "t": 1.3637164589890745,
+      "backend_rss_bytes": 22790144,
+      "worker_rss_bytes": 1274560512,
+      "worker_uss_bytes": 742670336,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 10.6,
+      "system_cpu_percent": 13.0,
+      "system_available_bytes": 1922908160
+    },
+    {
+      "t": 1.5872138749982696,
+      "backend_rss_bytes": 22806528,
+      "worker_rss_bytes": 961675264,
+      "worker_uss_bytes": 331743232,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 12.7,
+      "system_cpu_percent": 19.8,
+      "system_available_bytes": 1719074816
+    },
+    {
+      "t": 1.8115893749927636,
+      "backend_rss_bytes": 22134784,
+      "worker_rss_bytes": 711524352,
+      "worker_uss_bytes": 66011136,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 13.6,
+      "system_cpu_percent": 29.8,
+      "system_available_bytes": 1559609344
+    },
+    {
+      "t": 2.037569291991531,
+      "backend_rss_bytes": 11436032,
+      "worker_rss_bytes": 677068800,
+      "worker_uss_bytes": 35815424,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 9.0,
+      "system_cpu_percent": 38.5,
+      "system_available_bytes": 1422393344
+    },
+    {
+      "t": 2.286209833997418,
+      "backend_rss_bytes": 11747328,
+      "worker_rss_bytes": 640663552,
+      "worker_uss_bytes": 59146240,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 10.7,
+      "system_cpu_percent": 26.5,
+      "system_available_bytes": 1403879424
+    },
+    {
+      "t": 2.510390625000582,
+      "backend_rss_bytes": 11960320,
+      "worker_rss_bytes": 549388288,
+      "worker_uss_bytes": 37601280,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 28.5,
+      "system_cpu_percent": 27.7,
+      "system_available_bytes": 1403879424
+    },
+    {
+      "t": 2.7332942919892957,
+      "backend_rss_bytes": 12009472,
+      "worker_rss_bytes": 1232977920,
+      "worker_uss_bytes": 773816320,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 90.5,
+      "system_cpu_percent": 18.0,
+      "system_available_bytes": 1403879424
+    },
+    {
+      "t": 2.9561822089890484,
+      "backend_rss_bytes": 12009472,
+      "worker_rss_bytes": 1456635904,
+      "worker_uss_bytes": 893583360,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 37.3,
+      "system_cpu_percent": 18.3,
+      "system_available_bytes": 1403879424
+    },
+    {
+      "t": 3.186548416997539,
+      "backend_rss_bytes": 11993088,
+      "worker_rss_bytes": 1863516160,
+      "worker_uss_bytes": 1048608768,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 56.6,
+      "system_cpu_percent": 15.9,
+      "system_available_bytes": 1832222720
+    },
+    {
+      "t": 3.410063249990344,
+      "backend_rss_bytes": 12058624,
+      "worker_rss_bytes": 2212577280,
+      "worker_uss_bytes": 1163984896,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 86.0,
+      "system_cpu_percent": 22.0,
+      "system_available_bytes": 1903067136
+    },
+    {
+      "t": 3.632361291995039,
+      "backend_rss_bytes": 12042240,
+      "worker_rss_bytes": 2307112960,
+      "worker_uss_bytes": 1164754944,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 31.3,
+      "system_cpu_percent": 17.9,
+      "system_available_bytes": 1887715328
+    },
+    {
+      "t": 3.856150499996147,
+      "backend_rss_bytes": 10108928,
+      "worker_rss_bytes": 2390212608,
+      "worker_uss_bytes": 1151713280,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 34.5,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1846984704
+    },
+    {
+      "t": 4.112146083993139,
+      "backend_rss_bytes": 11124736,
+      "worker_rss_bytes": 2202025984,
+      "worker_uss_bytes": 949895168,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 30.3,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1756151808
+    },
+    {
+      "t": 4.337843542001792,
+      "backend_rss_bytes": 13221888,
+      "worker_rss_bytes": 1975828480,
+      "worker_uss_bytes": 775356416,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 165.5,
+      "system_cpu_percent": 25.9,
+      "system_available_bytes": 1691172864
+    },
+    {
+      "t": 4.564253666991135,
+      "backend_rss_bytes": 13402112,
+      "worker_rss_bytes": 1817690112,
+      "worker_uss_bytes": 699400192,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 15.9,
+      "system_cpu_percent": 15.1,
+      "system_available_bytes": 1627324416
+    },
+    {
+      "t": 4.789741166998283,
+      "backend_rss_bytes": 13402112,
+      "worker_rss_bytes": 2311372800,
+      "worker_uss_bytes": 1164410880,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 99.7,
+      "system_cpu_percent": 18.8,
+      "system_available_bytes": 1879425024
+    },
+    {
+      "t": 5.01464091699745,
+      "backend_rss_bytes": 13402112,
+      "worker_rss_bytes": 2308472832,
+      "worker_uss_bytes": 1168343040,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 154.5,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1886748672
+    },
+    {
+      "t": 5.242998208996141,
+      "backend_rss_bytes": 13598720,
+      "worker_rss_bytes": 2302918656,
+      "worker_uss_bytes": 1170571264,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 338.6,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1894023168
+    },
+    {
+      "t": 5.466094833987881,
+      "backend_rss_bytes": 13598720,
+      "worker_rss_bytes": 2299215872,
+      "worker_uss_bytes": 1170571264,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 30.4,
+      "system_available_bytes": 1897971712
+    },
+    {
+      "t": 5.700799583995831,
+      "backend_rss_bytes": 13647872,
+      "worker_rss_bytes": 2268692480,
+      "worker_uss_bytes": 1170571264,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 16.8,
+      "system_available_bytes": 1891713024
+    },
+    {
+      "t": 5.938907167001162,
+      "backend_rss_bytes": 13647872,
+      "worker_rss_bytes": 2268692480,
+      "worker_uss_bytes": 1170571264,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 15.9,
+      "system_available_bytes": 1892925440
+    },
+    {
+      "t": 6.180540542001836,
+      "backend_rss_bytes": 13697024,
+      "worker_rss_bytes": 2232188928,
+      "worker_uss_bytes": 1171144704,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 26.8,
+      "system_available_bytes": 1892925440
+    },
+    {
+      "t": 6.414016416994855,
+      "backend_rss_bytes": 14336000,
+      "worker_rss_bytes": 2215460864,
+      "worker_uss_bytes": 1172783104,
+      "backend_cpu_percent": 0.8,
+      "worker_cpu_percent": 12.5,
+      "system_cpu_percent": 21.6,
+      "system_available_bytes": 1892925440
+    },
+    {
+      "t": 6.6426369169930695,
+      "backend_rss_bytes": 14336000,
+      "worker_rss_bytes": 2219196416,
+      "worker_uss_bytes": 1168375808,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 99.6,
+      "system_cpu_percent": 21.9,
+      "system_available_bytes": 1935409152
+    },
+    {
+      "t": 6.863207083995803,
+      "backend_rss_bytes": 14204928,
+      "worker_rss_bytes": 2211332096,
+      "worker_uss_bytes": 1169997824,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 156.5,
+      "system_cpu_percent": 25.7,
+      "system_available_bytes": 1940586496
+    },
+    {
+      "t": 7.090332041989313,
+      "backend_rss_bytes": 14237696,
+      "worker_rss_bytes": 2213740544,
+      "worker_uss_bytes": 1189511168,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 330.8,
+      "system_cpu_percent": 50.0,
+      "system_available_bytes": 1944813568
+    },
+    {
+      "t": 7.313141874998109,
+      "backend_rss_bytes": 13942784,
+      "worker_rss_bytes": 2237464576,
+      "worker_uss_bytes": 1180450816,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 101.0,
+      "system_cpu_percent": 20.0,
+      "system_available_bytes": 1943830528
+    },
+    {
+      "t": 7.537588999999571,
+      "backend_rss_bytes": 13697024,
+      "worker_rss_bytes": 2236088320,
+      "worker_uss_bytes": 1180090368,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 123.2,
+      "system_cpu_percent": 25.0,
+      "system_available_bytes": 1944190976
+    },
+    {
+      "t": 7.761093041990534,
+      "backend_rss_bytes": 13697024,
+      "worker_rss_bytes": 2234417152,
+      "worker_uss_bytes": 1181237248,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 237.0,
+      "system_cpu_percent": 39.7,
+      "system_available_bytes": 1966833664
+    }
+  ],
+  "events": [
+    {
+      "session_id": "b8374649-cdcf-4651-b0b5-33b1b851834a",
+      "type": "transcript",
+      "text": "执政党西南非洲。",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 4308.35,
+        "first_text_ms": 3780.32,
+        "final_latency_ms": null,
+        "audio_received_seconds": 4.0,
+        "audio_forwarded_seconds": 4.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 4.308633833992644,
+      "before_end": true
+    },
+    {
+      "session_id": "b8374649-cdcf-4651-b0b5-33b1b851834a",
+      "type": "transcript",
+      "text": "执政党西南非洲人民组织也在议会选举中。",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 5247.1,
+        "first_text_ms": 3780.32,
+        "final_latency_ms": null,
+        "audio_received_seconds": 5.0,
+        "audio_forwarded_seconds": 5.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 5.265082166995853,
+      "before_end": true
+    },
+    {
+      "session_id": "b8374649-cdcf-4651-b0b5-33b1b851834a",
+      "type": "transcript",
+      "text": "执政党西南非洲人民组织也在议会选举中保住了多数席位。",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 7090.22,
+        "first_text_ms": 3780.32,
+        "final_latency_ms": 700.29,
+        "audio_received_seconds": 6.36,
+        "audio_forwarded_seconds": 6.36,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.090317624999443,
+      "before_end": false
+    },
+    {
+      "session_id": "b8374649-cdcf-4651-b0b5-33b1b851834a",
+      "type": "transcript",
+      "text": "执政党西南非洲人民组织也在议会选举中保住了多数席位。",
+      "sequence": 4,
+      "metrics": {
+        "elapsed_ms": 7790.56,
+        "first_text_ms": 3780.32,
+        "final_latency_ms": 1400.63,
+        "audio_received_seconds": 6.36,
+        "audio_forwarded_seconds": 6.36,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.79048891698767,
+      "before_end": false
+    },
+    {
+      "session_id": "b8374649-cdcf-4651-b0b5-33b1b851834a",
+      "type": "done",
+      "text": "执政党西南非洲人民组织也在议会选举中保住了多数席位。",
+      "metrics": {
+        "elapsed_ms": 7859.1,
+        "first_text_ms": 3780.32,
+        "final_latency_ms": 1469.17,
+        "audio_received_seconds": 6.36,
+        "audio_forwarded_seconds": 6.36,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.85912420898967,
+      "before_end": false
+    }
+  ]
+}
