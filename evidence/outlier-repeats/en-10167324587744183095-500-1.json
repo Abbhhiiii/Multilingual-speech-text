@@ -1,0 +1,862 @@
+{
+  "run_id": "en-10167324587744183095-500-1",
+  "id": "en-10167324587744183095",
+  "wav": "benchmark_audio/en/10167324587744183095.wav",
+  "language": "en",
+  "chunk_ms": 500,
+  "audio_seconds": 11.46,
+  "status": "done",
+  "error_code": null,
+  "first_text_ms": 6543.4,
+  "final_latency_ms": 5097.43,
+  "session_elapsed_ms": 16610.96,
+  "incremental": true,
+  "first_visible_client_ms": 7126.879667004687,
+  "revisions": 5,
+  "worker_peak_rss_bytes": 2073247744,
+  "worker_peak_uss_bytes": 1156251648,
+  "worker_mean_cpu_percent": 80.07777777777778,
+  "worker_peak_cpu_percent": 342.2,
+  "backend_mean_cpu_percent": 0.23943661971830987,
+  "system_mean_cpu_percent": 37.87083333333334,
+  "system_min_available_bytes": 1318600704,
+  "reference": "To the north and within easy reach is the romantic and fascinating town of Sintra and which was made famous to foreigners after a glowing account of its splendours recorded by Lord Byron.",
+  "prediction": "To the north, and within easy reach, is a romantic and fascinating town of Sintra, and which was made famous to foreigners after a glowing account of its splendourous recorded by Lord Byron.",
+  "wer": 0.06060606060606061,
+  "cer": null,
+  "resource_samples": [
+    {
+      "t": 0.009126250006374903,
+      "backend_rss_bytes": 21315584,
+      "worker_rss_bytes": 3325952,
+      "worker_uss_bytes": 27574272,
+      "backend_cpu_percent": null,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1634418688
+    },
+    {
+      "t": 0.2442107500100974,
+      "backend_rss_bytes": 21250048,
+      "worker_rss_bytes": 183894016,
+      "worker_uss_bytes": 92995584,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 21.8,
+      "system_cpu_percent": 32.4,
+      "system_available_bytes": 1469349888
+    },
+    {
+      "t": 0.4681257089978317,
+      "backend_rss_bytes": 21282816,
+      "worker_rss_bytes": 364298240,
+      "worker_uss_bytes": 183156736,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 19.8,
+      "system_cpu_percent": 33.3,
+      "system_available_bytes": 1388937216
+    },
+    {
+      "t": 0.6980238750111312,
+      "backend_rss_bytes": 21282816,
+      "worker_rss_bytes": 416612352,
+      "worker_uss_bytes": 182747136,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 13.0,
+      "system_cpu_percent": 33.5,
+      "system_available_bytes": 1339392000
+    },
+    {
+      "t": 0.925441209008568,
+      "backend_rss_bytes": 21282816,
+      "worker_rss_bytes": 506593280,
+      "worker_uss_bytes": 212926464,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 12.7,
+      "system_cpu_percent": 34.1,
+      "system_available_bytes": 1336442880
+    },
+    {
+      "t": 1.158607208999456,
+      "backend_rss_bytes": 11714560,
+      "worker_rss_bytes": 598212608,
+      "worker_uss_bytes": 245596160,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 14.1,
+      "system_cpu_percent": 35.7,
+      "system_available_bytes": 1343504384
+    },
+    {
+      "t": 1.3854253750032512,
+      "backend_rss_bytes": 11878400,
+      "worker_rss_bytes": 658391040,
+      "worker_uss_bytes": 265879552,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 10.4,
+      "system_cpu_percent": 30.4,
+      "system_available_bytes": 1345191936
+    },
+    {
+      "t": 1.6085342919977847,
+      "backend_rss_bytes": 12091392,
+      "worker_rss_bytes": 639303680,
+      "worker_uss_bytes": 213188608,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 4.7,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1339572224
+    },
+    {
+      "t": 1.8346742920111865,
+      "backend_rss_bytes": 12124160,
+      "worker_rss_bytes": 647479296,
+      "worker_uss_bytes": 184500224,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 7.6,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1336672256
+    },
+    {
+      "t": 2.059845584008144,
+      "backend_rss_bytes": 12173312,
+      "worker_rss_bytes": 630472704,
+      "worker_uss_bytes": 148586496,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 5.6,
+      "system_cpu_percent": 25.8,
+      "system_available_bytes": 1345503232
+    },
+    {
+      "t": 2.285027125006309,
+      "backend_rss_bytes": 11321344,
+      "worker_rss_bytes": 549650432,
+      "worker_uss_bytes": 98959360,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 8.6,
+      "system_cpu_percent": 33.3,
+      "system_available_bytes": 1371373568
+    },
+    {
+      "t": 2.51197691699781,
+      "backend_rss_bytes": 11321344,
+      "worker_rss_bytes": 555630592,
+      "worker_uss_bytes": 101220352,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 3.4,
+      "system_cpu_percent": 18.6,
+      "system_available_bytes": 1375617024
+    },
+    {
+      "t": 2.733549334006966,
+      "backend_rss_bytes": 10665984,
+      "worker_rss_bytes": 578715648,
+      "worker_uss_bytes": 101105664,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 12.3,
+      "system_cpu_percent": 19.5,
+      "system_available_bytes": 1355612160
+    },
+    {
+      "t": 2.9609323750046315,
+      "backend_rss_bytes": 10715136,
+      "worker_rss_bytes": 622133248,
+      "worker_uss_bytes": 127959040,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 12.3,
+      "system_cpu_percent": 27.8,
+      "system_available_bytes": 1348452352
+    },
+    {
+      "t": 3.1882821670005796,
+      "backend_rss_bytes": 10731520,
+      "worker_rss_bytes": 679313408,
+      "worker_uss_bytes": 169000960,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 12.7,
+      "system_cpu_percent": 22.5,
+      "system_available_bytes": 1338441728
+    },
+    {
+      "t": 3.411780959009775,
+      "backend_rss_bytes": 10633216,
+      "worker_rss_bytes": 673103872,
+      "worker_uss_bytes": 165101568,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 9.5,
+      "system_cpu_percent": 27.8,
+      "system_available_bytes": 1343553536
+    },
+    {
+      "t": 3.6375587500078836,
+      "backend_rss_bytes": 10813440,
+      "worker_rss_bytes": 697548800,
+      "worker_uss_bytes": 196624384,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 26.8,
+      "system_cpu_percent": 21.7,
+      "system_available_bytes": 1344815104
+    },
+    {
+      "t": 3.8652732920018025,
+      "backend_rss_bytes": 10682368,
+      "worker_rss_bytes": 1327644672,
+      "worker_uss_bytes": 831881216,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 93.9,
+      "system_cpu_percent": 35.2,
+      "system_available_bytes": 1633878016
+    },
+    {
+      "t": 4.092972833997919,
+      "backend_rss_bytes": 10682368,
+      "worker_rss_bytes": 1426276352,
+      "worker_uss_bytes": 848035840,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 39.2,
+      "system_cpu_percent": 28.5,
+      "system_available_bytes": 1602502656
+    },
+    {
+      "t": 4.3176156250119675,
+      "backend_rss_bytes": 6995968,
+      "worker_rss_bytes": 1527267328,
+      "worker_uss_bytes": 887209984,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 26.7,
+      "system_cpu_percent": 38.4,
+      "system_available_bytes": 1558233088
+    },
+    {
+      "t": 4.547003708998091,
+      "backend_rss_bytes": 10256384,
+      "worker_rss_bytes": 1207173120,
+      "worker_uss_bytes": 549699584,
+      "backend_cpu_percent": 0.8,
+      "worker_cpu_percent": 23.4,
+      "system_cpu_percent": 37.5,
+      "system_available_bytes": 1471725568
+    },
+    {
+      "t": 4.77350429201033,
+      "backend_rss_bytes": 10256384,
+      "worker_rss_bytes": 994836480,
+      "worker_uss_bytes": 361594880,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 23.5,
+      "system_cpu_percent": 28.2,
+      "system_available_bytes": 1384513536
+    },
+    {
+      "t": 5.006532250001328,
+      "backend_rss_bytes": 10076160,
+      "worker_rss_bytes": 881623040,
+      "worker_uss_bytes": 261177344,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 19.2,
+      "system_cpu_percent": 30.5,
+      "system_available_bytes": 1353711616
+    },
+    {
+      "t": 5.2318840000079945,
+      "backend_rss_bytes": 10010624,
+      "worker_rss_bytes": 806649856,
+      "worker_uss_bytes": 231849984,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 24.1,
+      "system_cpu_percent": 33.1,
+      "system_available_bytes": 1360723968
+    },
+    {
+      "t": 5.464699959004065,
+      "backend_rss_bytes": 9945088,
+      "worker_rss_bytes": 876593152,
+      "worker_uss_bytes": 258211840,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 28.4,
+      "system_cpu_percent": 30.3,
+      "system_available_bytes": 1360723968
+    },
+    {
+      "t": 5.689573667012155,
+      "backend_rss_bytes": 10043392,
+      "worker_rss_bytes": 948715520,
+      "worker_uss_bytes": 297631744,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 25.6,
+      "system_cpu_percent": 16.3,
+      "system_available_bytes": 1357365248
+    },
+    {
+      "t": 5.918211209005676,
+      "backend_rss_bytes": 10076160,
+      "worker_rss_bytes": 1061109760,
+      "worker_uss_bytes": 403832832,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 82.3,
+      "system_cpu_percent": 30.0,
+      "system_available_bytes": 1403338752
+    },
+    {
+      "t": 6.143495542011806,
+      "backend_rss_bytes": 9814016,
+      "worker_rss_bytes": 1075904512,
+      "worker_uss_bytes": 400211968,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 27.2,
+      "system_cpu_percent": 25.8,
+      "system_available_bytes": 1377648640
+    },
+    {
+      "t": 6.370850250008516,
+      "backend_rss_bytes": 9797632,
+      "worker_rss_bytes": 1081442304,
+      "worker_uss_bytes": 335773696,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 29.3,
+      "system_cpu_percent": 37.2,
+      "system_available_bytes": 1352007680
+    },
+    {
+      "t": 6.596700084002805,
+      "backend_rss_bytes": 10027008,
+      "worker_rss_bytes": 1028210688,
+      "worker_uss_bytes": 164151296,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 16.3,
+      "system_cpu_percent": 33.0,
+      "system_available_bytes": 1347829760
+    },
+    {
+      "t": 6.867007624998223,
+      "backend_rss_bytes": 10059776,
+      "worker_rss_bytes": 1202438144,
+      "worker_uss_bytes": 365477888,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 106.6,
+      "system_cpu_percent": 42.3,
+      "system_available_bytes": 1459240960
+    },
+    {
+      "t": 7.093410125002265,
+      "backend_rss_bytes": 11993088,
+      "worker_rss_bytes": 1210073088,
+      "worker_uss_bytes": 402915328,
+      "backend_cpu_percent": 1.4,
+      "worker_cpu_percent": 278.8,
+      "system_cpu_percent": 68.7,
+      "system_available_bytes": 1454637056
+    },
+    {
+      "t": 7.325891792002949,
+      "backend_rss_bytes": 11272192,
+      "worker_rss_bytes": 1631420416,
+      "worker_uss_bytes": 829652992,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 94.7,
+      "system_cpu_percent": 44.5,
+      "system_available_bytes": 1592000512
+    },
+    {
+      "t": 7.554270874999929,
+      "backend_rss_bytes": 11632640,
+      "worker_rss_bytes": 2018557952,
+      "worker_uss_bytes": 1150959616,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 107.9,
+      "system_cpu_percent": 30.4,
+      "system_available_bytes": 1820852224
+    },
+    {
+      "t": 7.777514750006958,
+      "backend_rss_bytes": 11698176,
+      "worker_rss_bytes": 2021703680,
+      "worker_uss_bytes": 1153941504,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 239.6,
+      "system_cpu_percent": 47.1,
+      "system_available_bytes": 1822015488
+    },
+    {
+      "t": 8.003686625001137,
+      "backend_rss_bytes": 11681792,
+      "worker_rss_bytes": 2023964672,
+      "worker_uss_bytes": 1156251648,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 342.2,
+      "system_cpu_percent": 56.7,
+      "system_available_bytes": 1833205760
+    },
+    {
+      "t": 8.23572641699866,
+      "backend_rss_bytes": 11730944,
+      "worker_rss_bytes": 1600323584,
+      "worker_uss_bytes": 619347968,
+      "backend_cpu_percent": 0.8,
+      "worker_cpu_percent": 126.7,
+      "system_cpu_percent": 72.0,
+      "system_available_bytes": 1612775424
+    },
+    {
+      "t": 8.492995667009382,
+      "backend_rss_bytes": 11206656,
+      "worker_rss_bytes": 1642266624,
+      "worker_uss_bytes": 806404096,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 91.3,
+      "system_cpu_percent": 50.7,
+      "system_available_bytes": 1695825920
+    },
+    {
+      "t": 8.731569167008274,
+      "backend_rss_bytes": 10174464,
+      "worker_rss_bytes": 1641168896,
+      "worker_uss_bytes": 843776000,
+      "backend_cpu_percent": 0.9,
+      "worker_cpu_percent": 78.1,
+      "system_cpu_percent": 62.5,
+      "system_available_bytes": 1663254528
+    },
+    {
+      "t": 8.958966750011314,
+      "backend_rss_bytes": 10240000,
+      "worker_rss_bytes": 1744519168,
+      "worker_uss_bytes": 946388992,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 90.4,
+      "system_cpu_percent": 45.8,
+      "system_available_bytes": 1713389568
+    },
+    {
+      "t": 9.187267667002743,
+      "backend_rss_bytes": 10387456,
+      "worker_rss_bytes": 1875935232,
+      "worker_uss_bytes": 1097711616,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 93.6,
+      "system_cpu_percent": 43.9,
+      "system_available_bytes": 1799421952
+    },
+    {
+      "t": 9.412467959002242,
+      "backend_rss_bytes": 10387456,
+      "worker_rss_bytes": 1619230720,
+      "worker_uss_bytes": 850034688,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 72.1,
+      "system_cpu_percent": 44.7,
+      "system_available_bytes": 1688633344
+    },
+    {
+      "t": 9.638331542009837,
+      "backend_rss_bytes": 10207232,
+      "worker_rss_bytes": 1325367296,
+      "worker_uss_bytes": 557432832,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 28.5,
+      "system_cpu_percent": 31.3,
+      "system_available_bytes": 1515536384
+    },
+    {
+      "t": 9.863776416998007,
+      "backend_rss_bytes": 10125312,
+      "worker_rss_bytes": 1009664000,
+      "worker_uss_bytes": 222740480,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 26.5,
+      "system_cpu_percent": 41.2,
+      "system_available_bytes": 1339572224
+    },
+    {
+      "t": 10.096980667003663,
+      "backend_rss_bytes": 10174464,
+      "worker_rss_bytes": 1017298944,
+      "worker_uss_bytes": 207273984,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 32.5,
+      "system_cpu_percent": 33.5,
+      "system_available_bytes": 1347846144
+    },
+    {
+      "t": 10.32265583401022,
+      "backend_rss_bytes": 10190848,
+      "worker_rss_bytes": 1088159744,
+      "worker_uss_bytes": 301580288,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 67.3,
+      "system_cpu_percent": 35.0,
+      "system_available_bytes": 1378762752
+    },
+    {
+      "t": 10.555327624999336,
+      "backend_rss_bytes": 9355264,
+      "worker_rss_bytes": 1222557696,
+      "worker_uss_bytes": 381698048,
+      "backend_cpu_percent": 0.9,
+      "worker_cpu_percent": 162.1,
+      "system_cpu_percent": 84.7,
+      "system_available_bytes": 1485520896
+    },
+    {
+      "t": 10.78318825000315,
+      "backend_rss_bytes": 9879552,
+      "worker_rss_bytes": 1222524928,
+      "worker_uss_bytes": 381714432,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 236.5,
+      "system_cpu_percent": 70.9,
+      "system_available_bytes": 1462878208
+    },
+    {
+      "t": 11.013426375007839,
+      "backend_rss_bytes": 10403840,
+      "worker_rss_bytes": 1248460800,
+      "worker_uss_bytes": 421838848,
+      "backend_cpu_percent": 0.7,
+      "worker_cpu_percent": 162.8,
+      "system_cpu_percent": 75.1,
+      "system_available_bytes": 1353809920
+    },
+    {
+      "t": 11.248488292010734,
+      "backend_rss_bytes": 11141120,
+      "worker_rss_bytes": 1062813696,
+      "worker_uss_bytes": 165494784,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 72.7,
+      "system_cpu_percent": 69.0,
+      "system_available_bytes": 1321746432
+    },
+    {
+      "t": 11.484183084001415,
+      "backend_rss_bytes": 11124736,
+      "worker_rss_bytes": 1235156992,
+      "worker_uss_bytes": 418709504,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 87.4,
+      "system_cpu_percent": 56.5,
+      "system_available_bytes": 1435451392
+    },
+    {
+      "t": 11.712741125011235,
+      "backend_rss_bytes": 11501568,
+      "worker_rss_bytes": 1547583488,
+      "worker_uss_bytes": 661553152,
+      "backend_cpu_percent": 1.0,
+      "worker_cpu_percent": 84.8,
+      "system_cpu_percent": 54.7,
+      "system_available_bytes": 1645854720
+    },
+    {
+      "t": 11.936396959004924,
+      "backend_rss_bytes": 11304960,
+      "worker_rss_bytes": 1566031872,
+      "worker_uss_bytes": 764002304,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 86.3,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1696219136
+    },
+    {
+      "t": 12.159166167009971,
+      "backend_rss_bytes": 11304960,
+      "worker_rss_bytes": 1574387712,
+      "worker_uss_bytes": 803405824,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 40.4,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1730756608
+    },
+    {
+      "t": 12.384398667010828,
+      "backend_rss_bytes": 11288576,
+      "worker_rss_bytes": 1527840768,
+      "worker_uss_bytes": 797999104,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 45.4,
+      "system_cpu_percent": 43.4,
+      "system_available_bytes": 1719894016
+    },
+    {
+      "t": 12.609186750007211,
+      "backend_rss_bytes": 11288576,
+      "worker_rss_bytes": 1440153600,
+      "worker_uss_bytes": 750665728,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 58.9,
+      "system_cpu_percent": 35.2,
+      "system_available_bytes": 1675132928
+    },
+    {
+      "t": 12.834314084000653,
+      "backend_rss_bytes": 11386880,
+      "worker_rss_bytes": 1427062784,
+      "worker_uss_bytes": 773455872,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 73.0,
+      "system_cpu_percent": 36.0,
+      "system_available_bytes": 1670479872
+    },
+    {
+      "t": 13.059045084009995,
+      "backend_rss_bytes": 8388608,
+      "worker_rss_bytes": 1237630976,
+      "worker_uss_bytes": 490373120,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 66.1,
+      "system_cpu_percent": 46.4,
+      "system_available_bytes": 1580843008
+    },
+    {
+      "t": 13.298032542006695,
+      "backend_rss_bytes": 6488064,
+      "worker_rss_bytes": 927662080,
+      "worker_uss_bytes": 146243584,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 37.0,
+      "system_cpu_percent": 49.2,
+      "system_available_bytes": 1398554624
+    },
+    {
+      "t": 13.584117250007694,
+      "backend_rss_bytes": 6520832,
+      "worker_rss_bytes": 814809088,
+      "worker_uss_bytes": 64421888,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 18.6,
+      "system_cpu_percent": 36.4,
+      "system_available_bytes": 1318600704
+    },
+    {
+      "t": 13.80748124999809,
+      "backend_rss_bytes": 7077888,
+      "worker_rss_bytes": 1076740096,
+      "worker_uss_bytes": 1091272704,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 126.7,
+      "system_cpu_percent": 39.1,
+      "system_available_bytes": 1430749184
+    },
+    {
+      "t": 14.03308108400961,
+      "backend_rss_bytes": 7045120,
+      "worker_rss_bytes": 1211924480,
+      "worker_uss_bytes": 388038656,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 57.4,
+      "system_cpu_percent": 32.6,
+      "system_available_bytes": 1459044352
+    },
+    {
+      "t": 14.259919333999278,
+      "backend_rss_bytes": 7077888,
+      "worker_rss_bytes": 1230749696,
+      "worker_uss_bytes": 389857280,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 282.2,
+      "system_cpu_percent": 62.1,
+      "system_available_bytes": 1483210752
+    },
+    {
+      "t": 14.483470000006491,
+      "backend_rss_bytes": 9846784,
+      "worker_rss_bytes": 1357250560,
+      "worker_uss_bytes": 509804544,
+      "backend_cpu_percent": 1.0,
+      "worker_cpu_percent": 137.6,
+      "system_cpu_percent": 59.0,
+      "system_available_bytes": 1514340352
+    },
+    {
+      "t": 14.711005999997724,
+      "backend_rss_bytes": 10420224,
+      "worker_rss_bytes": 1767260160,
+      "worker_uss_bytes": 824197120,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 100.3,
+      "system_cpu_percent": 52.2,
+      "system_available_bytes": 1746731008
+    },
+    {
+      "t": 14.93980300000112,
+      "backend_rss_bytes": 10436608,
+      "worker_rss_bytes": 2001092608,
+      "worker_uss_bytes": 1067941888,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 122.7,
+      "system_cpu_percent": 40.0,
+      "system_available_bytes": 1870594048
+    },
+    {
+      "t": 15.164109042001655,
+      "backend_rss_bytes": 10485760,
+      "worker_rss_bytes": 2046033920,
+      "worker_uss_bytes": 1085505536,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 235.0,
+      "system_cpu_percent": 56.0,
+      "system_available_bytes": 1896579072
+    },
+    {
+      "t": 15.401678292008,
+      "backend_rss_bytes": 6979584,
+      "worker_rss_bytes": 1553170432,
+      "worker_uss_bytes": 558612480,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 225.8,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1657176064
+    },
+    {
+      "t": 15.639550749998307,
+      "backend_rss_bytes": 9846784,
+      "worker_rss_bytes": 1402159104,
+      "worker_uss_bytes": 563511296,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 177.6,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1527382016
+    },
+    {
+      "t": 15.866648374998476,
+      "backend_rss_bytes": 10518528,
+      "worker_rss_bytes": 2073247744,
+      "worker_uss_bytes": 1088405504,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 103.5,
+      "system_cpu_percent": 60.5,
+      "system_available_bytes": 1910603776
+    },
+    {
+      "t": 16.09359695900639,
+      "backend_rss_bytes": 10502144,
+      "worker_rss_bytes": 2034991104,
+      "worker_uss_bytes": 1064845312,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 157.0,
+      "system_cpu_percent": 47.3,
+      "system_available_bytes": 1895415808
+    },
+    {
+      "t": 16.32144020900887,
+      "backend_rss_bytes": 10469376,
+      "worker_rss_bytes": 2050768896,
+      "worker_uss_bytes": 1094696960,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 276.6,
+      "system_cpu_percent": 69.7,
+      "system_available_bytes": 1888223232
+    }
+  ],
+  "events": [
+    {
+      "session_id": "27d79c00-3035-447e-a01e-42fbdd723867",
+      "type": "transcript",
+      "text": "To the north, and within easy reach.",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 7092.54,
+        "first_text_ms": 6543.4,
+        "final_latency_ms": null,
+        "audio_received_seconds": 7.0,
+        "audio_forwarded_seconds": 7.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 7.126879667004687,
+      "before_end": true
+    },
+    {
+      "session_id": "27d79c00-3035-447e-a01e-42fbdd723867",
+      "type": "transcript",
+      "text": "To the north, and within easy reach, is a romantic and fascinating town.",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 8064.48,
+        "first_text_ms": 6543.4,
+        "final_latency_ms": null,
+        "audio_received_seconds": 8.0,
+        "audio_forwarded_seconds": 8.0,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 8.065849167003762,
+      "before_end": true
+    },
+    {
+      "session_id": "27d79c00-3035-447e-a01e-42fbdd723867",
+      "type": "transcript",
+      "text": "To the north, and within easy reach, is a romantic and fascinating town of Sintra, and which was made famous.",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 10982.65,
+        "first_text_ms": 6543.4,
+        "final_latency_ms": null,
+        "audio_received_seconds": 10.5,
+        "audio_forwarded_seconds": 10.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 10.986653875006596,
+      "before_end": true
+    },
+    {
+      "session_id": "27d79c00-3035-447e-a01e-42fbdd723867",
+      "type": "transcript",
+      "text": "To the north, and within easy reach, is a romantic and fascinating town of Sintra, and which was made famous to foreigners after a glowing.",
+      "sequence": 4,
+      "metrics": {
+        "elapsed_ms": 14317.08,
+        "first_text_ms": 6543.4,
+        "final_latency_ms": 2803.55,
+        "audio_received_seconds": 11.46,
+        "audio_forwarded_seconds": 11.46,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 14.31988658400951,
+      "before_end": false
+    },
+    {
+      "session_id": "27d79c00-3035-447e-a01e-42fbdd723867",
+      "type": "transcript",
+      "text": "To the north, and within easy reach, is a romantic and fascinating town of Sintra, and which was made famous to foreigners after a glowing account of its splendourous recorded by.",
+      "sequence": 5,
+      "metrics": {
+        "elapsed_ms": 15531.6,
+        "first_text_ms": 6543.4,
+        "final_latency_ms": 4018.07,
+        "audio_received_seconds": 11.46,
+        "audio_forwarded_seconds": 11.46,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 15.532677916999091,
+      "before_end": false
+    },
+    {
+      "session_id": "27d79c00-3035-447e-a01e-42fbdd723867",
+      "type": "transcript",
+      "text": "To the north, and within easy reach, is a romantic and fascinating town of Sintra, and which was made famous to foreigners after a glowing account of its splendourous recorded by Lord Byron.",
+      "sequence": 6,
+      "metrics": {
+        "elapsed_ms": 16377.85,
+        "first_text_ms": 6543.4,
+        "final_latency_ms": 4864.32,
+        "audio_received_seconds": 11.46,
+        "audio_forwarded_seconds": 11.46,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 16.378199209008017,
+      "before_end": false
+    },
+    {
+      "session_id": "27d79c00-3035-447e-a01e-42fbdd723867",
+      "type": "done",
+      "text": "To the north, and within easy reach, is a romantic and fascinating town of Sintra, and which was made famous to foreigners after a glowing account of its splendourous recorded by Lord Byron.",
+      "metrics": {
+        "elapsed_ms": 16610.96,
+        "first_text_ms": 6543.4,
+        "final_latency_ms": 5097.43,
+        "audio_received_seconds": 11.46,
+        "audio_forwarded_seconds": 11.46,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 16.611181625004974,
+      "before_end": false
+    }
+  ]
+}

@@ -37,6 +37,17 @@ For 6 English and 3 Mandarin clips, the first visible transcript arrived after a
 
 The most delayed first text was Mandarin clip `zh-10279011772105822622`: 7.56 seconds of audio, first text at 28.74 seconds after first PCM, and final result 28.24 seconds after `end`. The slowest English finalization was `en-10167324587744183095`: 23.45 seconds after `end` for an 11.46-second clip. These are real completed trials, not discarded failures. The Mandarin outlier had elevated whole-machine CPU activity; that observation does not establish its cause.
 
+### Follow-up on the two worst outliers
+
+Each outlier was repeated once, sequentially, with the same audio and settings. The repeats are **not included** in the 60-clip aggregate.
+
+| Clip | First text, original → repeat | Final delay, original → repeat | Whole-machine CPU mean, original → repeat |
+|---|---:|---:|---:|
+| English `en-10167324587744183095` | 6.46 → 6.54 s | 23.45 → 5.10 s | 47.6% → 37.9% |
+| Mandarin `zh-10279011772105822622` | 28.74 → 6.20 s | 28.24 → 3.57 s | 44.8% → 38.2% |
+
+In the original English run, a transcript arrived at 10.94 seconds after connection, then the next one did not arrive until 30.75 seconds. In the original Mandarin run, the 7.56-second clip had finished sending before any text arrived at 29.32 seconds. At those points the backend reported zero bytes in its application queue and all audio forwarded to native stdin; the native worker remained active. This locates the wait beyond the WebSocket input queue, within or around native processing. The original outliers also had higher whole-machine CPU use and lower average worker CPU than their repeats. Transient competition for CPU, memory pressure or file-cache behavior are plausible, but per-window inference time, page faults, thermal state and other processes were not recorded well enough to distinguish them. The two repeats show the severe delays were **not reproducible on demand from clip content alone**. Raw repeat events and resource samples are in `../outlier-repeats/`.
+
 ## CPU and memory
 
 | Language | Worker CPU mean across a clip, median / p90 | Worker peak CPU, median / max | Worker peak RSS, median / max | Worker peak unique memory, median / max | Whole-machine CPU mean, median |

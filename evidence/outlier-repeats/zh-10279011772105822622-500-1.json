@@ -1,0 +1,570 @@
+{
+  "run_id": "zh-10279011772105822622-500-1",
+  "id": "zh-10279011772105822622",
+  "wav": "benchmark_audio/zh/10279011772105822622.wav",
+  "language": "zh",
+  "chunk_ms": 500,
+  "audio_seconds": 7.56,
+  "status": "done",
+  "error_code": null,
+  "first_text_ms": 6198.8,
+  "final_latency_ms": 3569.23,
+  "session_elapsed_ms": 11158.67,
+  "incremental": true,
+  "first_visible_client_ms": 6734.058415997424,
+  "revisions": 3,
+  "worker_peak_rss_bytes": 1980088320,
+  "worker_peak_uss_bytes": 1109327872,
+  "worker_mean_cpu_percent": 74.87826086956521,
+  "worker_peak_cpu_percent": 331.7,
+  "backend_mean_cpu_percent": 0.22666666666666668,
+  "system_mean_cpu_percent": 38.2,
+  "system_min_available_bytes": 1344946176,
+  "reference": "摩尔多瓦的首都是基希讷乌。当地语言是罗马尼亚语，但俄语也被广泛使用。",
+  "prediction": "摩尔多瓦的首都是辛基纳乌，当地的语言是罗马尼亚语，但俄语也被广泛使用。",
+  "wer": null,
+  "cer": 0.12903225806451613,
+  "resource_samples": [
+    {
+      "t": 0.004895666002994403,
+      "backend_rss_bytes": 22233088,
+      "worker_rss_bytes": 32768,
+      "worker_uss_bytes": 1228800,
+      "backend_cpu_percent": null,
+      "worker_cpu_percent": 0,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2525724672
+    },
+    {
+      "t": 0.22700662500574253,
+      "backend_rss_bytes": 22233088,
+      "worker_rss_bytes": 224149504,
+      "worker_uss_bytes": 163512320,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 21.5,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2525724672
+    },
+    {
+      "t": 0.4508556660002796,
+      "backend_rss_bytes": 22249472,
+      "worker_rss_bytes": 488046592,
+      "worker_uss_bytes": 388628480,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 13.2,
+      "system_cpu_percent": 32.2,
+      "system_available_bytes": 2525724672
+    },
+    {
+      "t": 0.7344768329930957,
+      "backend_rss_bytes": 22315008,
+      "worker_rss_bytes": 813727744,
+      "worker_uss_bytes": 550895616,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 15.3,
+      "system_cpu_percent": 38.8,
+      "system_available_bytes": 2080997376
+    },
+    {
+      "t": 0.9626518330042018,
+      "backend_rss_bytes": 22315008,
+      "worker_rss_bytes": 443072512,
+      "worker_uss_bytes": 124993536,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 16.3,
+      "system_cpu_percent": 40.7,
+      "system_available_bytes": 1789706240
+    },
+    {
+      "t": 1.2187614160066005,
+      "backend_rss_bytes": 22102016,
+      "worker_rss_bytes": 537116672,
+      "worker_uss_bytes": 133545984,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 14.1,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1647198208
+    },
+    {
+      "t": 1.5863197909930022,
+      "backend_rss_bytes": 17547264,
+      "worker_rss_bytes": 527794176,
+      "worker_uss_bytes": 59719680,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 9.7,
+      "system_cpu_percent": 30.7,
+      "system_available_bytes": 1545748480
+    },
+    {
+      "t": 1.8114964160049567,
+      "backend_rss_bytes": 11108352,
+      "worker_rss_bytes": 556498944,
+      "worker_uss_bytes": 59293696,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 9.4,
+      "system_cpu_percent": 31.5,
+      "system_available_bytes": 1500446720
+    },
+    {
+      "t": 2.0364180829928955,
+      "backend_rss_bytes": 11141120,
+      "worker_rss_bytes": 630571008,
+      "worker_uss_bytes": 45563904,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 12.1,
+      "system_cpu_percent": 25.0,
+      "system_available_bytes": 1502642176
+    },
+    {
+      "t": 2.2695868330047233,
+      "backend_rss_bytes": 11747328,
+      "worker_rss_bytes": 501891072,
+      "worker_uss_bytes": 42598400,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 8.8,
+      "system_cpu_percent": 40.1,
+      "system_available_bytes": 1485897728
+    },
+    {
+      "t": 2.4937009580025915,
+      "backend_rss_bytes": 9486336,
+      "worker_rss_bytes": 442630144,
+      "worker_uss_bytes": 49528832,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 11.3,
+      "system_cpu_percent": 35.2,
+      "system_available_bytes": 1485897728
+    },
+    {
+      "t": 2.71816404099809,
+      "backend_rss_bytes": 11747328,
+      "worker_rss_bytes": 471498752,
+      "worker_uss_bytes": 77381632,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 12.6,
+      "system_cpu_percent": 26.6,
+      "system_available_bytes": 1485897728
+    },
+    {
+      "t": 2.9430853749945527,
+      "backend_rss_bytes": 11747328,
+      "worker_rss_bytes": 485703680,
+      "worker_uss_bytes": 102858752,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 12.1,
+      "system_cpu_percent": 35.8,
+      "system_available_bytes": 1436696576
+    },
+    {
+      "t": 3.1675019999966025,
+      "backend_rss_bytes": 12222464,
+      "worker_rss_bytes": 493453312,
+      "worker_uss_bytes": 117014528,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 38.6,
+      "system_cpu_percent": 38.6,
+      "system_available_bytes": 1380188160
+    },
+    {
+      "t": 3.4094782500033034,
+      "backend_rss_bytes": 12189696,
+      "worker_rss_bytes": 1057685504,
+      "worker_uss_bytes": 704479232,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 95.4,
+      "system_cpu_percent": 61.0,
+      "system_available_bytes": 1685012480
+    },
+    {
+      "t": 3.6380319580057403,
+      "backend_rss_bytes": 11911168,
+      "worker_rss_bytes": 1177124864,
+      "worker_uss_bytes": 846594048,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 33.8,
+      "system_cpu_percent": 86.7,
+      "system_available_bytes": 1765769216
+    },
+    {
+      "t": 3.9889698329934618,
+      "backend_rss_bytes": 10797056,
+      "worker_rss_bytes": 1093140480,
+      "worker_uss_bytes": 605421568,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 24.0,
+      "system_cpu_percent": 73.2,
+      "system_available_bytes": 1734295552
+    },
+    {
+      "t": 4.366600332999951,
+      "backend_rss_bytes": 11698176,
+      "worker_rss_bytes": 865157120,
+      "worker_uss_bytes": 428376064,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 21.6,
+      "system_cpu_percent": 46.3,
+      "system_available_bytes": 1598488576
+    },
+    {
+      "t": 4.6222944159962935,
+      "backend_rss_bytes": 11993088,
+      "worker_rss_bytes": 803717120,
+      "worker_uss_bytes": 346292224,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 22.2,
+      "system_cpu_percent": 45.7,
+      "system_available_bytes": 1533788160
+    },
+    {
+      "t": 4.86303570799646,
+      "backend_rss_bytes": 11993088,
+      "worker_rss_bytes": 777256960,
+      "worker_uss_bytes": 298483712,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 21.4,
+      "system_cpu_percent": 51.8,
+      "system_available_bytes": 1529413632
+    },
+    {
+      "t": 5.194814665999729,
+      "backend_rss_bytes": 10485760,
+      "worker_rss_bytes": 824623104,
+      "worker_uss_bytes": 316129280,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 22.1,
+      "system_cpu_percent": 25.8,
+      "system_available_bytes": 1504886784
+    },
+    {
+      "t": 5.4378834160015685,
+      "backend_rss_bytes": 10272768,
+      "worker_rss_bytes": 862453760,
+      "worker_uss_bytes": 352190464,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 23.4,
+      "system_cpu_percent": 37.0,
+      "system_available_bytes": 1503100928
+    },
+    {
+      "t": 5.66884412500076,
+      "backend_rss_bytes": 10207232,
+      "worker_rss_bytes": 939360256,
+      "worker_uss_bytes": 404488192,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 24.4,
+      "system_cpu_percent": 35.1,
+      "system_available_bytes": 1528152064
+    },
+    {
+      "t": 5.893148957999074,
+      "backend_rss_bytes": 10207232,
+      "worker_rss_bytes": 1031897088,
+      "worker_uss_bytes": 403800064,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 64.6,
+      "system_cpu_percent": 35.2,
+      "system_available_bytes": 1493549056
+    },
+    {
+      "t": 6.119569665999734,
+      "backend_rss_bytes": 10207232,
+      "worker_rss_bytes": 1113751552,
+      "worker_uss_bytes": 402440192,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 35.5,
+      "system_cpu_percent": 29.6,
+      "system_available_bytes": 1479540736
+    },
+    {
+      "t": 6.344912707994808,
+      "backend_rss_bytes": 9961472,
+      "worker_rss_bytes": 1114243072,
+      "worker_uss_bytes": 308838400,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 29.2,
+      "system_cpu_percent": 35.4,
+      "system_available_bytes": 1400995840
+    },
+    {
+      "t": 6.58221195799706,
+      "backend_rss_bytes": 9977856,
+      "worker_rss_bytes": 1235156992,
+      "worker_uss_bytes": 394297344,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 135.2,
+      "system_cpu_percent": 55.5,
+      "system_available_bytes": 1414250496
+    },
+    {
+      "t": 6.8115327910054475,
+      "backend_rss_bytes": 11567104,
+      "worker_rss_bytes": 1299546112,
+      "worker_uss_bytes": 457195520,
+      "backend_cpu_percent": 0.8,
+      "worker_cpu_percent": 219.8,
+      "system_cpu_percent": 86.0,
+      "system_available_bytes": 1425588224
+    },
+    {
+      "t": 7.040952958006528,
+      "backend_rss_bytes": 11026432,
+      "worker_rss_bytes": 1828028416,
+      "worker_uss_bytes": 1029783552,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 97.4,
+      "system_cpu_percent": 70.3,
+      "system_available_bytes": 1702723584
+    },
+    {
+      "t": 7.266625666001346,
+      "backend_rss_bytes": 11452416,
+      "worker_rss_bytes": 1909653504,
+      "worker_uss_bytes": 1106001920,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 95.6,
+      "system_cpu_percent": 74.2,
+      "system_available_bytes": 1748828160
+    },
+    {
+      "t": 7.497065415998804,
+      "backend_rss_bytes": 7077888,
+      "worker_rss_bytes": 1893482496,
+      "worker_uss_bytes": 1109327872,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 110.6,
+      "system_cpu_percent": 81.3,
+      "system_available_bytes": 1758019584
+    },
+    {
+      "t": 7.719290708002518,
+      "backend_rss_bytes": 11550720,
+      "worker_rss_bytes": 1534050304,
+      "worker_uss_bytes": 698433536,
+      "backend_cpu_percent": 0.9,
+      "worker_cpu_percent": 28.2,
+      "system_cpu_percent": 50.3,
+      "system_available_bytes": 1597685760
+    },
+    {
+      "t": 7.966510083002504,
+      "backend_rss_bytes": 10731520,
+      "worker_rss_bytes": 1165393920,
+      "worker_uss_bytes": 355713024,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 29.4,
+      "system_cpu_percent": 45.1,
+      "system_available_bytes": 1362657280
+    },
+    {
+      "t": 8.202013749993057,
+      "backend_rss_bytes": 11321344,
+      "worker_rss_bytes": 1224654848,
+      "worker_uss_bytes": 382337024,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 194.2,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1362657280
+    },
+    {
+      "t": 8.430967291002162,
+      "backend_rss_bytes": 11321344,
+      "worker_rss_bytes": 1223409664,
+      "worker_uss_bytes": 380108800,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 331.7,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1362657280
+    },
+    {
+      "t": 8.667704166000476,
+      "backend_rss_bytes": 10305536,
+      "worker_rss_bytes": 1407975424,
+      "worker_uss_bytes": 595394560,
+      "backend_cpu_percent": 0.8,
+      "worker_cpu_percent": 144.3,
+      "system_cpu_percent": 76.2,
+      "system_available_bytes": 1415282688
+    },
+    {
+      "t": 8.89451695799653,
+      "backend_rss_bytes": 9682944,
+      "worker_rss_bytes": 1681489920,
+      "worker_uss_bytes": 861831168,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 95.3,
+      "system_cpu_percent": 74.0,
+      "system_available_bytes": 1545912320
+    },
+    {
+      "t": 9.11902499999269,
+      "backend_rss_bytes": 9650176,
+      "worker_rss_bytes": 1825308672,
+      "worker_uss_bytes": 991199232,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 111.6,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1606172672
+    },
+    {
+      "t": 9.349684125001659,
+      "backend_rss_bytes": 7208960,
+      "worker_rss_bytes": 1980088320,
+      "worker_uss_bytes": 1102381056,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 141.9,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1683046400
+    },
+    {
+      "t": 9.577960915994481,
+      "backend_rss_bytes": 7176192,
+      "worker_rss_bytes": 1334525952,
+      "worker_uss_bytes": 452771840,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 257.4,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1362591744
+    },
+    {
+      "t": 9.808374875006848,
+      "backend_rss_bytes": 9863168,
+      "worker_rss_bytes": 1327562752,
+      "worker_uss_bytes": 468942848,
+      "backend_cpu_percent": 0.6,
+      "worker_cpu_percent": 254.7,
+      "system_cpu_percent": 83.6,
+      "system_available_bytes": 1344946176
+    },
+    {
+      "t": 10.031467082997551,
+      "backend_rss_bytes": 9519104,
+      "worker_rss_bytes": 1516355584,
+      "worker_uss_bytes": 648691712,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 99.5,
+      "system_cpu_percent": 53.1,
+      "system_available_bytes": 1443495936
+    },
+    {
+      "t": 10.275985665997723,
+      "backend_rss_bytes": 10321920,
+      "worker_rss_bytes": 1849409536,
+      "worker_uss_bytes": 993640448,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 102.1,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1616445440
+    },
+    {
+      "t": 10.515576374993543,
+      "backend_rss_bytes": 6914048,
+      "worker_rss_bytes": 1839448064,
+      "worker_uss_bytes": 1032060928,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 126.8,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1628012544
+    },
+    {
+      "t": 10.743475958006456,
+      "backend_rss_bytes": 6995968,
+      "worker_rss_bytes": 1781678080,
+      "worker_uss_bytes": 850329600,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 120.9,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1634877440
+    },
+    {
+      "t": 10.979681291006273,
+      "backend_rss_bytes": 6176768,
+      "worker_rss_bytes": 1357185024,
+      "worker_uss_bytes": 467107840,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 135.2,
+      "system_cpu_percent": 69.6,
+      "system_available_bytes": 1398816768
+    }
+  ],
+  "events": [
+    {
+      "session_id": "a8809d03-6af6-4ddd-a9b6-0062000a7daa",
+      "type": "transcript",
+      "text": "摩尔多瓦的首都。",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 6733.43,
+        "first_text_ms": 6198.8,
+        "final_latency_ms": null,
+        "audio_received_seconds": 6.5,
+        "audio_forwarded_seconds": 6.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 6.734058415997424,
+      "before_end": true
+    },
+    {
+      "session_id": "a8809d03-6af6-4ddd-a9b6-0062000a7daa",
+      "type": "transcript",
+      "text": "摩尔多瓦的首都是辛基纳乌，当地的语言。",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 8493.58,
+        "first_text_ms": 6198.8,
+        "final_latency_ms": 904.14,
+        "audio_received_seconds": 7.56,
+        "audio_forwarded_seconds": 7.56,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 8.495585625001695,
+      "before_end": false
+    },
+    {
+      "session_id": "a8809d03-6af6-4ddd-a9b6-0062000a7daa",
+      "type": "transcript",
+      "text": "摩尔多瓦的首都是辛基纳乌，当地的语言是罗马尼亚语，但俄语也被。",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 9756.02,
+        "first_text_ms": 6198.8,
+        "final_latency_ms": 2166.57,
+        "audio_received_seconds": 7.56,
+        "audio_forwarded_seconds": 7.56,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 9.757723207992967,
+      "before_end": false
+    },
+    {
+      "session_id": "a8809d03-6af6-4ddd-a9b6-0062000a7daa",
+      "type": "transcript",
+      "text": "摩尔多瓦的首都是辛基纳乌，当地的语言是罗马尼亚语，但俄语也被广泛使用。",
+      "sequence": 4,
+      "metrics": {
+        "elapsed_ms": 11078.35,
+        "first_text_ms": 6198.8,
+        "final_latency_ms": 3488.91,
+        "audio_received_seconds": 7.56,
+        "audio_forwarded_seconds": 7.56,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 11.080361707994598,
+      "before_end": false
+    },
+    {
+      "session_id": "a8809d03-6af6-4ddd-a9b6-0062000a7daa",
+      "type": "done",
+      "text": "摩尔多瓦的首都是辛基纳乌，当地的语言是罗马尼亚语，但俄语也被广泛使用。",
+      "metrics": {
+        "elapsed_ms": 11158.67,
+        "first_text_ms": 6198.8,
+        "final_latency_ms": 3569.23,
+        "audio_received_seconds": 7.56,
+        "audio_forwarded_seconds": 7.56,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 11.158654290993582,
+      "before_end": false
+    }
+  ]
+}
