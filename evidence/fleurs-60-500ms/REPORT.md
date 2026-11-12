@@ -6,6 +6,8 @@ Run date: 12 November 2026 (Asia/Kolkata). Project: `/Users/abhinavshetty/Docume
 
 All **60 of 60** real-time-paced sessions completed: 20 English, then 20 Mandarin, then 20 Indonesian. There were no failed benchmark sessions and no simultaneous inference streams. The results show usable recognition on this clean read-speech set, but inconsistent live responsiveness: median first text arrived 4.0–5.2 seconds after the backend received audio, and a Mandarin outlier took 28.7 seconds. Finalization after the last audio chunk ranged from under a second to 28.2 seconds. This baseline does **not** establish a two-second live-text guarantee.
 
+Before this recorded run, one preliminary smoke attempt on the first English clip returned a stream timeout with no text; its immediate repeat completed. That attempt is **outside** the 60-clip dataset and its cause was not established. It remains a reliability warning despite the 60/60 completed recorded run.
+
 | Language | Clips | Audio total | Corpus accuracy measure | First text after first audio, median / p90 / max | Final result after end, median / p90 / max | Text before audio ended |
 |---|---:|---:|---:|---:|---:|---:|
 | English | 20/20 | 187.60 s | 5.15% WER | 5.21 / 6.70 / 11.30 s | 4.76 / 8.25 / 23.45 s | 14/20 |
