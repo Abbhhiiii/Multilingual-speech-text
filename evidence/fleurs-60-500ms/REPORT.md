@@ -58,6 +58,8 @@ In the original English run, a transcript arrived at 10.94 seconds after connect
 
 Worker CPU percentages use the usual process convention: **100% is one fully used logical CPU**, so peaks near 350% represent roughly 3.5 logical CPUs during sampled bursts. The mean includes quieter periods while audio is paced or the worker waits. Backend Python CPU was small (median per-clip mean about 0.24%); the native worker dominated application compute. RSS includes shared mapped pages; unique memory is the worker's USS estimate. The smallest sampled whole-machine “available” memory was approximately **1.19 GiB**. This is an OS estimate, not a macOS memory-pressure reading. The machine was not isolated from Activity Monitor, browser, WindowServer, and other desktop activity.
 
+**Memory accounting scope:** The table above measures the native worker, not the entire laptop. The FastAPI process itself had a median per-clip peak RSS of about **0.021 GiB** and a maximum of **0.022 GiB**. Adding FastAPI and worker RSS at the same sampled instant gives a maximum of about **2.361 GiB**, but RSS can include shared pages and is not a precise sum of physical memory owned by the application. The browser's copy of the WAV, its playback buffer, WebSocket buffers, operating-system pipe buffers, macOS, and other apps also use RAM on this test Mac; their individual footprints were **not** attributed in this run. In a deployed system the browser normally runs on the user's device, while server sizing must include backend, workers, OS, buffers and headroom. The 2.35 GiB worker peak must not be presented as total-machine or total-application memory.
+
 ## Accuracy observations
 
 | Language | Corpus error | Median clip error | Worst clip error | Exact normalized clips |
