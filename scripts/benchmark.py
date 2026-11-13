@@ -24,7 +24,8 @@ async def trial(item, chunk_ms, url, backend_pid, run_id):
             stamp=time.monotonic()-start
             sample={'t':stamp,'backend_rss_bytes':None,'worker_rss_bytes':None,
                 'worker_uss_bytes':None,'backend_cpu_percent':None,
-                'worker_cpu_percent':None,'system_cpu_percent':psutil.cpu_percent(interval=None),
+                'worker_cpu_percent':None,'worker_cpu_time_seconds':None,
+                'system_cpu_percent':psutil.cpu_percent(interval=None),
                 'system_available_bytes':psutil.virtual_memory().available}
             try:procs=[parent,*parent.children(recursive=True)]
             except psutil.Error:procs=[]
@@ -42,6 +43,8 @@ async def trial(item, chunk_ms, url, backend_pid, run_id):
                     else:
                         sample['worker_rss_bytes']=(sample['worker_rss_bytes'] or 0)+rss
                         sample['worker_cpu_percent']=(sample['worker_cpu_percent'] or 0)+(cpu or 0)
+                        cpu_times=p.cpu_times()
+                        sample['worker_cpu_time_seconds']=(sample['worker_cpu_time_seconds'] or 0)+cpu_times.user+cpu_times.system
                         try:
                             uss=p.memory_full_info().uss
                             sample['worker_uss_bytes']=(sample['worker_uss_bytes'] or 0)+uss
@@ -51,7 +54,8 @@ async def trial(item, chunk_ms, url, backend_pid, run_id):
             await asyncio.sleep(.2)
     async with websockets.connect(url,max_size=2**20) as ws:
         start=time.monotonic()
-        await ws.send(json.dumps({'type':'start','sample_rate':16000,'channels':1,'encoding':'pcm_s16le','chunk_ms':chunk_ms,'language':item['language']}))
+        await ws.send(json.dumps({'type':'start','sample_rate':16000,'channels':1,'encoding':'pcm_s16le','chunk_ms':chunk_ms,
+            'language':item.get('request_language',item['language'])}))
         ready=json.loads(await ws.recv())
         if ready['type']!='ready': raise RuntimeError(ready)
         monitor_task=asyncio.create_task(monitor())
@@ -86,7 +90,8 @@ async def trial(item, chunk_ms, url, backend_pid, run_id):
     def mean(key):
         values=[x[key] for x in resources if x.get(key) is not None]
         return statistics.mean(values) if values else None
-    result={'run_id':run_id,'id':item['id'],'wav':str(path),'language':item['language'],'chunk_ms':chunk_ms,
+    result={'run_id':run_id,'id':item['id'],'wav':str(path),'language':item['language'],
+        'request_language':item.get('request_language',item['language']),'chunk_ms':chunk_ms,
         'audio_seconds':len(pcm)/32000,'status':final['type'],'error_code':final.get('code'),
         'first_text_ms':final.get('metrics',{}).get('first_text_ms'),
         'final_latency_ms':final.get('metrics',{}).get('final_latency_ms'),
@@ -98,6 +103,7 @@ async def trial(item, chunk_ms, url, backend_pid, run_id):
         'worker_peak_uss_bytes':peak('worker_uss_bytes'),
         'worker_mean_cpu_percent':mean('worker_cpu_percent'),
         'worker_peak_cpu_percent':peak('worker_cpu_percent'),
+        'worker_observed_cpu_time_seconds':peak('worker_cpu_time_seconds'),
         'backend_mean_cpu_percent':mean('backend_cpu_percent'),
         'system_mean_cpu_percent':mean('system_cpu_percent'),
         'system_min_available_bytes':min((x['system_available_bytes'] for x in resources),default=None),
@@ -112,7 +118,8 @@ async def main(args):
     if not isinstance(manifest,list) or not manifest:raise ValueError('Manifest must be a nonempty JSON array')
     required={'id','wav','language'}
     for item in manifest:
-        if not required<=item.keys() or item['language'] not in ('en','zh','id'):
+        if (not required<=item.keys() or item['language'] not in ('en','zh','id') or
+                item.get('request_language',item['language']) not in ('auto','en','zh','id')):
             raise ValueError('Each item needs id, wav and language en/zh/id')
     out=Path(args.output);out.mkdir(parents=True,exist_ok=True)
     rows=[]

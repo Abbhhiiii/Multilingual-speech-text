@@ -1,0 +1,393 @@
+{
+  "run_id": "en3-500-1",
+  "id": "en3",
+  "wav": "benchmark_audio/en/en3.wav",
+  "language": "en",
+  "request_language": "auto",
+  "chunk_ms": 500,
+  "audio_seconds": 4.8,
+  "status": "done",
+  "error_code": null,
+  "first_text_ms": 3020.11,
+  "final_latency_ms": 1251.97,
+  "session_elapsed_ms": 6079.74,
+  "incremental": true,
+  "first_visible_client_ms": 3548.4349590260535,
+  "revisions": 2,
+  "worker_peak_rss_bytes": 2667331584,
+  "worker_peak_uss_bytes": 1177862144,
+  "worker_mean_cpu_percent": 93.5925925925926,
+  "worker_peak_cpu_percent": 350.9,
+  "worker_observed_cpu_time_seconds": 5.798586752,
+  "backend_mean_cpu_percent": 0.21153846153846154,
+  "system_mean_cpu_percent": 23.17037037037037,
+  "system_min_available_bytes": 1414627328,
+  "reference": "Through the night between 150 and 200 copies were made, now known as \"Dunlap broadsides\".",
+  "prediction": "For the night between 150 and 200 copies were made, now known as Dunlap broadsides.",
+  "wer": 0.06666666666666667,
+  "cer": null,
+  "resource_samples": [
+    {
+      "t": 0.0012294590123929083,
+      "backend_rss_bytes": 23609344,
+      "worker_rss_bytes": 294912,
+      "worker_uss_bytes": 4308992,
+      "backend_cpu_percent": null,
+      "worker_cpu_percent": 0,
+      "worker_cpu_time_seconds": 0.001978082,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 2916057088
+    },
+    {
+      "t": 0.22673283400945365,
+      "backend_rss_bytes": 23609344,
+      "worker_rss_bytes": 334594048,
+      "worker_uss_bytes": 250429440,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 22.2,
+      "worker_cpu_time_seconds": 0.052079375,
+      "system_cpu_percent": 15.8,
+      "system_available_bytes": 2596405248
+    },
+    {
+      "t": 0.45671320901601575,
+      "backend_rss_bytes": 23609344,
+      "worker_rss_bytes": 682835968,
+      "worker_uss_bytes": 480215040,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 17.9,
+      "worker_cpu_time_seconds": 0.093358164,
+      "system_cpu_percent": 14.1,
+      "system_available_bytes": 2338242560
+    },
+    {
+      "t": 0.6836362920003012,
+      "backend_rss_bytes": 23609344,
+      "worker_rss_bytes": 1051836416,
+      "worker_uss_bytes": 727613440,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 16.0,
+      "worker_cpu_time_seconds": 0.129571124,
+      "system_cpu_percent": 11.1,
+      "system_available_bytes": 2155839488
+    },
+    {
+      "t": 0.9118681250256486,
+      "backend_rss_bytes": 23429120,
+      "worker_rss_bytes": 1296433152,
+      "worker_uss_bytes": 693092352,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 18.6,
+      "worker_cpu_time_seconds": 0.172169712,
+      "system_cpu_percent": 19.7,
+      "system_available_bytes": 2030239744
+    },
+    {
+      "t": 1.139789875014685,
+      "backend_rss_bytes": 23478272,
+      "worker_rss_bytes": 822984704,
+      "worker_uss_bytes": 140607488,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 11.5,
+      "worker_cpu_time_seconds": 0.198378216,
+      "system_cpu_percent": 24.7,
+      "system_available_bytes": 1758330880
+    },
+    {
+      "t": 1.3728285000252072,
+      "backend_rss_bytes": 21790720,
+      "worker_rss_bytes": 714588160,
+      "worker_uss_bytes": 83755008,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 11.3,
+      "worker_cpu_time_seconds": 0.2246778,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1621032960
+    },
+    {
+      "t": 1.6062088340113405,
+      "backend_rss_bytes": 20316160,
+      "worker_rss_bytes": 852869120,
+      "worker_uss_bytes": 113885184,
+      "backend_cpu_percent": 0.7,
+      "worker_cpu_percent": 29.7,
+      "worker_cpu_time_seconds": 0.293824624,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1505099776
+    },
+    {
+      "t": 1.8366057090170216,
+      "backend_rss_bytes": 20316160,
+      "worker_rss_bytes": 767492096,
+      "worker_uss_bytes": 38305792,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "worker_cpu_time_seconds": 0.293824624,
+      "system_cpu_percent": 0.0,
+      "system_available_bytes": 1447182336
+    },
+    {
+      "t": 2.0709480000077747,
+      "backend_rss_bytes": 12386304,
+      "worker_rss_bytes": 752664576,
+      "worker_uss_bytes": 23986176,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 0,
+      "worker_cpu_time_seconds": 0.29390362400000003,
+      "system_cpu_percent": 24.3,
+      "system_available_bytes": 1434730496
+    },
+    {
+      "t": 2.3112050000054296,
+      "backend_rss_bytes": 12386304,
+      "worker_rss_bytes": 752664576,
+      "worker_uss_bytes": 23986176,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 0,
+      "worker_cpu_time_seconds": 0.29390362400000003,
+      "system_cpu_percent": 13.5,
+      "system_available_bytes": 1439907840
+    },
+    {
+      "t": 2.550832334003644,
+      "backend_rss_bytes": 12468224,
+      "worker_rss_bytes": 772833280,
+      "worker_uss_bytes": 43565056,
+      "backend_cpu_percent": 0.4,
+      "worker_cpu_percent": 11.0,
+      "worker_cpu_time_seconds": 0.32003232800000003,
+      "system_cpu_percent": 18.9,
+      "system_available_bytes": 1414627328
+    },
+    {
+      "t": 2.7815405420260504,
+      "backend_rss_bytes": 12468224,
+      "worker_rss_bytes": 1496809472,
+      "worker_uss_bytes": 813154304,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 99.0,
+      "worker_cpu_time_seconds": 0.547141088,
+      "system_cpu_percent": 29.9,
+      "system_available_bytes": 1777057792
+    },
+    {
+      "t": 3.0136302090249956,
+      "backend_rss_bytes": 12435456,
+      "worker_rss_bytes": 2032435200,
+      "worker_uss_bytes": 1067745280,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 76.6,
+      "worker_cpu_time_seconds": 0.7243065280000001,
+      "system_cpu_percent": 25.0,
+      "system_available_bytes": 1907408896
+    },
+    {
+      "t": 3.2447435000212863,
+      "backend_rss_bytes": 12369920,
+      "worker_rss_bytes": 2667331584,
+      "worker_uss_bytes": 1160380416,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 204.0,
+      "worker_cpu_time_seconds": 1.197075072,
+      "system_cpu_percent": 38.3,
+      "system_available_bytes": 1982185472
+    },
+    {
+      "t": 3.4710145000135526,
+      "backend_rss_bytes": 12402688,
+      "worker_rss_bytes": 2662907904,
+      "worker_uss_bytes": 1162199040,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 350.9,
+      "worker_cpu_time_seconds": 1.994735648,
+      "system_cpu_percent": 54.7,
+      "system_available_bytes": 1978826752
+    },
+    {
+      "t": 3.7017581250111107,
+      "backend_rss_bytes": 13942784,
+      "worker_rss_bytes": 2641559552,
+      "worker_uss_bytes": 1163329536,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 104.2,
+      "worker_cpu_time_seconds": 2.2364186559999997,
+      "system_cpu_percent": 29.5,
+      "system_available_bytes": 1989804032
+    },
+    {
+      "t": 3.940704000007827,
+      "backend_rss_bytes": 13942784,
+      "worker_rss_bytes": 2633924608,
+      "worker_uss_bytes": 1163329536,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "worker_cpu_time_seconds": 2.2364186559999997,
+      "system_cpu_percent": 13.7,
+      "system_available_bytes": 1994670080
+    },
+    {
+      "t": 4.180568334006239,
+      "backend_rss_bytes": 14188544,
+      "worker_rss_bytes": 2633973760,
+      "worker_uss_bytes": 1163378688,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 0,
+      "worker_cpu_time_seconds": 2.236519488,
+      "system_cpu_percent": 10.0,
+      "system_available_bytes": 1996308480
+    },
+    {
+      "t": 4.420524709013989,
+      "backend_rss_bytes": 14188544,
+      "worker_rss_bytes": 2633973760,
+      "worker_uss_bytes": 1163378688,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 0,
+      "worker_cpu_time_seconds": 2.236519488,
+      "system_cpu_percent": 12.0,
+      "system_available_bytes": 1993785344
+    },
+    {
+      "t": 4.66350083402358,
+      "backend_rss_bytes": 14188544,
+      "worker_rss_bytes": 2627960832,
+      "worker_uss_bytes": 1169588224,
+      "backend_cpu_percent": 0.5,
+      "worker_cpu_percent": 56.9,
+      "worker_cpu_time_seconds": 2.371788608,
+      "system_cpu_percent": 23.2,
+      "system_available_bytes": 1998716928
+    },
+    {
+      "t": 4.8916363340104,
+      "backend_rss_bytes": 14843904,
+      "worker_rss_bytes": 2623586304,
+      "worker_uss_bytes": 1173651456,
+      "backend_cpu_percent": 0.3,
+      "worker_cpu_percent": 149.5,
+      "worker_cpu_time_seconds": 2.713556992,
+      "system_cpu_percent": 26.4,
+      "system_available_bytes": 2009251840
+    },
+    {
+      "t": 5.1195432920067105,
+      "backend_rss_bytes": 14843904,
+      "worker_rss_bytes": 2626338816,
+      "worker_uss_bytes": 1175666688,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 347.2,
+      "worker_cpu_time_seconds": 3.5056938879999997,
+      "system_cpu_percent": 58.0,
+      "system_available_bytes": 2013642752
+    },
+    {
+      "t": 5.349531667015981,
+      "backend_rss_bytes": 14843904,
+      "worker_rss_bytes": 2615279616,
+      "worker_uss_bytes": 1177862144,
+      "backend_cpu_percent": 0.1,
+      "worker_cpu_percent": 345.2,
+      "worker_cpu_time_seconds": 4.297922304,
+      "system_cpu_percent": 52.5,
+      "system_available_bytes": 2015608832
+    },
+    {
+      "t": 5.578145084000425,
+      "backend_rss_bytes": 14843904,
+      "worker_rss_bytes": 2617491456,
+      "worker_uss_bytes": 1177485312,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 239.1,
+      "worker_cpu_time_seconds": 4.8446191999999995,
+      "system_cpu_percent": 40.9,
+      "system_available_bytes": 1997160448
+    },
+    {
+      "t": 5.8056119170214515,
+      "backend_rss_bytes": 14843904,
+      "worker_rss_bytes": 2618654720,
+      "worker_uss_bytes": 1173618688,
+      "backend_cpu_percent": 0.0,
+      "worker_cpu_percent": 119.2,
+      "worker_cpu_time_seconds": 5.1158332799999995,
+      "system_cpu_percent": 22.1,
+      "system_available_bytes": 1998520320
+    },
+    {
+      "t": 6.034533209021902,
+      "backend_rss_bytes": 15007744,
+      "worker_rss_bytes": 2609528832,
+      "worker_uss_bytes": 795230208,
+      "backend_cpu_percent": 0.2,
+      "worker_cpu_percent": 297.0,
+      "worker_cpu_time_seconds": 5.798586752,
+      "system_cpu_percent": 47.3,
+      "system_available_bytes": 2010628096
+    }
+  ],
+  "events": [
+    {
+      "session_id": "702c56dc-41a6-48c5-9fa8-89d908307356",
+      "type": "transcript",
+      "text": "For the night between 150 and 200.",
+      "sequence": 1,
+      "metrics": {
+        "elapsed_ms": 3547.86,
+        "first_text_ms": 3020.11,
+        "final_latency_ms": null,
+        "audio_received_seconds": 3.5,
+        "audio_forwarded_seconds": 3.5,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 3.5484349590260535,
+      "before_end": true
+    },
+    {
+      "session_id": "702c56dc-41a6-48c5-9fa8-89d908307356",
+      "type": "transcript",
+      "text": "For the night between 150 and 200 copies were made, now known as Dunlap Broad.",
+      "sequence": 2,
+      "metrics": {
+        "elapsed_ms": 5483.77,
+        "first_text_ms": 3020.11,
+        "final_latency_ms": 656.01,
+        "audio_received_seconds": 4.8,
+        "audio_forwarded_seconds": 4.8,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 5.483794334024424,
+      "before_end": false
+    },
+    {
+      "session_id": "702c56dc-41a6-48c5-9fa8-89d908307356",
+      "type": "transcript",
+      "text": "For the night between 150 and 200 copies were made, now known as Dunlap broadsides.",
+      "sequence": 3,
+      "metrics": {
+        "elapsed_ms": 6037.9,
+        "first_text_ms": 3020.11,
+        "final_latency_ms": 1210.13,
+        "audio_received_seconds": 4.8,
+        "audio_forwarded_seconds": 4.8,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 6.063708750007208,
+      "before_end": false
+    },
+    {
+      "session_id": "702c56dc-41a6-48c5-9fa8-89d908307356",
+      "type": "done",
+      "text": "For the night between 150 and 200 copies were made, now known as Dunlap broadsides.",
+      "metrics": {
+        "elapsed_ms": 6079.74,
+        "first_text_ms": 3020.11,
+        "final_latency_ms": 1251.97,
+        "audio_received_seconds": 4.8,
+        "audio_forwarded_seconds": 4.8,
+        "application_queue_seconds": 0.0
+      },
+      "client_elapsed_seconds": 6.079736875020899,
+      "before_end": false
+    }
+  ]
+}
