@@ -41,7 +41,7 @@ def test_finish_timeout():
  with client('hang',finish_timeout=.1) as c,c.websocket_connect('/ws/transcribe') as ws:
   begin(ws); ws.send_bytes(b'\0'*16000); ws.send_json({'type':'end'}); assert terminal(ws)['code']=='timeout'
 def test_capacity_and_cancel():
- with client() as c:
+ with client(max_sessions=1) as c:
   with c.websocket_connect('/ws/transcribe') as ws:
    begin(ws)
    with c.websocket_connect('/ws/transcribe') as other: assert terminal(other)['code']=='capacity'
@@ -52,7 +52,7 @@ def test_capacity_and_cancel():
   assert not c.app.state.active
 
 def test_isolation():
- with client(max_sessions=2) as c:
+ with client() as c:
   with c.websocket_connect('/ws/transcribe') as a,c.websocket_connect('/ws/transcribe') as b:
    begin(a,language='zh'); begin(b,language='id')
    for ws in (a,b): ws.send_bytes(b'\0'*16000); ws.send_json({'type':'end'})

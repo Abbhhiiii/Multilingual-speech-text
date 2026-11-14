@@ -72,7 +72,7 @@ The native engine owns context caching, rollback and stable emission. The tracke
 
 Network chunks default to 500 ms (16,000 bytes). The UI and test client also support 250/1000 ms for later comparisons. The default native inference step remains 2 s with an 8 s encoder window, 5-token rollback and two holdback windows for committed text. Hypothesis snapshots can appear before commitment and be revised. The 1 s/zero-holdback experimental mode caused major Indonesian and Mandarin errors; 0.5 s also duplicated English words. See `docs/latency-experiment-2026-11-12.md`.
 
-Session state, processes and transcripts are isolated. A bounded audio queue, pipe drain timeout, idle-input timeout, finalization timeout, duration limit and real-time pacing check bound common failure cases. Cancellation/disconnect terminates and reaps the child. One inference slot is allowed by default on this 8 GB machine; this is a conservative admission setting, **not a measured capacity limit**.
+Session state, processes and transcripts are isolated. Each WebSocket call starts its own native worker; there is no default call-count limit. A bounded audio queue, pipe drain timeout, idle-input timeout, finalization timeout, duration limit and real-time pacing check bound common failure cases. Cancellation/disconnect terminates and reaps the child. Actual concurrency capacity depends on CPU and memory and must be measured.
 
 ## Configuration and limits
 
@@ -83,12 +83,12 @@ Set environment variables before starting the backend:
 | `ASR_BINARY` | `.runtime/qwen-asr/qwen_asr` under project | Native CPU binary |
 | `ASR_MODEL` | `.runtime/models/qwen3-asr-0.6b` under project | Local model directory |
 | `ASR_THREADS` | 4 | Native worker thread setting |
-| `ASR_MAX_SESSIONS` | 1 | Admission limit; increase only for controlled tests |
+| `ASR_MAX_SESSIONS` | 0 | Optional admission limit; 0 means no configured limit |
 | `ASR_HYPOTHESES` | 1 | Emit revisable single-transcript snapshots; 0 uses legacy committed tokens |
 | `ASR_STREAM_STEP_SEC` | 2.0 | Native inference step; keep default unless experimenting |
 | `ASR_UNFIXED_CHUNKS` | 2 | Native committed-text holdback; keep default unless experimenting |
 
-Use a single Uvicorn process. Multiple server workers would each have their own admission limit. This is a local prototype, not a public authenticated service. Browser origins are restricted to localhost/127.0.0.1 on ports 5173/8000. Vite proxies the WebSocket endpoint to the backend. A production frontend build is provided, but production hosting is not configured.
+Use a single Uvicorn process. If an optional admission limit is set, multiple server processes would each apply it independently. This is a local prototype, not a public authenticated service. Browser origins are restricted to localhost/127.0.0.1 on ports 5173/8000. Vite proxies the WebSocket endpoint to the backend. A production frontend build is provided, but production hosting is not configured.
 
 The application queue metric only measures bytes waiting to be written to native stdin. The runtime has its own audio buffers; successful writes do not prove inference has kept up. Native inference backlog instrumentation and sustained-load measurements remain future work. The five-minute cap also bounds that exposure.
 

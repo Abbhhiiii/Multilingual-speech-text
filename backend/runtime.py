@@ -13,7 +13,7 @@ class Settings:
     binary: str = os.environ.get('ASR_BINARY', str(ROOT / '.runtime/qwen-asr/qwen_asr'))
     model: str = os.environ.get('ASR_MODEL', str(ROOT / '.runtime/models/qwen3-asr-0.6b'))
     threads: int = int(os.environ.get('ASR_THREADS', '4'))
-    max_sessions: int = int(os.environ.get('ASR_MAX_SESSIONS', '1'))
+    max_sessions: int = int(os.environ.get('ASR_MAX_SESSIONS', '0'))
     hypotheses: bool = os.environ.get('ASR_HYPOTHESES', '1') == '1'
     stream_step_sec: float = float(os.environ.get('ASR_STREAM_STEP_SEC', '2.0'))
     unfixed_chunks: int = int(os.environ.get('ASR_UNFIXED_CHUNKS', '2'))

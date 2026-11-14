@@ -34,7 +34,8 @@ def create_app(settings=None, command_factory=None):
 
     @app.get('/health')
     async def health():
-        return {'status': 'ok', 'active_sessions': len(active), 'max_sessions': config.max_sessions,
+        return {'status': 'ok', 'active_sessions': len(active),
+                'max_sessions': config.max_sessions if config.max_sessions > 0 else None,
                 'note': 'Service health only; model readiness is verified by transcription.'}
 
     @app.websocket('/ws/transcribe')
@@ -47,7 +48,7 @@ def create_app(settings=None, command_factory=None):
             return
         await ws.accept()
         sid = str(uuid.uuid4())
-        if len(active) >= config.max_sessions:
+        if config.max_sessions > 0 and len(active) >= config.max_sessions:
             await ws.send_json({'type': 'error', 'code': 'capacity', 'message': 'All inference slots are busy. Try again after the active stream finishes.'})
             await ws.close(code=1013)
             return
