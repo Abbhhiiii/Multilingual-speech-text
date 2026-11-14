@@ -1,0 +1,92 @@
+[
+  {
+    "id": "mc1",
+    "wav": "benchmark_audio/zh/mc1.wav",
+    "language": "zh",
+    "request_language": "auto",
+    "reference": "起初，他被送往位于大雅茅斯的詹姆斯·佩吉特医院进行救治。",
+    "source_id": "zh-1015891181557233386",
+    "sha256_pcm16_wav": "542453b8d449cf86281e7d195b4dff5776fb16af85cf972b6d67731b4f960d94"
+  },
+  {
+    "id": "mc2",
+    "wav": "benchmark_audio/zh/mc2.wav",
+    "language": "zh",
+    "request_language": "auto",
+    "reference": "“这并不是告别。这是一个篇章的结束，也是新篇章的开始。”",
+    "source_id": "zh-10026684690566417990",
+    "sha256_pcm16_wav": "e4d47a8aaa185390935a0d27849307730ada3b7beea9550bd55dc6de3b96f4b3"
+  },
+  {
+    "id": "mc3",
+    "wav": "benchmark_audio/zh/mc3.wav",
+    "language": "zh",
+    "request_language": "auto",
+    "reference": "钙、钾等元素属于金属，银和金等元素当然也是金属。",
+    "source_id": "zh-10040380210557600780",
+    "sha256_pcm16_wav": "86c27da7f25403de799520bd63260d85a2da520787d7dce691e450d86f95e2cc"
+  },
+  {
+    "id": "mc4",
+    "wav": "benchmark_audio/zh/mc4.wav",
+    "language": "zh",
+    "request_language": "auto",
+    "reference": "桥下垂直净空 15 米。该项目于 2011 年 8 月完工，但直到 2017 年 3 月才开始通车。",
+    "source_id": "zh-10048525650290665384",
+    "sha256_pcm16_wav": "cf2d28e6142398458550d24e7f5901167a5b7249fa9a1f1f610b84bbc602fda8"
+  },
+  {
+    "id": "mc5",
+    "wav": "benchmark_audio/zh/mc5.wav",
+    "language": "zh",
+    "request_language": "auto",
+    "reference": "适当使用博客，可以使学生变得更善于分析和进行思辨；通过积极回应网络材料，学生们可以在他人文章的上下文语境中找到自己的立场，并能够针对特定问题提出自己的观点（Oravec, 2002）。\"",
+    "source_id": "zh-10053956375630517392",
+    "sha256_pcm16_wav": "2012f88102a519f8b01809ea22bbdd4d33cd052c6144c9cf067341e3216e0158"
+  },
+  {
+    "id": "mc6",
+    "wav": "benchmark_audio/zh/mc6.wav",
+    "language": "zh",
+    "request_language": "auto",
+    "reference": "科学家们可以得出结论，暗物质对其他暗物质的影响方式与普通物质相同。",
+    "source_id": "zh-10056338555786085046",
+    "sha256_pcm16_wav": "6d7a9d3e3d9b81f37d214b9a7c92c8eac63040c5fdea99066e00a82f48d77dbd"
+  },
+  {
+    "id": "mc7",
+    "wav": "benchmark_audio/zh/mc7.wav",
+    "language": "zh",
+    "request_language": "auto",
+    "reference": "大多数现代科研望远镜都是巨型设施，位于大气条件优良的偏远地区。",
+    "source_id": "zh-10073099671796350432",
+    "sha256_pcm16_wav": "99f937cdcadb5fd742f05d71d318995c7bf34741d56aa10b781da11e0b871058"
+  },
+  {
+    "id": "mc8",
+    "wav": "benchmark_audio/zh/mc8.wav",
+    "language": "zh",
+    "request_language": "auto",
+    "reference": "1963 年大坝建成后，季节性洪水被控制住了，沉积物不再冲散到河流里。",
+    "source_id": "zh-10081186303620187437",
+    "sha256_pcm16_wav": "53084805acf4b7500ff800d082dc8c74864988864a94c1d8c8be0c9b43140797"
+  },
+  {
+    "id": "mc9",
+    "wav": "benchmark_audio/zh/mc9.wav",
+    "language": "zh",
+    "request_language": "auto",
+    "reference": "它的长下颚上布满了 70 多颗剃刀般锋利的牙齿，上颚上还有一排。这意味着任何与它相遇的东西都无路可逃。",
+    "source_id": "zh-10104380129516909856",
+    "sha256_pcm16_wav": "28d80548c63cc6f7edcfa7a04d36e1ffd62336abf9832bc080af23916a08a339"
+  },
+  {
+    "id": "mc10",
+    "wav": "benchmark_audio/zh/mc10.wav",
+    "language": "zh",
+    "request_language": "auto",
+    "reference": "Scotturb 403 路公共汽车定期发车前往辛特拉 (Sintra)，在罗卡角停靠。",
+    "source_id": "zh-10112798408996336578",
+    "sha256_pcm16_wav": "1963c2d7b54bca2d3d7cc86637bd2a4498379f127707921376bf923b57d7e143"
+  }
+]

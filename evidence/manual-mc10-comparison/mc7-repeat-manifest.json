@@ -1,0 +1,11 @@
+[
+  {
+    "id": "mc7",
+    "wav": "benchmark_audio/zh/mc7.wav",
+    "language": "zh",
+    "request_language": "auto",
+    "reference": "大多数现代科研望远镜都是巨型设施，位于大气条件优良的偏远地区。",
+    "source_id": "zh-10073099671796350432",
+    "sha256_pcm16_wav": "99f937cdcadb5fd742f05d71d318995c7bf34741d56aa10b781da11e0b871058"
+  }
+]
