@@ -15,6 +15,8 @@ async def trial(item, chunk_ms, url, backend_pid, run_id):
             raise ValueError(f'{path}: expected 16 kHz mono PCM16 WAV')
         pcm=w.readframes(w.getnframes())
     events=[]; resources=[]; done=asyncio.Event(); first_send=None; end_sent=None
+    baseline_available_bytes=psutil.virtual_memory().available
+    baseline_swap_used_bytes=psutil.swap_memory().used
     async def monitor():
         if not backend_pid:return
         parent=psutil.Process(backend_pid)
@@ -26,7 +28,8 @@ async def trial(item, chunk_ms, url, backend_pid, run_id):
                 'worker_uss_bytes':None,'backend_cpu_percent':None,
                 'worker_cpu_percent':None,'worker_cpu_time_seconds':None,
                 'system_cpu_percent':psutil.cpu_percent(interval=None),
-                'system_available_bytes':psutil.virtual_memory().available}
+                'system_available_bytes':psutil.virtual_memory().available,
+                'system_swap_used_bytes':psutil.swap_memory().used}
             try:procs=[parent,*parent.children(recursive=True)]
             except psutil.Error:procs=[]
             for p in procs:
@@ -87,6 +90,7 @@ async def trial(item, chunk_ms, url, backend_pid, run_id):
             if previous and not current.startswith(previous):revisions+=1
             previous=current
     def peak(key):return max((x[key] for x in resources if x.get(key) is not None),default=None)
+    def last(key):return resources[-1].get(key) if resources else None
     def mean(key):
         values=[x[key] for x in resources if x.get(key) is not None]
         return statistics.mean(values) if values else None
@@ -101,12 +105,22 @@ async def trial(item, chunk_ms, url, backend_pid, run_id):
         'revisions':revisions,
         'worker_peak_rss_bytes':peak('worker_rss_bytes'),
         'worker_peak_uss_bytes':peak('worker_uss_bytes'),
+        'backend_peak_rss_bytes':peak('backend_rss_bytes'),
+        'combined_peak_rss_bytes':max((x['worker_rss_bytes']+x['backend_rss_bytes']
+            for x in resources if x.get('worker_rss_bytes') is not None
+            and x.get('backend_rss_bytes') is not None),default=None),
         'worker_mean_cpu_percent':mean('worker_cpu_percent'),
         'worker_peak_cpu_percent':peak('worker_cpu_percent'),
         'worker_observed_cpu_time_seconds':peak('worker_cpu_time_seconds'),
         'backend_mean_cpu_percent':mean('backend_cpu_percent'),
         'system_mean_cpu_percent':mean('system_cpu_percent'),
         'system_min_available_bytes':min((x['system_available_bytes'] for x in resources),default=None),
+        'system_baseline_available_bytes':baseline_available_bytes,
+        'system_swap_used_start_bytes':baseline_swap_used_bytes,
+        'system_swap_used_end_bytes':last('system_swap_used_bytes'),
+        'system_swap_used_peak_bytes':peak('system_swap_used_bytes'),
+        'system_swap_used_change_bytes':None if last('system_swap_used_bytes') is None else
+            last('system_swap_used_bytes')-baseline_swap_used_bytes,
         'reference':reference,'prediction':prediction,
         'wer':wer(ref,pred) if final['type']=='done' and ref is not None and item['language']!='zh' else None,
         'cer':cer(ref.replace(' ',''),pred.replace(' ','')) if final['type']=='done' and ref is not None and item['language']=='zh' else None,
