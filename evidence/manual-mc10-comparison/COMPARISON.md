@@ -24,6 +24,7 @@ First text is measured from the first PCM audio received by FastAPI. Final laten
 
 - Original Mc7: first text 18.44 s; final delay 115.58 s; observed worker CPU Time 64.03 CPU-s. The stream completed without an error, but text did not appear before the audio ended. The worker kept producing partial hypotheses for almost two minutes.
 - Repeat Mc7: first text 6.35 s; final delay 1.30 s; observed worker CPU Time 11.62 CPU-s. It produced text before the audio ended.
+- Second repeat Mc7 (requested separately): first text 8.14 s; final delay 2.88 s; observed worker CPU Time 13.89 CPU-s. It produced text before the audio ended. This repeat also did not reproduce the original 115.58 s final delay.
 - Median of the original ten: first text 5.64 s; final delay 2.30 s. If the repeat is used *only as a sensitivity calculation* in place of the first Mc7 run, ten-clip means become 5.65 s and 2.15 s. The original result is retained in the raw data.
 
 The cause of the original Mc7 delay is not established. Recorded events show repeated slow model hypotheses; the repeat of the same bytes did not reproduce the delay. It should be treated as an observed tail-latency risk, not silently removed or assumed to be a language effect.
@@ -32,4 +33,4 @@ Mean manual first text was 5.88 s and manual final delay was 1.77 s. The origina
 
 The automated client did not play audio or render the React page, but both reported latency fields are the same server-side metrics shown by the UI. The mean per-clip character error rate against the reference is 10.4% for the original ten; this is an unweighted average for these clips, not a language-wide estimate.
 
-Files: `manifest.json` records source mapping; `runs/summary.csv` and `runs/mcN-500-1.json` contain the original run; `mc7-repeat/` contains the targeted repeat and its resource samples.
+Files: `manifest.json` records source mapping; `runs/summary.csv` and `runs/mcN-500-1.json` contain the original run; `mc7-repeat/` and `mc7-repeat-2/` contain the two targeted repeats and their resource samples.
