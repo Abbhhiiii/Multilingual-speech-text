@@ -62,6 +62,11 @@ async def call(item, pcm, ready, go, url, chunk_ms):
             if not sender.done():
                 sender.cancel()
             await asyncio.gather(sender, return_exceptions=True)
+        result['first_text_ms'] = next(
+            (event.get('metrics', {}).get('first_text_ms')
+             for event in result['events']
+             if event['type'] == 'transcript' and event.get('text', '').strip()), None)
+        result['final_latency_ms'] = result.get('final', {}).get('metrics', {}).get('final_latency_ms')
     return result
 
 
@@ -172,8 +177,8 @@ async def run(args):
     output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps({'ids': args.ids, 'calls': [
         {'id': call_result['id'], 'status': call_result['status'],
-         'first_text_ms': call_result.get('final', {}).get('metrics', {}).get('first_text_ms'),
-         'final_latency_ms': call_result.get('final', {}).get('metrics', {}).get('final_latency_ms')}
+         'first_text_ms': call_result['first_text_ms'],
+         'final_latency_ms': call_result['final_latency_ms']}
         for call_result in calls],
         'full_overlap_mean_workers_cpu_percent': report['full_overlap_mean_workers_cpu_percent'],
         'full_overlap_peak_workers_rss_bytes': report['full_overlap_peak_workers_rss_bytes']},

@@ -9,10 +9,10 @@ Run date: 14 November 2026 (Asia/Kolkata). These are two **sequential batches**,
 | 2 calls | en1 | 10.56 s | 13.03 s | 27.36 s | Complete |
 | 2 calls | en2 | 9.90 s | 15.98 s | 26.87 s | Complete |
 | 3 calls | en1 | 10.56 s | 12.42 s | 119.78 s | Complete |
-| 3 calls | en2 | 9.90 s | — | — | ASR finalization exceeded the time limit. |
-| 3 calls | en3 | 4.80 s | — | — | ASR finalization exceeded the time limit. |
+| 3 calls | en2 | 9.90 s | 22.12 s | — | ASR finalization exceeded the time limit. |
+| 3 calls | en3 | 4.80 s | 23.26 s | — | ASR finalization exceeded the time limit. |
 
-The two-call batch completed both streams. In the three-call batch, En1 completed only 0.22 s before the 120 s finalization limit; En2 and En3 hit that limit. The worker processes were cleaned up afterward; the backend returned to zero active sessions. These outcomes are one run per batch under the Mac state at that time.
+The two-call batch completed both streams. In the three-call batch, En2 and En3 produced first text but hit the 120 s finalization limit. Their first-text timings come from earlier transcript events because the final error events do not contain timing metrics. En1 completed only 0.22 s before the finalization limit. The worker processes were cleaned up afterward; the backend returned to zero active sessions. These outcomes are one run per batch under the Mac state at that time.
 
 ## Resource samples during full worker overlap
 
