@@ -4,12 +4,12 @@ Run date: 15 November 2026 (Asia/Kolkata). En1 and En2 were started together thr
 
 ## Call results
 
-| Clip | Audio length | First text from first audio | Final delay after audio end | Result | Reference word error rate |
-|---|---:|---:|---:|---|---:|
-| En1 | 10.56 s | 9.29 s | 12.36 s | Complete | 5.3% |
-| En2 | 9.90 s | 9.69 s | 12.59 s | Complete | 0.0% |
+| Clip | Audio length | First text from first audio | First text before audio end? | Final delay after audio end | Result | Reference word error rate |
+|---|---:|---:|---|---:|---|---:|
+| En1 | 10.56 s | 9.29 s | Yes, about 0.71 s before | 12.36 s | Complete | 5.3% |
+| En2 | 9.90 s | 9.69 s | No, about 0.35 s after | 12.59 s | Complete | 0.0% |
 
-Both audio streams were paced at their real durations. Total batch wall time was 23.15 s. The transcripts and events are preserved in the raw JSON.
+Both audio streams were paced at their real durations. Total batch wall time was 23.15 s. En2 completed accurately, but its first visible text arrived after its audio ended, so that call did not demonstrate incremental text on this run. The transcripts and events are preserved in the raw JSON.
 
 ## CPU and memory during both workers' overlap
 

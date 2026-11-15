@@ -67,6 +67,13 @@ async def call(item, pcm, ready, go, url, chunk_ms):
              for event in result['events']
              if event['type'] == 'transcript' and event.get('text', '').strip()), None)
         result['final_latency_ms'] = result.get('final', {}).get('metrics', {}).get('final_latency_ms')
+        first_visible = next(
+            (event for event in result['events']
+             if event['type'] == 'transcript' and event.get('text', '').strip()), None)
+        audio_end = result.get('client_audio_end_seconds')
+        result['first_text_before_audio_end'] = (
+            first_visible['client_elapsed_seconds'] < audio_end
+            if first_visible is not None and audio_end is not None else None)
     return result
 
 
