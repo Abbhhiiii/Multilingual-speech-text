@@ -70,17 +70,20 @@ async def call(item, pcm, ready, go, url, chunk_ms):
     return result
 
 
-async def monitor(backend_pid, started, done, samples, cpu_time_by_pid):
+async def monitor(backend_pid, started, done, samples, cpu_time_by_pid, sample_seconds):
     parent = psutil.Process(backend_pid)
     known = {}
     psutil.cpu_percent(interval=None)
     while not done.is_set():
+        swap = psutil.swap_memory()
         sample = {'t': time.monotonic() - started, 'backend_rss_bytes': None,
                   'worker_count': 0, 'workers_rss_bytes': 0, 'workers_uss_bytes': 0,
                   'workers_cpu_percent': None,
                   'system_cpu_percent': psutil.cpu_percent(interval=None),
                   'system_available_bytes': psutil.virtual_memory().available,
-                  'system_swap_used_bytes': psutil.swap_memory().used}
+                  'system_swap_used_bytes': swap.used,
+                  'system_swap_in_bytes': swap.sin,
+                  'system_swap_out_bytes': swap.sout}
         try:
             sample['backend_rss_bytes'] = parent.memory_info().rss
             children = parent.children(recursive=True)
@@ -116,7 +119,7 @@ async def monitor(backend_pid, started, done, samples, cpu_time_by_pid):
         if uss_seen != sample['worker_count']:
             sample['workers_uss_bytes'] = None
         samples.append(sample)
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(sample_seconds)
 
 
 async def run(args):
@@ -131,10 +134,11 @@ async def run(args):
     samples = []
     cpu_time_by_pid = {}
     baseline_available = psutil.virtual_memory().available
-    baseline_swap = psutil.swap_memory().used
+    baseline_swap = psutil.swap_memory()
     started = time.monotonic()
     monitor_task = asyncio.create_task(monitor(args.backend_pid, started, done,
-                                                  samples, cpu_time_by_pid))
+                                                  samples, cpu_time_by_pid,
+                                                  args.sample_seconds))
     tasks = [asyncio.create_task(call(item, data, event, go, args.url, args.chunk_ms))
              for item, data, event in zip(items, pcm, ready)]
     try:
@@ -158,7 +162,10 @@ async def run(args):
     report = {'ids': args.ids, 'chunk_ms': args.chunk_ms, 'request_language':
               [item.get('request_language', item['language']) for item in items],
               'baseline_available_bytes': baseline_available,
-              'baseline_swap_used_bytes': baseline_swap,
+              'baseline_swap_used_bytes': baseline_swap.used,
+              'baseline_swap_in_bytes': baseline_swap.sin,
+              'baseline_swap_out_bytes': baseline_swap.sout,
+              'sample_requested_seconds': args.sample_seconds,
               'wall_elapsed_seconds': time.monotonic() - started,
               'full_overlap_sample_count': len(overlap),
               'peak_worker_count': peak(samples, 'worker_count'),
@@ -170,6 +177,8 @@ async def run(args):
               'system_min_available_bytes': min((row['system_available_bytes'] for row in samples), default=None),
               'system_swap_used_last_bytes': samples[-1]['system_swap_used_bytes'] if samples else None,
               'system_swap_used_peak_bytes': peak(samples, 'system_swap_used_bytes'),
+              'system_swap_in_last_bytes': samples[-1]['system_swap_in_bytes'] if samples else None,
+              'system_swap_out_last_bytes': samples[-1]['system_swap_out_bytes'] if samples else None,
               'observed_workers_cpu_time_seconds': sum(cpu_time_by_pid.values()),
               'calls': calls, 'resource_samples': samples}
     output = Path(args.output)
@@ -192,5 +201,9 @@ if __name__ == '__main__':
     parser.add_argument('--backend-pid', type=int, required=True)
     parser.add_argument('--url', default='ws://127.0.0.1:8000/ws/transcribe')
     parser.add_argument('--chunk-ms', type=int, default=500, choices=[250, 500, 1000])
+    parser.add_argument('--sample-seconds', type=float, default=0.5)
     parser.add_argument('--output', required=True)
-    asyncio.run(run(parser.parse_args()))
+    arguments = parser.parse_args()
+    if arguments.sample_seconds <= 0:
+        parser.error('--sample-seconds must be positive')
+    asyncio.run(run(arguments))
