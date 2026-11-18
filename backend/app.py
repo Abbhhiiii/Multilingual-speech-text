@@ -5,9 +5,12 @@ import time
 import uuid
 import anyio
 from contextlib import suppress
+from pathlib import Path
 from typing import Literal
 
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, ConfigDict, ValidationError
 from .runtime import Runtime, Settings
 
@@ -26,9 +29,16 @@ class StreamError(Exception):
     def __init__(self, code, message): self.code, self.message = code, message
 
 
-def create_app(settings=None, command_factory=None):
+def create_app(settings=None, command_factory=None, frontend_dir=None):
     config = settings or Settings()
     app = FastAPI(title='Tetherfi CPU Streaming ASR')
+    frontend = Path(frontend_dir) if frontend_dir else Path(__file__).resolve().parents[1] / 'frontend' / 'dist'
+    if frontend.joinpath('index.html').is_file() and frontend.joinpath('assets').is_dir():
+        app.mount('/assets', StaticFiles(directory=frontend / 'assets'), name='frontend-assets')
+
+        @app.get('/', include_in_schema=False)
+        async def frontend_page():
+            return FileResponse(frontend / 'index.html')
     active = set()
     app.state.active = active
 
@@ -43,7 +53,8 @@ def create_app(settings=None, command_factory=None):
         # Local development only; disallow cross-site browser requests.
         origin = ws.headers.get('origin')
         if origin and origin not in {'http://localhost:5173', 'http://127.0.0.1:5173',
-                                     'http://localhost:8000', 'http://127.0.0.1:8000'}:
+                                     'http://localhost:8000', 'http://127.0.0.1:8000',
+                                     'http://localhost:8080', 'http://127.0.0.1:8080'}:
             await ws.close(code=1008)
             return
         await ws.accept()

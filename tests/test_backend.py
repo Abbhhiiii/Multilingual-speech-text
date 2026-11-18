@@ -74,6 +74,16 @@ def test_missing_binary():
  with TestClient(create_app(Settings(binary='/not/a/binary'))) as c,c.websocket_connect('/ws/transcribe') as ws:
   ws.send_json(START); assert terminal(ws)['code']=='runtime'
 
+def test_compiled_frontend_is_served_with_api(tmp_path):
+ frontend=tmp_path/'dist'
+ (frontend/'assets').mkdir(parents=True)
+ (frontend/'index.html').write_text('<html>Speech page</html>')
+ (frontend/'assets'/'app.js').write_text('console.log("ready")')
+ with TestClient(create_app(frontend_dir=frontend)) as c:
+  assert c.get('/').text=='<html>Speech page</html>'
+  assert c.get('/assets/app.js').text=='console.log("ready")'
+  assert c.get('/health').json()['status']=='ok'
+
 def test_finalization_is_not_an_idle_input_timeout():
  with client('slow_final',idle_timeout=.1,finish_timeout=2) as c,c.websocket_connect('/ws/transcribe') as ws:
   begin(ws);ws.send_bytes(b'\0'*16000);ws.send_json({'type':'end'})

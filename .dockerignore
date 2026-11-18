@@ -1,0 +1,11 @@
+.git
+.runtime
+.venv
+.pytest_cache
+**/__pycache__
+**/node_modules
+frontend/dist
+benchmark_audio
+evidence
+*.log
+.DS_Store
