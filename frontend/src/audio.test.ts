@@ -1,5 +1,5 @@
 import {afterEach,describe,expect,it,vi} from 'vitest';
-import {parseWav,streamPcm} from './audio';
+import {createPcm16Chunker,parseWav,streamPcm} from './audio';
 function wav(samples=16000,junk=false){
  const extra=junk?10:0,b=new ArrayBuffer(44+extra+samples*2),v=new DataView(b);
  const tag=(p:number,s:string)=>[...s].forEach((c,i)=>v.setUint8(p+i,c.charCodeAt(0)));
@@ -32,5 +32,25 @@ describe('pacing',()=>{
   const controller=new AbortController(),send=vi.fn();
   const task=streamPcm(new Uint8Array(16000),500,{readyState:1,bufferedAmount:0,send} as unknown as WebSocket,controller.signal,()=>{});
   const assertion=expect(task).rejects.toMatchObject({name:'AbortError'});controller.abort();await assertion;expect(send).not.toHaveBeenCalled();
+ });
+});
+describe('microphone PCM conversion',()=>{
+ it.each([16000,44100,48000])('emits exact 500 ms chunks from %i Hz input',rate=>{
+  const chunks:Uint8Array[]=[];
+  const encoder=createPcm16Chunker(rate,chunk=>chunks.push(chunk));
+  const signal=new Float32Array(rate);
+  signal.fill(0.5);
+  for(let offset=0;offset<signal.length;offset+=2048)encoder.push(signal.subarray(offset,offset+2048));
+  expect(chunks).toHaveLength(2);
+  expect(chunks.map(chunk=>chunk.length)).toEqual([16000,16000]);
+  expect(encoder.flush()).toBeNull();
+  expect(new DataView(chunks[0].buffer).getInt16(0,true)).toBe(16384);
+ });
+ it('returns a shorter final chunk when recording stops between boundaries',()=>{
+  const chunks:Uint8Array[]=[];
+  const encoder=createPcm16Chunker(48000,chunk=>chunks.push(chunk));
+  encoder.push(new Float32Array(60000));
+  expect(chunks).toHaveLength(2);
+  expect(encoder.flush()?.length).toBe(8000);
  });
 });

@@ -62,10 +62,15 @@ export function createPlayback(pcm: Uint8Array) {
   const samples = new DataView(pcm.buffer, pcm.byteOffset, pcm.byteLength);
   for (let i = 0; i < frameCount; i++) channel[i] = samples.getInt16(i * 2, true) / 32768;
   const source = context.createBufferSource();
+  const analyser = context.createAnalyser();
+  analyser.fftSize = 1024;
+  const waveform = new Uint8Array(analyser.fftSize);
   source.buffer = buffer;
-  source.connect(context.destination);
+  source.connect(analyser);
+  analyser.connect(context.destination);
   let started = false;
   let closed = false;
+  source.onended = () => { started = false; };
   return {
     async start() {
       await resumed;
@@ -80,6 +85,112 @@ export function createPlayback(pcm: Uint8Array) {
       closed = true;
       if (started) { try { source.stop(); } catch { /* Playback already ended. */ } }
       void context.close().catch(() => {});
+    },
+    sampleWaveform() {
+      if (!started || closed || context.state !== 'running') return null;
+      analyser.getByteTimeDomainData(waveform);
+      return waveform;
+    }
+  };
+}
+
+export type WaveformSource = {sampleWaveform(): Uint8Array | null};
+
+/** Convert a browser microphone's sample rate to 16 kHz little-endian PCM16. */
+export function createPcm16Chunker(sourceRate: number, onChunk: (pcm: Uint8Array) => void) {
+  if (!Number.isFinite(sourceRate) || sourceRate < 16000) throw new Error('Unsupported microphone sample rate.');
+  const chunk = new Uint8Array(16000); // 500 ms of 16 kHz PCM16.
+  const view = new DataView(chunk.buffer);
+  let samplesInChunk = 0;
+  let inputIndex = 0;
+  let nextOutput = 0;
+  let previous = 0;
+  const step = sourceRate / 16000;
+  return {
+    push(samples: Float32Array) {
+      for (let i = 0; i < samples.length; i++, inputIndex++) {
+        const current = samples[i];
+        while (nextOutput <= inputIndex) {
+          const fraction = inputIndex === 0 ? 1 : nextOutput - (inputIndex - 1);
+          const sample = inputIndex === 0 ? current : previous + (current - previous) * fraction;
+          view.setInt16(samplesInChunk++ * 2, Math.max(-32768, Math.min(32767, Math.round(sample * 32767))), true);
+          if (samplesInChunk === 8000) {
+            onChunk(chunk.slice());
+            samplesInChunk = 0;
+          }
+          nextOutput += step;
+        }
+        previous = current;
+      }
+    },
+    flush(): Uint8Array | null {
+      if (!samplesInChunk) return null;
+      const tail = chunk.slice(0, samplesInChunk * 2);
+      samplesInChunk = 0;
+      return tail;
+    }
+  };
+}
+
+/** Capture mono speech without playing the microphone back through the speakers. */
+export async function createMicrophoneCapture(onChunk: (pcm: Uint8Array) => void) {
+  if (!navigator.mediaDevices?.getUserMedia) throw new Error('Microphone capture is unavailable in this browser.');
+  const context = new AudioContext();
+  // Resume during the click, before the microphone permission prompt suspends this call.
+  const resumed = context.resume();
+  void resumed.catch(() => {});
+  let stream: MediaStream | undefined;
+  try {
+    stream = await navigator.mediaDevices.getUserMedia({audio: {channelCount: 1, echoCancellation: true, noiseSuppression: true}, video: false});
+    await resumed;
+    if (context.state !== 'running') throw new Error('Microphone audio is blocked by the browser.');
+  } catch (error) {
+    stream?.getTracks().forEach(track => track.stop());
+    void context.close().catch(() => {});
+    if (error instanceof DOMException && (error.name === 'NotAllowedError' || error.name === 'PermissionDeniedError'))
+      throw new Error('Microphone access was denied. Allow access in the browser and try again.');
+    throw error;
+  }
+
+  const source = context.createMediaStreamSource(stream);
+  const analyser = context.createAnalyser();
+  analyser.fftSize = 1024;
+  const waveform = new Uint8Array(analyser.fftSize);
+  const processor = context.createScriptProcessor(2048, 1, 1);
+  const chunker = createPcm16Chunker(context.sampleRate, onChunk);
+  let active = false;
+  let closed = false;
+
+  processor.onaudioprocess = event => {
+    event.outputBuffer.getChannelData(0).fill(0);
+    if (!active || closed) return;
+    chunker.push(event.inputBuffer.getChannelData(0));
+  };
+
+  return {
+    start() {
+      if (closed) throw new Error('Microphone capture has stopped.');
+      active = true;
+      source.connect(analyser);
+      analyser.connect(processor);
+      // The processor must connect to an output to run; its output is always silent.
+      processor.connect(context.destination);
+    },
+    stop(): Uint8Array | null {
+      if (closed) return null;
+      active = false;
+      closed = true;
+      processor.disconnect();
+      analyser.disconnect();
+      source.disconnect();
+      stream.getTracks().forEach(track => track.stop());
+      void context.close().catch(() => {});
+      return chunker.flush();
+    },
+    sampleWaveform() {
+      if (!active || closed) return null;
+      analyser.getByteTimeDomainData(waveform);
+      return waveform;
     }
   };
 }
