@@ -1,9 +1,9 @@
 [
   {
-    "id": "english-upstream-15s",
-    "wav": ".runtime/qwen-asr/samples/night_of_the_living_dead_1968/15s_donnie_asked_me_if_i_were_afraid.wav",
+    "id": "english-sample",
+    "wav": "samples/en_1038214857203833067.wav",
     "language": "en",
-    "reference": "Johnny asked me if I were afraid, and I said, \"I'm not afraid, Johnny.\" And then, this man started walking up the road. He came slowly."
+    "reference": "Through the night between 150 and 200 copies were made, now known as Dunlap broadsides."
   },
   {
     "id": "1909",

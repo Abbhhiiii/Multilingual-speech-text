@@ -2,7 +2,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements-dev.txt
+.venv/bin/python -m pip install -r requirements.txt
 mkdir -p .runtime
 if [ ! -d .runtime/qwen-asr/.git ]; then
   git clone https://github.com/antirez/qwen-asr.git .runtime/qwen-asr

@@ -27,6 +27,8 @@ npm run dev
 
 Open **http://127.0.0.1:5173/**. Stop both programs with **Ctrl+C**.
 
+Try a WAV file from `samples/` (one each for English, Mandarin Chinese, and Indonesian), or choose from the 60 clips in `benchmark_audio/`.
+
 ## Run with Docker on macOS, Windows, or Linux
 
 Install and start [Docker Desktop](https://docs.docker.com/desktop/) on macOS or Windows, or [Docker Engine with Compose](https://docs.docker.com/engine/install/) on Linux. On Windows, use Linux containers. Give Docker at least 4 GB of memory and several GB of free disk space; the first build downloads the model.

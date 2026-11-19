@@ -5,4 +5,4 @@ __pycache__/
 node_modules/
 frontend/dist/
 .DS_Store
-benchmark_audio/**/*.wav
+evidence/

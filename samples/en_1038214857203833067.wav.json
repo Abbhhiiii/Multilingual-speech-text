@@ -1,0 +1,10 @@
+{
+  "wav": "samples/en_1038214857203833067.wav",
+  "language": "en",
+  "reference": "Through the night between 150 and 200 copies were made, now known as Dunlap broadsides.",
+  "source_dataset": "google/fleurs",
+  "source_split": "test",
+  "source_file": "data/en_us/audio/test.tar.gz",
+  "source_audio_name": "1038214857203833067.wav",
+  "license": "CC BY 4.0"
+}
