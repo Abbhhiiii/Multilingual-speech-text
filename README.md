@@ -4,7 +4,7 @@ A local CPU-only app that transcribes English, Mandarin Chinese, and Indonesian 
 
 ## Run on macOS, Windows, or Linux
 
-Install [Docker Desktop](https://docs.docker.com/desktop/) on macOS or Windows, or [Docker Engine with Compose](https://docs.docker.com/engine/install/) on Linux. On Windows, use Linux containers. Give Docker at least 4 GB of memory and several GB of free disk space; the first build downloads the model.
+Install and start [Docker Desktop](https://docs.docker.com/desktop/) on macOS or Windows, or [Docker Engine with Compose](https://docs.docker.com/engine/install/) on Linux. On Windows, use Linux containers. Give Docker at least 4 GB of memory and several GB of free disk space; the first build downloads the model.
 
 ```sh
 git clone https://github.com/Abbhhiiii/Multilingual-speech-text.git
